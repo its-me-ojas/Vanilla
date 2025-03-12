@@ -1,0 +1,70 @@
+[19:37:30] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.10
+[19:37:30] [main/INFO]: Loading 4 mods:
+	- fabricloader 0.16.10
+	   \-- mixinextras 0.4.1
+	- java 21
+	- minecraft 1.21.4
+[19:37:30] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/crestfallen/Minecraft/Vanilla/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[19:37:40] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:37:43] [main/INFO]: Loaded 1370 recipes
+[19:37:43] [main/INFO]: Loaded 1481 advancements
+[19:37:44] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[19:37:44] [Server thread/INFO]: Loading properties
+[19:37:44] [Server thread/INFO]: Default game type: SURVIVAL
+[19:37:44] [Server thread/INFO]: Generating keypair
+[19:37:44] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:37:44] [Server thread/INFO]: Using epoll channel type
+[19:37:44] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:37:44] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:37:44] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:37:44] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:37:44] [Server thread/INFO]: Preparing level "world"
+[19:37:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:37:48] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:37:48] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:37:48] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:37:48] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:37:48] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:37:48] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:37:48] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:37:48] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:37:49] [Server thread/INFO]: Time elapsed: 3876 ms
+[19:37:49] [Server thread/INFO]: Done (4.398s)! For help, type "help"
+[19:37:56] [Server thread/INFO]: whitehairguy[/127.0.0.1:35656] logged in with entity id 8 at (263.5, 101.0, 87.5)
+[19:37:56] [Server thread/INFO]: whitehairguy joined the game
+[19:37:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2409ms or 48 ticks behind
+[19:38:55] [Server thread/INFO]: Rad1108[/127.157.219.148:52261] logged in with entity id 299 at (280.5, 103.0, 95.5)
+[19:38:55] [Server thread/INFO]: Rad1108 joined the game
+[19:38:58] [Server thread/INFO]: [Not Secure] <Rad1108> join dc
+[19:39:00] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[19:39:00] [Server thread/INFO]: whitehairguy left the game
+[19:39:01] [Server thread/INFO]: whitehairguy[/127.0.0.1:46526] logged in with entity id 343 at (269.0317392676852, 95.0, 78.76886082674702)
+[19:39:01] [Server thread/INFO]: whitehairguy joined the game
+[19:39:05] [Server thread/INFO]: [Not Secure] <Rad1108> join dc
+[19:39:14] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[19:39:14] [Server thread/INFO]: whitehairguy left the game
+[19:39:14] [Server thread/INFO]: whitehairguy[/127.0.0.1:39124] logged in with entity id 396 at (269.0317392676852, 95.0, 78.76886082674702)
+[19:39:14] [Server thread/INFO]: whitehairguy joined the game
+[19:39:50] [Server thread/INFO]: dardevils3[/127.94.130.120:32801] logged in with entity id 487 at (277.5, 103.0, 96.5)
+[19:39:50] [Server thread/INFO]: dardevils3 joined the game
+[19:39:57] [Server thread/INFO]: Rad1108 has made the advancement [Stone Age]
+[19:40:07] [Server thread/INFO]: [Not Secure] <whitehairguy> whichi dc
+[19:40:14] [Server thread/INFO]: [Not Secure] <Rad1108> wahi kal wala
+[19:40:37] [Server thread/INFO]: [Not Secure] <Rad1108> awaz nahi aa rahi
+[19:40:53] [Server thread/INFO]: dardevils3 has made the advancement [Stone Age]
+[19:41:01] [Server thread/INFO]: Rad1108 lost connection: Disconnected
+[19:41:01] [Server thread/INFO]: Rad1108 left the game
+[19:41:10] [Server thread/INFO]: dardevils3 lost connection: Disconnected
+[19:41:10] [Server thread/INFO]: dardevils3 left the game
+[19:41:19] [Server thread/INFO]: dardevils3[/127.94.130.120:49713] logged in with entity id 752 at (268.32568680529687, 96.0, 86.60848608891091)
+[19:41:19] [Server thread/INFO]: dardevils3 joined the game
+[19:41:35] [Server thread/INFO]: dardevils3 has made the advancement [Getting an Upgrade]
+[19:42:18] [Server thread/INFO]: Rad1108[/127.157.219.148:48691] logged in with entity id 944 at (268.30000001192093, 94.0, 81.40091906212594)
+[19:42:18] [Server thread/INFO]: Rad1108 joined the game
+[19:42:35] [Server thread/WARN]: Rad1108 moved too quickly! 9.689238026767498,0.16610926093821377,3.162883112096111
+[19:42:53] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[19:42:53] [Server thread/INFO]: whitehairguy left the game
+[19:43:02] [Server thread/INFO]: Rad1108 lost connection: Disconnected
+[19:43:02] [Server thread/INFO]: Rad1108 left the game
+[19:43:41] [Server thread/INFO]: PartheCraftyboy[/127.7.224.229:43241] logged in with entity id 1255 at (280.5, 103.0, 95.5)
+[19:43:41] [Server thread/INFO]: PartheCraftyboy joined the game
