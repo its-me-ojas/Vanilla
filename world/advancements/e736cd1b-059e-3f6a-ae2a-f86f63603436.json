@@ -190,6 +190,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "apple": "2025-03-12 23:07:37 +0530",
       "chicken": "2025-03-12 20:20:41 +0530",
       "bread": "2025-03-12 22:57:06 +0530",
       "cooked_mutton": "2025-03-12 20:22:59 +0530",
