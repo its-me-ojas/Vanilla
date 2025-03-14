@@ -1,39 +1,151 @@
-[23:01:59] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.10
-[23:01:59] [main/INFO]: Loading 4 mods:
+[01:50:48] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.10
+[01:50:49] [main/INFO]: Loading 4 mods:
 	- fabricloader 0.16.10
 	   \-- mixinextras 0.4.1
 	- java 21
 	- minecraft 1.21.4
-[23:01:59] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/crestfallen/Minecraft/Vanilla/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[23:02:13] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[23:02:18] [main/INFO]: Loaded 1370 recipes
-[23:02:18] [main/INFO]: Loaded 1481 advancements
-[23:02:18] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[23:02:18] [Server thread/INFO]: Loading properties
-[23:02:18] [Server thread/INFO]: Default game type: SURVIVAL
-[23:02:18] [Server thread/INFO]: Generating keypair
-[23:02:18] [Server thread/INFO]: Starting Minecraft server on *:25565
-[23:02:19] [Server thread/INFO]: Using epoll channel type
-[23:02:19] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[23:02:19] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[23:02:19] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[23:02:19] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[23:02:19] [Server thread/INFO]: Preparing level "world"
-[23:02:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[23:02:24] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[23:02:24] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[23:02:24] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[23:02:24] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[23:02:24] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[23:02:24] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[23:02:24] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[23:02:24] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[23:02:24] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[23:02:24] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[23:02:24] [Server thread/INFO]: Time elapsed: 5048 ms
-[23:02:24] [Server thread/INFO]: Done (5.762s)! For help, type "help"
-[23:02:33] [Server thread/INFO]: whitehairguy[/127.0.0.1:54758] logged in with entity id 10 at (774.7690463291726, 68.5, 550.896489956459)
-[23:02:33] [Server thread/INFO]: whitehairguy joined the game
-[23:02:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2340ms or 46 ticks behind
-[23:09:54] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[23:09:54] [Server thread/INFO]: whitehairguy left the game
+[01:50:49] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/crestfallen/Minecraft/Vanilla/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[01:50:58] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:51:02] [main/INFO]: Loaded 1370 recipes
+[01:51:02] [main/INFO]: Loaded 1481 advancements
+[01:51:02] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[01:51:02] [Server thread/INFO]: Loading properties
+[01:51:02] [Server thread/INFO]: Default game type: SURVIVAL
+[01:51:02] [Server thread/INFO]: Generating keypair
+[01:51:03] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:51:03] [Server thread/INFO]: Using epoll channel type
+[01:51:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:51:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:51:03] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:51:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:51:03] [Server thread/INFO]: Preparing level "world"
+[01:51:04] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:51:07] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[01:51:07] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[01:51:07] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[01:51:07] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[01:51:07] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[01:51:07] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[01:51:07] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[01:51:07] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[01:51:08] [Worker-Main-4/INFO]: Preparing spawn area: 30%
+[01:51:08] [Server thread/INFO]: Time elapsed: 4300 ms
+[01:51:08] [Server thread/INFO]: Done (4.999s)! For help, type "help"
+[01:51:49] [Server thread/INFO]: whitehairguy[/127.0.0.1:42808] logged in with entity id 10 at (766.8232468237148, 58.0, 548.5296207948035)
+[01:51:49] [Server thread/INFO]: whitehairguy joined the game
+[01:51:56] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[01:51:56] [Server thread/INFO]: whitehairguy left the game
+[01:52:56] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[01:53:17] [Server thread/INFO]: whitehairguy[/127.0.0.1:54280] logged in with entity id 197 at (766.8232468237148, 58.0, 548.5296207948035)
+[01:53:17] [Server thread/INFO]: whitehairguy joined the game
+[01:53:35] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[01:53:35] [Server thread/INFO]: whitehairguy left the game
+[01:54:24] [Server thread/INFO]: whitehairguy[/127.0.0.1:45210] logged in with entity id 406 at (768.4256977109249, 58.0, 548.616688876272)
+[01:54:24] [Server thread/INFO]: whitehairguy joined the game
+[01:57:00] [Server thread/INFO]: Rad1108[/127.51.60.223:33377] logged in with entity id 944 at (767.8014689807811, 58.0, 548.1061927397111)
+[01:57:00] [Server thread/INFO]: Rad1108 joined the game
+[01:57:30] [Server thread/INFO]: Rad1108 lost connection: Timed out
+[01:57:30] [Server thread/INFO]: Rad1108 left the game
+[02:00:42] [Server thread/INFO]: Rad1108[/127.128.77.100:54263] logged in with entity id 1657 at (767.8014689807811, 58.0, 548.1061927397111)
+[02:00:42] [Server thread/INFO]: Rad1108 joined the game
+[02:01:53] [Server thread/INFO]: Rad1108 lost connection: Disconnected
+[02:01:53] [Server thread/INFO]: Rad1108 left the game
+[02:01:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=782, y=63, z=561} class_2338{x=783, y=62, z=559}
+[02:02:10] [Server thread/INFO]: Rad1108[/127.35.110.253:43513] logged in with entity id 1875 at (767.8014689807811, 58.0, 548.1061927397111)
+[02:02:10] [Server thread/INFO]: Rad1108 joined the game
+[02:03:40] [Server thread/INFO]: Rad1108 lost connection: Timed out
+[02:03:40] [Server thread/INFO]: Rad1108 left the game
+[02:03:41] [Server thread/WARN]: handleDisconnection() called twice
+[02:04:22] [Server thread/INFO]: Rad1108[/127.117.153.26:51473] logged in with entity id 2156 at (785.6999999880791, 63.0, 582.6999999880791)
+[02:04:22] [Server thread/INFO]: Rad1108 joined the game
+[02:12:33] [Server thread/INFO]: Rad1108 drowned
+[02:12:36] [Server thread/INFO]: [Not Secure] <whitehairguy> bruh
+[02:12:42] [Server thread/INFO]: [Not Secure] <whitehairguy> wait main pani bhr ke aya
+[02:12:44] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[02:12:44] [Server thread/INFO]: whitehairguy left the game
+[02:13:20] [Server thread/INFO]: whitehairguy[/127.0.0.1:56478] logged in with entity id 4705 at (771.3000000119209, 59.5, 547.4140933851693)
+[02:13:20] [Server thread/INFO]: whitehairguy joined the game
+[02:15:07] [Server thread/INFO]: whitehairguy has made the advancement [Take Aim]
+[02:15:22] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[02:15:22] [Server thread/INFO]: whitehairguy left the game
+[02:16:00] [Server thread/INFO]: whitehairguy[/127.0.0.1:55100] logged in with entity id 5408 at (766.3000000119209, 61.010424911418454, 575.5188136602674)
+[02:16:00] [Server thread/INFO]: whitehairguy joined the game
+[02:16:08] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[02:16:08] [Server thread/INFO]: whitehairguy left the game
+[02:16:48] [Server thread/INFO]: whitehairguy[/127.0.0.1:50210] logged in with entity id 5671 at (766.3000000119209, 61.22386060678765, 575.5188136602674)
+[02:16:48] [Server thread/INFO]: whitehairguy joined the game
+[02:20:51] [Server thread/INFO]: whitehairguy has made the advancement [A Seedy Place]
+[02:30:28] [Server thread/INFO]: whitehairguy has made the advancement [Diamonds!]
+[02:38:34] [Server thread/INFO]: [Not Secure] <Rad1108> 773 -7 479
+[02:47:18] [Server thread/INFO]: whitehairguy has made the advancement [The Parrots and the Bats]
+[02:48:37] [Server thread/INFO]: Rad1108 burned to death
+[02:52:13] [Server thread/INFO]: Villager class_1646['Weaponsmith'/451, l='ServerLevel[New World]', x=770.08, y=61.00, z=561.30] died, message: 'Weaponsmith was slain by whitehairguy'
+[03:01:37] [Server thread/INFO]: Rad1108 lost connection: Disconnected
+[03:01:37] [Server thread/INFO]: Rad1108 left the game
+[03:03:03] [Server thread/INFO]: Rad1108[/127.117.153.26:37193] logged in with entity id 16498 at (767.8750675762543, 58.0, 549.650414850693)
+[03:03:03] [Server thread/INFO]: Rad1108 joined the game
+[03:10:51] [Server thread/INFO]: Rad1108 lost connection: Disconnected
+[03:10:51] [Server thread/INFO]: Rad1108 left the game
+[03:11:00] [Server thread/INFO]: Rad1108[/127.117.153.26:50769] logged in with entity id 17995 at (694.6999999880791, -28.0, 470.69999998807907)
+[03:11:00] [Server thread/INFO]: Rad1108 joined the game
+[03:21:41] [Server thread/WARN]: whitehairguy moved wrongly!
+[03:21:41] [Server thread/WARN]: whitehairguy moved wrongly!
+[03:21:41] [Server thread/WARN]: whitehairguy moved wrongly!
+[03:23:42] [Server thread/INFO]: [Not Secure] <whitehairguy> 753 3 476
+[03:23:44] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[03:23:44] [Server thread/INFO]: whitehairguy left the game
+[03:26:49] [Server thread/INFO]: whitehairguy[/127.0.0.1:57444] logged in with entity id 21227 at (753.8461866744565, 3.0, 476.94956239101964)
+[03:26:49] [Server thread/INFO]: whitehairguy joined the game
+[03:39:51] [Server thread/INFO]: Rad1108 was blown up by Creeper
+[03:47:15] [Server thread/INFO]: whitehairguy has made the advancement [Minecraft: Trial(s) Edition]
+[03:54:29] [Server thread/INFO]: [Not Secure] <whitehairguy> 747 -54 372
+[03:54:31] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[03:54:31] [Server thread/INFO]: whitehairguy left the game
+[04:02:13] [Server thread/INFO]: whitehairguy[/127.0.0.1:45530] logged in with entity id 28544 at (747.7624999880791, -54.0, 372.8690358350415)
+[04:02:13] [Server thread/INFO]: whitehairguy joined the game
+[04:03:08] [Server thread/INFO]: Rad1108 has made the advancement [Cover Me with Diamonds]
+[04:03:26] [Server thread/INFO]: whitehairguy has made the advancement [Cover Me with Diamonds]
+[04:12:51] [Server thread/INFO]: Rad1108 lost connection: Timed out
+[04:12:51] [Server thread/INFO]: Rad1108 left the game
+[04:15:05] [Server thread/INFO]: Rad1108[/127.241.195.23:37347] logged in with entity id 30442 at (731.0621540442465, -52.0, 264.34550001528964)
+[04:15:05] [Server thread/INFO]: Rad1108 joined the game
+[04:19:14] [Server thread/INFO]: Rad1108 has made the advancement [Minecraft: Trial(s) Edition]
+[04:39:13] [Server thread/INFO]: Rad1108 has made the advancement [Under Lock and Key]
+[04:39:46] [Server thread/INFO]: whitehairguy has made the advancement [Under Lock and Key]
+[04:59:28] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[04:59:28] [Server thread/INFO]: whitehairguy left the game
+[04:59:40] [Server thread/INFO]: Rad1108 has made the advancement [Ol' Betsy]
+[04:59:46] [Server thread/INFO]: Rad1108 has made the advancement [Take Aim]
+[05:00:08] [Server thread/INFO]: whitehairguy[/127.0.0.1:54214] logged in with entity id 38587 at (877.0277151011326, -8.0, 367.48559875218973)
+[05:00:08] [Server thread/INFO]: whitehairguy joined the game
+[05:06:50] [Server thread/INFO]: Rad1108 has reached the goal [Revaulting]
+[05:07:19] [Server thread/INFO]: whitehairguy has reached the goal [Revaulting]
+[05:14:40] [Server thread/INFO]: Rad1108 lost connection: Disconnected
+[05:14:40] [Server thread/INFO]: Rad1108 left the game
+[05:16:11] [Server thread/INFO]: Rad1108[/127.241.195.23:39329] logged in with entity id 41841 at (900.3000000119209, 8.0, 346.30000001192093)
+[05:16:11] [Server thread/INFO]: Rad1108 joined the game
+[05:30:29] [Server thread/INFO]: Rad1108 lost connection: Disconnected
+[05:30:29] [Server thread/INFO]: Rad1108 left the game
+[05:30:53] [Server thread/INFO]: Rad1108[/127.241.195.23:56835] logged in with entity id 44333 at (973.3000000119209, 33.0, 330.30000001192093)
+[05:30:53] [Server thread/INFO]: Rad1108 joined the game
+[05:37:59] [Server thread/INFO]: [Not Secure] <Rad1108> merko awaz nahi aa rahi
+[05:38:08] [Server thread/INFO]: [Not Secure] <whitehairguy> arhi hai??
+[05:38:16] [Server thread/INFO]: [Not Secure] <Rad1108> yes
+[05:38:25] [Server thread/INFO]: [Not Secure] <Rad1108> meri nahi aa rahi?
+[05:39:18] [Server thread/INFO]: [Not Secure] <Rad1108> is version mai automtic fish ya string farm hai?
+[05:39:26] [Server thread/INFO]: [Not Secure] <whitehairguy> idk
+[05:39:29] [Server thread/INFO]: [Not Secure] <whitehairguy> check krna pdega
+[05:43:09] [Server thread/INFO]: [Not Secure] <whitehairguy> aur kuch krna hai???
+[05:43:18] [Server thread/INFO]: [Not Secure] <whitehairguy> im very sleepy atp
+[05:43:21] [Server thread/INFO]: [Not Secure] <Rad1108> meri awaaz nahi aa rahi?
+[05:43:24] [Server thread/INFO]: [Not Secure] <whitehairguy> nope
+[05:43:58] [Server thread/INFO]: [Not Secure] <Rad1108> i was thinking of adding rails and mincarts behind furnace
+[05:44:08] [Server thread/INFO]: [Not Secure] <Rad1108> kal karenge
+[05:44:11] [Server thread/INFO]: [Not Secure] <Rad1108> ggs
+[05:44:14] [Server thread/INFO]: [Not Secure] <Rad1108> gn
+[05:44:28] [Server thread/INFO]: [Not Secure] <whitehairguy> tggs
+[05:44:31] [Server thread/INFO]: [Not Secure] <whitehairguy> adios
+[05:44:34] [Server thread/INFO]: Rad1108 lost connection: Disconnected
+[05:44:34] [Server thread/INFO]: Rad1108 left the game
+[05:44:43] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[05:44:43] [Server thread/INFO]: whitehairguy left the game
