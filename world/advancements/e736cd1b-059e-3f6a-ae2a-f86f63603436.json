@@ -14,6 +14,7 @@
       "minecraft:taiga": "2025-03-12 20:25:49 +0530",
       "minecraft:river": "2025-03-12 20:24:33 +0530",
       "minecraft:stony_shore": "2025-03-12 19:38:01 +0530",
+      "minecraft:lush_caves": "2025-03-15 01:36:13 +0530",
       "minecraft:old_growth_spruce_taiga": "2025-03-14 02:42:50 +0530",
       "minecraft:plains": "2025-03-12 20:22:11 +0530"
     },
@@ -159,10 +160,17 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "minecraft:cave_spider": "2025-03-14 04:24:59 +0530",
+      "minecraft:pillager": "2025-03-15 00:56:38 +0530",
       "minecraft:skeleton": "2025-03-12 22:15:03 +0530",
+      "minecraft:ravager": "2025-03-15 00:59:46 +0530",
+      "minecraft:ghast": "2025-03-15 01:54:22 +0530",
+      "minecraft:hoglin": "2025-03-15 02:18:51 +0530",
+      "minecraft:cave_spider": "2025-03-14 04:24:59 +0530",
+      "minecraft:piglin": "2025-03-15 01:49:08 +0530",
       "minecraft:breeze": "2025-03-14 04:21:23 +0530",
+      "minecraft:vindicator": "2025-03-15 00:57:36 +0530",
       "minecraft:stray": "2025-03-14 04:21:07 +0530",
+      "minecraft:magma_cube": "2025-03-15 01:50:55 +0530",
       "minecraft:spider": "2025-03-12 21:24:50 +0530",
       "minecraft:zombie": "2025-03-12 19:53:42 +0530",
       "minecraft:creeper": "2025-03-14 02:16:56 +0530",
@@ -200,6 +208,7 @@
       "bread": "2025-03-12 22:57:06 +0530",
       "rotten_flesh": "2025-03-14 02:17:49 +0530",
       "cooked_mutton": "2025-03-12 20:22:59 +0530",
+      "glow_berries": "2025-03-15 01:44:39 +0530",
       "sweet_berries": "2025-03-14 03:15:03 +0530",
       "salmon": "2025-03-14 01:55:58 +0530",
       "cooked_beef": "2025-03-12 21:34:46 +0530",
@@ -2384,21 +2393,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/flow_armor_trim_smithing_template": {
-    "criteria": {
-      "has_flow_armor_trim_smithing_template": "2025-03-14 05:10:41 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/polished_tuff_wall": {
     "criteria": {
       "has_polished_tuff": "2025-03-14 05:06:47 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/emerald": {
-    "criteria": {
-      "has_emerald_block": "2025-03-14 05:25:26 +0530"
     },
     "done": true
   },
@@ -2417,18 +2414,6 @@
   "minecraft:recipes/building_blocks/polished_tuff_slab_from_polished_tuff_stonecutting": {
     "criteria": {
       "has_polished_tuff": "2025-03-14 05:06:47 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/flow_armor_trim_smithing_template_smithing_trim": {
-    "criteria": {
-      "has_smithing_trim_template": "2025-03-14 05:10:41 +0530"
-    },
-    "done": true
-  },
-  "minecraft:adventure/revaulting": {
-    "criteria": {
-      "revaulting": "2025-03-14 05:07:19 +0530"
     },
     "done": true
   },
@@ -2477,6 +2462,133 @@
   "minecraft:recipes/building_blocks/tuff_brick_slab_from_polished_tuff_stonecutting": {
     "criteria": {
       "has_polished_tuff": "2025-03-14 05:06:47 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/revaulting": {
+    "criteria": {
+      "revaulting": "2025-03-14 05:07:19 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flow_armor_trim_smithing_template": {
+    "criteria": {
+      "has_flow_armor_trim_smithing_template": "2025-03-14 05:10:41 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flow_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-03-14 05:10:41 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald": {
+    "criteria": {
+      "has_emerald_block": "2025-03-14 05:25:26 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2025-03-15 00:58:25 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2025-03-15 00:59:48 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-03-15 01:16:27 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2025-03-15 01:16:27 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2025-03-15 01:48:50 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2025-03-15 01:48:50 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2025-03-15 02:07:27 +0530",
+      "minecraft:soul_sand_valley": "2025-03-15 01:48:51 +0530"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_sword": "2025-03-15 01:49:09 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_sword": "2025-03-15 01:49:09 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/observer": {
+    "criteria": {
+      "has_quartz": "2025-03-15 02:08:05 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/comparator": {
+    "criteria": {
+      "has_quartz": "2025-03-15 02:08:05 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2025-03-15 02:06:36 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2025-03-15 02:06:36 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite": {
+    "criteria": {
+      "has_quartz": "2025-03-15 02:08:05 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite": {
+    "criteria": {
+      "has_quartz": "2025-03-15 02:08:05 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_block": {
+    "criteria": {
+      "has_quartz": "2025-03-15 02:08:05 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/daylight_detector": {
+    "criteria": {
+      "has_quartz": "2025-03-15 02:08:05 +0530"
     },
     "done": true
   },
