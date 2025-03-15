@@ -162,6 +162,7 @@
     "criteria": {
       "minecraft:pillager": "2025-03-15 00:56:38 +0530",
       "minecraft:skeleton": "2025-03-12 22:15:03 +0530",
+      "minecraft:zombified_piglin": "2025-03-15 23:54:15 +0530",
       "minecraft:ravager": "2025-03-15 00:59:46 +0530",
       "minecraft:ghast": "2025-03-15 01:54:22 +0530",
       "minecraft:hoglin": "2025-03-15 02:18:51 +0530",
@@ -2529,7 +2530,8 @@
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:crimson_forest": "2025-03-15 02:07:27 +0530",
-      "minecraft:soul_sand_valley": "2025-03-15 01:48:51 +0530"
+      "minecraft:soul_sand_valley": "2025-03-15 01:48:51 +0530",
+      "minecraft:nether_wastes": "2025-03-15 22:50:25 +0530"
     },
     "done": false
   },
@@ -2593,21 +2595,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+  "minecraft:nether/find_bastion": {
     "criteria": {
-      "has_gold_block": "2025-03-15 03:03:20 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/book": {
-    "criteria": {
-      "has_paper": "2025-03-15 03:21:13 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
-    "criteria": {
-      "has_ancient_debris": "2025-03-15 03:05:53 +0530"
+      "bastion": "2025-03-15 02:59:00 +0530"
     },
     "done": true
   },
@@ -2617,27 +2607,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/netherite_scrap": {
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2025-03-15 03:03:20 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2025-03-15 03:03:40 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
     "criteria": {
       "has_ancient_debris": "2025-03-15 03:05:53 +0530"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/cartography_table": {
+  "minecraft:recipes/misc/netherite_scrap": {
     "criteria": {
-      "has_paper": "2025-03-15 03:21:13 +0530"
-    },
-    "done": true
-  },
-  "minecraft:nether/find_bastion": {
-    "criteria": {
-      "bastion": "2025-03-15 02:59:00 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/netherite_ingot": {
-    "criteria": {
-      "has_netherite_scrap": "2025-03-15 03:34:44 +0530"
+      "has_ancient_debris": "2025-03-15 03:05:53 +0530"
     },
     "done": true
   },
@@ -2647,9 +2637,57 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/nether_brick": {
+  "minecraft:recipes/misc/book": {
     "criteria": {
-      "has_netherrack": "2025-03-15 03:03:40 +0530"
+      "has_paper": "2025-03-15 03:21:13 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2025-03-15 03:21:13 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2025-03-15 03:34:44 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2025-03-15 22:50:34 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2025-03-15 23:00:20 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2025-03-15 23:00:20 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2025-03-15 23:00:20 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2025-03-15 23:00:20 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/throw_trident": {
+    "criteria": {
+      "shot_trident": "2025-03-15 23:50:52 +0530"
     },
     "done": true
   },
