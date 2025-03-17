@@ -2939,15 +2939,9 @@
     },
     "done": true
   },
-  "minecraft:husbandry/tame_an_animal": {
+  "minecraft:adventure/trade": {
     "criteria": {
-      "tamed_animal": "2025-03-17 05:18:42 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/diamond": {
-    "criteria": {
-      "has_diamond_block": "2025-03-17 05:17:30 +0530"
+      "traded": "2025-03-17 01:58:32 +0530"
     },
     "done": true
   },
@@ -2963,9 +2957,15 @@
     },
     "done": true
   },
-  "minecraft:adventure/trade": {
+  "minecraft:recipes/misc/diamond": {
     "criteria": {
-      "traded": "2025-03-17 01:58:32 +0530"
+      "has_diamond_block": "2025-03-17 05:17:30 +0530"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2025-03-17 05:18:42 +0530"
     },
     "done": true
   },
