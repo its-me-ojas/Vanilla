@@ -9,6 +9,7 @@
     "criteria": {
       "minecraft:cold_ocean": "2025-03-12 20:24:54 +0530",
       "minecraft:beach": "2025-03-12 20:21:33 +0530",
+      "minecraft:old_growth_pine_taiga": "2025-03-19 01:28:05 +0530",
       "minecraft:forest": "2025-03-12 19:37:58 +0530",
       "minecraft:taiga": "2025-03-12 20:25:49 +0530",
       "minecraft:river": "2025-03-12 20:24:33 +0530",
@@ -18,6 +19,8 @@
       "minecraft:snowy_taiga": "2025-03-18 01:06:52 +0530",
       "minecraft:deep_cold_ocean": "2025-03-12 22:12:28 +0530",
       "minecraft:frozen_ocean": "2025-03-18 01:06:59 +0530",
+      "minecraft:ocean": "2025-03-19 01:28:37 +0530",
+      "minecraft:grove": "2025-03-19 01:31:11 +0530",
       "minecraft:old_growth_spruce_taiga": "2025-03-14 02:42:50 +0530",
       "minecraft:plains": "2025-03-12 20:22:11 +0530"
     },
@@ -2043,7 +2046,8 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
-      "minecraft:cow": "2025-03-14 02:47:18 +0530"
+      "minecraft:cow": "2025-03-14 02:47:18 +0530",
+      "minecraft:turtle": "2025-03-19 00:17:51 +0530"
     },
     "done": false
   },
@@ -3515,12 +3519,6 @@
     },
     "done": true
   },
-  "minecraft:end/dragon_egg": {
-    "criteria": {
-      "dragon_egg": "2025-03-18 01:37:16 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
     "criteria": {
       "has_end_stone": "2025-03-18 01:37:04 +0530"
@@ -3548,6 +3546,42 @@
   "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
     "criteria": {
       "has_end_stone": "2025-03-18 01:37:04 +0530"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_egg": {
+    "criteria": {
+      "dragon_egg": "2025-03-18 01:37:16 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_diamond_block": "2025-03-19 00:25:46 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_peony": {
+    "criteria": {
+      "has_peony": "2025-03-19 01:22:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2025-03-19 01:46:14 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2025-03-19 02:47:34 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2025-03-19 02:47:34 +0530"
     },
     "done": true
   },
