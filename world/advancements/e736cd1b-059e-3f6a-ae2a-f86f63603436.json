@@ -3944,9 +3944,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/gray_dye_from_closed_eyeblossom": {
+  "minecraft:recipes/misc/resin_brick": {
     "criteria": {
-      "has_closed_eyeblossom": "2025-03-19 05:17:15 +0530"
+      "has_resin_clump": "2025-03-19 05:13:28 +0530"
     },
     "done": true
   },
@@ -3956,9 +3956,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/resin_brick": {
+  "minecraft:recipes/building_blocks/pale_oak_wood": {
     "criteria": {
-      "has_resin_clump": "2025-03-19 05:13:28 +0530"
+      "has_log": "2025-03-19 05:13:44 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gray_dye_from_closed_eyeblossom": {
+    "criteria": {
+      "has_closed_eyeblossom": "2025-03-19 05:17:15 +0530"
     },
     "done": true
   },
@@ -3968,9 +3974,57 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/pale_oak_wood": {
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
     "criteria": {
-      "has_log": "2025-03-19 05:13:44 +0530"
+      "has_cod": "2025-03-19 09:51:58 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2025-03-19 09:51:58 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2025-03-19 09:51:58 +0530"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2025-03-19 09:52:36 +0530"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/complete_catalogue": {
+    "criteria": {
+      "minecraft:red": "2025-03-19 09:52:36 +0530"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_nether_gold_ore": {
+    "criteria": {
+      "has_nether_gold_ore": "2025-03-19 10:08:40 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/quartz": {
+    "criteria": {
+      "has_nether_quartz_ore": "2025-03-19 10:09:17 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_nether_gold_ore": {
+    "criteria": {
+      "has_nether_gold_ore": "2025-03-19 10:08:40 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/quartz_from_blasting": {
+    "criteria": {
+      "has_nether_quartz_ore": "2025-03-19 10:09:17 +0530"
     },
     "done": true
   },

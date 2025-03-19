@@ -1,47 +1,132 @@
-[04:06:31] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.10
-[04:06:31] [main/INFO]: Loading 4 mods:
+[09:47:51] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.10
+[09:47:51] [main/INFO]: Loading 4 mods:
 	- fabricloader 0.16.10
 	   \-- mixinextras 0.4.1
 	- java 21
 	- minecraft 1.21.4
-[04:06:31] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/crestfallen/Minecraft/Vanilla/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[04:06:44] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[04:06:48] [main/INFO]: Loaded 1370 recipes
-[04:06:48] [main/INFO]: Loaded 1481 advancements
-[04:06:48] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[04:06:48] [Server thread/INFO]: Loading properties
-[04:06:48] [Server thread/INFO]: Default game type: SURVIVAL
-[04:06:48] [Server thread/INFO]: Generating keypair
-[04:06:48] [Server thread/INFO]: Starting Minecraft server on *:25565
-[04:06:48] [Server thread/INFO]: Using epoll channel type
-[04:06:49] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[04:06:49] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[04:06:49] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[04:06:49] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[04:06:49] [Server thread/INFO]: Preparing level "world"
-[04:06:49] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[04:06:53] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[04:06:53] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[04:06:53] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[04:06:53] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[04:06:53] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[04:06:53] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[04:06:53] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[04:06:53] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[04:06:54] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[04:06:54] [Server thread/INFO]: Time elapsed: 4353 ms
-[04:06:54] [Server thread/INFO]: Done (5.172s)! For help, type "help"
-[04:07:06] [Server thread/INFO]: whitehairguy[/127.0.0.1:47686] logged in with entity id 8 at (764.8564284681997, 58.0, 549.1723162493909)
-[04:07:07] [Server thread/INFO]: whitehairguy joined the game
-[04:12:29] [Server thread/INFO]: whitehairguy has made the advancement [Remote Getaway]
-[04:16:14] [Server thread/INFO]: whitehairguy has made the advancement [The City at the End of the Game]
-[04:24:29] [Server thread/INFO]: whitehairguy has reached the goal [Sky's the Limit]
-[04:24:50] [Server thread/INFO]: whitehairguy has made the advancement [Local Brewery]
-[05:08:43] [Server thread/INFO]: whitehairguy left the game
-[05:08:44] [Server thread/WARN]: handleDisconnection() called twice
-[05:08:48] [Server thread/INFO]: whitehairguy[/127.0.0.1:38478] logged in with entity id 19824 at (-144.00394803381528, 142.99999999999986, -1251.6655484114592)
-[05:08:48] [Server thread/INFO]: whitehairguy joined the game
-[05:11:46] [Server thread/WARN]: whitehairguy moved too quickly! -9.89131182454777,2.9999999999999716,1.7475807522027935
-[05:12:44] [Server thread/INFO]: whitehairguy left the game
-[05:12:49] [Server thread/INFO]: whitehairguy[/127.0.0.1:34020] logged in with entity id 22033 at (-132.69828083559662, 129.031523797587, -1236.5804132370686)
-[05:12:49] [Server thread/INFO]: whitehairguy joined the game
+[09:47:51] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/crestfallen/Minecraft/Vanilla/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[09:48:02] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[09:48:05] [main/INFO]: Loaded 1370 recipes
+[09:48:05] [main/INFO]: Loaded 1481 advancements
+[09:48:05] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[09:48:05] [Server thread/INFO]: Loading properties
+[09:48:05] [Server thread/INFO]: Default game type: SURVIVAL
+[09:48:05] [Server thread/INFO]: Generating keypair
+[09:48:05] [Server thread/INFO]: Starting Minecraft server on *:25565
+[09:48:05] [Server thread/INFO]: Using epoll channel type
+[09:48:06] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09:48:06] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[09:48:06] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[09:48:06] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[09:48:06] [Server thread/INFO]: Preparing level "world"
+[09:48:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[09:48:08] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[09:48:08] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[09:48:08] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[09:48:08] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[09:48:08] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[09:48:09] [Server thread/INFO]: Time elapsed: 2551 ms
+[09:48:09] [Server thread/INFO]: Done (3.004s)! For help, type "help"
+[09:49:09] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[09:49:33] [Server thread/INFO]: whitehairguy[/127.0.0.1:45500] logged in with entity id 8 at (763.6192917767605, 58.0, 551.8807134987305)
+[09:49:33] [Server thread/INFO]: whitehairguy joined the game
+[09:49:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
+[09:52:36] [Server thread/INFO]: whitehairguy has made the advancement [Best Friends Forever]
+[09:56:25] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[09:56:25] [Server thread/INFO]: whitehairguy left the game
+[09:57:25] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[10:04:57] [Server thread/INFO]: whitehairguy[/127.0.0.1:41422] logged in with entity id 3286 at (2344.300000011921, -20.0, 1198.4067228091733)
+[10:04:57] [Server thread/INFO]: whitehairguy joined the game
+[10:06:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2042ms or 40 ticks behind
+[10:10:32] [Server thread/INFO]: MiffMoff[/127.123.208.177:40635] logged in with entity id 6337 at (274.5, 99.0, 92.5)
+[10:10:32] [Server thread/INFO]: MiffMoff joined the game
+[10:11:17] [Server thread/INFO]: MiffMoff lost connection: Disconnected
+[10:11:17] [Server thread/INFO]: MiffMoff left the game
+[10:14:01] [Server thread/INFO]: MiffMoff[/127.123.208.177:49505] logged in with entity id 7804 at (269.91217563730265, 103.0, 96.69999998807907)
+[10:14:01] [Server thread/INFO]: MiffMoff joined the game
+[10:14:05] [Server thread/INFO]: MiffMoff lost connection: Disconnected
+[10:14:05] [Server thread/INFO]: MiffMoff left the game
+[10:15:00] [Server thread/INFO]: Nyxette[/127.33.202.100:55129] logged in with entity id 8450 at (282.5, 95.0, 89.5)
+[10:15:00] [Server thread/INFO]: Nyxette joined the game
+[10:15:10] [Server thread/INFO]: [Not Secure] <Nyxette> Im in
+[10:15:16] [Server thread/INFO]: [Not Secure] <Nyxette> where do i spread cheeks
+[10:15:20] [Server thread/WARN]: whitehairguy moved too quickly! -6.5092047466899885,0.0,-8.475074695762942
+[10:15:24] [Server thread/WARN]: whitehairguy moved too quickly! -8.84322073895919,-2.7535905823276465,-6.9711579466319336
+[10:15:30] [Server thread/INFO]: [Not Secure] <Nyxette> ji
+[10:15:33] [Server thread/INFO]: [Not Secure] <Nyxette> give cords
+[10:15:40] [Server thread/WARN]: whitehairguy moved too quickly! -5.75216757299637,-8.028650211164887,-3.5546858229645295
+[10:17:26] [Server thread/INFO]: MiffMoff[/127.123.208.177:42271] logged in with entity id 10022 at (269.91217563730265, 103.0, 96.69999998807907)
+[10:17:26] [Server thread/INFO]: MiffMoff joined the game
+[10:18:37] [Server thread/INFO]: MiffMoff drowned
+[10:19:12] [Server thread/INFO]: [Not Secure] <MiffMoff> 256/119/106
+[10:19:28] [Server thread/INFO]: [Not Secure] <Nyxette> penis
+[10:19:39] [Server thread/INFO]: [Not Secure] <MiffMoff> teri maa ki
+[10:19:41] [Server thread/INFO]: Nyxette was shot by Skeleton
+[10:25:33] [Server thread/INFO]: Nyxette has made the advancement [A Seedy Place]
+[10:28:43] [Server thread/INFO]: Nyxette has made the advancement [Diamonds!]
+[10:29:18] [Server thread/INFO]: Nyxette has made the advancement [Cover Me with Diamonds]
+[10:29:38] [Server thread/INFO]: Nyxette has made the advancement [Acquire Hardware]
+[10:29:44] [Server thread/INFO]: Nyxette has made the advancement [Suit Up]
+[10:31:30] [Server thread/INFO]: MiffMoff has made the advancement [A Seedy Place]
+[10:35:33] [Server thread/INFO]: Nyxette has made the advancement [Stone Age]
+[10:35:36] [Server thread/INFO]: MiffMoff has made the advancement [Sweet Dreams]
+[10:36:09] [Server thread/INFO]: MiffMoff has made the advancement [Stone Age]
+[10:36:32] [Server thread/INFO]: MiffMoff has made the advancement [Getting an Upgrade]
+[10:37:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=99, y=49, z=116} class_2338{x=100, y=49, z=116}
+[10:37:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=99, y=49, z=116} class_2338{x=100, y=49, z=116}
+[10:37:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=99, y=49, z=116} class_2338{x=100, y=49, z=116}
+[10:37:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=99, y=49, z=116} class_2338{x=100, y=49, z=116}
+[10:37:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=99, y=49, z=116} class_2338{x=100, y=49, z=116}
+[10:37:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=99, y=49, z=116} class_2338{x=100, y=49, z=116}
+[10:37:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=99, y=49, z=116} class_2338{x=100, y=49, z=116}
+[10:37:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=99, y=49, z=116} class_2338{x=100, y=49, z=116}
+[10:37:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=99, y=49, z=116} class_2338{x=100, y=49, z=116}
+[10:37:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=99, y=49, z=116} class_2338{x=100, y=49, z=116}
+[10:40:02] [Server thread/INFO]: [Not Secure] <MiffMoff> gay
+[10:40:09] [Server thread/INFO]: [Not Secure] <Nyxette> do we have enchanting table
+[10:40:13] [Server thread/INFO]: [Not Secure] <MiffMoff> sleep
+[10:40:27] [Server thread/INFO]: [Not Secure] <Nyxette> stfu bich
+[10:40:36] [Server thread/INFO]: [Not Secure] <MiffMoff> teri maa
+[10:40:42] [Server thread/INFO]: [Not Secure] <Nyxette> go work instead of sleeping
+[10:40:44] [Server thread/INFO]: [Not Secure] <Nyxette> lazy ass
+[10:40:53] [Server thread/INFO]: [Not Secure] <MiffMoff> i will beat you up you sissy
+[10:41:05] [Server thread/INFO]: [Not Secure] <Nyxette> i send crest bhaiya to fight for me
+[10:41:15] [Server thread/INFO]: [Not Secure] <MiffMoff> he dont like you
+[10:41:24] [Server thread/INFO]: [Not Secure] <Nyxette> tell her its a lie
+[10:47:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[10:47:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[10:48:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[10:48:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[10:49:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[10:49:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[10:50:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2926ms or 58 ticks behind
+[10:50:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2341ms or 46 ticks behind
+[10:51:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[10:51:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[10:52:02] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[10:52:02] [Server thread/INFO]: whitehairguy left the game
+[10:52:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5246ms or 104 ticks behind
+[11:12:01] [Server thread/INFO]: Nyxette lost connection: Timed out
+[11:12:01] [Server thread/INFO]: Nyxette left the game
+[11:12:01] [Server thread/INFO]: MiffMoff lost connection: Timed out
+[11:12:01] [Server thread/INFO]: MiffMoff left the game
+[11:12:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 33372ms or 667 ticks behind
+[11:12:59] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[11:47:53] [Server thread/INFO]: Stopping server
+[11:47:53] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Input/output error
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at knot/net.minecraft.class_3176$1.run(class_3176.java:102) [server-intermediary.jar:?]
