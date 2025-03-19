@@ -1,132 +1,402 @@
-[09:47:51] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.10
-[09:47:51] [main/INFO]: Loading 4 mods:
+[00:47:01] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.10
+[00:47:01] [main/INFO]: Loading 4 mods:
 	- fabricloader 0.16.10
 	   \-- mixinextras 0.4.1
 	- java 21
 	- minecraft 1.21.4
-[09:47:51] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/crestfallen/Minecraft/Vanilla/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[09:48:02] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[09:48:05] [main/INFO]: Loaded 1370 recipes
-[09:48:05] [main/INFO]: Loaded 1481 advancements
-[09:48:05] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[09:48:05] [Server thread/INFO]: Loading properties
-[09:48:05] [Server thread/INFO]: Default game type: SURVIVAL
-[09:48:05] [Server thread/INFO]: Generating keypair
-[09:48:05] [Server thread/INFO]: Starting Minecraft server on *:25565
-[09:48:05] [Server thread/INFO]: Using epoll channel type
-[09:48:06] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[09:48:06] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[09:48:06] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[09:48:06] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[09:48:06] [Server thread/INFO]: Preparing level "world"
-[09:48:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[09:48:08] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[09:48:08] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[09:48:08] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[09:48:08] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[09:48:08] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[09:48:09] [Server thread/INFO]: Time elapsed: 2551 ms
-[09:48:09] [Server thread/INFO]: Done (3.004s)! For help, type "help"
-[09:49:09] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[09:49:33] [Server thread/INFO]: whitehairguy[/127.0.0.1:45500] logged in with entity id 8 at (763.6192917767605, 58.0, 551.8807134987305)
-[09:49:33] [Server thread/INFO]: whitehairguy joined the game
-[09:49:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
-[09:52:36] [Server thread/INFO]: whitehairguy has made the advancement [Best Friends Forever]
-[09:56:25] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[09:56:25] [Server thread/INFO]: whitehairguy left the game
-[09:57:25] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[10:04:57] [Server thread/INFO]: whitehairguy[/127.0.0.1:41422] logged in with entity id 3286 at (2344.300000011921, -20.0, 1198.4067228091733)
-[10:04:57] [Server thread/INFO]: whitehairguy joined the game
-[10:06:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2042ms or 40 ticks behind
-[10:10:32] [Server thread/INFO]: MiffMoff[/127.123.208.177:40635] logged in with entity id 6337 at (274.5, 99.0, 92.5)
-[10:10:32] [Server thread/INFO]: MiffMoff joined the game
-[10:11:17] [Server thread/INFO]: MiffMoff lost connection: Disconnected
-[10:11:17] [Server thread/INFO]: MiffMoff left the game
-[10:14:01] [Server thread/INFO]: MiffMoff[/127.123.208.177:49505] logged in with entity id 7804 at (269.91217563730265, 103.0, 96.69999998807907)
-[10:14:01] [Server thread/INFO]: MiffMoff joined the game
-[10:14:05] [Server thread/INFO]: MiffMoff lost connection: Disconnected
-[10:14:05] [Server thread/INFO]: MiffMoff left the game
-[10:15:00] [Server thread/INFO]: Nyxette[/127.33.202.100:55129] logged in with entity id 8450 at (282.5, 95.0, 89.5)
-[10:15:00] [Server thread/INFO]: Nyxette joined the game
-[10:15:10] [Server thread/INFO]: [Not Secure] <Nyxette> Im in
-[10:15:16] [Server thread/INFO]: [Not Secure] <Nyxette> where do i spread cheeks
-[10:15:20] [Server thread/WARN]: whitehairguy moved too quickly! -6.5092047466899885,0.0,-8.475074695762942
-[10:15:24] [Server thread/WARN]: whitehairguy moved too quickly! -8.84322073895919,-2.7535905823276465,-6.9711579466319336
-[10:15:30] [Server thread/INFO]: [Not Secure] <Nyxette> ji
-[10:15:33] [Server thread/INFO]: [Not Secure] <Nyxette> give cords
-[10:15:40] [Server thread/WARN]: whitehairguy moved too quickly! -5.75216757299637,-8.028650211164887,-3.5546858229645295
-[10:17:26] [Server thread/INFO]: MiffMoff[/127.123.208.177:42271] logged in with entity id 10022 at (269.91217563730265, 103.0, 96.69999998807907)
-[10:17:26] [Server thread/INFO]: MiffMoff joined the game
-[10:18:37] [Server thread/INFO]: MiffMoff drowned
-[10:19:12] [Server thread/INFO]: [Not Secure] <MiffMoff> 256/119/106
-[10:19:28] [Server thread/INFO]: [Not Secure] <Nyxette> penis
-[10:19:39] [Server thread/INFO]: [Not Secure] <MiffMoff> teri maa ki
-[10:19:41] [Server thread/INFO]: Nyxette was shot by Skeleton
-[10:25:33] [Server thread/INFO]: Nyxette has made the advancement [A Seedy Place]
-[10:28:43] [Server thread/INFO]: Nyxette has made the advancement [Diamonds!]
-[10:29:18] [Server thread/INFO]: Nyxette has made the advancement [Cover Me with Diamonds]
-[10:29:38] [Server thread/INFO]: Nyxette has made the advancement [Acquire Hardware]
-[10:29:44] [Server thread/INFO]: Nyxette has made the advancement [Suit Up]
-[10:31:30] [Server thread/INFO]: MiffMoff has made the advancement [A Seedy Place]
-[10:35:33] [Server thread/INFO]: Nyxette has made the advancement [Stone Age]
-[10:35:36] [Server thread/INFO]: MiffMoff has made the advancement [Sweet Dreams]
-[10:36:09] [Server thread/INFO]: MiffMoff has made the advancement [Stone Age]
-[10:36:32] [Server thread/INFO]: MiffMoff has made the advancement [Getting an Upgrade]
-[10:37:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=99, y=49, z=116} class_2338{x=100, y=49, z=116}
-[10:37:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=99, y=49, z=116} class_2338{x=100, y=49, z=116}
-[10:37:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=99, y=49, z=116} class_2338{x=100, y=49, z=116}
-[10:37:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=99, y=49, z=116} class_2338{x=100, y=49, z=116}
-[10:37:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=99, y=49, z=116} class_2338{x=100, y=49, z=116}
-[10:37:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=99, y=49, z=116} class_2338{x=100, y=49, z=116}
-[10:37:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=99, y=49, z=116} class_2338{x=100, y=49, z=116}
-[10:37:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=99, y=49, z=116} class_2338{x=100, y=49, z=116}
-[10:37:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=99, y=49, z=116} class_2338{x=100, y=49, z=116}
-[10:37:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=99, y=49, z=116} class_2338{x=100, y=49, z=116}
-[10:40:02] [Server thread/INFO]: [Not Secure] <MiffMoff> gay
-[10:40:09] [Server thread/INFO]: [Not Secure] <Nyxette> do we have enchanting table
-[10:40:13] [Server thread/INFO]: [Not Secure] <MiffMoff> sleep
-[10:40:27] [Server thread/INFO]: [Not Secure] <Nyxette> stfu bich
-[10:40:36] [Server thread/INFO]: [Not Secure] <MiffMoff> teri maa
-[10:40:42] [Server thread/INFO]: [Not Secure] <Nyxette> go work instead of sleeping
-[10:40:44] [Server thread/INFO]: [Not Secure] <Nyxette> lazy ass
-[10:40:53] [Server thread/INFO]: [Not Secure] <MiffMoff> i will beat you up you sissy
-[10:41:05] [Server thread/INFO]: [Not Secure] <Nyxette> i send crest bhaiya to fight for me
-[10:41:15] [Server thread/INFO]: [Not Secure] <MiffMoff> he dont like you
-[10:41:24] [Server thread/INFO]: [Not Secure] <Nyxette> tell her its a lie
-[10:47:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
-[10:47:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
-[10:48:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[10:48:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
-[10:49:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
-[10:49:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
-[10:50:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2926ms or 58 ticks behind
-[10:50:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2341ms or 46 ticks behind
-[10:51:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[10:51:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
-[10:52:02] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[10:52:02] [Server thread/INFO]: whitehairguy left the game
-[10:52:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5246ms or 104 ticks behind
-[11:12:01] [Server thread/INFO]: Nyxette lost connection: Timed out
-[11:12:01] [Server thread/INFO]: Nyxette left the game
-[11:12:01] [Server thread/INFO]: MiffMoff lost connection: Timed out
-[11:12:01] [Server thread/INFO]: MiffMoff left the game
-[11:12:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 33372ms or 667 ticks behind
-[11:12:59] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[11:47:53] [Server thread/INFO]: Stopping server
-[11:47:53] [Server console handler/ERROR]: Exception handling console input
-java.io.IOException: Input/output error
-	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
-	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
-	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
-	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
-	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
-	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350) ~[?:?]
-	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393) ~[?:?]
-	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217) ~[?:?]
-	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171) ~[?:?]
-	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
-	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
-	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
-	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
-	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
-	at knot/net.minecraft.class_3176$1.run(class_3176.java:102) [server-intermediary.jar:?]
+[00:47:01] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/raksh/Documents/GitHub/Vanilla/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[00:47:06] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[00:47:10] [main/INFO]: Loaded 1370 recipes
+[00:47:10] [main/INFO]: Loaded 1481 advancements
+[00:47:10] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[00:47:10] [Server thread/INFO]: Loading properties
+[00:47:10] [Server thread/INFO]: Default game type: SURVIVAL
+[00:47:10] [Server thread/INFO]: Generating keypair
+[00:47:10] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:47:10] [Server thread/INFO]: Using default channel type
+[00:47:11] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:47:11] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:47:11] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:47:11] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:47:11] [Server thread/INFO]: Preparing level "world"
+[00:47:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:47:14] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[00:47:14] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[00:47:14] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[00:47:14] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[00:47:14] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[00:47:14] [Worker-Main-15/INFO]: Preparing spawn area: 18%
+[00:47:15] [Server thread/INFO]: Time elapsed: 2800 ms
+[00:47:15] [Server thread/INFO]: Done (3.917s)! For help, type "help"
+[00:48:14] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[00:53:03] [Server thread/INFO]: whitehairguy[/127.18.237.61:53783] logged in with entity id 9 at (226.96198619693095, 44.0, 15.168573137013256)
+[00:53:03] [Server thread/INFO]: whitehairguy joined the game
+[00:55:21] [Server thread/INFO]: Rad1108[/127.0.0.1:53816] logged in with entity id 1607 at (764.6232714449969, 58.0, 550.5783839429066)
+[00:55:21] [Server thread/INFO]: Rad1108 joined the game
+[00:55:30] [Server thread/INFO]: [Not Secure] <Rad1108> mai aaya 10 min tak
+[00:55:35] [Server thread/INFO]: [Not Secure] <Rad1108> server on hai
+[00:55:44] [Server thread/INFO]: Rad1108 lost connection: Disconnected
+[00:55:44] [Server thread/INFO]: Rad1108 left the game
+[00:55:54] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[00:55:54] [Server thread/INFO]: whitehairguy left the game
+[00:56:54] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[01:04:14] [Server thread/INFO]: Rad1108[/127.0.0.1:54024] logged in with entity id 1676 at (763.6046155991215, 58.0, 552.0010205589921)
+[01:04:14] [Server thread/INFO]: Rad1108 joined the game
+[01:04:58] [Server thread/INFO]: whitehairguy[/127.18.237.61:54036] logged in with entity id 2319 at (763.944589932948, 58.0, 549.5502740862011)
+[01:04:58] [Server thread/INFO]: whitehairguy joined the game
+[01:11:29] [Server thread/INFO]: Rad1108 was smashed by whitehairguy
+[01:16:05] [Server thread/INFO]: Rad1108 was smashed by whitehairguy
+[01:16:52] [Server thread/INFO]: Rad1108 was smashed by whitehairguy
+[01:30:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2018ms or 40 ticks behind
+[01:31:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2180ms or 43 ticks behind
+[01:32:22] [Server thread/WARN]: whitehairguy moved too quickly! -11.035663649954216,-0.4641593749554431,-1.7697618853678136
+[01:33:46] [Server thread/WARN]: whitehairguy moved too quickly! 1.9865622660023519,-10.195963343946786,0.1475770525633493
+[01:33:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
+[01:40:17] [Server thread/INFO]: Rad1108 lost connection: Disconnected
+[01:40:17] [Server thread/INFO]: Rad1108 left the game
+[01:42:18] [Server thread/INFO]: Rad1108[/127.0.0.1:54419] logged in with entity id 15859 at (778.246889107, 63.0, 547.6042843923368)
+[01:42:18] [Server thread/INFO]: Rad1108 joined the game
+[01:46:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
+[01:47:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3382ms or 67 ticks behind
+[01:47:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[01:47:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2022ms or 40 ticks behind
+[01:48:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2091ms or 41 ticks behind
+[01:48:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2637ms or 52 ticks behind
+[01:49:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[01:49:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[01:50:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[01:50:45] [Server thread/INFO]: [Not Secure] <Rad1108> increasing the productivity of sugar cane farm
+[01:50:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2661ms or 53 ticks behind
+[01:50:56] [Server thread/INFO]: [Not Secure] <Rad1108> kya?
+[01:51:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2248ms or 44 ticks behind
+[01:51:06] [Server thread/INFO]: [Not Secure] <Rad1108> bamboo kahan hai?
+[01:51:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2413ms or 48 ticks behind
+[01:51:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2153ms or 43 ticks behind
+[01:52:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=2355, y=-15, z=1190} class_2338{x=2355, y=-15, z=1189}
+[01:52:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[01:52:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[01:53:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[01:53:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
+[01:53:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[01:54:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2019ms or 40 ticks behind
+[01:55:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[01:55:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2022ms or 40 ticks behind
+[01:57:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[01:57:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[01:58:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
+[01:58:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2764ms or 55 ticks behind
+[01:58:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3779ms or 75 ticks behind
+[01:59:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2195ms or 43 ticks behind
+[01:59:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[02:00:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
+[02:00:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2073ms or 41 ticks behind
+[02:00:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
+[02:01:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[02:01:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[02:04:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[02:05:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[02:08:02] [Server thread/INFO]: [Not Secure] <Rad1108> kyun?
+[02:08:11] [Server thread/INFO]: [Not Secure] <Rad1108> hain?
+[02:08:28] [Server thread/INFO]: [Not Secure] <Rad1108> maine banali
+[02:08:37] [Server thread/INFO]: [Not Secure] <Rad1108> eff 5 fortune 3
+[02:08:49] [Server thread/INFO]: [Not Secure] <Rad1108> good
+[02:09:08] [Server thread/INFO]: [Not Secure] <Rad1108> gimme and i can give you silk touch and mending
+[02:10:56] [Server thread/INFO]: [Not Secure] <Rad1108> i got us 3 stacks of coal and way to much copper
+[02:12:10] [Server thread/INFO]: [Not Secure] <Rad1108> i got us 7 and a half stacks of copper
+[02:12:19] [Server thread/INFO]: [Not Secure] <Rad1108> yes i knew about the distance thing
+[02:13:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[02:14:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2059ms or 41 ticks behind
+[02:16:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[02:19:00] [Server thread/INFO]: [Not Secure] <Rad1108> base
+[02:21:49] [Server thread/INFO]: Rad1108 has made the advancement [Eye Spy]
+[02:21:56] [Server thread/INFO]: [Not Secure] <Rad1108> cool
+[02:22:01] [Server thread/INFO]: [Not Secure] <Rad1108> use mushrooms
+[02:22:09] [Server thread/INFO]: [Not Secure] <Rad1108> to remove portal frames
+[02:22:20] [Server thread/INFO]: [Not Secure] <Rad1108> yes
+[02:23:08] [Server thread/INFO]: [Not Secure] <Rad1108> replacee karun blocks se??
+[02:23:36] [Server thread/INFO]: [Not Secure] <Rad1108> bas aur mood nahi
+[02:23:49] [Server thread/INFO]: [Not Secure] <Rad1108> iron block
+[02:24:10] [Server thread/INFO]: [Not Secure] <Rad1108> mine karlia
+[02:24:18] [Server thread/INFO]: [Not Secure] <Rad1108> ik aur
+[02:25:50] [Server thread/INFO]: [Not Secure] <Rad1108> upar lush cave hai
+[02:26:02] [Server thread/INFO]: [Not Secure] <Rad1108> bbata ra
+[02:30:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
+[02:31:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[02:31:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
+[02:37:33] [Server thread/INFO]: [Not Secure] <Rad1108> abhi mood nahii kar rha
+[02:37:41] [Server thread/INFO]: [Not Secure] <Rad1108> resoures gather kar rha
+[02:37:46] [Server thread/INFO]: [Not Secure] <Rad1108> iron aur copper
+[02:37:55] [Server thread/INFO]: [Not Secure] <Rad1108> under water mining
+[02:37:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[02:38:05] [Server thread/INFO]: [Not Secure] <Rad1108> testing limits of repiration 3
+[02:38:15] [Server thread/INFO]: [Not Secure] <Rad1108> yeh sare msgs underwater kar rha
+[02:41:46] [Server thread/INFO]: [Not Secure] <Rad1108> maine banaya tha ik bari qquartz base
+[02:42:17] [Server thread/INFO]: [Not Secure] <Rad1108> end rods can be crafted
+[02:42:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[02:43:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[02:43:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2298ms or 45 ticks behind
+[02:44:28] [Server thread/WARN]: whitehairguy moved wrongly!
+[02:44:28] [Server thread/WARN]: whitehairguy moved wrongly!
+[02:44:29] [Server thread/WARN]: whitehairguy moved wrongly!
+[02:45:23] [Server thread/INFO]: [Not Secure] <Rad1108> swim
+[02:46:42] [Server thread/INFO]: [Not Secure] <Rad1108> respiration 3 hai?
+[02:47:40] [Server thread/INFO]: [Not Secure] <Rad1108> cant do this rn
+[02:47:45] [Server thread/INFO]: [Not Secure] <Rad1108> full inventory
+[02:47:49] [Server thread/INFO]: [Not Secure] <Rad1108> no
+[02:48:57] [Server thread/WARN]: whitehairguy moved wrongly!
+[02:49:58] [Server thread/INFO]: [Not Secure] <Rad1108> i got fortune
+[02:50:02] [Server thread/INFO]: [Not Secure] <Rad1108> yeah
+[02:56:49] [Server thread/INFO]: [Not Secure] <Rad1108> deepslate coal ore is rare
+[02:56:55] [Server thread/INFO]: [Not Secure] <whitehairguy> ouuuu
+[02:56:58] [Server thread/INFO]: [Not Secure] <Rad1108> rearer than emralds
+[02:57:12] [Server thread/INFO]: [Not Secure] <whitehairguy> give that
+[02:57:32] [Server thread/INFO]: [Not Secure] <whitehairguy> will keep it as a decoration
+[02:57:38] [Server thread/INFO]: [Not Secure] <Rad1108> yup
+[03:03:59] [Server thread/INFO]: [Not Secure] <whitehairguy> how muchyou got nigga
+[03:04:11] [Server thread/INFO]: [Not Secure] <Rad1108> 1 satack and 22 blocks
+[03:04:17] [Server thread/INFO]: [Not Secure] <whitehairguy> bro has 80 % of servers resources i guess
+[03:04:26] [Server thread/INFO]: [Not Secure] <Rad1108> nah/
+[03:04:37] [Server thread/INFO]: [Not Secure] <whitehairguy> you got fortune
+[03:04:39] [Server thread/INFO]: [Not Secure] <Rad1108> diamonds and redstone
+[03:06:49] [Server thread/INFO]: [Not Secure] <whitehairguy> damn copper blocl
+[03:09:30] [Server thread/INFO]: [Not Secure] <Rad1108> see how to make a chunk loader using pearls and make it in sugar cane faarm chunk
+[03:09:46] [Server thread/INFO]: [Not Secure] <whitehairguy> it was just dropping a ender pearl in a water bubble column
+[03:09:52] [Server thread/INFO]: [Not Secure] <Rad1108> make it
+[03:10:23] [Server thread/INFO]: [Not Secure] <whitehairguy> chunik kaise kholte the
+[03:10:38] [Server thread/INFO]: [Not Secure] <Rad1108> f3 and something
+[03:11:12] [Server thread/INFO]: [Not Secure] <whitehairguy> hold f3 + c
+[03:13:39] [Server thread/INFO]: [Not Secure] <whitehairguy> umm
+[03:13:42] [Server thread/INFO]: [Not Secure] <whitehairguy> farm fuck hogya
+[03:13:45] [Server thread/INFO]: [Not Secure] <whitehairguy> mere se kuch tut gya
+[03:13:47] [Server thread/INFO]: [Not Secure] <whitehairguy> check kri
+[03:13:57] [Server thread/INFO]: [Not Secure] <whitehairguy> i wsa making a hole for the chunk lodaer
+[03:15:00] [Server thread/INFO]: [Not Secure] <Rad1108> fixed it
+[03:16:16] [Server thread/INFO]: [Not Secure] <whitehairguy> need bucket
+[03:16:55] [Server thread/INFO]: [Not Secure] <Rad1108> crafting table
+[03:17:07] [Server thread/INFO]: [Not Secure] <whitehairguy> ender pearl
+[03:17:10] [Server thread/INFO]: [Not Secure] <whitehairguy> phaink de inmein
+[03:18:07] [Server thread/INFO]: [Not Secure] <whitehairguy> fir yeh smokers ko bhi hta ke blast furnace krde
+[03:18:09] [Server thread/INFO]: [Not Secure] <whitehairguy> ek side
+[03:22:59] [Server thread/INFO]: [Not Secure] <whitehairguy> damn saro mein copper hai
+[03:23:07] [Server thread/INFO]: [Not Secure] <whitehairguy> woh hi 50+
+[03:23:31] [Server thread/INFO]: [Not Secure] <Rad1108> chest checkkaro
+[03:23:38] [Server thread/INFO]: [Not Secure] <whitehairguy> damn
+[03:23:43] [Server thread/INFO]: [Not Secure] <whitehairguy> can finally build a becaon
+[03:23:45] [Server thread/INFO]: [Not Secure] <whitehairguy> on spawn
+[03:23:52] [Server thread/INFO]: [Not Secure] <whitehairguy> for that need skulss hmmm
+[03:23:55] [Server thread/INFO]: [Not Secure] <whitehairguy> kl lunga
+[03:24:53] [Server thread/INFO]: [Not Secure] <Rad1108> wanna go on another minning trip?
+[03:25:08] [Server thread/INFO]: [Not Secure] <whitehairguy> monument wali chlegi
+[03:25:15] [Server thread/INFO]: [Not Secure] <whitehairguy> ya skull farming
+[03:25:20] [Server thread/INFO]: [Not Secure] <whitehairguy> you got looting 3?
+[03:25:42] [Server thread/INFO]: [Not Secure] <Rad1108> no got fortune 3
+[03:25:55] [Server thread/INFO]: [Not Secure] <Rad1108> we can trade for it
+[03:26:00] [Server thread/INFO]: [Not Secure] <whitehairguy> yes thats better
+[03:26:07] [Server thread/INFO]: [Not Secure] <Rad1108> villager breeder mai banalo looting 3 wala
+[03:28:13] [Server thread/INFO]: [Not Secure] <Rad1108> bc gand fad di
+[03:28:17] [Server thread/INFO]: [Not Secure] <whitehairguy> lol
+[03:28:37] [Server thread/INFO]: [Not Secure] <whitehairguy> didnt know music had beats
+[03:30:52] [Server thread/INFO]: [Not Secure] <Rad1108> whats good on an axe?
+[03:30:58] [Server thread/INFO]: [Not Secure] <Rad1108> fortune or silk touch
+[03:31:04] [Server thread/INFO]: [Not Secure] <whitehairguy> sharpness and unbreaking bss kaafi hai
+[03:31:18] [Server thread/INFO]: [Not Secure] <whitehairguy> mere pr toh silk hai
+[03:31:25] [Server thread/INFO]: [Not Secure] <whitehairguy> woh enchating table ne hi dedi thi
+[03:31:47] [Server thread/INFO]: [Not Secure] <whitehairguy> hmm breach 2 de rha hai yeh
+[03:31:59] [Server thread/INFO]: [Not Secure] <Rad1108> yeah i had unlocked that earlier
+[03:32:07] [Server thread/INFO]: [Not Secure] <whitehairguy> ek baarmace ajaye
+[03:32:10] [Server thread/INFO]: [Not Secure] <whitehairguy> hahahahahaha
+[03:32:13] [Server thread/INFO]: [Not Secure] <whitehairguy> people gonna fear me
+[03:35:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=98, y=73, z=210} class_2338{x=97, y=74, z=210}
+[03:35:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=98, y=73, z=210} class_2338{x=97, y=74, z=210}
+[03:37:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[03:37:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[03:37:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2324ms or 46 ticks behind
+[03:38:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
+[03:39:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[03:39:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[03:39:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
+[03:40:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2856ms or 57 ticks behind
+[03:41:21] [Server thread/INFO]: [Not Secure] <Rad1108> sara coal almost khatam
+[03:41:26] [Server thread/INFO]: [Not Secure] <Rad1108> need more coal
+[03:42:00] [Server thread/INFO]: [Not Secure] <whitehairguy> lol mitni jldi
+[03:42:05] [Server thread/INFO]: [Not Secure] <whitehairguy> use buckets
+[03:43:23] [Server thread/INFO]: [Not Secure] <Rad1108> got 30 levels?
+[03:43:44] [Server thread/INFO]: [Not Secure] <Rad1108> buddy??
+[03:44:03] [Server thread/INFO]: [Not Secure] <whitehairguy> ys
+[03:44:06] [Server thread/INFO]: [Not Secure] <Rad1108> got 30 levels?
+[03:44:08] [Server thread/INFO]: [Not Secure] <whitehairguy> mopoe
+[03:44:10] [Server thread/INFO]: [Not Secure] <whitehairguy> 20
+[03:44:14] [Server thread/INFO]: [Not Secure] <Rad1108> ;/
+[03:44:19] [Server thread/INFO]: [Not Secure] <whitehairguy> eating foos
+[03:44:20] [Server thread/INFO]: [Not Secure] <Rad1108> :[
+[03:44:39] [Server thread/INFO]: [Not Secure] <whitehairguy> tujhe itn3 level chahiye kyu
+[03:44:48] [Server thread/INFO]: [Not Secure] <Rad1108> enchant
+[03:44:54] [Server thread/INFO]: [Not Secure] <whitehairguy> damn
+[03:45:02] [Server thread/INFO]: [Not Secure] <whitehairguy> dont rush
+[03:45:07] [Server thread/INFO]: [Not Secure] <whitehairguy> :D
+[03:45:16] [Server thread/INFO]: [Not Secure] <Rad1108> you litterally have the egg
+[03:45:23] [Server thread/INFO]: [Not Secure] <whitehairguy> just the egg
+[03:45:25] [Server thread/INFO]: [Not Secure] <Rad1108> abhi toh netherite badmai karenge
+[03:45:39] [Server thread/INFO]: [Not Secure] <Rad1108> after food iron farms and base
+[03:45:43] [Server thread/INFO]: [Not Secure] <whitehairguy> okiee
+[03:53:44] [Server thread/INFO]: [Not Secure] <Rad1108> mineshatf
+[03:54:00] [Server thread/INFO]: [Not Secure] <Rad1108> mere island ki chest mai hain
+[03:54:25] [Server thread/INFO]: [Not Secure] <Rad1108> after armor and tools
+[03:55:12] [Server thread/INFO]: [Not Secure] <Rad1108> trhow
+[03:59:09] [Server thread/WARN]: whitehairguy moved wrongly!
+[03:59:51] [Server thread/WARN]: whitehairguy moved wrongly!
+[04:00:32] [Server thread/INFO]: [Not Secure] <Rad1108> look up youtube
+[04:03:07] [Server thread/INFO]: [Not Secure] <Rad1108> sad
+[04:03:43] [Server thread/INFO]: [Not Secure] <Rad1108> have sex and body ache goes away
+[04:06:24] [Server thread/INFO]: [Not Secure] <Rad1108> ys
+[04:07:16] [Server thread/INFO]: whitehairguy has made the advancement [Glow and Behold!]
+[04:11:05] [Server thread/INFO]: [Not Secure] <Rad1108> btw copper ka beacon nahi banta
+[04:11:23] [Server thread/INFO]: [Not Secure] <Rad1108> nah i wanna make a copper base
+[04:12:03] [Server thread/INFO]: [Not Secure] <Rad1108> 5
+[04:12:34] [Server thread/INFO]: [Not Secure] <Rad1108> kya?
+[04:13:04] [Server thread/INFO]: whitehairguy has made the advancement [Careful Restoration]
+[04:13:12] [Server thread/INFO]: [Not Secure] <Rad1108> yayyy
+[04:13:28] [Server thread/INFO]: [Not Secure] <whitehairguy> how much can it store
+[04:13:47] [Server thread/INFO]: [Not Secure] <Rad1108> a satck
+[04:13:49] [Server thread/INFO]: [Not Secure] <whitehairguy> i thought it will come
+[04:13:51] [Server thread/INFO]: [Not Secure] <whitehairguy> but it didnt
+[04:14:11] [Server thread/INFO]: [Not Secure] <whitehairguy> got emeralds?
+[04:14:23] [Server thread/INFO]: [Not Secure] <Rad1108> nah
+[04:14:42] [Server thread/INFO]: [Not Secure] <Rad1108> villager breeder mai the shayd
+[04:14:48] [Server thread/INFO]: whitehairguy has made the advancement [What a Deal!]
+[04:15:00] [Server thread/INFO]: [Not Secure] <Rad1108> kya khareeda?
+[04:15:11] [Server thread/INFO]: [Not Secure] <whitehairguy> flower
+[04:15:30] [Server thread/INFO]: [Not Secure] <whitehairguy> wtf you cant bonemeal them
+[04:15:50] [Server thread/INFO]: [Not Secure] <Rad1108> which one?
+[04:15:51] [Server thread/INFO]: [Not Secure] <whitehairguy> these one
+[04:16:00] [Server thread/INFO]: [Not Secure] <Rad1108> yeh toh aise hi mil jate hain
+[04:16:05] [Server thread/INFO]: [Not Secure] <whitehairguy> nhi milte
+[04:16:29] [Server thread/INFO]: [Not Secure] <whitehairguy> ou only get red and yellow
+[04:16:42] [Server thread/INFO]: [Not Secure] <Rad1108> yeah plains mai ya mountaians mai mil jaeynge
+[04:16:52] [Server thread/INFO]: [Not Secure] <Rad1108> ya flower valley mai sare mil jaeynge
+[04:16:59] [Server thread/INFO]: [Not Secure] <whitehairguy> ohh
+[04:17:11] [Server thread/INFO]: [Not Secure] <whitehairguy> lily of the vallery
+[04:17:14] [Server thread/INFO]: [Not Secure] <whitehairguy> nam hai flowers ka
+[04:17:21] [Server thread/INFO]: [Not Secure] <whitehairguy> time toget my olly
+[04:17:53] [Server thread/INFO]: [Not Secure] <Rad1108> got my level 34 from smelting ores
+[04:17:57] [Server thread/INFO]: [Not Secure] <Rad1108> lol
+[04:18:55] [Server thread/INFO]: [Not Secure] <Rad1108> bro givving me shots
+[04:19:09] [Server thread/INFO]: [Not Secure] <whitehairguy> ride it
+[04:19:46] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[04:19:46] [Server thread/INFO]: whitehairguy left the game
+[04:19:52] [Server thread/INFO]: whitehairguy[/127.18.237.61:55842] logged in with entity id 68726 at (776.7624999880791, 63.0, 544.0116000204108)
+[04:19:52] [Server thread/INFO]: whitehairguy joined the game
+[04:22:10] [Server thread/INFO]: [Not Secure] <Rad1108> got looting 3
+[04:22:15] [Server thread/INFO]: [Not Secure] <whitehairguy> lets goooo
+[04:23:41] [Server thread/INFO]: [Not Secure] <whitehairguy> seethese floweres
+[04:23:47] [Server thread/INFO]: [Not Secure] <whitehairguy> ehy oepn in night
+[04:23:50] [Server thread/INFO]: [Not Secure] <whitehairguy> close in day
+[04:23:54] [Server thread/INFO]: [Not Secure] <Rad1108> yes i know
+[04:23:59] [Server thread/INFO]: [Not Secure] <Rad1108> i have max armor now
+[04:24:04] [Server thread/INFO]: [Not Secure] <whitehairguy> fight??
+[04:24:08] [Server thread/INFO]: [Not Secure] <Rad1108> nah
+[04:24:10] [Server thread/INFO]: [Not Secure] <whitehairguy> yes
+[04:24:12] [Server thread/INFO]: [Not Secure] <whitehairguy> idont have max
+[04:24:19] [Server thread/INFO]: [Not Secure] <whitehairguy> wanna test
+[04:24:22] [Server thread/INFO]: [Not Secure] <whitehairguy> the pvp in me
+[04:24:25] [Server thread/INFO]: [Not Secure] <Rad1108> i dont have desire to be awake
+[04:24:32] [Server thread/INFO]: [Not Secure] <whitehairguy> its gonna take 2m max
+[04:24:40] [Server thread/INFO]: [Not Secure] <Rad1108> nah
+[04:24:45] [Server thread/INFO]: [Not Secure] <whitehairguy> bruhhhh
+[04:24:46] [Server thread/INFO]: [Not Secure] <Rad1108> i dont wanna fight
+[04:24:47] [Server thread/INFO]: [Not Secure] <whitehairguy> you know it
+[04:24:52] [Server thread/INFO]: [Not Secure] <whitehairguy> stop this pacifist mf
+[04:24:58] [Server thread/INFO]: [Not Secure] <Rad1108> yeah i know
+[04:25:02] [Server thread/INFO]: [Not Secure] <Rad1108> i will lose
+[04:25:13] [Server thread/INFO]: [Not Secure] <whitehairguy> okay i remove chestplate
+[04:25:17] [Server thread/INFO]: [Not Secure] <Rad1108> nah
+[04:25:22] [Server thread/INFO]: [Not Secure] <whitehairguy> helmet
+[04:25:25] [Server thread/INFO]: [Not Secure] <whitehairguy> too
+[04:25:39] [Server thread/INFO]: [Not Secure] <whitehairguy> i think yeh jada hogya
+[04:27:04] [Server thread/INFO]: [Not Secure] <Rad1108> ismai ik carpet lagane ki zarrorat thi
+[04:27:09] [Server thread/INFO]: [Not Secure] <Rad1108> woh bhul gaya mai
+[04:27:17] [Server thread/INFO]: [Not Secure] <whitehairguy> i rbing
+[04:27:21] [Server thread/INFO]: [Not Secure] <Rad1108> nah
+[04:27:30] [Server thread/INFO]: [Not Secure] <Rad1108> khulte hi bhag padenge
+[04:27:40] [Server thread/INFO]: [Not Secure] <whitehairguy> rtue
+[04:28:34] [Server thread/INFO]: [Not Secure] <Rad1108> place boat
+[04:29:47] [Server thread/INFO]: [Not Secure] <Rad1108> hold seed
+[04:30:16] [Server thread/INFO]: [Not Secure] <Rad1108> gimme
+[04:30:45] [Server thread/INFO]: [Not Secure] <Rad1108> remove the seed
+[04:30:49] [Server thread/INFO]: [Not Secure] <Rad1108> take it other side
+[04:32:24] [Server thread/INFO]: [Not Secure] <Rad1108> bc slabs kyun lagaey the??
+[04:32:32] [Server thread/INFO]: [Not Secure] <Rad1108> nah
+[04:33:13] [Server thread/INFO]: [Not Secure] <Rad1108> cause they abuse
+[04:33:59] [Server thread/INFO]: [Not Secure] <Rad1108> wtf
+[04:34:04] [Server thread/INFO]: [Not Secure] <Rad1108> carpet chest mai tha
+[04:34:23] [Server thread/INFO]: [Not Secure] <Rad1108> bc
+[04:34:27] [Server thread/INFO]: [Not Secure] <Rad1108> hatgaya
+[04:34:35] [Server thread/INFO]: [Not Secure] <Rad1108> sword se hit kia tha tab
+[04:35:01] [Server thread/INFO]: [Not Secure] <Rad1108> abhi 2 levels pe hain
+[04:35:14] [Server thread/INFO]: [Not Secure] <Rad1108> usse entity craming 24 se badh jati hai
+[04:35:22] [Server thread/INFO]: [Not Secure] <Rad1108> i hopper ke andar ik upar
+[04:35:36] [Server thread/INFO]: [Not Secure] <Rad1108> ik level pe hoonge toh they'll die sooner
+[04:35:50] [Server thread/INFO]: [Not Secure] <Rad1108> yeh rahi
+[04:36:00] [Server thread/INFO]: [Not Secure] <Rad1108> fox se chud rahi
+[04:36:42] [Server thread/INFO]: [Not Secure] <Rad1108> andar rakhlo lamma
+[04:36:53] [Server thread/INFO]: [Not Secure] <Rad1108> hay bales
+[04:39:02] [Server thread/INFO]: [Not Secure] <Rad1108> meow
+[04:39:58] [Server thread/INFO]: [Not Secure] <Rad1108> meow wants to lick my ass
+[04:40:13] [Server thread/INFO]: [Not Secure] <Rad1108> lol\
+[04:40:28] [Server thread/INFO]: [Not Secure] <Rad1108> me going to sleep
+[04:40:32] [Server thread/INFO]: [Not Secure] <Rad1108> apne khelna?
+[04:40:36] [Server thread/INFO]: [Not Secure] <Rad1108> lagado
+[04:40:53] [Server thread/INFO]: [Not Secure] <Rad1108> my bad
+[04:41:31] [Server thread/INFO]: [Not Secure] <Rad1108> stone cutter kahan hai?
+[04:41:46] [Server thread/INFO]: [Not Secure] <Rad1108> kaha?
+[04:42:57] [Server thread/INFO]: [Not Secure] <Rad1108> looter?
+[04:43:03] [Server thread/INFO]: [Not Secure] <Rad1108> sorting something
+[04:43:54] [Server thread/INFO]: [Not Secure] <Rad1108> no
+[04:44:33] [Server thread/INFO]: [Not Secure] <Rad1108> no
+[04:44:52] [Server thread/INFO]: [Not Secure] <Rad1108> one mod leads to another
+[04:45:03] [Server thread/INFO]: [Not Secure] <Rad1108> so no
+[04:45:18] [Server thread/INFO]: [Not Secure] <Rad1108> NO
+[04:45:34] [Server thread/INFO]: [Not Secure] <Rad1108> anything changing the mmechanics of the game is mod
+[04:46:01] [Server thread/INFO]: [Not Secure] <Rad1108> i know what that is
+[04:46:03] [Server thread/INFO]: [Not Secure] <Rad1108> no
+[04:46:14] [Server thread/INFO]: [Not Secure] <Rad1108> this is pure vanilla
+[04:46:40] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[04:46:40] [Server thread/INFO]: whitehairguy left the game
+[04:46:55] [Server thread/INFO]: Rad1108 has made the advancement [Who is Cutting Onions?]
+[04:47:21] [Server thread/INFO]: whitehairguy[/127.18.237.61:56097] logged in with entity id 74223 at (767.5168333236629, 58.0, 547.1985234289548)
+[04:47:21] [Server thread/INFO]: whitehairguy joined the game
+[04:47:33] [Server thread/INFO]: [Not Secure] <Rad1108> fuckkk
+[04:47:35] [Server thread/INFO]: [Not Secure] <Rad1108> no
+[04:47:39] [Server thread/INFO]: [Not Secure] <Rad1108> changing my game also
+[04:48:25] [Server thread/INFO]: [Not Secure] <Rad1108> buddy dont do it
+[04:48:30] [Server thread/INFO]: [Not Secure] <Rad1108> its cheating
+[04:49:39] [Server thread/INFO]: [Not Secure] <Rad1108> wtf
+[04:49:46] [Server thread/INFO]: [Not Secure] <Rad1108> yeh kahan se aa rah?
+[04:59:08] [Server thread/INFO]: [Not Secure] <Rad1108> hook
+[04:59:15] [Server thread/INFO]: [Not Secure] <Rad1108> El Hook
+[04:59:36] [Server thread/INFO]: [Not Secure] <Rad1108> El'hook
+[05:01:27] [Server thread/INFO]: [Not Secure] <Rad1108> sea
+[05:02:10] [Server thread/INFO]: [Not Secure] <Rad1108> 90% sorted
+[05:03:41] [Server thread/INFO]: [Not Secure] <whitehairguy> pass through mod daldu??
+[05:03:47] [Server thread/INFO]: [Not Secure] <whitehairguy> ya client seide dhundu
+[05:03:50] [Server thread/INFO]: [Not Secure] <Rad1108> NO
+[05:04:03] [Server thread/INFO]: [Not Secure] <whitehairguy> nether ke liye netherack nhi hai chi chi
+[05:04:13] [Server thread/INFO]: [Not Secure] <whitehairguy> magma block kbse nether represent krne lg gya
+[05:04:22] [Server thread/INFO]: [Not Secure] <whitehairguy> oh yes bundle is neat
+[05:04:35] [Server thread/INFO]: [Not Secure] <whitehairguy> letsg ooooooo
+[05:05:55] [Server thread/INFO]: [Not Secure] <whitehairguy> wtf garbage :'(
+[05:06:07] [Server thread/INFO]: [Not Secure] <Rad1108> name them ores blocks and nether
+[05:06:38] [Server thread/INFO]: [Not Secure] <whitehairguy> anvil gayab
+[05:06:40] [Server thread/INFO]: [Not Secure] <whitehairguy> i mean tut gyi
+[05:07:35] [Server thread/INFO]: [Not Secure] <Rad1108> nahhh
+[05:07:55] [Server thread/INFO]: [Not Secure] <whitehairguy> then use iron ingot
+[05:07:57] [Server thread/INFO]: [Not Secure] <whitehairguy> for ores
+[05:09:08] [Server thread/INFO]: [Not Secure] <Rad1108> hahaha
+[05:09:15] [Server thread/INFO]: [Not Secure] <whitehairguy> name krde
+[05:09:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=804, y=55, z=542} class_2338{x=803, y=53, z=542}
+[05:11:02] [Server thread/INFO]: [Not Secure] <Rad1108> good night
+[05:11:06] [Server thread/INFO]: [Not Secure] <Rad1108> me going to sleep
+[05:11:07] [Server thread/INFO]: [Not Secure] <whitehairguy> good nighttt
+[05:11:14] [Server thread/INFO]: [Not Secure] <Rad1108> adios
+[05:11:16] [Server thread/INFO]: Rad1108 lost connection: Disconnected
+[05:11:16] [Server thread/INFO]: Rad1108 left the game
