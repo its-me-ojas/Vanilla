@@ -1,48 +1,132 @@
-[05:22:06] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.10
-[05:22:06] [main/INFO]: Loading 4 mods:
+[11:17:58] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.10
+[11:17:58] [main/INFO]: Loading 4 mods:
 	- fabricloader 0.16.10
 	   \-- mixinextras 0.4.1
 	- java 21
 	- minecraft 1.21.4
-[05:22:06] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/crestfallen/Minecraft/Vanilla/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[05:22:17] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[05:22:20] [main/INFO]: Loaded 1370 recipes
-[05:22:20] [main/INFO]: Loaded 1481 advancements
-[05:22:20] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[05:22:20] [Server thread/INFO]: Loading properties
-[05:22:20] [Server thread/INFO]: Default game type: SURVIVAL
-[05:22:20] [Server thread/INFO]: Generating keypair
-[05:22:21] [Server thread/INFO]: Starting Minecraft server on *:25565
-[05:22:21] [Server thread/INFO]: Using epoll channel type
-[05:22:21] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[05:22:21] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[05:22:21] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[05:22:21] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[05:22:21] [Server thread/INFO]: Preparing level "world"
-[05:22:21] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[05:22:24] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[05:22:24] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[05:22:24] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[05:22:24] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[05:22:24] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[05:22:24] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[05:22:24] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[05:22:25] [Server thread/INFO]: Time elapsed: 3504 ms
-[05:22:25] [Server thread/INFO]: Done (3.918s)! For help, type "help"
-[05:22:29] [Server thread/INFO]: whitehairguy[/127.0.0.1:48924] logged in with entity id 9 at (766.0890351648959, 58.0, 549.7268856186404)
-[05:22:29] [Server thread/INFO]: whitehairguy joined the game
-[05:27:10] [Server thread/INFO]: whitehairguy has made the advancement [Fishy Business]
-[05:36:23] [Server thread/WARN]: whitehairguy moved wrongly!
-[05:39:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=57, y=35, z=182} class_2338{x=57, y=34, z=181}
-[05:39:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=57, y=35, z=182} class_2338{x=57, y=34, z=181}
-[05:39:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=57, y=35, z=182} class_2338{x=57, y=34, z=181}
-[05:48:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=88, y=57, z=173} class_2338{x=87, y=57, z=172}
-[05:49:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=79, y=62, z=172} class_2338{x=80, y=63, z=172}
-[05:49:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=80, y=60, z=172} class_2338{x=80, y=63, z=172}
-[05:49:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=80, y=60, z=172} class_2338{x=80, y=63, z=172}
-[05:49:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=80, y=60, z=172} class_2338{x=80, y=63, z=172}
-[05:49:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=80, y=60, z=172} class_2338{x=80, y=63, z=172}
-[05:49:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=80, y=60, z=172} class_2338{x=80, y=63, z=172}
-[05:49:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=80, y=60, z=172} class_2338{x=80, y=63, z=172}
-[05:49:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=80, y=60, z=172} class_2338{x=80, y=63, z=172}
-[06:30:36] [Server thread/WARN]: whitehairguy moved wrongly!
+[11:17:59] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/crestfallen/Minecraft/Vanilla/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[11:18:08] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[11:18:08] [main/WARN]: Missing data pack fabric
+[11:18:08] [main/WARN]: Missing data pack fabric-convention-tags-v2
+[11:18:10] [main/INFO]: Loaded 1370 recipes
+[11:18:10] [main/INFO]: Loaded 1481 advancements
+[11:18:10] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[11:18:10] [Server thread/INFO]: Loading properties
+[11:18:10] [Server thread/INFO]: Default game type: SURVIVAL
+[11:18:10] [Server thread/INFO]: Generating keypair
+[11:18:10] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:18:10] [Server thread/INFO]: Using epoll channel type
+[11:18:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:18:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:18:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:18:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:18:10] [Server thread/INFO]: Preparing level "world"
+[11:18:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:18:14] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[11:18:14] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[11:18:14] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[11:18:14] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[11:18:14] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[11:18:14] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[11:18:14] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[11:18:15] [Server thread/INFO]: Time elapsed: 3394 ms
+[11:18:15] [Server thread/INFO]: Done (4.061s)! For help, type "help"
+[11:18:42] [Server thread/INFO]: whitehairguy[/127.0.0.1:47900] logged in with entity id 9 at (778.6605843356136, 62.9375, 546.6031858141484)
+[11:18:43] [Server thread/INFO]: whitehairguy joined the game
+[11:18:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2117ms or 42 ticks behind
+[11:19:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3652ms or 73 ticks behind
+[11:20:31] [Server thread/INFO]: Tranished[/127.76.61.168:48783] logged in with entity id 1012 at (-494.5977867936236, 81.0, 228.1748800689256)
+[11:20:31] [Server thread/INFO]: Tranished joined the game
+[11:21:59] [Server thread/INFO]: Tranished was shot by Skeleton
+[11:23:19] [Server thread/INFO]: Tranished was blown up by Creeper
+[11:34:09] [Server thread/INFO]: Tranished has made the advancement [Suit Up]
+[11:35:51] [Server thread/INFO]: Tranished lost connection: Disconnected
+[11:35:51] [Server thread/INFO]: Tranished left the game
+[12:05:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6305ms or 126 ticks behind
+[12:36:17] [Server thread/INFO]: Tranished[/127.76.61.168:47015] logged in with entity id 16472 at (783.5997291306593, 62.9375, 551.54314835531)
+[12:36:17] [Server thread/INFO]: Tranished joined the game
+[12:45:12] [Server thread/INFO]: Tranished lost connection: Disconnected
+[12:45:12] [Server thread/INFO]: Tranished left the game
+[12:50:17] [Server thread/INFO]: Tranished[/127.76.61.168:54101] logged in with entity id 23886 at (-58.04949813403303, 62.11076431274414, -984.1606770066749)
+[12:50:17] [Server thread/INFO]: Tranished joined the game
+[12:58:49] [Server thread/INFO]: Nyxette[/127.204.195.65:57249] logged in with entity id 25684 at (669.6999999880791, -55.58000001311302, 572.6546724263278)
+[12:58:49] [Server thread/INFO]: Nyxette joined the game
+[13:01:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
+[13:01:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2522ms or 50 ticks behind
+[13:02:02] [Server thread/INFO]: MiffMoff[/127.123.208.177:33815] logged in with entity id 27109 at (606.4344571478237, 63.7531999805212, -20.415731243496264)
+[13:02:02] [Server thread/INFO]: MiffMoff joined the game
+[13:02:11] [Server thread/INFO]: [Not Secure] <whitehairguy> join vc
+[13:02:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8533ms or 170 ticks behind
+[13:02:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8388ms or 167 ticks behind
+[13:03:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10389ms or 207 ticks behind
+[13:03:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12384ms or 247 ticks behind
+[13:03:40] [Server thread/INFO]: Tranished was shot by Skeleton
+[13:04:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14954ms or 299 ticks behind
+[13:04:25] [Server thread/WARN]: whitehairguy moved too quickly! 0.5285223643924724,-11.026915202225453,1.060287770213563
+[13:04:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13764ms or 275 ticks behind
+[13:04:42] [Server thread/WARN]: whitehairguy moved too quickly! 9.490085043934755,1.9780914183331788,4.945647382220358
+[13:04:43] [Server thread/WARN]: whitehairguy moved too quickly! 8.557099097649655,-4.695385494572605,4.4594326136980555
+[13:04:51] [Server thread/WARN]: whitehairguy moved too quickly! 7.586227643377185,-6.474819625896117,3.9534742535710024
+[13:04:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5410ms or 108 ticks behind
+[13:06:33] [Server thread/INFO]: [Not Secure] <Nyxette> 763 -43 608
+[13:07:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2028ms or 40 ticks behind
+[13:07:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5193ms or 103 ticks behind
+[13:08:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5587ms or 111 ticks behind
+[13:08:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4578ms or 91 ticks behind
+[13:09:38] [Server thread/INFO]: Tranished has made the advancement [Eye Spy]
+[13:09:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[13:10:13] [Server thread/INFO]: Tranished has made the advancement [The End?]
+[13:10:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
+[13:10:50] [Server thread/WARN]: Tranished moved too quickly! 9.390344797564293,-1.9215999984741217,3.342346519029281
+[13:10:50] [Server thread/WARN]: MiffMoff moved too quickly! -4.525086330337103,2.1708129081422953,9.247480410421701
+[13:11:10] [Server thread/INFO]: Tranished lost connection: Disconnected
+[13:11:10] [Server thread/INFO]: Tranished left the game
+[13:11:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5143ms or 102 ticks behind
+[13:11:46] [Server thread/INFO]: Tranished[/127.76.61.168:40287] logged in with entity id 34004 at (35.05136542674344, 59.0, 12.7491267947461)
+[13:11:46] [Server thread/INFO]: Tranished joined the game
+[13:22:08] [Server thread/INFO]: MiffMoff has made the advancement [We Need to Go Deeper]
+[13:24:56] [Server thread/INFO]: Nyxette has made the advancement [Sweet Dreams]
+[13:26:35] [Server thread/INFO]: MiffMoff has made the advancement [Diamonds!]
+[13:32:51] [Server thread/INFO]: Tranished lost connection: Disconnected
+[13:32:51] [Server thread/INFO]: Tranished left the game
+[13:33:39] [Server thread/INFO]: Nyxette has made the advancement [We Need to Go Deeper]
+[13:34:28] [Server thread/INFO]: Nyxette has made the advancement [Hot Stuff]
+[13:38:08] [Server thread/INFO]: [Not Secure] <MiffMoff> :((
+[13:41:44] [Server thread/INFO]: MiffMoff was slain by Drowned
+[13:47:54] [Server thread/INFO]: [Not Secure] <whitehairguy> giving you guys 1m
+[13:48:09] [Server thread/INFO]: [Not Secure] <whitehairguy> i built this shit
+[13:48:12] [Server thread/INFO]: [Not Secure] <whitehairguy> brick by brick
+[13:48:19] [Server thread/INFO]: MiffMoff was slain by Nyxette
+[13:49:01] [Server thread/INFO]: [Not Secure] <whitehairguy> flowers?
+[13:49:34] [Server thread/INFO]: [Not Secure] <whitehairguy> better
+[13:50:07] [Server thread/INFO]: [Not Secure] <whitehairguy> skinny nigga
+[13:50:57] [Server thread/INFO]: [Not Secure] <whitehairguy> -200 -1500
+[13:51:02] [Server thread/INFO]: [Not Secure] <whitehairguy> around this
+[13:51:23] [Server thread/INFO]: [Not Secure] <whitehairguy> wanna bred ?wtf
+[13:51:38] [Server thread/INFO]: [Not Secure] <whitehairguy> incest shit
+[13:52:15] [Server thread/INFO]: [Not Secure] <whitehairguy> :')
+[13:52:30] [Server thread/INFO]: [Not Secure] <whitehairguy> 54 furnances bros rich
+[13:52:51] [Server thread/INFO]: [Not Secure] <whitehairguy> rakshit ki mining trip hai kl raat ki
+[13:53:40] [Server thread/INFO]: MiffMoff lost connection: Disconnected
+[13:53:40] [Server thread/INFO]: MiffMoff left the game
+[13:53:47] [Server thread/INFO]: [Not Secure] <whitehairguy> true
+[13:55:30] [Server thread/INFO]: [Not Secure] <Nyxette> uhh....
+[14:02:17] [Server thread/INFO]: [Not Secure] <whitehairguy> maybe
+[14:02:20] [Server thread/INFO]: [Not Secure] <whitehairguy> have to check
+[14:03:05] [Server thread/INFO]: [Not Secure] <whitehairguy> nope
+[14:03:09] [Server thread/INFO]: [Not Secure] <whitehairguy> nope
+[14:03:57] [Server thread/INFO]: [Not Secure] <whitehairguy> what???
+[14:04:07] [Server thread/INFO]: [Not Secure] <whitehairguy> what exactly??
+[14:04:23] [Server thread/INFO]: [Not Secure] <whitehairguy> deepslate dekr gya hu main
+[14:04:44] [Server thread/INFO]: [Not Secure] <whitehairguy> teri inventory mein 5 stacks
+[14:07:38] [Server thread/INFO]: [Not Secure] <whitehairguy> yes
+[14:08:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3343ms or 66 ticks behind
+[15:13:35] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[15:13:35] [Server thread/INFO]: whitehairguy left the game
+[15:27:06] [Server thread/INFO]: Nyxette has made the advancement [Monster Hunter]
+[15:28:31] [Server thread/INFO]: Nyxette has made the advancement [Enchanter]
+[15:29:52] [Server thread/INFO]: Nyxette has made the advancement [The Parrots and the Bats]
+[15:36:52] [Server thread/INFO]: [Not Secure] <Nyxette> 763 608
+[15:52:09] [Server thread/INFO]: whitehairguy[/127.0.0.1:58616] logged in with entity id 70730 at (780.3000000119209, 39.5, 515.2846665492652)
+[15:52:09] [Server thread/INFO]: whitehairguy joined the game
+[15:52:26] [Server thread/INFO]: [Not Secure] <Nyxette> 763 608
