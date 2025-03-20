@@ -2051,6 +2051,7 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
+      "minecraft:cat": "2025-03-20 06:34:28 +0530",
       "minecraft:cow": "2025-03-14 02:47:18 +0530",
       "minecraft:turtle": "2025-03-19 00:17:51 +0530"
     },
@@ -4000,6 +4001,7 @@
   },
   "minecraft:husbandry/complete_catalogue": {
     "criteria": {
+      "minecraft:persian": "2025-03-20 06:33:39 +0530",
       "minecraft:red": "2025-03-19 09:52:36 +0530"
     },
     "done": false
@@ -4241,6 +4243,12 @@
   "minecraft:recipes/decorations/pale_oak_sign": {
     "criteria": {
       "has_planks": "2025-03-20 04:50:33 +0530"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/fishy_business": {
+    "criteria": {
+      "cod": "2025-03-20 05:27:10 +0530"
     },
     "done": true
   },
