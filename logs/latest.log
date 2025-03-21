@@ -1,31 +1,99 @@
-[10:42:31] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.10
-[10:42:31] [main/INFO]: Loading 4 mods:
+[11:07:01] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.10
+[11:07:01] [main/INFO]: Loading 4 mods:
 	- fabricloader 0.16.10
 	   \-- mixinextras 0.4.1
 	- java 21
 	- minecraft 1.21.4
-[10:42:31] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/crestfallen/Minecraft/Vanilla/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[10:42:41] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[10:42:44] [main/INFO]: Loaded 1370 recipes
-[10:42:44] [main/INFO]: Loaded 1481 advancements
-[10:42:44] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[10:42:44] [Server thread/INFO]: Loading properties
-[10:42:44] [Server thread/INFO]: Default game type: SURVIVAL
-[10:42:44] [Server thread/INFO]: Generating keypair
-[10:42:44] [Server thread/INFO]: Starting Minecraft server on *:25565
-[10:42:45] [Server thread/INFO]: Using epoll channel type
-[10:42:45] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[10:42:45] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[10:42:45] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[10:42:45] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[10:42:45] [Server thread/INFO]: Preparing level "world"
-[10:42:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[10:42:48] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[10:42:48] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[10:42:48] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[10:42:48] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[10:42:48] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[10:42:48] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[10:42:48] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[10:42:49] [Server thread/INFO]: Time elapsed: 3568 ms
-[10:42:49] [Server thread/INFO]: Done (4.130s)! For help, type "help"
+[11:07:01] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/crestfallen/Minecraft/Vanilla/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[11:07:11] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[11:07:13] [main/INFO]: Loaded 1370 recipes
+[11:07:13] [main/INFO]: Loaded 1481 advancements
+[11:07:13] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[11:07:13] [Server thread/INFO]: Loading properties
+[11:07:13] [Server thread/INFO]: Default game type: SURVIVAL
+[11:07:13] [Server thread/INFO]: Generating keypair
+[11:07:14] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:07:14] [Server thread/INFO]: Using epoll channel type
+[11:07:14] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:07:14] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:07:14] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:07:14] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:07:14] [Server thread/INFO]: Preparing level "world"
+[11:07:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:07:18] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[11:07:18] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[11:07:18] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[11:07:18] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[11:07:18] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[11:07:18] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[11:07:18] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[11:07:18] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[11:07:18] [Server thread/INFO]: Time elapsed: 3695 ms
+[11:07:18] [Server thread/INFO]: Done (4.285s)! For help, type "help"
+[11:07:40] [Server thread/INFO]: whitehairguy[/127.0.0.1:35438] logged in with entity id 9 at (667.3000000119209, 67.0, 542.3000000119209)
+[11:07:40] [Server thread/INFO]: whitehairguy joined the game
+[11:07:40] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/13, l='ServerLevel[New World]', x=740.62, y=62.95, z=550.98]
+[11:07:40] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[11:07:40] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/14, l='ServerLevel[New World]', x=721.36, y=62.94, z=551.42]
+[11:07:40] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[11:07:40] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/15, l='ServerLevel[New World]', x=721.36, y=63.06, z=551.42]
+[11:07:40] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[11:07:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2038ms or 40 ticks behind
+[11:09:25] [Server thread/WARN]: whitehairguy moved too quickly! 7.426663759161443,2.9999999999999716,-6.763629850987627
+[11:09:28] [Server thread/WARN]: whitehairguy moved too quickly! 3.591166890427644,-9.277084548936699,-2.616111388868319
+[11:22:55] [Server thread/WARN]: whitehairguy moved too quickly! 5.184411374797719,2.9096000099181936,-8.410853772298026
+[11:23:02] [Server thread/WARN]: whitehairguy moved too quickly! 7.525134950812685,-4.615330090678015,-6.134381071267228
+[11:44:39] [Server thread/INFO]: Tranished[/127.236.167.49:42867] logged in with entity id 8562 at (645.4143005185706, 64.0, 580.6399261814026)
+[11:44:39] [Server thread/INFO]: Tranished joined the game
+[11:44:39] [Server thread/WARN]: whitehairguy moved too quickly! -5.877898580282931,2.9999999999999716,8.143328666815819
+[11:44:42] [Server thread/WARN]: whitehairguy moved too quickly! -5.979530220607785,4.216606021724594,9.747630712599005
+[11:45:18] [Server thread/INFO]: [Not Secure] <whitehairguy> dc?
+[11:45:23] [Server thread/INFO]: [Not Secure] <Tranished> 5 MIN DE
+[11:45:58] [Server thread/INFO]: [Not Secure] <whitehairguy> restarting mc
+[11:45:59] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[11:45:59] [Server thread/INFO]: whitehairguy left the game
+[11:48:19] [Server thread/INFO]: whitehairguy[/127.0.0.1:45182] logged in with entity id 10715 at (779.2728411983126, 63.0, 552.9383598386947)
+[11:48:19] [Server thread/INFO]: whitehairguy joined the game
+[11:48:19] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/10719, l='ServerLevel[New World]', x=740.62, y=62.95, z=550.98]
+[11:48:19] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[11:48:19] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/10720, l='ServerLevel[New World]', x=721.36, y=62.94, z=551.42]
+[11:48:19] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[11:48:19] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/10721, l='ServerLevel[New World]', x=721.36, y=63.06, z=551.42]
+[11:48:19] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[11:50:48] [Server thread/INFO]: [Not Secure] <whitehairguy> check the new house sir
+[11:50:58] [Server thread/INFO]: [Not Secure] <Tranished> Hol up
+[11:52:44] [Server thread/INFO]: [Not Secure] <whitehairguy> also follow me
+[11:52:56] [Server thread/INFO]: [Not Secure] <Tranished> the ballon is epic af
+[11:53:03] [Server thread/INFO]: [Not Secure] <whitehairguy> yayyyyy
+[11:53:06] [Server thread/INFO]: [Not Secure] <whitehairguy> placement theek th
+[11:53:08] [Server thread/INFO]: [Not Secure] <whitehairguy> ??
+[11:53:14] [Server thread/INFO]: [Not Secure] <whitehairguy> maine teen bar base bdla tha
+[11:53:19] [Server thread/INFO]: [Not Secure] <whitehairguy> i thought yeh theek hogi
+[11:53:29] [Server thread/INFO]: [Not Secure] <whitehairguy> follow
+[11:53:35] [Server thread/INFO]: [Not Secure] <whitehairguy> pick eleytra
+[11:53:43] [Server thread/INFO]: [Not Secure] <Tranished> ender chest
+[11:54:11] [Server thread/INFO]: [Not Secure] <Tranished> rocket ni hai mere pas
+[11:54:39] [Server thread/WARN]: whitehairguy moved too quickly! 12.58886228583583,1.0525488720917053,-13.149094842168552
+[11:54:44] [Server thread/WARN]: whitehairguy moved too quickly! 17.97415725761755,-2.784186309446298,3.2319663644557863
+[11:55:01] [Server thread/INFO]: [Not Secure] <whitehairguy> kinda slow
+[11:55:08] [Server thread/INFO]: [Not Secure] <whitehairguy> also chunk loader daal de
+[11:55:09] [Server thread/INFO]: [Not Secure] <whitehairguy> pearls
+[11:55:12] [Server thread/INFO]: [Not Secure] <Tranished> still reasonable
+[11:55:20] [Server thread/INFO]: [Not Secure] <whitehairguy> here
+[11:55:22] [Server thread/INFO]: [Not Secure] <whitehairguy> in every corner
+[11:55:34] [Server thread/INFO]: [Not Secure] <Tranished> no pearls bro
+[11:55:46] [Server thread/INFO]: [Not Secure] <whitehairguy> go get them and put them here
+[11:56:42] [Server thread/INFO]: [Not Secure] <Tranished> function kya hai ballon ka ?
+[11:56:50] [Server thread/INFO]: [Not Secure] <whitehairguy> decor
+[11:56:54] [Server thread/INFO]: [Not Secure] <Tranished> noice
+[11:57:06] [Server thread/INFO]: [Not Secure] <whitehairguy> changed server icon and motd too
+[11:57:15] [Server thread/INFO]: [Not Secure] <Tranished> fr i got confused
+[11:57:49] [Server thread/INFO]: [Not Secure] <whitehairguy> fountain you make
+[11:58:04] [Server thread/INFO]: [Not Secure] <whitehairguy> also change this gras block
+[11:58:08] [Server thread/INFO]: [Not Secure] <whitehairguy> back to what it was
+[11:58:08] [Server thread/INFO]: [Not Secure] <Tranished> imma make another statue kinda fountain
+[11:58:10] [Server thread/INFO]: [Not Secure] <whitehairguy> normal grass
+[12:01:15] [Server thread/INFO]: [Not Secure] <Tranished> bro gtg ill get on at 3pm-ish
+[12:01:46] [Server thread/INFO]: [Not Secure] <Tranished> ciao
+[12:01:50] [Server thread/INFO]: Tranished lost connection: Disconnected
+[12:01:50] [Server thread/INFO]: Tranished left the game
