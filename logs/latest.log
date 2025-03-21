@@ -1,807 +1,297 @@
-[15:10:57] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.10
-[15:10:57] [main/INFO]: Loading 4 mods:
+[00:20:35] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.10
+[00:20:35] [main/INFO]: Loading 4 mods:
 	- fabricloader 0.16.10
 	   \-- mixinextras 0.4.1
 	- java 21
 	- minecraft 1.21.4
-[15:10:57] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/raksh/Documents/GitHub/Vanilla/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[15:11:02] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:11:04] [main/INFO]: Loaded 1370 recipes
-[15:11:04] [main/INFO]: Loaded 1481 advancements
-[15:11:04] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[15:11:04] [Server thread/INFO]: Loading properties
-[15:11:04] [Server thread/INFO]: Default game type: SURVIVAL
-[15:11:04] [Server thread/INFO]: Generating keypair
-[15:11:04] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:11:04] [Server thread/INFO]: Using default channel type
-[15:11:04] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:11:04] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:11:04] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:11:04] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:11:04] [Server thread/INFO]: Preparing level "world"
-[15:11:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:11:05] [Worker-Main-16/INFO]: Preparing spawn area: 0%
-[15:11:05] [Worker-Main-16/INFO]: Preparing spawn area: 0%
-[15:11:05] [Server thread/INFO]: Time elapsed: 684 ms
-[15:11:05] [Server thread/INFO]: Done (0.998s)! For help, type "help"
-[15:11:45] [Server thread/INFO]: Nyxette[/127.204.195.65:49951] logged in with entity id 7 at (708.4975498908948, 62.0, 642.2760351968001)
-[15:11:45] [Server thread/INFO]: Nyxette joined the game
-[15:13:17] [Netty Server IO #17/ERROR]: Error sending packet clientbound/minecraft:disconnect
-io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
-	at knot/net.minecraft.class_9136.method_56426(class_9136.java:47) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_9136.encode(class_9136.java:14) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2545.method_10838(class_2545.java:26) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2545.encode(class_2545.java:12) ~[server-intermediary.jar:?]
-	at knot/io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.115.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.115.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:875) ~[netty-transport-4.1.115.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.115.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:868) ~[netty-transport-4.1.115.Final.jar:?]
-	at knot/io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.115.Final.jar:?]
-	at knot/net.minecraft.class_2535$2.write(class_2535.java:530) ~[server-intermediary.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.115.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:956) ~[netty-transport-4.1.115.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:982) ~[netty-transport-4.1.115.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:950) ~[netty-transport-4.1.115.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:1000) ~[netty-transport-4.1.115.Final.jar:?]
-	at knot/io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:974) ~[netty-transport-4.1.115.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:305) ~[netty-transport-4.1.115.Final.jar:?]
-	at knot/net.minecraft.class_2535.method_36942(class_2535.java:350) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2535.method_10764(class_2535.java:343) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2535.method_52906(class_2535.java:325) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2535.method_10752(class_2535.java:319) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2535.exceptionCaught(class_2535.java:170) ~[server-intermediary.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.115.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.115.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.115.Final.jar:?]
-	at knot/io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1324) ~[netty-transport-4.1.115.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.115.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.115.Final.jar:?]
-	at knot/io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:856) ~[netty-transport-4.1.115.Final.jar:?]
-	at knot/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:125) ~[netty-transport-4.1.115.Final.jar:?]
-	at knot/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:177) ~[netty-transport-4.1.115.Final.jar:?]
-	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.115.Final.jar:?]
-	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.115.Final.jar:?]
-	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.115.Final.jar:?]
-	at knot/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.115.Final.jar:?]
-	at knot/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.115.Final.jar:?]
-	at knot/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.115.Final.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[15:13:20] [Server thread/INFO]: Rad1108[/127.0.0.1:50132] logged in with entity id 677 at (841.6999999880791, 44.0, 493.6160230901286)
-[15:13:20] [Server thread/INFO]: Rad1108 joined the game
-[15:14:30] [Server thread/INFO]: [Not Secure] <Nyxette> can you grab me some logs pls
-[15:14:39] [Server thread/INFO]: [Not Secure] <Nyxette> eh sure
-[15:14:41] [Server thread/INFO]: [Not Secure] <Nyxette> that works
-[15:15:05] [Server thread/INFO]: [Not Secure] <Nyxette> AND BRING A TORCH
-[15:15:07] [Server thread/INFO]: [Not Secure] <Nyxette> pls
-[15:15:12] [Server thread/INFO]: [Not Secure] <Nyxette> epic
-[15:15:35] [Server thread/INFO]: [Not Secure] <Nyxette> villager breeder
-[15:15:46] [Server thread/INFO]: [Not Secure] <Nyxette> treehusse
-[15:16:02] [Server thread/INFO]: [Not Secure] <Nyxette> ty gang
-[15:16:12] [Server thread/INFO]: [Not Secure] <Nyxette> my opps are pulling up
-[15:20:16] [Server thread/INFO]: Rad1108 lost connection: Disconnected
-[15:20:16] [Server thread/INFO]: Rad1108 left the game
-[15:24:01] [Server thread/INFO]: Rad1108[/127.0.0.1:50356] logged in with entity id 3066 at (816.2359189476838, 63.0, 497.58912721947974)
-[15:24:01] [Server thread/INFO]: Rad1108 joined the game
-[15:24:13] [Server thread/INFO]: [Not Secure] <Nyxette> 3
-[15:25:56] [Server thread/INFO]: [Not Secure] <Nyxette> i cant help but notice
-[15:26:04] [Server thread/INFO]: [Not Secure] <Nyxette> the resources chest looks a little empty
-[15:26:13] [Server thread/INFO]: [Not Secure] <Nyxette> i mean
-[15:26:17] [Server thread/INFO]: [Not Secure] <Nyxette> i needed the redstone blocks
-[15:26:23] [Server thread/INFO]: [Not Secure] <Nyxette> and nobody uses redstone here
-[15:26:29] [Server thread/INFO]: [Not Secure] <Nyxette> THATS TRUE
-[15:26:33] [Server thread/INFO]: [Not Secure] <Nyxette> oh
-[15:26:33] [Server thread/INFO]: [Not Secure] <Nyxette> i see
-[15:27:32] [Server thread/INFO]: [Not Secure] <Nyxette> Copper?? oooooo
-[15:27:34] [Server thread/INFO]: [Not Secure] <Nyxette> tysm
-[15:27:45] [Server thread/INFO]: [Not Secure] <Nyxette> right next to my house too
-[15:27:50] [Server thread/INFO]: [Not Secure] <Nyxette> neighbours
-[15:28:04] [Server thread/INFO]: [Not Secure] <Nyxette> arre no no its nice
-[15:28:25] [Server thread/INFO]: [Not Secure] <Nyxette> mhm
-[15:28:36] [Server thread/INFO]: [Not Secure] <Nyxette> yeah
-[15:28:53] [Server thread/INFO]: [Not Secure] <Nyxette> enc T_T
-[15:29:12] [Server thread/INFO]: [Not Secure] <Nyxette> niceeee
-[15:29:40] [Server thread/INFO]: [Not Secure] <Nyxette> sure
-[15:29:48] [Server thread/INFO]: [Not Secure] <Nyxette> nope
-[15:40:58] [Server thread/INFO]: [Not Secure] <Nyxette> you near a bed?
-[15:41:03] [Server thread/INFO]: [Not Secure] <Rad1108> ys
-[15:41:08] [Server thread/INFO]: [Not Secure] <Rad1108> zzz
-[15:41:09] [Server thread/INFO]: [Not Secure] <Nyxette> one sec
-[15:41:53] [Server thread/INFO]: [Not Secure] <Nyxette> pl sleep
-[15:41:58] [Server thread/INFO]: [Not Secure] <Nyxette> phantoms are annoyin
-[15:41:58] [Server thread/INFO]: [Not Secure] <Nyxette> ty
-[15:44:46] [Server thread/INFO]: Rad1108 has made the advancement [Surge Protector]
-[15:50:20] [Server thread/INFO]: Rad1108 lost connection: Disconnected
-[15:50:20] [Server thread/INFO]: Rad1108 left the game
-[15:52:38] [Server thread/INFO]: Rad1108[/127.0.0.1:51444] logged in with entity id 12732 at (743.531466103053, 64.0, 474.3078576938748)
-[15:52:38] [Server thread/INFO]: Rad1108 joined the game
-[16:02:40] [Server thread/INFO]: Tranished[/127.178.122.18:51817] logged in with entity id 15595 at (680.2225088607358, 65.0, 587.9252835352517)
-[16:02:40] [Server thread/INFO]: Tranished joined the game
-[16:03:05] [Server thread/INFO]: [Not Secure] <Tranished> elloo
-[16:03:09] [Server thread/INFO]: [Not Secure] <Nyxette> ellooooo
-[16:03:09] [Server thread/INFO]: [Not Secure] <Rad1108> hola
-[16:05:18] [Server thread/INFO]: [Not Secure] <Nyxette> YES
-[16:05:22] [Server thread/INFO]: [Not Secure] <Nyxette> ONE IS WORKINg
-[16:05:25] [Server thread/INFO]: [Not Secure] <Nyxette> other isnt
-[16:05:26] [Server thread/INFO]: [Not Secure] <Nyxette> why
-[16:05:27] [Server thread/INFO]: [Not Secure] <Rad1108> yayy
-[16:05:44] [Server thread/INFO]: [Not Secure] <Tranished> other one needs another composter
-[16:05:48] [Server thread/INFO]: [Not Secure] <Nyxette> bruhhhhh
-[16:05:50] [Server thread/INFO]: [Not Secure] <Nyxette> uh
-[16:06:01] [Server thread/INFO]: [Not Secure] <Nyxette> no dont break that
-[16:06:06] [Server thread/INFO]: [Not Secure] <Tranished> remove the plank
-[16:06:06] [Server thread/INFO]: [Not Secure] <Nyxette> YES
-[16:06:08] [Server thread/INFO]: [Not Secure] <Nyxette> BABY MAKING
-[16:06:11] [Server thread/INFO]: [Not Secure] <Nyxette> BABY MAKINg
-[16:06:21] [Server thread/INFO]: [Not Secure] <Nyxette> WHERES THE BABY
-[16:06:24] [Server thread/INFO]: [Not Secure] <Nyxette> THERE IT IS
-[16:06:29] [Server thread/INFO]: [Not Secure] <Tranished> simba
-[16:06:39] [Server thread/INFO]: [Not Secure] <Nyxette> LETS GOOOOOOoo
-[16:06:44] [Server thread/INFO]: [Not Secure] <Tranished> W
-[16:06:45] [Server thread/INFO]: [Not Secure] <Nyxette> can u get me a composter pleaseeeeee
-[16:07:57] [Server thread/INFO]: [Not Secure] <Nyxette> now wher edo we keep this
-[16:08:05] [Server thread/INFO]: [Not Secure] <Tranished> put the slab on top of it
-[16:09:27] [Server thread/INFO]: [Not Secure] <Tranished> baby went where?
-[16:09:31] [Server thread/INFO]: [Not Secure] <Nyxette> in the tunnel\
-[16:09:41] [Server thread/INFO]: [Not Secure] <Tranished> ohh
-[16:09:42] [Server thread/INFO]: [Not Secure] <Nyxette> we use minecart
-[16:09:43] [Server thread/INFO]: [Not Secure] <Nyxette> and
-[16:09:44] [Server thread/INFO]: [Not Secure] <Nyxette> get it
-[16:10:04] [Server thread/INFO]: [Not Secure] <Tranished> bro
-[16:10:11] [Server thread/INFO]: [Not Secure] <Nyxette> yesss
-[16:10:24] [Server thread/INFO]: [Not Secure] <Tranished> i don think this sedign of trading hall works anymore
-[16:10:28] [Server thread/INFO]: [Not Secure] <Nyxette> ;-;
-[16:10:32] [Server thread/INFO]: [Not Secure] <Nyxette> what we gon do
-[16:10:43] [Server thread/INFO]: [Not Secure] <Tranished> i don know man
-[16:10:49] [Server thread/INFO]: [Not Secure] <Tranished> goodluck
-[16:10:53] [Server thread/INFO]: [Not Secure] <Nyxette> WDYM LOL
-[16:10:56] [Server thread/INFO]: [Not Secure] <Nyxette> GET OVER HERE
-[16:11:08] [Server thread/INFO]: [Not Secure] <Nyxette> Tell me whats wrong with ittttttt
-[16:11:24] [Server thread/INFO]: [Not Secure] <Tranished> the villagers will get back
-[16:11:35] [Server thread/INFO]: [Not Secure] <Nyxette> where
-[16:11:46] [Server thread/INFO]: [Not Secure] <Tranished> back there
-[16:11:51] [Server thread/INFO]: [Not Secure] <Tranished> kind of a bug
-[16:11:51] [Server thread/INFO]: [Not Secure] <Nyxette> thats for the zombie
-[16:12:20] [Server thread/INFO]: [Not Secure] <Tranished> idk man i read it somewhere
-[16:12:28] [Server thread/INFO]: [Not Secure] <Nyxette> hmmmmmm
-[16:12:28] [Server thread/INFO]: [Not Secure] <Tranished> just letting you know
-[16:12:30] [Server thread/INFO]: [Not Secure] <Nyxette> alr alr
-[16:12:36] [Server thread/INFO]: [Not Secure] <Nyxette> ill do a test run
-[16:13:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=671, y=64, z=564} class_2338{x=672, y=62, z=565}
-[16:19:58] [Server thread/INFO]: [Not Secure] <Tranished> sleep please
-[16:21:10] [Server thread/INFO]: [Not Secure] <Nyxette> OOO PRETTY
-[16:21:15] [Server thread/INFO]: [Not Secure] <Rad1108> tq
-[16:21:18] [Server thread/INFO]: [Not Secure] <Nyxette> have you seen any slime chunks anywhere
-[16:21:24] [Server thread/INFO]: [Not Secure] <Rad1108> yeah
-[16:21:28] [Server thread/INFO]: [Not Secure] <Nyxette> need sticku pistons
-[16:21:29] [Server thread/INFO]: [Not Secure] <Nyxette> OH FR?
-[16:21:32] [Server thread/INFO]: [Not Secure] <Rad1108> yes
-[16:21:40] [Server thread/INFO]: [Not Secure] <Nyxette> where
-[16:21:51] [Server thread/INFO]: [Not Secure] <Rad1108> how many?
-[16:21:56] [Server thread/INFO]: [Not Secure] <Nyxette> lemme pull it up
-[16:22:09] [Server thread/INFO]: [Not Secure] <Nyxette> 30
-[16:22:19] [Server thread/INFO]: [Not Secure] <Rad1108> what are you building?
-[16:22:24] [Server thread/INFO]: [Not Secure] <Nyxette> a pimston door
-[16:23:59] [Server thread/INFO]: [Not Secure] <Rad1108> somewhere here i found 1 slime
-[16:24:27] [Server thread/INFO]: [Not Secure] <Rad1108> here i had found the slime
-[16:24:36] [Server thread/INFO]: [Not Secure] <Nyxette> alr alr
-[16:24:38] [Server thread/INFO]: [Not Secure] <Rad1108> as far as i remember
-[16:24:50] [Server thread/INFO]: [Not Secure] <Nyxette> ae
-[16:25:07] [Server thread/INFO]: [Not Secure] <Rad1108> make it flat and look if they spawn
-[16:25:11] [Server thread/INFO]: [Not Secure] <Rad1108> ill help you
-[16:25:13] [Server thread/INFO]: [Not Secure] <Nyxette> lemme look the f3 menu
-[16:25:36] [Server thread/INFO]: [Not Secure] <Tranished> where did all the sugarcane go?
-[16:25:45] [Server thread/INFO]: [Not Secure] <Rad1108> i took them
-[16:25:49] [Server thread/INFO]: [Not Secure] <Nyxette> huh
-[16:25:50] [Server thread/INFO]: [Not Secure] <Rad1108> you need paper?
-[16:25:52] [Server thread/INFO]: [Not Secure] <Nyxette> nvm its not working
-[16:25:54] [Server thread/INFO]: [Not Secure] <Tranished> yeee
-[16:25:59] [Server thread/INFO]: [Not Secure] <Tranished> can i get sum
-[16:26:06] [Server thread/INFO]: [Not Secure] <Rad1108> ys
-[16:27:37] [Server thread/INFO]: [Not Secure] <Rad1108> xome to my base for paper
-[16:27:44] [Server thread/INFO]: [Not Secure] <Tranished> omw
-[16:30:01] [Server thread/INFO]: [Not Secure] <Tranished> noice build big man
-[16:30:37] [Server thread/INFO]: [Not Secure] <Rad1108> tq
-[16:31:37] [Server thread/INFO]: [Not Secure] <Tranished> got any string ?
-[16:31:49] [Server thread/INFO]: [Not Secure] <Rad1108> in the chest outside the mineshaft
-[16:32:57] [Server thread/INFO]: Tranished has made the advancement [Fishy Business]
-[16:44:16] [Server thread/INFO]: [Not Secure] <Rad1108> anyone has that new wood type?
-[16:44:22] [Server thread/INFO]: [Not Secure] <Rad1108> creaking biome one
-[16:44:26] [Server thread/INFO]: [Not Secure] <Tranished> nope
-[16:44:29] [Server thread/INFO]: [Not Secure] <Nyxette> yeah its near the treehouse
-[16:44:38] [Server thread/INFO]: [Not Secure] <Nyxette> theres very less so
-[16:44:45] [Server thread/INFO]: [Not Secure] <Nyxette> try and get saplings or sumth
-[16:45:01] [Server thread/INFO]: [Not Secure] <Nyxette> crest planted it and he didnt want anyone to chop it down
-[16:45:08] [Server thread/INFO]: [Not Secure] <Rad1108> got the sapling
-[16:45:23] [Server thread/INFO]: [Not Secure] <Rad1108> yeah i know crest
-[17:07:02] [Server thread/INFO]: [Not Secure] <Nyxette> Damn
-[17:07:08] [Server thread/INFO]: [Not Secure] <Nyxette> this place is coming together wtf
-[17:07:18] [Server thread/INFO]: [Not Secure] <Nyxette> what blocks did you use for texturing
-[17:07:35] [Server thread/INFO]: [Not Secure] <Nyxette> one is deepslate bricks
-[17:07:35] [Server thread/INFO]: [Not Secure] <Rad1108> deepslate and tuff
-[17:07:38] [Server thread/INFO]: [Not Secure] <Nyxette> huh
-[17:11:24] [Server thread/INFO]: Tranished lost connection: Disconnected
-[17:11:24] [Server thread/INFO]: Tranished left the game
-[17:11:50] [Server thread/INFO]: [Not Secure] <Nyxette> pretty
-[17:15:55] [Server thread/INFO]: Nyxette lost connection: Disconnected
-[17:15:55] [Server thread/INFO]: Nyxette left the game
-[17:17:24] [Server thread/INFO]: Nyxette[/127.204.195.65:53619] logged in with entity id 37278 at (763.9619423694351, 63.0, 606.3545737449916)
-[17:17:24] [Server thread/INFO]: Nyxette joined the game
-[17:17:41] [Server thread/INFO]: [Not Secure] <Rad1108> whenever this happens discord pe msg kar dena
-[17:28:17] [Server thread/INFO]: Rad1108 lost connection: Disconnected
-[17:28:17] [Server thread/INFO]: Rad1108 left the game
-[17:30:41] [Server thread/INFO]: Rad1108[/127.0.0.1:53748] logged in with entity id 41202 at (765.4694736803742, 58.0, 547.427341385352)
-[17:30:41] [Server thread/INFO]: Rad1108 joined the game
-[17:31:14] [Server thread/INFO]: [Not Secure] <Nyxette> sugarcane farm is broken
-[17:31:22] [Server thread/INFO]: [Not Secure] <Rad1108> aa rha
-[17:31:28] [Server thread/INFO]: [Not Secure] <Nyxette> minecart nhi hai
-[17:31:38] [Server thread/INFO]: [Not Secure] <Nyxette> nvm hai but stuck
-[17:31:53] [Server thread/INFO]: [Not Secure] <Rad1108> are rukjao
-[17:32:18] [Server thread/INFO]: Tranished[/127.178.122.18:53769] logged in with entity id 41534 at (645.8023596492482, 64.0, 581.9732508068214)
-[17:32:18] [Server thread/INFO]: Tranished joined the game
-[17:32:23] [Server thread/INFO]: [Not Secure] <Rad1108> got the redstone torch?
-[17:32:26] [Server thread/INFO]: [Not Secure] <Nyxette> nope
-[17:33:42] [Server thread/INFO]: [Not Secure] <Rad1108> aa jao bahar
-[17:34:04] [Server thread/INFO]: [Not Secure] <Nyxette> wth
-[17:34:22] [Server thread/INFO]: [Not Secure] <Tranished> what you guys doi ?
-[17:34:26] [Server thread/INFO]: [Not Secure] <Nyxette> fixing cane farm
-[17:37:59] [Server thread/WARN]: Tranished moved too quickly! -7.544166196901642,-0.5800000131130219,-6.721700455449081
-[17:40:22] [Server thread/INFO]: [Not Secure] <Nyxette> Gang
-[17:40:26] [Server thread/INFO]: [Not Secure] <Nyxette> can i buy slime balls from anyone
-[17:44:37] [Server thread/INFO]: [Not Secure] <Rad1108> can anyone get me about 2 stacks of spruse logs?
-[17:46:43] [Server thread/INFO]: [Not Secure] <Nyxette> got redstone?
-[17:46:45] [Server thread/INFO]: [Not Secure] <Nyxette> need torches
-[17:46:54] [Server thread/INFO]: [Not Secure] <Tranished> at my base hol up
-[17:47:30] [Server thread/INFO]: [Not Secure] <Nyxette> i made my base so far away im regretting it now
-[17:47:51] [Server thread/INFO]: [Not Secure] <Nyxette> LOL I THOUGHT THIS WAS LAVA
-[17:47:53] [Server thread/INFO]: [Not Secure] <Tranished> i lost it
-[17:48:01] [Server thread/INFO]: [Not Secure] <Nyxette> aw
-[17:54:56] [Server thread/INFO]: Nyxette has made the advancement [What a Deal!]
-[17:56:34] [Server thread/INFO]: [Not Secure] <Nyxette> phantoms are killing me
-[18:00:16] [Server thread/INFO]: Nyxette was blown up by Creeper
-[18:01:33] [Server thread/INFO]: [Not Secure] <Tranished> damn
-[18:02:29] [Server thread/INFO]: [Not Secure] <Nyxette> ae
-[18:02:31] [Server thread/INFO]: [Not Secure] <Nyxette> changed his deal
-[18:02:35] [Server thread/INFO]: [Not Secure] <Nyxette> from stick to arrow
-[18:02:38] [Server thread/INFO]: [Not Secure] <Nyxette> what an ahole
-[18:03:11] [Server thread/INFO]: [Not Secure] <Nyxette> wait
-[18:03:13] [Server thread/INFO]: [Not Secure] <Nyxette> itll reset
-[18:03:15] [Server thread/INFO]: [Not Secure] <Nyxette> in 20 mins
-[18:03:23] [Server thread/INFO]: [Not Secure] <Rad1108> no
-[18:03:26] [Server thread/INFO]: [Not Secure] <Tranished> boom
-[18:03:34] [Server thread/INFO]: [Not Secure] <Rad1108> break and replace the fletched
-[18:03:40] [Server thread/INFO]: [Not Secure] <Nyxette> mve
-[18:03:52] [Server thread/INFO]: [Not Secure] <Nyxette> smart man
-[18:04:00] [Server thread/INFO]: Tranished has made the advancement [What a Deal!]
-[18:04:12] [Server thread/INFO]: [Not Secure] <Tranished> bro is locked lets make other villagers
-[18:04:26] [Server thread/INFO]: [Not Secure] <Nyxette> EEPIC
-[18:04:30] [Server thread/INFO]: [Not Secure] <Nyxette> who else do we need
-[18:04:32] [Server thread/INFO]: [Not Secure] <Tranished> add em villagers ill give em trades
-[18:04:36] [Server thread/INFO]: [Not Secure] <Nyxette> look first row is for money making villagers
-[18:04:44] [Server thread/INFO]: [Not Secure] <Nyxette> who give uus a shit ton of emeralds
-[18:04:57] [Server thread/INFO]: [Not Secure] <Nyxette> next row would be for lecterns
-[18:05:22] [Server thread/INFO]: [Not Secure] <Tranished> we need 3 fletchers 2 toolsmith, 2 weapon smith and a shit tonn of librarians
-[18:05:35] [Server thread/INFO]: [Not Secure] <Nyxette> 3 fletch 2 tool and 2 weapon?
-[18:05:42] [Server thread/INFO]: [Not Secure] <Tranished> yup
-[18:05:45] [Server thread/INFO]: [Not Secure] <Nyxette> what else
-[18:05:47] [Server thread/INFO]: [Not Secure] <Nyxette> farmers?
-[18:05:50] [Server thread/INFO]: [Not Secure] <Tranished> we got 1 fletcher
-[18:05:53] [Server thread/INFO]: [Not Secure] <Rad1108> the back passage needs to be one more down
-[18:05:57] [Server thread/INFO]: [Not Secure] <Tranished> 2 more to go
-[18:06:05] [Server thread/INFO]: [Not Secure] <Nyxette> oh yeah
-[18:06:19] [Server thread/INFO]: [Not Secure] <Nyxette> wait fr tho?
-[18:06:45] [Server thread/INFO]: [Not Secure] <Nyxette> frst imma fill in the villagers
-[18:06:49] [Server thread/INFO]: [Not Secure] <Nyxette> then imma bring the zombi
-[18:07:04] [Server thread/INFO]: [Not Secure] <Rad1108> i am going for lunch if the sever stops message me on discord
-[18:07:06] [Server thread/INFO]: [Not Secure] <Nyxette> meanwhile i need all the flint i can get to get fletching tables
-[18:07:09] [Server thread/INFO]: [Not Secure] <Nyxette> alr
-[18:07:11] [Server thread/INFO]: Rad1108 lost connection: Disconnected
-[18:07:11] [Server thread/INFO]: Rad1108 left the game
-[18:07:17] [Server thread/INFO]: [Not Secure] <Tranished> on it
-[18:07:20] [Server thread/INFO]: [Not Secure] <Nyxette> ye
-[18:07:31] [Server thread/INFO]: [Not Secure] <Nyxette> like waise hi if while mining and stuff you get flint
-[18:07:32] [Server thread/INFO]: [Not Secure] <Nyxette> keep it
-[18:07:35] [Server thread/INFO]: [Not Secure] <Nyxette> for fletching tables
-[18:09:54] [Server thread/INFO]: [Not Secure] <Nyxette> you got a shulker?
-[18:10:00] [Server thread/INFO]: [Not Secure] <Tranished> nope
-[18:10:00] [Server thread/INFO]: [Not Secure] <Nyxette> which i can borrow for a few mins
-[18:10:03] [Server thread/INFO]: [Not Secure] <Nyxette> oof
-[18:11:15] [Server thread/INFO]: [Not Secure] <Tranished> big man
-[18:11:18] [Server thread/INFO]: [Not Secure] <Nyxette> yes sir
-[18:11:26] [Server thread/INFO]: [Not Secure] <Tranished> put the villagers in them slots please
-[18:11:31] [Server thread/INFO]: [Not Secure] <Tranished> i got the flint
-[18:11:34] [Server thread/INFO]: [Not Secure] <Nyxette> alr ill do that first
-[18:13:22] [Server thread/INFO]: Nyxette lost connection: Disconnected
-[18:13:22] [Server thread/INFO]: Nyxette left the game
-[18:13:22] [Server thread/INFO]: Tranished lost connection: Disconnected
-[18:13:22] [Server thread/INFO]: Tranished left the game
-[18:14:22] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[18:16:34] [Server thread/INFO]: Tranished[/127.178.122.18:57657] logged in with entity id 58936 at (765.8783891674219, 58.0, 547.2139372849589)
-[18:16:34] [Server thread/INFO]: Tranished joined the game
-[18:17:10] [Server thread/INFO]: Tranished lost connection: Disconnected
-[18:17:10] [Server thread/INFO]: Tranished left the game
-[18:18:03] [Server thread/INFO]: Nyxette[/127.204.195.65:57733] logged in with entity id 59664 at (704.6714230608367, 62.0, 605.5616887123313)
-[18:18:03] [Server thread/INFO]: Nyxette joined the game
-[18:18:17] [Server thread/INFO]: Tranished[/127.178.122.18:57741] logged in with entity id 60272 at (765.8783891674219, 58.0, 547.2139372849589)
-[18:18:17] [Server thread/INFO]: Tranished joined the game
-[18:18:26] [Server thread/INFO]: [Not Secure] <Nyxette> the villager isnt taking the job
-[18:18:36] [Server thread/INFO]: [Not Secure] <Nyxette> remove his balls
-[18:18:38] [Server thread/INFO]: [Not Secure] <Tranished> ill be there gimme a min
-[18:22:05] [Server thread/INFO]: [Not Secure] <Nyxette> if you see sticks pls lock in the trade
-[18:23:17] [Server thread/INFO]: [Not Secure] <Tranished> aight
-[18:23:38] [Server thread/INFO]: [Not Secure] <Nyxette> enough for now?
-[18:23:41] [Server thread/INFO]: [Not Secure] <Nyxette> or need more
-[18:23:58] [Server thread/INFO]: [Not Secure] <Tranished> more than enough
-[18:24:02] [Server thread/INFO]: [Not Secure] <Nyxette> alr
-[18:24:13] [Server thread/INFO]: [Not Secure] <Nyxette> running a bit low on villagers
-[18:24:17] [Server thread/INFO]: [Not Secure] <Tranished> now we need 5 more villagers for librarions
-[18:24:27] [Server thread/INFO]: [Not Secure] <Nyxette> alr
-[18:24:35] [Server thread/INFO]: [Not Secure] <Nyxette> one for mending one unbreaking
-[18:24:38] [Server thread/INFO]: [Not Secure] <Nyxette> one prot
-[18:24:40] [Server thread/INFO]: [Not Secure] <Nyxette> what else
-[18:24:42] [Server thread/INFO]: [Not Secure] <Tranished> imma get wood
-[18:24:44] [Server thread/INFO]: [Not Secure] <Nyxette> efficiency
-[18:24:46] [Server thread/INFO]: [Not Secure] <Nyxette> alr got it
-[18:24:48] [Server thread/INFO]: [Not Secure] <Nyxette> we need wood
-[18:25:00] [Server thread/INFO]: [Not Secure] <Tranished> prot, effec, mending , unbreaking , fortune etc
-[18:25:04] [Server thread/INFO]: [Not Secure] <Nyxette> alr alr
-[18:26:53] [Server thread/INFO]: [Not Secure] <Nyxette> DAMN
-[18:30:41] [Server thread/INFO]: [Not Secure] <Tranished> broooo
-[18:30:51] [Server thread/INFO]: [Not Secure] <Tranished> get 9 emeralds quick
-[18:31:04] [Server thread/INFO]: [Not Secure] <Nyxette> theres some in the chest
-[18:31:07] [Server thread/INFO]: [Not Secure] <Nyxette> in front of villagers
-[18:31:29] [Server thread/INFO]: [Not Secure] <Tranished> we got prot 4 villager
-[18:31:33] [Server thread/INFO]: [Not Secure] <Nyxette> LETS GOOOOOOOOOOoo
-[18:31:35] [Server thread/INFO]: [Not Secure] <Nyxette> NO WAY
-[18:31:37] [Server thread/INFO]: [Not Secure] <Nyxette> YOURE THE BEST
-[18:31:54] [Server thread/INFO]: [Not Secure] <Nyxette> now we just gotta torture him
-[18:33:38] [Server thread/INFO]: [Not Secure] <Tranished> could you get another one in the chamber ?
-[18:33:44] [Server thread/INFO]: [Not Secure] <Nyxette> one sec
-[18:33:47] [Server thread/INFO]: [Not Secure] <Nyxette> im in my base
-[18:33:52] [Server thread/INFO]: [Not Secure] <Tranished> aight
-[18:33:54] [Server thread/INFO]: [Not Secure] <Nyxette> can you uh
-[18:34:04] [Server thread/INFO]: [Not Secure] <Nyxette> bring a cow lol
-[18:34:14] [Server thread/INFO]: [Not Secure] <Tranished> what why?
-[18:34:25] [Server thread/INFO]: [Not Secure] <Nyxette> i kinda wanna make a proper lether farm
-[18:34:30] [Server thread/INFO]: [Not Secure] <Tranished> bruh
-[18:34:36] [Server thread/INFO]: [Not Secure] <Tranished> i will make one nether
-[18:34:39] [Server thread/INFO]: [Not Secure] <Tranished> leave it
-[18:34:48] [Server thread/INFO]: [Not Secure] <Nyxette> fr?
-[18:34:53] [Server thread/INFO]: [Not Secure] <Tranished> as for bookshelves we got it covered
-[18:34:58] [Server thread/INFO]: [Not Secure] <Nyxette> pakka?
-[18:35:04] [Server thread/INFO]: [Not Secure] <Tranished> fr big man
-[18:35:07] [Server thread/INFO]: [Not Secure] <Nyxette> alr alr
-[18:35:11] [Server thread/INFO]: [Not Secure] <Nyxette> we got leather
-[18:35:16] [Server thread/INFO]: [Not Secure] <Nyxette> might upgrade sugarcane farm then
-[18:39:07] [Server thread/INFO]: [Not Secure] <Nyxette> night
-[18:39:25] [Server thread/INFO]: [Not Secure] <Nyxette> imma log off for a bit
-[18:39:27] [Server thread/INFO]: [Not Secure] <Nyxette> btw
-[18:39:32] [Server thread/INFO]: [Not Secure] <Tranished> nw gang
-[18:39:32] [Server thread/INFO]: [Not Secure] <Nyxette> if you see a slime anywhere
-[18:39:36] [Server thread/INFO]: [Not Secure] <Nyxette> please mark the chunk
-[18:39:37] [Server thread/INFO]: [Not Secure] <Tranished> gotcha
-[18:39:40] [Server thread/INFO]: [Not Secure] <Nyxette> i desperately need it
-[18:39:40] [Server thread/INFO]: [Not Secure] <Nyxette> alr cya
-[18:39:43] [Server thread/INFO]: Nyxette lost connection: Disconnected
-[18:39:43] [Server thread/INFO]: Nyxette left the game
-[18:39:43] [Server thread/INFO]: [Not Secure] <Tranished> cya
-[18:47:58] [Server thread/INFO]: Rad1108[/127.0.0.1:58113] logged in with entity id 69995 at (712.1502994194259, 65.0, 591.3024293869056)
-[18:47:58] [Server thread/INFO]: Rad1108 joined the game
-[18:49:35] [Server thread/INFO]: [Not Secure] <Rad1108> bro wt ddoin?
-[18:49:57] [Server thread/INFO]: [Not Secure] <Tranished> gettin em trades
-[18:50:12] [Server thread/INFO]: [Not Secure] <Rad1108> good make one for efficienyy if possible
-[18:50:24] [Server thread/INFO]: [Not Secure] <Rad1108> and if you need paper ill give you
-[18:50:24] [Server thread/INFO]: [Not Secure] <Tranished> we got prot n mending
-[18:50:31] [Server thread/INFO]: [Not Secure] <Rad1108> good
-[18:50:39] [Server thread/INFO]: [Not Secure] <Rad1108> we already had a mending one
-[18:50:49] [Server thread/INFO]: [Not Secure] <Tranished> cost ?
-[18:50:58] [Server thread/INFO]: [Not Secure] <Rad1108> not as good as this one
-[18:52:17] [Server thread/INFO]: [Not Secure] <Tranished> unbreaking acquired
-[19:11:46] [Server thread/INFO]: Nyxette[/127.204.195.65:58364] logged in with entity id 77606 at (712.2761286699827, 63.0, 640.0779748007384)
-[19:11:46] [Server thread/INFO]: Nyxette joined the game
-[19:12:10] [Server thread/INFO]: [Not Secure] <Nyxette> halloo
-[19:12:15] [Server thread/INFO]: [Not Secure] <Rad1108> hola
-[19:12:18] [Server thread/INFO]: [Not Secure] <Nyxette> WOW
-[19:12:20] [Server thread/INFO]: [Not Secure] <Tranished> elo'
-[19:12:22] [Server thread/INFO]: [Not Secure] <Nyxette> WE GOT BOOKS
-[19:12:25] [Server thread/INFO]: [Not Secure] <Nyxette> Tarnished youre crazy
-[19:12:33] [Server thread/INFO]: [Not Secure] <Tranished> ty ty
-[19:13:01] [Server thread/INFO]: [Not Secure] <Nyxette> hmmmmmm
-[19:13:05] [Server thread/INFO]: [Not Secure] <Nyxette> should i make an automatic farm
-[19:13:14] [Server thread/INFO]: [Not Secure] <Nyxette> potatoes and carrots
-[19:13:14] [Server thread/INFO]: [Not Secure] <Tranished> you got a lil iron ?
-[19:13:16] [Server thread/INFO]: [Not Secure] <Nyxette> sure
-[19:13:17] [Server thread/INFO]: [Not Secure] <Nyxette> follow me
-[19:14:02] [Server thread/INFO]: [Not Secure] <Tranished> damn'
-[19:14:02] [Server thread/INFO]: [Not Secure] <Nyxette> below the anvil
-[19:14:05] [Server thread/INFO]: [Not Secure] <Nyxette> dont use too much
-[19:14:10] [Server thread/INFO]: [Not Secure] <Nyxette> oh wait
-[19:14:11] [Server thread/INFO]: [Not Secure] <Nyxette> in the
-[19:14:13] [Server thread/INFO]: [Not Secure] <Nyxette> furnance
-[19:14:26] [Server thread/INFO]: [Not Secure] <Tranished> took 7
-[19:14:28] [Server thread/INFO]: [Not Secure] <Nyxette> sure
-[19:15:11] [Server thread/INFO]: [Not Secure] <Nyxette> any slimes yet? :p
-[19:15:19] [Server thread/INFO]: [Not Secure] <Tranished> nope
-[19:15:22] [Server thread/INFO]: [Not Secure] <Nyxette> oof
-[19:15:29] [Server thread/INFO]: [Not Secure] <Nyxette> ok we need a weaponsmith right
-[19:15:34] [Server thread/INFO]: [Not Secure] <Nyxette> or
-[19:15:36] [Server thread/INFO]: [Not Secure] <Nyxette> toolsmith
-[19:15:40] [Server thread/INFO]: [Not Secure] <Nyxette> who sells axes
-[19:15:45] [Server thread/INFO]: [Not Secure] <Nyxette> so we can use those for wood farm
-[19:15:57] [Server thread/INFO]: [Not Secure] <Tranished> naah we need more librarians
-[19:16:08] [Server thread/INFO]: [Not Secure] <Nyxette> thats
-[19:16:10] [Server thread/INFO]: [Not Secure] <Nyxette> true
-[19:16:16] [Server thread/INFO]: [Not Secure] <Nyxette> we dont got any emeralds tho T_T
-[19:19:26] [Server thread/INFO]: [Not Secure] <Nyxette> i might have
-[19:19:31] [Server thread/INFO]: [Not Secure] <Nyxette> a good exploit in mind
-[19:28:23] [Server thread/INFO]: [Not Secure] <Nyxette> tarnished
-[19:28:28] [Server thread/INFO]: [Not Secure] <Nyxette> you wanna make that cow farm rn?
-[19:28:51] [Server thread/INFO]: [Not Secure] <Tranished> nope
-[19:28:55] [Server thread/INFO]: [Not Secure] <Nyxette> alr alr
-[19:36:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=651, y=64, z=544} class_2338{x=651, y=62, z=543}
-[19:56:25] [Server thread/INFO]: [Not Secure] <Tranished> Nyxette bro can you add that zombie and decrease the prices?
-[19:56:33] [Server thread/INFO]: [Not Secure] <Tranished> i got all the villages
-[19:56:41] [Server thread/INFO]: [Not Secure] <Nyxette> sure
-[19:56:41] [Server thread/INFO]: [Not Secure] <Tranished> *villagers
-[19:57:00] [Server thread/INFO]: [Not Secure] <Nyxette> gimme a sec im trying to dig a hole
-[20:00:30] [Server thread/INFO]: [Not Secure] <Nyxette> alr
-[20:00:39] [Server thread/INFO]: [Not Secure] <Nyxette> time to get a zombie
-[20:03:04] [Server thread/INFO]: [Not Secure] <Nyxette> can u assist me a bit
-[20:03:24] [Server thread/INFO]: [Not Secure] <Tranished> gimme a min
-[20:03:26] [Server thread/INFO]: [Not Secure] <Nyxette> alr
-[20:04:53] [Server thread/INFO]: [Not Secure] <Nyxette> drop the minecart rq
-[20:05:31] [Server thread/INFO]: [Not Secure] <Nyxette> ....
-[20:05:37] [Server thread/INFO]: [Not Secure] <Tranished> lol
-[20:05:39] [Server thread/INFO]: [Not Secure] <Nyxette> XD
-[20:05:45] [Server thread/INFO]: [Not Secure] <Nyxette> ....
-[20:05:47] [Server thread/INFO]: [Not Secure] <Nyxette> Lol
-[20:06:17] [Server thread/INFO]: [Not Secure] <Nyxette> last villager
-[20:06:18] [Server thread/INFO]: [Not Secure] <Nyxette> then zombie
-[20:07:17] [Server thread/INFO]: [Not Secure] <Nyxette> got 1 rail?
-[20:07:24] [Server thread/INFO]: [Not Secure] <Tranished> yeee
-[20:08:15] [Server thread/INFO]: [Not Secure] <Tranished> we need the potions first
-[20:08:18] [Server thread/INFO]: [Not Secure] <Nyxette> true
-[20:08:25] [Server thread/INFO]: [Not Secure] <Nyxette> and golden apples
-[20:08:29] [Server thread/INFO]: [Not Secure] <Tranished> real
-[20:08:40] [Server thread/INFO]: [Not Secure] <Nyxette> i was planning on going mining anyways
-[20:08:43] [Server thread/INFO]: [Not Secure] <Nyxette> ill get the gold ig
-[20:08:53] [Server thread/INFO]: [Not Secure] <Tranished> i got gold
-[20:08:55] [Server thread/INFO]: [Not Secure] <Nyxette> oh
-[20:08:57] [Server thread/INFO]: [Not Secure] <Nyxette> apples then
-[20:09:08] [Server thread/INFO]: [Not Secure] <Tranished> get the potions bruh
-[20:09:11] [Server thread/INFO]: [Not Secure] <Nyxette> aight
-[20:09:24] [Server thread/INFO]: [Not Secure] <Nyxette> blazes T_T
-[20:09:46] [Server thread/INFO]: [Not Secure] <Tranished> goodluck champ
-[20:12:08] [Server thread/INFO]: [Not Secure] <Nyxette> brb dinner
-[20:12:12] [Server thread/INFO]: [Not Secure] <Nyxette> will go right after
-[20:12:19] [Server thread/INFO]: [Not Secure] <Tranished> alr
-[20:14:13] [Server thread/INFO]: Nyxette lost connection: Disconnected
-[20:14:13] [Server thread/INFO]: Nyxette left the game
-[20:22:49] [Server thread/INFO]: Tranished lost connection: Disconnected
-[20:22:49] [Server thread/INFO]: Tranished left the game
-[20:24:04] [Server thread/INFO]: Rad1108 lost connection: Disconnected
-[20:24:04] [Server thread/INFO]: Rad1108 left the game
-[20:25:04] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[20:26:04] [Server thread/INFO]: Rad1108[/127.0.0.1:59268] logged in with entity id 99674 at (814.9846765579384, 71.0, 476.652143840369)
-[20:26:04] [Server thread/INFO]: Rad1108 joined the game
-[20:32:20] [Server thread/INFO]: Rad1108 lost connection: Disconnected
-[20:32:20] [Server thread/INFO]: Rad1108 left the game
-[20:32:24] [Server thread/INFO]: Rad1108[/127.0.0.1:59356] logged in with entity id 101327 at (812.5859986946356, 63.0, 496.27143534974016)
-[20:32:24] [Server thread/INFO]: Rad1108 joined the game
-[20:32:37] [Server thread/INFO]: Nyxette[/127.204.195.65:59360] logged in with entity id 101896 at (782.5118398558565, 40.0, 513.4067607117119)
-[20:32:37] [Server thread/INFO]: Nyxette joined the game
-[20:32:43] [Server thread/INFO]: [Not Secure] <Rad1108> yo
-[20:32:45] [Server thread/INFO]: [Not Secure] <Nyxette> wsup
-[20:32:56] [Server thread/INFO]: [Not Secure] <Rad1108> making the base still
-[20:33:02] [Server thread/INFO]: [Not Secure] <Nyxette> which base
-[20:33:13] [Server thread/INFO]: [Not Secure] <Rad1108> my offshore house
-[20:33:16] [Server thread/INFO]: [Not Secure] <Nyxette> Oooo
-[20:33:21] [Server thread/INFO]: [Not Secure] <Nyxette> still upgrading it?
-[20:33:23] [Server thread/INFO]: [Not Secure] <Nyxette> cool
-[20:33:31] [Server thread/INFO]: [Not Secure] <Rad1108> yeah
-[20:33:36] [Server thread/INFO]: [Not Secure] <Nyxette> imma go on a mining trip ig
-[20:33:42] [Server thread/INFO]: [Not Secure] <Rad1108> i am not that good at building
-[20:33:49] [Server thread/INFO]: [Not Secure] <Nyxette> arre wdym it looks amazing
-[21:08:48] [Server thread/INFO]: [Not Secure] <Nyxette> oye daytime hai ya night
-[21:08:54] [Server thread/INFO]: [Not Secure] <Rad1108> no idea
-[21:08:58] [Server thread/INFO]: [Not Secure] <Nyxette> skull
-[21:08:58] [Server thread/INFO]: [Not Secure] <Rad1108> me undrground
-[21:09:01] [Server thread/INFO]: [Not Secure] <Nyxette> same lol
-[21:17:52] [Server thread/INFO]: [Not Secure] <Nyxette> do we have a nether fortress coords?
-[21:17:58] [Server thread/INFO]: [Not Secure] <Rad1108> no
-[21:18:00] [Server thread/INFO]: [Not Secure] <Nyxette> oof
-[21:18:02] [Server thread/INFO]: [Not Secure] <Rad1108> crest knows
-[21:18:05] [Server thread/INFO]: [Not Secure] <Nyxette> need blazes for potions
-[21:18:06] [Server thread/INFO]: [Not Secure] <Nyxette> alr
-[21:18:26] [Server thread/INFO]: [Not Secure] <Rad1108> get a witch
-[21:18:36] [Server thread/INFO]: [Not Secure] <Nyxette> eeh?
-[21:18:39] [Server thread/INFO]: [Not Secure] <Nyxette> Oh
-[21:18:41] [Server thread/INFO]: [Not Secure] <Nyxette> OHHH
-[21:18:42] [Server thread/INFO]: [Not Secure] <Nyxette> OHHHH
-[21:18:46] [Server thread/INFO]: [Not Secure] <Nyxette> THATS SMART ACTUALLY
-[21:18:51] [Server thread/INFO]: [Not Secure] <Rad1108> thanks
-[21:18:56] [Server thread/INFO]: [Not Secure] <Nyxette> yeah no that makes sense
-[21:19:01] [Server thread/INFO]: [Not Secure] <Nyxette> lemme see on yt if i can do sumth like that
-[21:19:25] [Server thread/INFO]: [Not Secure] <Rad1108> by a witch you can get potions on yourself and that include weakness
-[21:19:30] [Server thread/INFO]: [Not Secure] <Nyxette> Skull
-[21:19:34] [Server thread/INFO]: [Not Secure] <Nyxette> makes sense
-[21:22:05] [Server thread/INFO]: [Not Secure] <Rad1108> made a jacuzzzi
-[21:22:11] [Server thread/INFO]: [Not Secure] <Nyxette> lets goo
-[21:22:14] [Server thread/INFO]: [Not Secure] <Nyxette> bubblez?
-[21:22:17] [Server thread/INFO]: [Not Secure] <Rad1108> yes
-[21:22:21] [Server thread/INFO]: [Not Secure] <Nyxette> Hell yeah!
-[21:22:33] [Server thread/INFO]: [Not Secure] <Rad1108> the smoke too
-[21:30:22] [Server thread/INFO]: [Not Secure] <Nyxette> yo
-[21:30:24] [Server thread/INFO]: [Not Secure] <Nyxette> can i
-[21:30:25] [Server thread/INFO]: [Not Secure] <Nyxette> borrow
-[21:30:29] [Server thread/INFO]: [Not Secure] <Nyxette> a shit ton of logs
-[21:30:34] [Server thread/INFO]: [Not Secure] <Nyxette> wait nvm i have some
-[21:30:35] [Server thread/INFO]: [Not Secure] <Nyxette> nvm nvm
-[21:30:41] [Server thread/INFO]: [Not Secure] <Rad1108> good
-[21:32:04] [Server thread/INFO]: [Not Secure] <Nyxette> what the hell
-[21:32:06] [Server thread/INFO]: [Not Secure] <Nyxette> is that song
-[21:32:15] [Server thread/INFO]: [Not Secure] <Rad1108> a disc
-[21:32:20] [Server thread/INFO]: [Not Secure] <Rad1108> of trial chambers
-[21:32:21] [Server thread/INFO]: [Not Secure] <Nyxette> Damn
-[21:32:33] [Server thread/INFO]: [Not Secure] <Rad1108> it has crazy beats
-[21:32:48] [Server thread/INFO]: [Not Secure] <Rad1108> listen full
-[21:33:22] [Server thread/INFO]: [Not Secure] <Rad1108> how's it?
-[21:34:01] [Server thread/INFO]: [Not Secure] <Nyxette> Its pretty good
-[21:34:07] [Server thread/INFO]: [Not Secure] <Nyxette> very final boss type
-[21:34:13] [Server thread/INFO]: [Not Secure] <Nyxette> say
-[21:34:20] [Server thread/INFO]: [Not Secure] <Nyxette> do we have an iron farm?
-[21:34:22] [Server thread/INFO]: [Not Secure] <Rad1108> yeah'
-[21:34:28] [Server thread/INFO]: [Not Secure] <Rad1108> warden fight kind
-[21:34:31] [Server thread/INFO]: [Not Secure] <Nyxette> yeah ikr
-[21:35:12] [Server thread/INFO]: [Not Secure] <Nyxette> can u help me transport villagers later
-[21:35:18] [Server thread/INFO]: [Not Secure] <Rad1108> yeah
-[21:35:19] [Server thread/INFO]: [Not Secure] <Nyxette> ty
-[21:35:22] [Server thread/INFO]: [Not Secure] <Nyxette> ill make it till then
-[21:35:59] [Server thread/INFO]: [Not Secure] <Rad1108> i got boat and lead
-[21:36:03] [Server thread/INFO]: [Not Secure] <Nyxette> sweet
-[21:36:05] [Server thread/INFO]: [Not Secure] <Nyxette> thatll work
-[21:38:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=750, y=58, z=525} class_2338{x=750, y=57, z=525}
-[21:38:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=750, y=58, z=525} class_2338{x=750, y=57, z=525}
-[21:38:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=749, y=58, z=525} class_2338{x=750, y=57, z=525}
-[21:41:25] [Server thread/INFO]: [Not Secure] <Nyxette> Uhhh giant mega iron farm
-[21:41:28] [Server thread/INFO]: [Not Secure] <Nyxette> or small and sweet
-[21:41:33] [Server thread/INFO]: [Not Secure] <Rad1108> giant
-[21:41:39] [Server thread/INFO]: [Not Secure] <Nyxette> T_T
-[21:41:47] [Server thread/INFO]: [Not Secure] <Rad1108> i believe in you
-[21:41:48] [Server thread/INFO]: [Not Secure] <Nyxette> I hate working with villagers
-[21:41:54] [Server thread/INFO]: [Not Secure] <Nyxette> wait actually
-[21:41:57] [Server thread/INFO]: [Not Secure] <Nyxette> come to my
-[21:41:58] [Server thread/INFO]: [Not Secure] <Nyxette> house
-[21:42:01] [Server thread/INFO]: [Not Secure] <Rad1108> make it somewhere it is in rendering chunks
-[21:42:24] [Server thread/INFO]: [Not Secure] <Nyxette> i need advice
-[21:42:40] [Server thread/INFO]: [Not Secure] <Rad1108> which one is yours?
-[21:42:44] [Server thread/INFO]: [Not Secure] <Nyxette> near your island
-[21:42:45] [Server thread/INFO]: [Not Secure] <Rad1108> the one near me>
-[21:42:48] [Server thread/INFO]: [Not Secure] <Nyxette> yes
-[21:42:49] [Server thread/INFO]: [Not Secure] <Rad1108> omw
-[21:43:26] [Server thread/INFO]: [Not Secure] <Nyxette> top secret
-[21:43:37] [Server thread/INFO]: [Not Secure] <Rad1108> piston gate??
-[21:43:49] [Server thread/INFO]: [Not Secure] <Nyxette> is this in render chunks
-[21:44:05] [Server thread/INFO]: [Not Secure] <Nyxette> just starting to dig it out
-[21:44:58] [Server thread/INFO]: [Not Secure] <Nyxette> whats above it
-[21:45:06] [Server thread/INFO]: [Not Secure] <Rad1108> thats exactly above my house
-[21:45:08] [Server thread/INFO]: [Not Secure] <Nyxette> LOL!?!?!?!
-[21:45:11] [Server thread/INFO]: [Not Secure] <Nyxette> uhm-
-[21:45:16] [Server thread/INFO]: [Not Secure] <Rad1108> left to it
-[21:45:18] [Server thread/INFO]: [Not Secure] <Nyxette> well-
-[21:45:26] [Server thread/INFO]: [Not Secure] <Nyxette> i can go the other side
-[21:45:26] [Server thread/INFO]: [Not Secure] <Rad1108> you can make it here
-[21:45:29] [Server thread/INFO]: [Not Secure] <Nyxette> is that just the water
-[21:45:43] [Server thread/INFO]: [Not Secure] <Rad1108> nah that place is fine
-[21:45:46] [Server thread/INFO]: [Not Secure] <Nyxette> fr?
-[21:45:49] [Server thread/INFO]: [Not Secure] <Rad1108> you can make it
-[21:45:51] [Server thread/INFO]: [Not Secure] <Rad1108> yeah
-[21:45:54] [Server thread/INFO]: [Not Secure] <Nyxette> like
-[21:45:56] [Server thread/INFO]: [Not Secure] <Nyxette> below ur house?
-[21:45:56] [Server thread/INFO]: [Not Secure] <Rad1108> how big is it?
-[21:45:59] [Server thread/INFO]: [Not Secure] <Nyxette> well
-[21:46:05] [Server thread/INFO]: [Not Secure] <Nyxette> pretty bog
-[21:46:11] [Server thread/INFO]: [Not Secure] <Rad1108> will it come till surface?
-[21:46:11] [Server thread/INFO]: [Not Secure] <Nyxette> but im afraid it'll lag the server
-[21:46:14] [Server thread/INFO]: [Not Secure] <Nyxette> lemme ask crest
-[21:46:22] [Server thread/INFO]: [Not Secure] <Rad1108> show it to me
-[21:46:25] [Server thread/INFO]: [Not Secure] <Nyxette> sure
-[21:46:42] [Server thread/INFO]: [Not Secure] <Rad1108> i also know what are the capabilites of the server
-[21:47:43] [Server thread/INFO]: [Not Secure] <Rad1108> this farm wont even drop the fps by 1
-[21:48:12] [Server thread/INFO]: [Not Secure] <Rad1108> whats your y level?
-[21:51:20] [Server thread/INFO]: Rad1108 lost connection: Disconnected
-[21:51:20] [Server thread/INFO]: Rad1108 left the game
-[21:51:44] [Server thread/INFO]: Rad1108[/127.0.0.1:61428] logged in with entity id 122767 at (812.9143729117122, 63.0, 508.2152545791611)
-[21:51:44] [Server thread/INFO]: Rad1108 joined the game
-[21:52:02] [Server thread/INFO]: Rad1108 lost connection: Disconnected
-[21:52:02] [Server thread/INFO]: Rad1108 left the game
-[22:06:13] [Server thread/INFO]: Rad1108[/127.0.0.1:62079] logged in with entity id 125771 at (812.9143729117122, 63.0, 508.2152545791611)
-[22:06:13] [Server thread/INFO]: Rad1108 joined the game
-[22:10:36] [Server thread/INFO]: Nyxette lost connection: Disconnected
-[22:10:36] [Server thread/INFO]: Nyxette left the game
-[22:10:55] [Server thread/INFO]: Rad1108 lost connection: Disconnected
-[22:10:55] [Server thread/INFO]: Rad1108 left the game
-[22:10:58] [Server thread/INFO]: Rad1108[/127.135.173.133:62285] logged in with entity id 126838 at (766.6933534927886, 58.0, 547.7292376132959)
-[22:10:58] [Server thread/INFO]: Rad1108 joined the game
-[22:11:02] [Server thread/INFO]: Rad1108 lost connection: Disconnected
-[22:11:02] [Server thread/INFO]: Rad1108 left the game
-[22:11:04] [Server thread/INFO]: Rad1108[/127.0.0.1:62298] logged in with entity id 127191 at (766.6933534927886, 58.0, 547.7292376132959)
-[22:11:04] [Server thread/INFO]: Rad1108 joined the game
-[22:18:10] [Server thread/INFO]: Nyxette[/127.204.195.65:62546] logged in with entity id 128620 at (699.0844271789751, 66.0, 557.049738806186)
-[22:18:10] [Server thread/INFO]: Nyxette joined the game
-[22:18:16] [Server thread/INFO]: [Not Secure] <Rad1108> yooo
-[22:18:24] [Server thread/INFO]: [Not Secure] <Nyxette> yoooooo
-[22:18:39] [Server thread/INFO]: [Not Secure] <Rad1108> so kahan bana rahe?
-[22:18:47] [Server thread/INFO]: [Not Secure] <Nyxette> wo iron farm?
-[22:18:52] [Server thread/INFO]: [Not Secure] <Nyxette> i mean i havent started you tell
-[22:18:54] [Server thread/INFO]: [Not Secure] <Nyxette> im gathering wood
-[22:19:05] [Server thread/INFO]: [Not Secure] <Rad1108> good
-[22:19:21] [Server thread/INFO]: [Not Secure] <Rad1108> jusst donnt mine into my house rest is fine
-[22:19:22] [Server thread/INFO]: [Not Secure] <Nyxette> its cool below ur house?
-[22:19:23] [Server thread/INFO]: [Not Secure] <Nyxette> alr
-[22:22:40] [Server thread/INFO]: [Not Secure] <Rad1108> got levels?
-[22:22:59] [Server thread/INFO]: Nyxette lost connection: Disconnected
-[22:22:59] [Server thread/INFO]: Nyxette left the game
-[22:24:01] [Server thread/INFO]: Rad1108 lost connection: Disconnected
-[22:24:01] [Server thread/INFO]: Rad1108 left the game
-[22:24:04] [Server thread/INFO]: Rad1108[/127.135.173.133:62781] logged in with entity id 129706 at (778.498310200312, 62.9375, 551.4929253029459)
-[22:24:04] [Server thread/INFO]: Rad1108 joined the game
-[22:24:08] [Server thread/INFO]: Nyxette[/127.204.195.65:62783] logged in with entity id 130062 at (692.4309293520434, 63.0, 571.3014317519924)
-[22:24:08] [Server thread/INFO]: Nyxette joined the game
-[22:24:37] [Server thread/INFO]: Rad1108 lost connection: Disconnected
-[22:24:37] [Server thread/INFO]: Rad1108 left the game
-[22:24:39] [Server thread/INFO]: Rad1108[/127.0.0.1:62833] logged in with entity id 130391 at (778.498310200312, 62.9375, 551.4929253029459)
-[22:24:39] [Server thread/INFO]: Rad1108 joined the game
-[22:28:11] [Server thread/INFO]: [Not Secure] <Nyxette> wtf
-[22:28:36] [Server thread/INFO]: [Not Secure] <Nyxette> Im underground
-[22:28:37] [Server thread/INFO]: [Not Secure] <Rad1108> kya hua?
-[22:29:07] [Server thread/INFO]: [Not Secure] <Rad1108> where?
-[22:29:15] [Server thread/INFO]: [Not Secure] <Nyxette> come to nether
-[22:29:22] [Server thread/INFO]: [Not Secure] <Nyxette> its taking me else where
-[22:29:27] [Server thread/INFO]: [Not Secure] <Rad1108> mai nether mai hi hun
-[22:29:31] [Server thread/INFO]: [Not Secure] <Rad1108> ohh
-[22:29:55] [Server thread/INFO]: [Not Secure] <Nyxette> like
-[22:30:12] [Server thread/INFO]: Nyxette has made the advancement [Ice Bucket Challenge]
-[22:30:12] [Server thread/INFO]: [Not Secure] <Nyxette> ayo
-[22:30:19] [Server thread/INFO]: [Not Secure] <Rad1108> lets go up
-[22:30:31] [Server thread/INFO]: [Not Secure] <Nyxette> u got efficiency?
-[22:30:37] [Server thread/INFO]: [Not Secure] <Rad1108> sometimes when there is no one in the overworld it changes portal
-[22:30:39] [Server thread/INFO]: [Not Secure] <Rad1108> yes
-[22:30:42] [Server thread/INFO]: [Not Secure] <Nyxette> Bruhhhh lol
-[22:36:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=75, y=65, z=158} class_2338{x=75, y=68, z=161}
-[22:48:20] [Server thread/INFO]: Villager class_1646['Librarian'/134136, l='ServerLevel[New World]', x=686.70, y=64.00, z=604.70] died, message: 'Librarian was slain by Zombie'
-[23:01:35] [Server thread/INFO]: [Not Secure] <Rad1108> i can see your name tag
-[23:01:38] [Server thread/INFO]: [Not Secure] <Rad1108> look up
-[23:01:46] [Server thread/INFO]: [Not Secure] <Nyxette> shhh
-[23:01:53] [Server thread/INFO]: [Not Secure] <Nyxette> nobody can know about this lair
-[23:01:59] [Server thread/INFO]: [Not Secure] <Rad1108> lol
-[23:02:07] [Server thread/INFO]: [Not Secure] <Rad1108> can i?
-[23:08:17] [Server thread/INFO]: [Not Secure] <Nyxette> can u bring
-[23:08:20] [Server thread/INFO]: [Not Secure] <Nyxette> 3 beds
-[23:08:21] [Server thread/INFO]: [Not Secure] <Nyxette> pls
-[23:08:30] [Server thread/INFO]: [Not Secure] <Rad1108> on it
-[23:11:37] [Server thread/INFO]: [Not Secure] <Nyxette> thats crazy
-[23:11:39] [Server thread/INFO]: [Not Secure] <Nyxette> vandalism
-[23:11:48] [Server thread/INFO]: [Not Secure] <Rad1108> nah thats bed tax
-[23:11:51] [Server thread/INFO]: [Not Secure] <Nyxette> LOL
-[23:11:56] [Server thread/INFO]: [Not Secure] <Rad1108> ill fill them up
-[23:11:57] [Server thread/INFO]: [Not Secure] <Nyxette> if this is bed tax
-[23:12:00] [Server thread/INFO]: [Not Secure] <Rad1108> dw
-[23:12:02] [Server thread/INFO]: [Not Secure] <Nyxette> what is villager tax is gonna be
-[23:12:17] [Server thread/INFO]: [Not Secure] <Rad1108> zombi piglin farm
-[23:15:20] [Server thread/INFO]: Rad1108 lost connection: Disconnected
-[23:15:20] [Server thread/INFO]: Rad1108 left the game
-[23:19:06] [Server thread/INFO]: Rad1108[/127.0.0.1:64861] logged in with entity id 147422 at (791.7988152659544, 39.5, 515.1161691248885)
-[23:19:06] [Server thread/INFO]: Rad1108 joined the game
-[23:19:23] [Server thread/INFO]: [Not Secure] <Rad1108> what is evil villager hall?
-[23:20:01] [Server thread/INFO]: [Not Secure] <Rad1108> damm where did you got 11 blocks of diamonds??
-[23:20:22] [Server thread/INFO]: [Not Secure] <Nyxette> BACK
-[23:20:24] [Server thread/INFO]: [Not Secure] <Rad1108> damm 16 netherite
-[23:20:27] [Server thread/INFO]: [Not Secure] <Nyxette> OI
-[23:20:29] [Server thread/INFO]: [Not Secure] <Rad1108> noice
-[23:20:29] [Server thread/INFO]: [Not Secure] <Nyxette> My stuff
-[23:20:35] [Server thread/INFO]: [Not Secure] <Rad1108> yeah yeah
-[23:20:36] [Server thread/INFO]: [Not Secure] <Nyxette> thats
-[23:20:37] [Server thread/INFO]: [Not Secure] <Nyxette> sh
-[23:20:41] [Server thread/INFO]: [Not Secure] <Rad1108> i was just peeking
-[23:20:45] [Server thread/INFO]: [Not Secure] <Rad1108> i mean no harm
-[23:20:46] [Server thread/INFO]: [Not Secure] <Nyxette> only available for loans
-[23:20:49] [Server thread/INFO]: [Not Secure] <Nyxette> with interest
-[23:20:50] [Server thread/INFO]: [Not Secure] <Nyxette> muehehhee
-[23:20:54] [Server thread/INFO]: [Not Secure] <Rad1108> ohh good
-[23:21:04] [Server thread/INFO]: [Not Secure] <Nyxette> where did you find the netherite actually...
-[23:21:04] [Server thread/INFO]: [Not Secure] <Rad1108> took nothing bro dont worrk
-[23:21:07] [Server thread/INFO]: [Not Secure] <Nyxette> i kinda forgot
-[23:21:09] [Server thread/INFO]: [Not Secure] <Nyxette> where i kept it
-[23:21:14] [Server thread/INFO]: [Not Secure] <Nyxette> OH YEAH
-[23:21:16] [Server thread/INFO]: [Not Secure] <Nyxette> NETHER STUFF
-[23:21:18] [Server thread/INFO]: [Not Secure] <Rad1108> in the netherak
-[23:21:18] [Server thread/INFO]: [Not Secure] <Nyxette> makes sense
-[23:21:19] [Server thread/INFO]: [Not Secure] <Nyxette> alr alr
-[23:21:20] [Server thread/INFO]: [Not Secure] <Rad1108> yeah
-[23:21:23] [Server thread/INFO]: [Not Secure] <Nyxette> well
-[23:21:27] [Server thread/INFO]: [Not Secure] <Nyxette> time for villagers
-[23:21:35] [Server thread/INFO]: [Not Secure] <Rad1108> bro forgot he had stuff
-[23:21:37] [Server thread/INFO]: [Not Secure] <Rad1108> lol
-[23:21:37] [Server thread/INFO]: [Not Secure] <Nyxette> then imma afk gotta do an assignment
-[23:21:38] [Server thread/INFO]: [Not Secure] <Nyxette> LOL
-[23:21:49] [Server thread/INFO]: [Not Secure] <Nyxette> help me get em villagers
-[23:21:55] [Server thread/INFO]: [Not Secure] <Rad1108> how many?
-[23:22:00] [Server thread/INFO]: [Not Secure] <Nyxette> three sire
-[23:22:08] [Server thread/INFO]: [Not Secure] <Nyxette> should i dig straight up to make a hole
-[23:22:11] [Server thread/INFO]: [Not Secure] <Rad1108> we gonna get 2 and then breed them
-[23:22:13] [Server thread/INFO]: [Not Secure] <Nyxette> thats
-[23:22:14] [Server thread/INFO]: [Not Secure] <Nyxette> fair
-[23:22:26] [Server thread/INFO]: [Not Secure] <Rad1108> we can force them through stairs also
-[23:22:30] [Server thread/INFO]: [Not Secure] <Nyxette> oh
-[23:22:31] [Server thread/INFO]: [Not Secure] <Nyxette> ok then
-[23:23:02] [Server thread/INFO]: [Not Secure] <Nyxette> ive also saved a zombie but thats for last
-[23:23:10] [Server thread/INFO]: [Not Secure] <Rad1108> thats easy
-[23:23:16] [Server thread/INFO]: [Not Secure] <Rad1108> ill get the zombie too
-[23:23:58] [Server thread/INFO]: [Not Secure] <Nyxette> where u at pretty boy
-[23:24:05] [Server thread/INFO]: [Not Secure] <Rad1108> at your base
-[23:24:08] [Server thread/INFO]: [Not Secure] <Nyxette> eh
-[23:24:13] [Server thread/INFO]: [Not Secure] <Nyxette> we gonna get villagers?
-[23:24:21] [Server thread/INFO]: [Not Secure] <Rad1108> in my boat
-[23:24:24] [Server thread/INFO]: [Not Secure] <Nyxette> oo
-[23:24:28] [Server thread/INFO]: [Not Secure] <Nyxette> ur bringing it to the
-[23:24:34] [Server thread/INFO]: [Not Secure] <Nyxette> villager breeder?
-[23:24:48] [Server thread/INFO]: [Not Secure] <Rad1108> open the door
-[23:25:23] [Server thread/INFO]: [Not Secure] <Nyxette> damn you alr got all the enchantments
-[23:25:43] [Server thread/INFO]: [Not Secure] <Rad1108> on armor yes
-[23:25:46] [Server thread/INFO]: [Not Secure] <Rad1108> on tools no
-[23:25:56] [Server thread/INFO]: [Not Secure] <Nyxette> trading sticks?
-[23:26:17] [Server thread/INFO]: [Not Secure] <Rad1108> no levels from quartz
-[23:26:21] [Server thread/INFO]: [Not Secure] <Nyxette> damn
-[23:27:00] [Server thread/INFO]: [Not Secure] <Rad1108> get side
-[23:27:29] [Server thread/INFO]: [Not Secure] <Rad1108> make it day
-[23:27:48] [Server thread/INFO]: [Not Secure] <Nyxette> ee
-[23:29:07] [Server thread/INFO]: [Not Secure] <Nyxette> drop
-[23:29:28] [Server thread/INFO]: [Not Secure] <Rad1108> wait
-[23:29:31] [Server thread/INFO]: [Not Secure] <Nyxette> alr
-[23:29:37] [Server thread/INFO]: [Not Secure] <Rad1108> when i say drop then drop
-[23:30:04] [Server thread/INFO]: [Not Secure] <Rad1108> drop
-[23:30:15] [Server thread/INFO]: [Not Secure] <Nyxette> LETS GOOOOOOOOOOOO
-[23:30:50] [Server thread/INFO]: [Not Secure] <Nyxette> big brain
-[23:30:54] [Server thread/INFO]: [Not Secure] <Nyxette> wait we gotta do it again
-[23:31:00] [Server thread/INFO]: [Not Secure] <Rad1108> sorry for destorying your base
-[23:31:04] [Server thread/INFO]: [Not Secure] <Nyxette> its alr
-[23:31:09] [Server thread/INFO]: [Not Secure] <Nyxette> it was necessary
-[23:31:13] [Server thread/INFO]: [Not Secure] <Rad1108> bringin the other
-[23:31:17] [Server thread/INFO]: [Not Secure] <Rad1108> you wait
-[23:31:20] [Server thread/INFO]: [Not Secure] <Nyxette> okki
-[23:31:39] [Server thread/INFO]: [Not Secure] <Nyxette> ill go prep the ladders
-[23:31:49] [Server thread/INFO]: [Not Secure] <Rad1108> you have water bucket?
-[23:31:52] [Server thread/INFO]: [Not Secure] <Nyxette> sure
-[23:32:08] [Server thread/INFO]: [Not Secure] <Rad1108> also place a boat after the iron door
-[23:33:39] [Server thread/INFO]: Villager class_1646['Villager'/134094, l='ServerLevel[New World]', x=708.30, y=64.00, z=633.50] died, message: 'Villager was shot by Rad1108'
-[23:34:09] [Server thread/INFO]: [Not Secure] <Nyxette> alr i think im ready
-[23:34:41] [Server thread/INFO]: [Not Secure] <Rad1108> one disobeyed and dies
-[23:34:45] [Server thread/INFO]: [Not Secure] <Rad1108> died*
-[23:35:10] [Server thread/INFO]: [Not Secure] <Nyxette> skull
-[23:35:15] [Server thread/INFO]: [Not Secure] <Nyxette> valid punishment
-[23:36:01] [Server thread/INFO]: [Not Secure] <Rad1108> sending care package
-[23:36:09] [Server thread/INFO]: [Not Secure] <Nyxette> hes not getting in either of the boats
-[23:36:10] [Server thread/INFO]: [Not Secure] <Rad1108> bringing the 3rd
-[23:36:15] [Server thread/INFO]: [Not Secure] <Nyxette> nvm i got him
-[23:36:24] [Server thread/INFO]: [Not Secure] <Nyxette> ok ok
-[23:37:54] [Server thread/INFO]: [Not Secure] <Rad1108> crest aa rha
-[23:37:58] [Server thread/INFO]: [Not Secure] <Nyxette> lets goo
-[23:38:00] [Server thread/INFO]: [Not Secure] <Rad1108> just talked with him
-[23:39:00] [Server thread/INFO]: [Not Secure] <Rad1108> ready?
-[23:39:17] [Server thread/INFO]: [Not Secure] <Nyxette> sure
-[23:39:24] [Server thread/INFO]: [Not Secure] <Nyxette> i uh gotta leave urgently
-[23:39:27] [Server thread/INFO]: [Not Secure] <Nyxette> can u pop down
-[23:39:32] [Server thread/INFO]: [Not Secure] <Rad1108> done
-[23:39:46] [Server thread/INFO]: [Not Secure] <Nyxette> alr
-[23:39:52] [Server thread/INFO]: [Not Secure] <Nyxette> ill be back in like 40 mins
-[23:39:53] [Server thread/INFO]: [Not Secure] <Rad1108> gimme ladders
-[23:39:55] [Server thread/INFO]: [Not Secure] <Nyxette> here
-[23:40:06] [Server thread/INFO]: [Not Secure] <Nyxette> take what u need
-[23:40:07] [Server thread/INFO]: [Not Secure] <Rad1108> bye
-[23:40:08] [Server thread/INFO]: [Not Secure] <Nyxette> ill brb
-[23:40:10] [Server thread/INFO]: [Not Secure] <Nyxette> bbye
-[23:40:12] [Server thread/INFO]: Nyxette lost connection: Disconnected
-[23:40:12] [Server thread/INFO]: Nyxette left the game
-[23:40:52] [Server thread/INFO]: Rad1108 lost connection: Disconnected
-[23:40:52] [Server thread/INFO]: Rad1108 left the game
+[00:20:35] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/raksh/Documents/GitHub/Vanilla/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[00:20:48] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[00:20:57] [main/INFO]: Loaded 1370 recipes
+[00:20:57] [main/INFO]: Loaded 1481 advancements
+[00:20:58] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[00:20:58] [Server thread/INFO]: Loading properties
+[00:20:58] [Server thread/INFO]: Default game type: SURVIVAL
+[00:20:58] [Server thread/INFO]: Generating keypair
+[00:20:58] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:20:59] [Server thread/INFO]: Using default channel type
+[00:20:59] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:20:59] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:20:59] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:20:59] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:20:59] [Server thread/INFO]: Preparing level "world"
+[00:21:01] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:21:04] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[00:21:04] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[00:21:04] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[00:21:04] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[00:21:04] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[00:21:04] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[00:21:04] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[00:21:04] [Worker-Main-11/INFO]: Preparing spawn area: 51%
+[00:21:04] [Server thread/INFO]: Time elapsed: 3771 ms
+[00:21:04] [Server thread/INFO]: Done (5.400s)! For help, type "help"
+[00:21:29] [Server thread/INFO]: whitehairguy[/127.18.237.61:49719] logged in with entity id 7 at (676.3315123195434, 68.1875, 547.1660810591636)
+[00:21:29] [Server thread/INFO]: whitehairguy joined the game
+[00:21:29] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/9, l='ServerLevel[New World]', x=721.36, y=63.06, z=551.42]
+[00:21:29] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[00:21:29] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/11, l='ServerLevel[New World]', x=721.36, y=63.01, z=551.42]
+[00:21:29] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[00:21:29] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/13, l='ServerLevel[New World]', x=740.62, y=63.15, z=550.98]
+[00:21:29] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[00:21:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2503ms or 50 ticks behind
+[00:21:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2591ms or 51 ticks behind
+[00:21:55] [Server thread/INFO]: Rad1108[/127.0.0.1:49764] logged in with entity id 438 at (675.2984268908596, 67.5, 544.1736919500514)
+[00:21:55] [Server thread/INFO]: Rad1108 joined the game
+[00:36:05] [Server thread/INFO]: Villager class_1646['Fletcher'/200, l='ServerLevel[New World]', x=702.50, y=63.00, z=604.70] died, message: 'Fletcher was slain by Zombie'
+[00:36:27] [Server thread/INFO]: Villager class_1646['Librarian'/203, l='ServerLevel[New World]', x=696.50, y=63.00, z=604.70] died, message: 'Librarian was slain by Zombie'
+[00:40:08] [Server thread/INFO]: Rad1108 lost connection: Disconnected
+[00:40:08] [Server thread/INFO]: Rad1108 left the game
+[00:40:18] [Server thread/INFO]: Villager class_1646['Librarian'/204, l='ServerLevel[New World]', x=694.50, y=63.00, z=604.70] died, message: 'Librarian was slain by Zombie'
+[00:40:21] [Server thread/INFO]: Rad1108[/127.0.0.1:49978] logged in with entity id 5322 at (702.6999999880791, 63.0, 602.6999999880791)
+[00:40:21] [Server thread/INFO]: Rad1108 joined the game
+[00:42:23] [Server thread/INFO]: Villager class_1646['Librarian'/196, l='ServerLevel[New World]', x=682.50, y=63.00, z=604.55] died, message: 'Librarian was slain by Zombie'
+[00:46:34] [Server thread/INFO]: whitehairguy has reached the goal [Zombie Doctor]
+[01:06:17] [Server thread/INFO]: Rad1108 was smashed by whitehairguy
+[01:06:21] [Server thread/INFO]: Tranished[/127.178.122.18:50313] logged in with entity id 11203 at (682.4730342725442, 64.0, 602.6999999880791)
+[01:06:21] [Server thread/INFO]: Tranished joined the game
+[01:06:25] [Server thread/INFO]: Villager class_1646['Librarian'/205, l='ServerLevel[New World]', x=692.50, y=63.00, z=604.70] died, message: 'Librarian was slain by Zombie'
+[01:06:48] [Server thread/WARN]: whitehairguy moved too quickly! 0.0,22.059145051335122,0.0
+[01:06:50] [Server thread/INFO]: Tranished was smashed by whitehairguy
+[01:06:51] [Server thread/INFO]: Villager class_1646['Librarian'/272, l='ServerLevel[New World]', x=694.70, y=63.50, z=604.70] died, message: 'Librarian was slain by Zombie'
+[01:07:46] [Server thread/INFO]: [Not Secure] <Tranished> afk
+[01:08:19] [Server thread/INFO]: Villager class_1646['Librarian'/206, l='ServerLevel[New World]', x=690.50, y=63.00, z=604.70] died, message: 'Librarian was slain by Zombie'
+[01:10:51] [Server thread/INFO]: Tranished was smashed by whitehairguy
+[01:13:25] [Server thread/INFO]: Villager class_1646['Fletcher'/201, l='ServerLevel[New World]', x=700.50, y=63.00, z=604.70] died, message: 'Fletcher was slain by Zombie'
+[01:15:56] [Server thread/INFO]: Villager class_1646['Villager'/275, l='ServerLevel[New World]', x=708.30, y=64.00, z=633.50] died, message: 'Villager was shot by Rad1108'
+[01:16:46] [Server thread/INFO]: Nyxette[/127.204.195.65:50426] logged in with entity id 13641 at (784.977626442256, 39.5, 515.921812155872)
+[01:16:46] [Server thread/INFO]: Nyxette joined the game
+[01:17:10] [Server thread/INFO]: Nyxette lost connection: Disconnected
+[01:17:10] [Server thread/INFO]: Nyxette left the game
+[01:17:21] [Server thread/INFO]: Nyxette[/127.204.195.65:50438] logged in with entity id 13785 at (781.6042248303689, 40.0, 514.3330850588369)
+[01:17:21] [Server thread/INFO]: Nyxette joined the game
+[01:17:27] [Server thread/INFO]: Villager class_1646['Villager'/274, l='ServerLevel[New World]', x=708.33, y=64.00, z=633.15] died, message: 'Villager was shot by Rad1108'
+[01:17:43] [Server thread/INFO]: Nyxette lost connection: Disconnected
+[01:17:43] [Server thread/INFO]: Nyxette left the game
+[01:18:25] [Server thread/INFO]: Villager class_1646['Villager'/264, l='ServerLevel[New World]', x=708.30, y=64.00, z=633.50] died, message: 'Villager was shot by Rad1108'
+[01:18:26] [Server thread/INFO]: Nyxette[/127.204.195.65:50445] logged in with entity id 14076 at (781.6042248303689, 40.0, 514.3330850588369)
+[01:18:26] [Server thread/INFO]: Nyxette joined the game
+[01:18:30] [Server thread/INFO]: [Not Secure] <Nyxette> wsgud gang
+[01:18:40] [Server thread/INFO]: [Not Secure] <whitehairguy> awesome
+[01:18:43] [Server thread/INFO]: [Not Secure] <whitehairguy> just blasted some mace
+[01:18:49] [Server thread/INFO]: [Not Secure] <Nyxette> You got a mace?
+[01:18:50] [Server thread/INFO]: [Not Secure] <Nyxette> epic
+[01:20:19] [Server thread/INFO]: [Not Secure] <Nyxette> down in evil lair
+[01:20:22] [Server thread/INFO]: [Not Secure] <Nyxette> working on sumth
+[01:22:13] [Server thread/INFO]: [Not Secure] <Nyxette> ARE THE VILLAGERS CONVERTED??
+[01:22:18] [Server thread/INFO]: [Not Secure] <Nyxette> GIVE THEM SOMETHING TO HOLD
+[01:22:20] [Server thread/INFO]: [Not Secure] <Nyxette> DROP SUMTH
+[01:22:23] [Server thread/INFO]: [Not Secure] <Nyxette> DIRT
+[01:22:25] [Server thread/INFO]: [Not Secure] <Nyxette> ANY BLOCKS
+[01:22:28] [Server thread/INFO]: [Not Secure] <Nyxette> if theyre holding anything
+[01:22:32] [Server thread/INFO]: [Not Secure] <Nyxette> they wont despawn
+[01:22:37] [Server thread/INFO]: [Not Secure] <Nyxette> bru
+[01:22:46] [Server thread/INFO]: [Not Secure] <Nyxette> oof
+[01:23:57] [Server thread/INFO]: Villager class_1646['Librarian'/265, l='ServerLevel[New World]', x=696.50, y=63.00, z=604.70] died, message: 'Librarian was slain by Zombie'
+[01:24:05] [Server thread/INFO]: [Not Secure] <Nyxette> despawn
+[01:24:07] [Server thread/INFO]: [Not Secure] <Nyxette> ??
+[01:24:13] [Server thread/INFO]: [Not Secure] <Nyxette> ooof
+[01:25:34] [Server thread/INFO]: [Not Secure] <Nyxette> what u need gang
+[01:30:32] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[01:30:32] [Server thread/INFO]: whitehairguy left the game
+[01:30:57] [Server thread/INFO]: Tranished burned to death
+[01:31:15] [Server thread/INFO]: whitehairguy[/127.18.237.61:50570] logged in with entity id 20178 at (68.25460244214344, -20.0, 486.6109302207988)
+[01:31:15] [Server thread/INFO]: whitehairguy joined the game
+[01:31:15] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/20180, l='ServerLevel[New World]', x=721.36, y=63.06, z=551.42]
+[01:31:15] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[01:31:15] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/20182, l='ServerLevel[New World]', x=721.36, y=63.01, z=551.42]
+[01:31:15] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[01:31:15] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/20184, l='ServerLevel[New World]', x=740.62, y=63.15, z=550.98]
+[01:31:15] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[01:32:01] [Server thread/INFO]: Tranished lost connection: Disconnected
+[01:32:01] [Server thread/INFO]: Tranished left the game
+[01:32:43] [Server thread/INFO]: [Not Secure] <Nyxette> did his items burn
+[01:32:47] [Server thread/INFO]: [Not Secure] <whitehairguy> nope
+[01:33:00] [Server thread/INFO]: [Not Secure] <Nyxette> didnt sound too happy
+[01:33:12] [Server thread/INFO]: [Not Secure] <whitehairguy> bro hit me first :'(
+[01:33:15] [Server thread/INFO]: [Not Secure] <Nyxette> Aw
+[01:33:17] [Server thread/INFO]: [Not Secure] <whitehairguy> i was in iron chest and boots only
+[01:33:23] [Server thread/INFO]: [Not Secure] <whitehairguy> used the lava strat lol
+[01:33:28] [Server thread/INFO]: [Not Secure] <Nyxette> Skull
+[01:34:38] [Server thread/INFO]: whitehairguy fell while climbing
+[01:34:42] [Server thread/INFO]: [Not Secure] <Nyxette> Skull
+[01:34:59] [Server thread/INFO]: [Not Secure] <Nyxette> damn did this h
+[01:35:01] [Server thread/INFO]: [Not Secure] <Nyxette> blow up
+[01:35:07] [Server thread/INFO]: [Not Secure] <Nyxette> damn it
+[01:36:09] [Server thread/INFO]: [Not Secure] <Nyxette> we got the mending dude safe lets go
+[01:36:19] [Server thread/INFO]: [Not Secure] <Nyxette> eh
+[01:36:39] [Server thread/INFO]: [Not Secure] <Nyxette> here
+[01:36:52] [Server thread/INFO]: [Not Secure] <Nyxette> wat
+[01:37:03] [Server thread/INFO]: [Not Secure] <Nyxette> LOL??
+[01:37:04] [Server thread/INFO]: [Not Secure] <Nyxette> LOLOOL
+[01:37:11] [Server thread/INFO]: [Not Secure] <Nyxette> sad T_T
+[01:37:20] [Server thread/INFO]: [Not Secure] <Nyxette> need 1 zombie
+[01:37:27] [Server thread/INFO]: [Not Secure] <Nyxette> iron
+[01:37:47] [Server thread/INFO]: [Not Secure] <Nyxette> uh
+[01:37:49] [Server thread/INFO]: [Not Secure] <Nyxette> i mean
+[01:37:52] [Server thread/INFO]: [Not Secure] <Nyxette> maybe
+[01:37:54] [Server thread/INFO]: [Not Secure] <Nyxette> sure ig
+[01:37:55] [Server thread/INFO]: [Not Secure] <Nyxette> lets try
+[01:38:40] [Server thread/INFO]: [Not Secure] <Nyxette> shold i
+[01:38:41] [Server thread/WARN]: whitehairguy moved too quickly! -8.716189369539222,0.0,-4.993002116941057
+[01:38:41] [Server thread/INFO]: [Not Secure] <Nyxette> ok
+[01:38:43] [Server thread/WARN]: whitehairguy moved too quickly! -8.71666775373427,0.0,-4.992166591104024
+[01:38:46] [Server thread/WARN]: whitehairguy moved too quickly! -9.826599315638305,0.0,-2.0832601876418266
+[01:40:31] [Server thread/INFO]: [Not Secure] <Nyxette> BRO
+[01:40:32] [Server thread/INFO]: [Not Secure] <Nyxette> BRO
+[01:40:33] [Server thread/INFO]: [Not Secure] <Nyxette> WOW
+[01:40:36] [Server thread/INFO]: [Not Secure] <Nyxette> THIS DUDE
+[01:40:37] [Server thread/INFO]: [Not Secure] <Nyxette> WHOFAIJPEIDBShdojIPADFN
+[01:40:44] [Server thread/INFO]: [Not Secure] <Nyxette> lololo
+[01:40:50] [Server thread/INFO]: [Not Secure] <Nyxette> yes
+[01:41:16] [Server thread/INFO]: [Not Secure] <Nyxette> ill put buttons
+[01:41:27] [Server thread/INFO]: [Not Secure] <Nyxette> yes
+[01:41:30] [Server thread/INFO]: [Not Secure] <Nyxette> one of the barrels
+[01:41:43] [Server thread/INFO]: [Not Secure] <Nyxette> well
+[01:41:46] [Server thread/INFO]: [Not Secure] <Nyxette> life
+[01:41:58] [Server thread/INFO]: [Not Secure] <Nyxette> what
+[01:42:02] [Server thread/INFO]: [Not Secure] <Nyxette> oh upar kuch nhi hai
+[01:42:11] [Server thread/INFO]: [Not Secure] <Nyxette> e_e
+[01:42:13] [Server thread/INFO]: [Not Secure] <Nyxette> lol
+[01:42:15] [Server thread/INFO]: [Not Secure] <Nyxette> ok
+[01:45:10] [Server thread/INFO]: [Not Secure] <Nyxette> ok we cant mess up now
+[01:45:17] [Server thread/INFO]: [Not Secure] <Nyxette> fr fr
+[01:45:18] [Server thread/INFO]: [Not Secure] <Nyxette> trust
+[01:47:40] [Server thread/INFO]: [Not Secure] <Nyxette> am coming
+[01:47:46] [Server thread/INFO]: [Not Secure] <Nyxette> ...
+[01:48:04] [Server thread/INFO]: [Not Secure] <Nyxette> LOL
+[01:48:47] [Server thread/INFO]: [Not Secure] <Nyxette> well
+[01:48:48] [Server thread/INFO]: [Not Secure] <Nyxette> i have
+[01:48:50] [Server thread/INFO]: [Not Secure] <Nyxette> a zombie spawned
+[01:48:52] [Server thread/INFO]: [Not Secure] <Nyxette> spawner
+[01:49:01] [Server thread/INFO]: [Not Secure] <Nyxette> to me
+[01:49:14] [Server thread/INFO]: [Not Secure] <Nyxette> rad
+[01:49:16] [Server thread/INFO]: [Not Secure] <Nyxette> behind u
+[01:49:29] [Server thread/INFO]: [Not Secure] <Nyxette> this is secret no 2
+[01:49:37] [Server thread/INFO]: [Not Secure] <Nyxette> well
+[01:49:38] [Server thread/INFO]: [Not Secure] <Nyxette> life
+[01:49:51] [Server thread/INFO]: [Not Secure] <Nyxette> it got exploededd
+[01:49:52] [Server thread/INFO]: [Not Secure] <Nyxette> by creeper
+[01:49:53] [Server thread/INFO]: [Not Secure] <Nyxette> but
+[01:49:57] [Server thread/INFO]: [Not Secure] <Nyxette> WAIT
+[01:49:58] [Server thread/INFO]: [Not Secure] <Nyxette> WAIT NO
+[01:50:01] [Server thread/INFO]: [Not Secure] <Nyxette> DID THE CREEPER
+[01:50:05] [Server thread/INFO]: [Not Secure] <Nyxette> DESTROY THE SPAWNER
+[01:50:07] [Server thread/INFO]: [Not Secure] <Nyxette> im crying
+[01:50:23] [Server thread/INFO]: [Not Secure] <Nyxette> cmon drowned
+[01:50:26] [Server thread/INFO]: [Not Secure] <Nyxette> wya
+[01:50:47] [Server thread/INFO]: [Not Secure] <Nyxette> T_T
+[01:50:54] [Server thread/INFO]: [Not Secure] <Nyxette> LOL
+[01:51:08] [Server thread/INFO]: [Not Secure] <Nyxette> GOT ONE
+[01:51:49] [Server thread/INFO]: [Not Secure] <Nyxette> PLEASE COME OUT OMG
+[01:52:30] [Server thread/INFO]: [Not Secure] <Nyxette> this guy is retarded
+[01:52:41] [Server thread/INFO]: [Not Secure] <Nyxette> he cant get out of the water
+[01:52:44] [Server thread/INFO]: [Not Secure] <Nyxette> DAMN
+[01:54:16] [Server thread/INFO]: [Not Secure] <Nyxette> that shi is too fast and annoying
+[01:54:34] [Server thread/INFO]: [Not Secure] <Nyxette> i have
+[01:55:01] [Server thread/INFO]: [Not Secure] <Nyxette> foood hai
+[01:55:08] [Server thread/INFO]: [Not Secure] <Nyxette> real
+[01:55:24] [Server thread/INFO]: [Not Secure] <Nyxette> bring him down
+[01:55:28] [Server thread/INFO]: [Not Secure] <Nyxette> .......
+[01:56:42] [Server thread/INFO]: [Not Secure] <Nyxette> bro said "padhne jaara hu"
+[01:56:46] [Server thread/INFO]: [Not Secure] <Nyxette> youre cooked
+[01:56:58] [Server thread/INFO]: [Not Secure] <Nyxette> he got so mad
+[01:57:04] [Server thread/INFO]: [Not Secure] <Nyxette> he decided to get an internship
+[01:57:07] [Server thread/INFO]: [Not Secure] <Nyxette> and then flex that
+[01:57:23] [Server thread/INFO]: [Not Secure] <Nyxette> HELLO PRETTY BOY
+[01:58:10] [Server thread/INFO]: [Not Secure] <Nyxette> i have a pretty boy
+[01:58:18] [Server thread/INFO]: [Not Secure] <Nyxette> yes
+[01:59:11] [Server thread/INFO]: [Not Secure] <Nyxette> shit
+[01:59:18] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[01:59:18] [Server thread/INFO]: whitehairguy left the game
+[01:59:30] [Server thread/INFO]: whitehairguy[/127.18.237.61:50873] logged in with entity id 33573 at (780.8103504088356, 64.0, 512.3988015644269)
+[01:59:30] [Server thread/INFO]: whitehairguy joined the game
+[01:59:47] [Server thread/INFO]: [Not Secure] <Nyxette> hwo did u get the first one
+[02:00:13] [Server thread/INFO]: [Not Secure] <Nyxette> REAL
+[02:00:23] [Server thread/INFO]: [Not Secure] <Nyxette> LETS GOOOOOOOOOOOOOOOo
+[02:00:50] [Server thread/INFO]: [Not Secure] <Nyxette> fixed it
+[02:01:04] [Server thread/INFO]: [Not Secure] <Nyxette> SIT
+[02:01:05] [Server thread/INFO]: [Not Secure] <Nyxette> OMG
+[02:01:06] [Server thread/INFO]: [Not Secure] <Nyxette> CMON
+[02:01:06] [Server thread/INFO]: [Not Secure] <Nyxette> no
+[02:01:14] [Server thread/INFO]: [Not Secure] <Nyxette> RETARD SIT TF DOWN
+[02:01:20] [Server thread/INFO]: [Not Secure] <Nyxette> anyone got an axe
+[02:01:25] [Server thread/INFO]: [Not Secure] <Nyxette> LETS GOo
+[02:01:27] [Server thread/INFO]: [Not Secure] <Nyxette> Clear the logs
+[02:01:42] [Server thread/INFO]: [Not Secure] <Nyxette> pencho
+[02:01:56] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[02:01:56] [Server thread/INFO]: whitehairguy left the game
+[02:01:58] [Server thread/INFO]: [Not Secure] <Nyxette> LOL
+[02:02:25] [Server thread/INFO]: whitehairguy[/127.18.237.61:50902] logged in with entity id 34205 at (825.5073244229079, 39.0, 494.6914508989908)
+[02:02:25] [Server thread/INFO]: whitehairguy joined the game
+[02:02:26] [Server thread/INFO]: [Not Secure] <Nyxette> yes
+[02:02:27] [Server thread/INFO]: [Not Secure] <Nyxette> pls
+[02:02:48] [Server thread/INFO]: [Not Secure] <Nyxette> 3 per hour
+[02:02:53] [Server thread/INFO]: [Not Secure] <Nyxette> hwher
+[02:02:54] [Server thread/INFO]: [Not Secure] <Nyxette> wher
+[02:03:01] [Server thread/INFO]: [Not Secure] <Nyxette> LETS GOOOOOOOOOO
+[02:03:11] [Server thread/INFO]: [Not Secure] <Nyxette> ...
+[02:03:30] [Server thread/INFO]: [Not Secure] <Nyxette> well
+[02:03:33] [Server thread/INFO]: [Not Secure] <Nyxette> as long as it works
+[02:03:36] [Server thread/INFO]: [Not Secure] <Nyxette> i hate the ai
+[02:03:42] [Server thread/INFO]: [Not Secure] <Nyxette> thats for a diff project
+[02:04:15] [Server thread/INFO]: [Not Secure] <Nyxette> i need slime
+[02:04:17] [Server thread/INFO]: [Not Secure] <Nyxette> chunks
+[02:04:29] [Server thread/INFO]: [Not Secure] <Nyxette> need many
+[02:04:59] [Server thread/INFO]: [Not Secure] <Nyxette> a personal touch
+[02:05:05] [Server thread/INFO]: [Not Secure] <Nyxette> got burnt in a house fire
+[02:05:21] [Server thread/INFO]: [Not Secure] <Nyxette> pretty
+[02:05:24] [Server thread/INFO]: [Not Secure] <Nyxette> real
+[02:05:30] [Server thread/INFO]: [Not Secure] <Nyxette> drop me them emeralds
+[02:05:36] [Server thread/INFO]: [Not Secure] <Nyxette> arre white hair man
+[02:05:39] [Server thread/INFO]: [Not Secure] <Nyxette> i will
+[02:05:43] [Server thread/INFO]: [Not Secure] <Nyxette> i
+[02:05:45] [Server thread/INFO]: [Not Secure] <Nyxette> employ you
+[02:05:49] [Server thread/INFO]: [Not Secure] <Nyxette> to go eliminate
+[02:05:53] [Server thread/INFO]: [Not Secure] <whitehairguy> who who
+[02:05:54] [Server thread/INFO]: [Not Secure] <Nyxette> blazes
+[02:05:57] [Server thread/INFO]: [Not Secure] <whitehairguy> bruh
+[02:06:02] [Server thread/INFO]: [Not Secure] <Nyxette> well
+[02:06:06] [Server thread/INFO]: [Not Secure] <Nyxette> he took em
+[02:06:09] [Server thread/INFO]: [Not Secure] <Nyxette> a-
+[02:06:14] [Server thread/INFO]: [Not Secure] <Nyxette> alr
+[02:06:22] [Server thread/INFO]: [Not Secure] <Nyxette> time to hunt blazes
+[02:06:23] [Server thread/INFO]: [Not Secure] <Nyxette> LOLOL
+[02:07:08] [Server thread/INFO]: [Not Secure] <Rad1108> so guys i got scolded
+[02:07:11] [Server thread/INFO]: [Not Secure] <Nyxette> aw
+[02:07:15] [Server thread/INFO]: [Not Secure] <Nyxette> too loud?
+[02:07:19] [Server thread/INFO]: [Not Secure] <Rad1108> and now i need to sleep
+[02:07:22] [Server thread/INFO]: [Not Secure] <Nyxette> NOOO
+[02:07:22] [Server thread/INFO]: [Not Secure] <Rad1108> yes
+[02:07:24] [Server thread/INFO]: [Not Secure] <Nyxette> T_T
+[02:07:29] [Server thread/INFO]: Rad1108 lost connection: Disconnected
+[02:07:29] [Server thread/INFO]: Rad1108 left the game
+[02:08:04] [Server thread/INFO]: [Not Secure] <whitehairguy> server on hai abhi bhi :thinking
+[02:08:09] [Server thread/INFO]: [Not Secure] <whitehairguy> hmmmm
+[02:08:10] [Server thread/INFO]: [Not Secure] <Nyxette> hmmmmm
+[02:08:13] [Server thread/INFO]: Rad1108[/127.0.0.1:50980] logged in with entity id 35946 at (771.4484485279318, 63.0, 534.502170421375)
+[02:08:13] [Server thread/INFO]: Rad1108 joined the game
+[02:08:22] [Server thread/INFO]: [Not Secure] <whitehairguy> bro got extra time isee
+[02:08:22] [Server thread/INFO]: [Not Secure] <Rad1108> bro i am closing
+[02:08:26] [Server thread/INFO]: [Not Secure] <whitehairguy> bruh
+[02:08:26] [Server thread/INFO]: [Not Secure] <Nyxette> T_T
+[02:08:28] [Server thread/INFO]: [Not Secure] <Nyxette> alr well
+[02:08:29] [Server thread/INFO]: [Not Secure] <Nyxette> gnite
+[02:08:33] [Server thread/INFO]: [Not Secure] <Nyxette> early tomorrow?
+[02:08:36] [Server thread/INFO]: [Not Secure] <Rad1108> crest you host
+[02:08:37] [Server thread/INFO]: [Not Secure] <whitehairguy> adios goodnighttt everyone
+[02:08:42] [Server thread/INFO]: [Not Secure] <Rad1108> gn
+[02:08:43] [Server thread/INFO]: [Not Secure] <whitehairguy> naa we play in the morning
+[02:08:45] [Server thread/INFO]: [Not Secure] <Nyxette> ye
+[02:08:46] [Server thread/INFO]: [Not Secure] <Nyxette> alr
+[02:08:47] [Server thread/INFO]: [Not Secure] <Nyxette> gn gn
+[02:08:50] [Server thread/INFO]: Rad1108 lost connection: Disconnected
+[02:08:50] [Server thread/INFO]: Rad1108 left the game
+[02:08:51] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[02:08:51] [Server thread/INFO]: whitehairguy left the game
+[02:08:52] [Server thread/INFO]: Nyxette lost connection: Disconnected
+[02:08:52] [Server thread/INFO]: Nyxette left the game

@@ -10,11 +10,13 @@
       "minecraft:cold_ocean": "2025-03-17 00:26:49 +0530",
       "minecraft:snowy_slopes": "2025-03-17 23:48:17 +0530",
       "minecraft:beach": "2025-03-17 00:27:42 +0530",
+      "minecraft:old_growth_pine_taiga": "2025-03-22 01:23:28 +0530",
       "minecraft:dark_forest": "2025-03-17 23:40:09 +0530",
       "minecraft:forest": "2025-03-17 00:19:15 +0530",
       "minecraft:taiga": "2025-03-17 00:20:27 +0530",
       "minecraft:river": "2025-03-17 00:28:06 +0530",
       "minecraft:stony_shore": "2025-03-17 00:18:55 +0530",
+      "minecraft:lush_caves": "2025-03-22 01:25:40 +0530",
       "minecraft:deep_cold_ocean": "2025-03-17 02:17:53 +0530",
       "minecraft:old_growth_birch_forest": "2025-03-17 23:42:49 +0530",
       "minecraft:ocean": "2025-03-17 23:37:56 +0530",
@@ -3356,9 +3358,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/detector_rail": {
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
     "criteria": {
-      "has_rail": "2025-03-21 18:53:41 +0530"
+      "has_bone_block": "2025-03-21 18:25:44 +0530"
     },
     "done": true
   },
@@ -3380,33 +3382,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/red_dye_from_beetroot": {
-    "criteria": {
-      "has_beetroot": "2025-03-21 19:12:08 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/beetroot_soup": {
-    "criteria": {
-      "has_beetroot": "2025-03-21 19:12:08 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/trapped_chest": {
-    "criteria": {
-      "has_tripwire_hook": "2025-03-21 19:08:01 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/tnt_minecart": {
     "criteria": {
       "has_minecart": "2025-03-21 18:47:26 +0530"
     },
     "done": true
   },
-  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+  "minecraft:recipes/transportation/rail": {
     "criteria": {
-      "has_bone_block": "2025-03-21 18:25:44 +0530"
+      "has_minecart": "2025-03-21 18:47:26 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2025-03-21 18:53:41 +0530"
     },
     "done": true
   },
@@ -3422,9 +3412,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/rail": {
+  "minecraft:recipes/redstone/trapped_chest": {
     "criteria": {
-      "has_minecart": "2025-03-21 18:47:26 +0530"
+      "has_tripwire_hook": "2025-03-21 19:08:01 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2025-03-21 19:12:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2025-03-21 19:12:08 +0530"
     },
     "done": true
   },
