@@ -1,47 +1,31 @@
-[08:53:31] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.10
-[08:53:31] [main/INFO]: Loading 4 mods:
+[10:42:31] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.10
+[10:42:31] [main/INFO]: Loading 4 mods:
 	- fabricloader 0.16.10
 	   \-- mixinextras 0.4.1
 	- java 21
 	- minecraft 1.21.4
-[08:53:31] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/crestfallen/Minecraft/Vanilla/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[08:53:44] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[08:53:45] [main/WARN]: Missing data pack fabric
-[08:53:45] [main/WARN]: Missing data pack fabric-convention-tags-v2
-[08:53:48] [main/INFO]: Loaded 1370 recipes
-[08:53:48] [main/INFO]: Loaded 1481 advancements
-[08:53:48] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[08:53:48] [Server thread/INFO]: Loading properties
-[08:53:48] [Server thread/INFO]: Default game type: SURVIVAL
-[08:53:48] [Server thread/INFO]: Generating keypair
-[08:53:48] [Server thread/INFO]: Starting Minecraft server on *:25565
-[08:53:48] [Server thread/INFO]: Using epoll channel type
-[08:53:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[08:53:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[08:53:48] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[08:53:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[08:53:48] [Server thread/INFO]: Preparing level "world"
-[08:53:49] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[08:53:52] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[08:53:52] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[08:53:52] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[08:53:52] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[08:53:52] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[08:53:52] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[08:53:52] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[08:53:52] [Server thread/INFO]: Time elapsed: 3215 ms
-[08:53:52] [Server thread/INFO]: Done (3.795s)! For help, type "help"
-[08:54:23] [Server thread/INFO]: whitehairguy[/127.0.0.1:50156] logged in with entity id 9 at (735.7701238362706, 87.5625, 574.9173706819182)
-[08:54:23] [Server thread/INFO]: whitehairguy joined the game
-[08:54:23] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/12, l='ServerLevel[New World]', x=740.51, y=63.11, z=550.82]
-[08:54:23] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[08:54:23] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/14, l='ServerLevel[New World]', x=721.36, y=62.94, z=551.42]
-[08:54:23] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[08:54:23] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/15, l='ServerLevel[New World]', x=721.36, y=63.06, z=551.42]
-[08:54:23] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[08:54:23] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/16, l='ServerLevel[New World]', x=740.62, y=63.04, z=550.98]
-[08:54:23] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[08:54:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
-[09:01:25] [Server thread/WARN]: whitehairguy moved too quickly! -6.424448272030077,2.9999999999999716,7.721948948085924
-[09:01:32] [Server thread/WARN]: whitehairguy moved too quickly! -7.224012313850835,2.363629629740558,8.622368499268589
-[09:20:22] [Server thread/INFO]: whitehairguy has made the advancement [Bee Our Guest]
+[10:42:31] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/crestfallen/Minecraft/Vanilla/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[10:42:41] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[10:42:44] [main/INFO]: Loaded 1370 recipes
+[10:42:44] [main/INFO]: Loaded 1481 advancements
+[10:42:44] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[10:42:44] [Server thread/INFO]: Loading properties
+[10:42:44] [Server thread/INFO]: Default game type: SURVIVAL
+[10:42:44] [Server thread/INFO]: Generating keypair
+[10:42:44] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:42:45] [Server thread/INFO]: Using epoll channel type
+[10:42:45] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10:42:45] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[10:42:45] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10:42:45] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[10:42:45] [Server thread/INFO]: Preparing level "world"
+[10:42:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:42:48] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[10:42:48] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[10:42:48] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[10:42:48] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[10:42:48] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[10:42:48] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[10:42:48] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[10:42:49] [Server thread/INFO]: Time elapsed: 3568 ms
+[10:42:49] [Server thread/INFO]: Done (4.130s)! For help, type "help"
