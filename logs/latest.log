@@ -1,68 +1,41 @@
-[22:28:31] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.10
-[22:28:31] [main/INFO]: Loading 4 mods:
+[00:48:27] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.10
+[00:48:27] [main/INFO]: Loading 4 mods:
 	- fabricloader 0.16.10
 	   \-- mixinextras 0.4.1
 	- java 21
 	- minecraft 1.21.4
-[22:28:31] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/crestfallen/Minecraft/Vanilla/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[22:28:37] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[22:28:39] [main/INFO]: Loaded 1370 recipes
-[22:28:39] [main/INFO]: Loaded 1481 advancements
-[22:28:39] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[22:28:39] [Server thread/INFO]: Loading properties
-[22:28:39] [Server thread/INFO]: Default game type: SURVIVAL
-[22:28:39] [Server thread/INFO]: Generating keypair
-[22:28:39] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:28:39] [Server thread/INFO]: Using epoll channel type
-[22:28:39] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:28:39] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:28:39] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22:28:39] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:28:39] [Server thread/INFO]: Preparing level "world"
-[22:28:40] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:28:41] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[22:28:41] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[22:28:41] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[22:28:41] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[22:28:42] [Server thread/INFO]: Time elapsed: 1711 ms
-[22:28:42] [Server thread/INFO]: Done (2.090s)! For help, type "help"
-[22:29:41] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[22:30:38] [Server thread/INFO]: whitehairguy[/127.0.0.1:42554] logged in with entity id 7 at (743.6999999880791, 87.0, 575.3000000119209)
-[22:30:38] [Server thread/INFO]: whitehairguy joined the game
-[22:30:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2050ms or 41 ticks behind
-[22:30:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2189ms or 43 ticks behind
-[22:42:19] [Server thread/INFO]: Villager class_1646['Villager'/233, l='ServerLevel[New World]', x=709.16, y=63.56, z=639.37] died, message: 'Villager was squished too much'
-[22:49:52] [Server thread/INFO]: Villager class_1646['Villager'/229, l='ServerLevel[New World]', x=709.12, y=63.47, z=639.14] died, message: 'Villager was squished too much'
-[23:06:05] [Server thread/INFO]: Villager class_1646['Villager'/225, l='ServerLevel[New World]', x=709.11, y=63.54, z=639.13] died, message: 'Villager was squished too much'
-[23:13:59] [Server thread/WARN]: whitehairguy moved too quickly! 11.424991336476324,3.330608027832014,2.0070191103704076
-[23:13:59] [Server thread/WARN]: whitehairguy moved too quickly! 9.743689662378785,2.9096000099181936,1.6825901491424986
-[23:17:01] [Server thread/WARN]: whitehairguy moved too quickly! 12.004537303635743,0.0,1.050201276199573
-[23:23:33] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1039, y=66, z=598} class_2338{x=1039, y=65, z=600}
-[23:23:33] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1039, y=66, z=598} class_2338{x=1039, y=65, z=601}
-[23:23:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1041, y=65, z=598} class_2338{x=1041, y=65, z=600}
-[23:23:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1042, y=67, z=599} class_2338{x=1042, y=67, z=602}
-[23:23:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1042, y=67, z=599} class_2338{x=1042, y=66, z=598}
-[23:23:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1043, y=64, z=598} class_2338{x=1043, y=64, z=599}
-[23:23:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1044, y=65, z=599} class_2338{x=1044, y=65, z=600}
-[23:23:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1044, y=65, z=599} class_2338{x=1045, y=68, z=602}
-[23:23:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1044, y=65, z=599} class_2338{x=1045, y=67, z=598}
-[23:23:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1044, y=65, z=599} class_2338{x=1045, y=67, z=599}
-[23:23:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1044, y=65, z=599} class_2338{x=1045, y=65, z=602}
-[23:23:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1044, y=65, z=599} class_2338{x=1045, y=64, z=598}
-[23:23:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1044, y=65, z=599} class_2338{x=1045, y=64, z=599}
-[23:23:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1044, y=65, z=599} class_2338{x=1046, y=66, z=600}
-[23:23:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1044, y=65, z=599} class_2338{x=1046, y=66, z=601}
-[23:23:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1044, y=65, z=599} class_2338{x=1046, y=66, z=601}
-[23:24:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1048, y=68, z=601} class_2338{x=1048, y=65, z=601}
-[23:24:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1048, y=68, z=601} class_2338{x=1048, y=64, z=598}
-[23:24:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1048, y=68, z=601} class_2338{x=1049, y=68, z=598}
-[23:24:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1048, y=68, z=601} class_2338{x=1049, y=66, z=601}
-[23:24:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1048, y=68, z=601} class_2338{x=1049, y=65, z=598}
-[23:24:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1048, y=68, z=601} class_2338{x=1050, y=68, z=598}
-[23:24:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1048, y=68, z=601} class_2338{x=1050, y=68, z=599}
-[23:24:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1048, y=68, z=601} class_2338{x=1050, y=68, z=600}
-[23:24:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1048, y=68, z=601} class_2338{x=1050, y=68, z=600}
-[23:24:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1058, y=64, z=602} class_2338{x=1059, y=68, z=600}
-[23:24:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1058, y=64, z=602} class_2338{x=1059, y=68, z=601}
-[23:24:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1058, y=64, z=602} class_2338{x=1059, y=68, z=601}
-[23:26:35] [Server thread/WARN]: whitehairguy moved too quickly! -11.814787260487265,0.0,-2.386241614309938
+[00:48:27] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/crestfallen/Minecraft/Vanilla/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[00:48:40] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[00:48:41] [main/WARN]: Missing data pack fabric
+[00:48:41] [main/WARN]: Missing data pack fabric-convention-tags-v2
+[00:48:46] [main/INFO]: Loaded 1370 recipes
+[00:48:46] [main/INFO]: Loaded 1481 advancements
+[00:48:46] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[00:48:46] [Server thread/INFO]: Loading properties
+[00:48:46] [Server thread/INFO]: Default game type: SURVIVAL
+[00:48:46] [Server thread/INFO]: Generating keypair
+[00:48:46] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:48:46] [Server thread/INFO]: Using epoll channel type
+[00:48:46] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:48:46] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:48:46] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:48:46] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:48:46] [Server thread/INFO]: Preparing level "world"
+[00:48:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:48:51] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[00:48:51] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[00:48:51] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[00:48:51] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[00:48:51] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[00:48:51] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[00:48:51] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[00:48:51] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[00:48:51] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[00:48:52] [Server thread/INFO]: Time elapsed: 4470 ms
+[00:48:52] [Server thread/INFO]: Done (5.300s)! For help, type "help"
+[00:48:54] [Server thread/INFO]: whitehairguy[/127.0.0.1:52700] logged in with entity id 7 at (736.9420963469192, 87.0, 579.7392088520573)
+[00:48:54] [Server thread/INFO]: whitehairguy joined the game
+[00:48:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2104ms or 42 ticks behind
+[00:50:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[00:54:59] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[00:54:59] [Server thread/INFO]: whitehairguy left the game
