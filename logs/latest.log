@@ -1,41 +1,413 @@
-[00:48:27] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.10
-[00:48:27] [main/INFO]: Loading 4 mods:
+[15:08:41] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.10
+[15:08:42] [main/INFO]: Loading 4 mods:
 	- fabricloader 0.16.10
 	   \-- mixinextras 0.4.1
 	- java 21
 	- minecraft 1.21.4
-[00:48:27] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/crestfallen/Minecraft/Vanilla/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[00:48:40] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[00:48:41] [main/WARN]: Missing data pack fabric
-[00:48:41] [main/WARN]: Missing data pack fabric-convention-tags-v2
-[00:48:46] [main/INFO]: Loaded 1370 recipes
-[00:48:46] [main/INFO]: Loaded 1481 advancements
-[00:48:46] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[00:48:46] [Server thread/INFO]: Loading properties
-[00:48:46] [Server thread/INFO]: Default game type: SURVIVAL
-[00:48:46] [Server thread/INFO]: Generating keypair
-[00:48:46] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:48:46] [Server thread/INFO]: Using epoll channel type
-[00:48:46] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:48:46] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[00:48:46] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:48:46] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:48:46] [Server thread/INFO]: Preparing level "world"
-[00:48:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:48:51] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[00:48:51] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[00:48:51] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[00:48:51] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[00:48:51] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[00:48:51] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[00:48:51] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[00:48:51] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[00:48:51] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[00:48:52] [Server thread/INFO]: Time elapsed: 4470 ms
-[00:48:52] [Server thread/INFO]: Done (5.300s)! For help, type "help"
-[00:48:54] [Server thread/INFO]: whitehairguy[/127.0.0.1:52700] logged in with entity id 7 at (736.9420963469192, 87.0, 579.7392088520573)
-[00:48:54] [Server thread/INFO]: whitehairguy joined the game
-[00:48:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2104ms or 42 ticks behind
-[00:50:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
-[00:54:59] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[00:54:59] [Server thread/INFO]: whitehairguy left the game
+[15:08:42] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/crestfallen/Minecraft/Vanilla/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[15:08:48] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:08:52] [main/INFO]: Loaded 1370 recipes
+[15:08:52] [main/INFO]: Loaded 1481 advancements
+[15:08:52] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[15:08:52] [Server thread/INFO]: Loading properties
+[15:08:52] [Server thread/INFO]: Default game type: SURVIVAL
+[15:08:52] [Server thread/INFO]: Generating keypair
+[15:08:52] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:08:52] [Server thread/INFO]: Using epoll channel type
+[15:08:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:08:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:08:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:08:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:08:53] [Server thread/INFO]: Preparing level "world"
+[15:08:53] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:08:57] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[15:08:57] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[15:08:57] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[15:08:57] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[15:08:57] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[15:08:57] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[15:08:57] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[15:08:57] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[15:08:57] [Server thread/INFO]: Time elapsed: 3966 ms
+[15:08:57] [Server thread/INFO]: Done (4.841s)! For help, type "help"
+[15:09:21] [Server thread/INFO]: whitehairguy[/127.0.0.1:45688] logged in with entity id 11 at (687.1337427508399, 63.0, 570.5906518079369)
+[15:09:21] [Server thread/INFO]: whitehairguy joined the game
+[15:09:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2041ms or 40 ticks behind
+[15:11:30] [Server thread/INFO]: MiffMoff[/127.151.101.23:36767] logged in with entity id 1358 at (666.3748526512803, 67.0, 546.9670724607453)
+[15:11:30] [Server thread/INFO]: MiffMoff joined the game
+[15:13:40] [Server thread/INFO]: Villager class_1646['Villager'/181, l='ServerLevel[New World]', x=709.70, y=64.43, z=639.16] died, message: 'Villager was squished too much'
+[15:16:26] [Server thread/INFO]: [Not Secure] <MiffMoff> do you have fuel
+[15:16:34] [Server thread/INFO]: [Not Secure] <whitehairguy> wood
+[15:16:40] [Server thread/INFO]: [Not Secure] <whitehairguy> but in my tree base
+[15:16:40] [Server thread/INFO]: [Not Secure] <MiffMoff> plis give
+[15:19:22] [Server thread/INFO]: [Not Secure] <whitehairguy> private parts lol
+[15:19:23] [Server thread/INFO]: [Not Secure] <whitehairguy> wait
+[15:19:34] [Server thread/INFO]: [Not Secure] <whitehairguy> have to fetch something
+[15:19:37] [Server thread/INFO]: [Not Secure] <whitehairguy> gimme 5m
+[15:19:39] [Server thread/INFO]: [Not Secure] <MiffMoff> alrrr
+[15:19:53] [Server thread/INFO]: MiffMoff has made the advancement [Acquire Hardware]
+[15:21:12] [Server thread/INFO]: [Not Secure] <whitehairguy> lets go
+[15:24:18] [Server thread/INFO]: [Not Secure] <whitehairguy> wati let me check map again
+[15:24:23] [Server thread/INFO]: [Not Secure] <whitehairguy> i think we are going in teh wrong direction
+[15:25:05] [Server thread/INFO]: [Not Secure] <whitehairguy> ghasts too
+[15:27:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=516, y=89, z=1770} class_2338{x=518, y=89, z=1772}
+[15:27:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=516, y=89, z=1770} class_2338{x=518, y=89, z=1772}
+[15:27:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=516, y=89, z=1770} class_2338{x=518, y=89, z=1772}
+[15:27:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=516, y=89, z=1770} class_2338{x=518, y=89, z=1772}
+[15:27:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=516, y=89, z=1770} class_2338{x=518, y=89, z=1772}
+[15:27:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=516, y=89, z=1770} class_2338{x=518, y=89, z=1772}
+[15:27:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=516, y=89, z=1770} class_2338{x=518, y=89, z=1772}
+[15:27:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=516, y=89, z=1770} class_2338{x=518, y=89, z=1772}
+[15:27:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=516, y=89, z=1770} class_2338{x=518, y=89, z=1772}
+[15:27:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=516, y=89, z=1770} class_2338{x=518, y=89, z=1772}
+[15:27:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=516, y=89, z=1770} class_2338{x=518, y=89, z=1772}
+[15:27:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=516, y=89, z=1770} class_2338{x=518, y=89, z=1772}
+[15:27:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=516, y=89, z=1770} class_2338{x=518, y=89, z=1772}
+[15:27:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=516, y=89, z=1770} class_2338{x=518, y=89, z=1772}
+[15:27:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=516, y=89, z=1770} class_2338{x=518, y=89, z=1772}
+[15:27:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=516, y=89, z=1770} class_2338{x=518, y=89, z=1772}
+[15:27:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=516, y=89, z=1770} class_2338{x=518, y=89, z=1772}
+[15:36:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2429ms or 48 ticks behind
+[15:36:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3815ms or 76 ticks behind
+[15:40:35] [Server thread/INFO]: [Not Secure] <whitehairguy> fro waht
+[15:40:47] [Server thread/INFO]: [Not Secure] <whitehairguy> ohh he neds the apples
+[15:41:45] [Server thread/INFO]: [Not Secure] <whitehairguy> maybe i found it
+[15:41:54] [Server thread/INFO]: [Not Secure] <whitehairguy> please dont die
+[15:42:16] [Server thread/INFO]: [Not Secure] <whitehairguy> follow me
+[15:43:03] [Server thread/INFO]: [Not Secure] <whitehairguy> corals
+[15:43:28] [Server thread/INFO]: [Not Secure] <whitehairguy> noep
+[15:43:33] [Server thread/INFO]: [Not Secure] <whitehairguy> me forgot
+[15:44:00] [Server thread/INFO]: [Not Secure] <whitehairguy> gimme a bucket
+[15:44:16] [Server thread/INFO]: MiffMoff has made the advancement [Tactical Fishing]
+[15:44:54] [Server thread/INFO]: [Not Secure] <whitehairguy> you need silk touch i guess
+[15:45:04] [Server thread/INFO]: [Not Secure] <whitehairguy> because without it you get dead coral block
+[15:45:15] [Server thread/INFO]: [Not Secure] <whitehairguy> i have silky for you
+[15:45:49] [Server thread/INFO]: [Not Secure] <whitehairguy> get the preserver
+[15:45:59] [Server thread/INFO]: [Not Secure] <whitehairguy> silk touch pickaxe
+[15:46:30] [Server thread/INFO]: [Not Secure] <whitehairguy> nope get everythin
+[15:48:28] [Server thread/INFO]: MiffMoff has made the advancement [Monster Hunter]
+[15:48:32] [Server thread/INFO]: [Not Secure] <whitehairguy> damn
+[15:49:12] [Server thread/INFO]: [Not Secure] <whitehairguy> put coral stuff in this shulker box
+[15:49:30] [Server thread/INFO]: [Not Secure] <whitehairguy> dont need it right now
+[15:51:11] [Server thread/INFO]: [Not Secure] <whitehairguy> like a 3 hr bus time
+[15:51:23] [Server thread/INFO]: [Not Secure] <whitehairguy> its close
+[15:51:27] [Server thread/INFO]: [Not Secure] <whitehairguy> how mcuh is yours
+[15:52:05] [Server thread/INFO]: [Not Secure] <whitehairguy> im searching
+[15:52:08] [Server thread/INFO]: [Not Secure] <whitehairguy> NCL?
+[15:52:45] [Server thread/INFO]: [Not Secure] <whitehairguy> secluded area?
+[15:52:48] [Server thread/INFO]: [Not Secure] <whitehairguy> or confidential?
+[15:54:29] [Server thread/INFO]: [Not Secure] <whitehairguy> explains you 31 return date
+[15:54:54] [Server thread/INFO]: [Not Secure] <whitehairguy> why thapar then?
+[15:55:53] [Server thread/INFO]: [Not Secure] <whitehairguy> ahhh thea avg comp sci
+[15:56:12] [Server thread/INFO]: [Not Secure] <whitehairguy> true that
+[15:56:30] [Server thread/INFO]: [Not Secure] <whitehairguy> you hate north indians?
+[15:56:37] [Server thread/INFO]: [Not Secure] <whitehairguy> you can be honest
+[15:56:43] [Server thread/INFO]: [Not Secure] <whitehairguy> i hate most punjabi people
+[15:56:46] [Server thread/INFO]: [Not Secure] <whitehairguy> they have a big ego
+[15:56:55] [Server thread/INFO]: MiffMoff lost connection: Disconnected
+[15:56:55] [Server thread/INFO]: MiffMoff left the game
+[15:57:28] [Server thread/INFO]: MiffMoff[/127.151.101.23:52783] logged in with entity id 24071 at (-1207.5193121046009, 61.08520160306986, 4003.7340034302715)
+[15:57:28] [Server thread/INFO]: MiffMoff joined the game
+[15:57:57] [Server thread/INFO]: [Not Secure] <whitehairguy> hate>
+[15:57:59] [Server thread/INFO]: [Not Secure] <whitehairguy> ?
+[15:58:29] [Server thread/INFO]: [Not Secure] <whitehairguy> i mean my experience was always with big ego peole
+[15:58:40] [Server thread/INFO]: [Not Secure] <whitehairguy> like huge
+[15:58:53] [Server thread/INFO]: [Not Secure] <whitehairguy> one disagreement and its a physical fight
+[15:58:56] [Server thread/INFO]: [Not Secure] <whitehairguy> yes they show off too
+[15:59:03] [Server thread/INFO]: [Not Secure] <whitehairguy> the avg THAR show off
+[15:59:06] [Server thread/INFO]: [Not Secure] <whitehairguy> im actually from delhi
+[15:59:59] [Server thread/INFO]: [Not Secure] <whitehairguy> what exactly?
+[16:00:18] [Server thread/INFO]: [Not Secure] <whitehairguy> i think it as actually bad
+[16:00:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1211, y=56, z=4011} class_2338{x=-1211, y=57, z=4011}
+[16:00:26] [Server thread/INFO]: [Not Secure] <whitehairguy> was'
+[16:00:46] [Server thread/INFO]: [Not Secure] <whitehairguy> situationship?
+[16:01:09] [Server thread/INFO]: [Not Secure] <whitehairguy> abuse?
+[16:01:19] [Server thread/INFO]: [Not Secure] <whitehairguy> i mean
+[16:01:22] [Server thread/INFO]: [Not Secure] <whitehairguy> yeah :thinking:
+[16:01:53] [Server thread/INFO]: [Not Secure] <whitehairguy> me too
+[16:02:44] [Server thread/INFO]: [Not Secure] <whitehairguy> senior or junior?
+[16:02:50] [Server thread/INFO]: [Not Secure] <whitehairguy> what?
+[16:04:00] [Server thread/INFO]: [Not Secure] <whitehairguy> yes
+[16:04:03] [Server thread/INFO]: [Not Secure] <whitehairguy> was he good guy?
+[16:04:21] [Server thread/INFO]: [Not Secure] <whitehairguy> why do i think i know him
+[16:04:45] [Server thread/INFO]: [Not Secure] <whitehairguy> whats his name?
+[16:05:12] [Server thread/INFO]: [Not Secure] <whitehairguy> XD
+[16:05:20] [Server thread/INFO]: [Not Secure] <whitehairguy> nope they dont
+[16:06:08] [Server thread/INFO]: [Not Secure] <whitehairguy> who?
+[16:06:12] [Server thread/INFO]: [Not Secure] <whitehairguy> arpit agge?
+[16:06:14] [Server thread/INFO]: [Not Secure] <MiffMoff> arpit goel
+[16:06:22] [Server thread/INFO]: [Not Secure] <whitehairguy> let me check insta
+[16:06:37] [Server thread/INFO]: [Not Secure] <whitehairguy> id ont have good experiences with arpit lol
+[16:06:54] [Server thread/INFO]: [Not Secure] <whitehairguy> the brownkidd lol
+[16:06:57] [Server thread/INFO]: [Not Secure] <whitehairguy> hes my friend bf
+[16:07:15] [Server thread/INFO]: [Not Secure] <whitehairguy> nope
+[16:07:24] [Server thread/INFO]: [Not Secure] <whitehairguy> we dont talk much you can say hes a colleague
+[16:07:39] [Server thread/INFO]: [Not Secure] <whitehairguy> is she healthy healthy??
+[16:07:47] [Server thread/INFO]: [Not Secure] <whitehairguy> dont want to say fat
+[16:07:52] [Server thread/INFO]: [Not Secure] <whitehairguy> the new girl
+[16:08:06] [Server thread/INFO]: [Not Secure] <MiffMoff> heaven kharoud
+[16:08:18] [Server thread/INFO]: [Not Secure] <whitehairguy> let me check insta
+[16:08:25] [Server thread/INFO]: [Not Secure] <whitehairguy> when i was getting the photoshoot for mc edit
+[16:08:32] [Server thread/INFO]: [Not Secure] <whitehairguy> me and my buddy had to encounter him
+[16:08:42] [Server thread/INFO]: [Not Secure] <whitehairguy> supposedly we disturbed him and hir girl time
+[16:08:48] [Server thread/INFO]: [Not Secure] <whitehairguy> yes his face says that
+[16:09:17] [Server thread/INFO]: [Not Secure] <whitehairguy> why do people go for juniors
+[16:09:25] [Server thread/INFO]: [Not Secure] <whitehairguy> :crying:
+[16:10:36] [Server thread/INFO]: [Not Secure] <whitehairguy> yes went there
+[16:10:41] [Server thread/INFO]: [Not Secure] <whitehairguy> for therapy one time
+[16:11:15] [Server thread/INFO]: [Not Secure] <whitehairguy> its alright
+[16:11:20] [Server thread/INFO]: [Not Secure] <whitehairguy> world is weird
+[16:11:38] [Server thread/INFO]: [Not Secure] <whitehairguy> nope
+[16:11:40] [Server thread/INFO]: [Not Secure] <whitehairguy> bestfriend
+[16:11:43] [Server thread/INFO]: [Not Secure] <whitehairguy> like they hang around
+[16:11:44] [Server thread/INFO]: [Not Secure] <whitehairguy> he male
+[16:11:52] [Server thread/INFO]: [Not Secure] <whitehairguy> bff
+[16:11:59] [Server thread/INFO]: [Not Secure] <whitehairguy> yes
+[16:12:12] [Server thread/INFO]: [Not Secure] <whitehairguy> college is smol
+[16:13:03] [Server thread/INFO]: [Not Secure] <whitehairguy> she was never your friend then
+[16:13:26] [Server thread/INFO]: [Not Secure] <whitehairguy> girls are never girls friend
+[16:13:35] [Server thread/INFO]: [Not Secure] <whitehairguy> most of the case
+[16:14:02] [Server thread/INFO]: [Not Secure] <whitehairguy> like theres a friend of mine(female)
+[16:14:08] [Server thread/INFO]: [Not Secure] <whitehairguy> she told me how girls actually are
+[16:14:13] [Server thread/INFO]: [Not Secure] <whitehairguy> in terms of friendships
+[16:14:16] [Server thread/INFO]: [Not Secure] <whitehairguy> so yk
+[16:15:02] [Server thread/INFO]: [Not Secure] <whitehairguy> frosh is just for hookups
+[16:15:06] [Server thread/INFO]: [Not Secure] <whitehairguy> same for adventures
+[16:15:08] [Server thread/INFO]: [Not Secure] <whitehairguy> club
+[16:15:20] [Server thread/INFO]: [Not Secure] <whitehairguy> yesssssssss
+[16:15:22] [Server thread/INFO]: [Not Secure] <whitehairguy> exactly that
+[16:15:57] [Server thread/INFO]: [Not Secure] <whitehairguy> pufferfish
+[16:16:02] [Server thread/INFO]: [Not Secure] <whitehairguy> yes with juniors
+[16:16:15] [Server thread/INFO]: [Not Secure] <whitehairguy> had a new whole friend group
+[16:16:17] [Server thread/INFO]: [Not Secure] <whitehairguy> yes
+[16:16:36] [Server thread/INFO]: [Not Secure] <whitehairguy> lets go
+[16:16:57] [Server thread/INFO]: [Not Secure] <whitehairguy> yes true
+[16:16:59] [Server thread/INFO]: [Not Secure] <whitehairguy> college days
+[16:17:30] [Server thread/INFO]: [Not Secure] <whitehairguy> XD
+[16:17:47] [Server thread/INFO]: [Not Secure] <whitehairguy> did you go to this holiparty
+[16:18:03] [Server thread/INFO]: [Not Secure] <whitehairguy> it was great one
+[16:18:13] [Server thread/INFO]: [Not Secure] <whitehairguy> i mean pool party ofc yea
+[16:18:32] [Server thread/INFO]: [Not Secure] <whitehairguy> with other people bodily fluid
+[16:18:34] [Server thread/INFO]: [Not Secure] <whitehairguy> XD
+[16:18:53] [Server thread/INFO]: [Not Secure] <whitehairguy> pee and what not
+[16:19:18] [Server thread/INFO]: [Not Secure] <whitehairguy> not that
+[16:19:19] [Server thread/INFO]: [Not Secure] <whitehairguy> a little
+[16:19:24] [Server thread/INFO]: [Not Secure] <whitehairguy> depends who im going with
+[16:20:42] [Server thread/INFO]: [Not Secure] <whitehairguy> frat lol
+[16:21:19] [Server thread/INFO]: [Not Secure] <whitehairguy> make chest
+[16:21:55] [Server thread/INFO]: [Not Secure] <whitehairguy> i made it
+[16:22:16] [Server thread/INFO]: [Not Secure] <whitehairguy> mine these
+[16:22:24] [Server thread/INFO]: [Not Secure] <whitehairguy> yes
+[16:22:28] [Server thread/INFO]: [Not Secure] <whitehairguy> loads of these blocks
+[16:22:37] [Server thread/INFO]: [Not Secure] <whitehairguy> yes
+[16:22:38] [Server thread/INFO]: [Not Secure] <whitehairguy> bred
+[16:23:46] [Server thread/INFO]: [Not Secure] <whitehairguy> which ones?
+[16:24:09] [Server thread/INFO]: [Not Secure] <whitehairguy> near EST maybe
+[16:24:16] [Server thread/INFO]: [Not Secure] <whitehairguy> after EST For sure
+[16:24:41] [Server thread/INFO]: [Not Secure] <whitehairguy> i thikn i had my fair share of drinking
+[16:24:54] [Server thread/INFO]: [Not Secure] <whitehairguy> in my first ttwo years
+[16:25:06] [Server thread/INFO]: [Not Secure] <whitehairguy> its more like fitness goals se align nhi krte
+[16:25:17] [Server thread/INFO]: [Not Secure] <whitehairguy> gives you pot belly
+[16:25:29] [Server thread/INFO]: [Not Secure] <whitehairguy> yes decreases test too
+[16:25:48] [Server thread/INFO]: [Not Secure] <whitehairguy> wdym gym bro
+[16:25:50] [Server thread/INFO]: [Not Secure] <whitehairguy> hmmmmm
+[16:25:57] [Server thread/INFO]: [Not Secure] <whitehairguy> thinking what to say
+[16:26:12] [Server thread/INFO]: [Not Secure] <whitehairguy> i mean people say im very harcore into it
+[16:26:16] [Server thread/INFO]: [Not Secure] <whitehairguy> but i would like to disagree
+[16:26:26] [Server thread/INFO]: [Not Secure] <whitehairguy> i just do it consistently
+[16:27:00] [Server thread/INFO]: [Not Secure] <whitehairguy> working out is better
+[16:27:12] [Server thread/INFO]: [Not Secure] <whitehairguy> gym and minecraft
+[16:27:18] [Server thread/INFO]: [Not Secure] <whitehairguy> the most productive day o
+[16:27:31] [Server thread/INFO]: [Not Secure] <whitehairguy> add some coding for projects
+[16:27:48] [Server thread/INFO]: [Not Secure] <whitehairguy> i wish
+[16:28:07] [Server thread/INFO]: [Not Secure] <whitehairguy> true that
+[16:28:20] [Server thread/INFO]: [Not Secure] <whitehairguy> yes im sadly the eldest
+[16:28:28] [Server thread/INFO]: [Not Secure] <whitehairguy> nope
+[16:28:30] [Server thread/INFO]: [Not Secure] <whitehairguy> its not fun
+[16:28:36] [Server thread/INFO]: [Not Secure] <whitehairguy> i wish i had an elder sister or brother
+[16:28:42] [Server thread/INFO]: [Not Secure] <whitehairguy> your behaviour explains that
+[16:28:49] [Server thread/INFO]: [Not Secure] <whitehairguy> no judging
+[16:29:07] [Server thread/INFO]: [Not Secure] <whitehairguy> its a feeling
+[16:29:09] [Server thread/INFO]: [Not Secure] <whitehairguy> gut feeling*
+[16:29:24] [Server thread/INFO]: [Not Secure] <whitehairguy> damn
+[16:29:40] [Server thread/INFO]: [Not Secure] <whitehairguy> damnnnnnn
+[16:29:43] [Server thread/INFO]: [Not Secure] <whitehairguy> your sister won
+[16:30:02] [Server thread/INFO]: [Not Secure] <whitehairguy> you cant force
+[16:30:03] [Server thread/INFO]: [Not Secure] <whitehairguy> it
+[16:30:32] [Server thread/INFO]: [Not Secure] <whitehairguy> its alright you have a whole life ahead you
+[16:30:36] [Server thread/INFO]: [Not Secure] <whitehairguy> take the L as lessons
+[16:31:08] [Server thread/INFO]: [Not Secure] <whitehairguy> yes
+[16:31:25] [Server thread/INFO]: [Not Secure] <whitehairguy> what use of terracotta is there
+[16:31:29] [Server thread/INFO]: [Not Secure] <whitehairguy> i cant speak
+[16:31:31] [Server thread/INFO]: [Not Secure] <whitehairguy> mom will listen
+[16:31:49] [Server thread/INFO]: [Not Secure] <whitehairguy> yess
+[16:32:08] [Server thread/INFO]: [Not Secure] <whitehairguy> therea big coral reef of around 15k radius
+[16:32:16] [Server thread/INFO]: [Not Secure] <whitehairguy> yes
+[16:32:24] [Server thread/INFO]: [Not Secure] <whitehairguy> yes its for future
+[16:33:03] [Server thread/INFO]: [Not Secure] <whitehairguy> just 2 more years sadly
+[16:33:46] [Server thread/INFO]: [Not Secure] <whitehairguy> explain the diff
+[16:34:24] [Server thread/INFO]: [Not Secure] <whitehairguy> pretentious hmmm
+[16:34:51] [Server thread/INFO]: [Not Secure] <whitehairguy> ohhh speak something in thta
+[16:34:54] [Server thread/INFO]: [Not Secure] <whitehairguy> racism lol
+[16:35:12] [Server thread/INFO]: [Not Secure] <whitehairguy> hmmm arha hai smjh :crying:
+[16:35:29] [Server thread/INFO]: [Not Secure] <whitehairguy> yes
+[16:36:23] [Server thread/INFO]: [Not Secure] <whitehairguy> like
+[16:36:27] [Server thread/INFO]: [Not Secure] <whitehairguy> give me the extreme
+[16:36:38] [Server thread/INFO]: [Not Secure] <whitehairguy> what
+[16:36:45] [Server thread/INFO]: [Not Secure] <whitehairguy> whowho?
+[16:37:03] [Server thread/INFO]: [Not Secure] <whitehairguy> extereme like?
+[16:37:29] [Server thread/INFO]: [Not Secure] <whitehairguy> hmmm
+[16:37:33] [Server thread/INFO]: [Not Secure] <whitehairguy> iknow a bengali who is that
+[16:37:42] [Server thread/INFO]: [Not Secure] <whitehairguy> overly >.....
+[16:37:44] [Server thread/INFO]: [Not Secure] <whitehairguy> yes
+[16:37:50] [Server thread/INFO]: [Not Secure] <whitehairguy> lol
+[16:37:57] [Server thread/INFO]: [Not Secure] <whitehairguy> wait
+[16:38:02] [Server thread/INFO]: [Not Secure] <whitehairguy> you good friends?
+[16:38:15] [Server thread/INFO]: [Not Secure] <whitehairguy> i mean her bestfriend is my bestfriend
+[16:38:21] [Server thread/INFO]: [Not Secure] <whitehairguy> so i know everythin
+[16:38:32] [Server thread/INFO]: [Not Secure] <whitehairguy> down to the last detail:crying:
+[16:38:42] [Server thread/INFO]: [Not Secure] <whitehairguy> yes
+[16:38:56] [Server thread/INFO]: [Not Secure] <whitehairguy> thats why i said overly promiscious
+[16:39:22] [Server thread/INFO]: [Not Secure] <whitehairguy> im just saying shes bengali
+[16:39:29] [Server thread/INFO]: [Not Secure] <whitehairguy> and shes ....
+[16:40:05] [Server thread/INFO]: [Not Secure] <whitehairguy> nope
+[16:40:13] [Server thread/INFO]: [Not Secure] <whitehairguy> after college more weird shit
+[16:40:35] [Server thread/INFO]: [Not Secure] <whitehairguy> what??
+[16:40:50] [Server thread/INFO]: [Not Secure] <whitehairguy> whatt?? your voice is cracking
+[16:41:09] [Server thread/INFO]: [Not Secure] <whitehairguy> im just a random internet friend
+[16:41:16] [Server thread/INFO]: [Not Secure] <MiffMoff> i hooked up w a 29 y/o when i was 18 lol
+[16:41:25] [Server thread/INFO]: [Not Secure] <whitehairguy> damn
+[16:41:52] [Server thread/INFO]: [Not Secure] <whitehairguy> normal amount :crying:
+[16:42:48] [Server thread/INFO]: [Not Secure] <whitehairguy> thats
+[16:42:56] [Server thread/INFO]: [Not Secure] <whitehairguy> hmmmm
+[16:43:26] [Server thread/INFO]: [Not Secure] <whitehairguy> yes forget that you are 19
+[16:44:10] [Server thread/INFO]: [Not Secure] <whitehairguy> tel me the "know more"
+[16:44:22] [Server thread/INFO]: [Not Secure] <whitehairguy> want to compare
+[16:45:36] [Server thread/INFO]: [Not Secure] <whitehairguy> hmmm understadable having older siblings
+[16:45:49] [Server thread/INFO]: [Not Secure] <whitehairguy> im gonna be that for my siblings
+[16:46:10] [Server thread/INFO]: [Not Secure] <whitehairguy> not exactly want
+[16:46:23] [Server thread/INFO]: [Not Secure] <whitehairguy> i just want to finish college and start earning
+[16:46:39] [Server thread/INFO]: [Not Secure] <whitehairguy> get out of college
+[16:46:45] [Server thread/INFO]: [Not Secure] <whitehairguy> yes
+[16:47:04] [Server thread/INFO]: [Not Secure] <whitehairguy> had my fair share of college
+[16:47:08] [Server thread/INFO]: [Not Secure] <whitehairguy> of people
+[16:47:46] [Server thread/INFO]: Villager class_1646['Villager'/44157, l='ServerLevel[New World]', x=709.14, y=63.52, z=639.18] died, message: 'Villager was squished too much'
+[16:47:47] [Server thread/INFO]: [Not Secure] <whitehairguy> wahts this
+[16:48:25] [Server thread/INFO]: [Not Secure] <whitehairguy> saw a tutoral
+[16:48:40] [Server thread/INFO]: [Not Secure] <whitehairguy> huff that was along journey
+[16:49:09] [Server thread/INFO]: [Not Secure] <whitehairguy> yse
+[16:49:55] [Server thread/INFO]: [Not Secure] <whitehairguy> you want coral reef
+[16:50:00] [Server thread/INFO]: [Not Secure] <whitehairguy> hes in 11
+[16:50:09] [Server thread/INFO]: [Not Secure] <whitehairguy> yeahhh
+[16:50:19] [Server thread/INFO]: [Not Secure] <whitehairguy> exactly that
+[16:50:36] [Server thread/INFO]: [Not Secure] <whitehairguy> jee suckss
+[16:51:17] [Server thread/INFO]: [Not Secure] <whitehairguy> can relate
+[16:51:24] [Server thread/INFO]: [Not Secure] <whitehairguy> yeah
+[16:51:30] [Server thread/INFO]: [Not Secure] <whitehairguy> happy that i saved my boards
+[16:51:53] [Server thread/INFO]: [Not Secure] <whitehairguy> longterm hmmm :thinking: idk if i should say that or not but it was more like 1 yr
+[16:52:15] [Server thread/INFO]: [Not Secure] <whitehairguy> i mean when you have been in 3yr and sort of that
+[16:52:20] [Server thread/INFO]: [Not Secure] <whitehairguy> 1yr doesnt look long
+[16:52:29] [Server thread/INFO]: [Not Secure] <whitehairguy> i have been
+[16:52:39] [Server thread/INFO]: [Not Secure] <whitehairguy> can say
+[16:52:51] [Server thread/INFO]: [Not Secure] <whitehairguy> its like kiske pass time hai ek baar mein different logo se baat krne ka
+[16:52:59] [Server thread/INFO]: [Not Secure] <whitehairguy> i sadly dont have :crying:
+[16:53:36] [Server thread/INFO]: [Not Secure] <whitehairguy> i mean girls have
+[16:53:41] [Server thread/INFO]: [Not Secure] <whitehairguy> they always have
+[16:53:52] [Server thread/INFO]: [Not Secure] <whitehairguy> guys is like exceptional case
+[16:54:14] [Server thread/INFO]: [Not Secure] <whitehairguy> then bro thought it might be better to have roster
+[16:54:40] [Server thread/INFO]: [Not Secure] <whitehairguy> ohhh company = roster
+[16:54:42] [Server thread/INFO]: [Not Secure] <whitehairguy> noice
+[16:55:02] [Server thread/INFO]: Villager class_1646['Villager'/44160, l='ServerLevel[New World]', x=709.13, y=63.39, z=639.17] died, message: 'Villager was squished too much'
+[16:55:47] [Server thread/INFO]: [Not Secure] <whitehairguy> ohhhh
+[16:55:53] [Server thread/INFO]: [Not Secure] <whitehairguy> as long you are not cheating
+[16:55:55] [Server thread/INFO]: [Not Secure] <whitehairguy> got it
+[16:56:08] [Server thread/INFO]: [Not Secure] <whitehairguy> i have one friend
+[16:56:17] [Server thread/INFO]: [Not Secure] <whitehairguy> who exposed me to this thinking
+[16:56:18] [Server thread/INFO]: Villager class_1646['Villager'/44155, l='ServerLevel[New World]', x=709.15, y=63.59, z=639.18] died, message: 'Villager was squished too much'
+[16:56:29] [Server thread/INFO]: [Not Secure] <whitehairguy> as long as you are not cheating
+[16:56:35] [Server thread/INFO]: [Not Secure] <whitehairguy> and are open about what you want
+[16:56:37] [Server thread/INFO]: [Not Secure] <whitehairguy> its not bad
+[16:56:53] [Server thread/INFO]: [Not Secure] <whitehairguy> bro convinced me to make hinge profile
+[16:57:03] [Server thread/INFO]: [Not Secure] <whitehairguy> yes bumble sucks
+[16:57:07] [Server thread/INFO]: [Not Secure] <whitehairguy> yes hinge was fun
+[16:57:20] [Server thread/INFO]: [Not Secure] <whitehairguy> but stpped after 1 week
+[16:57:34] [Server thread/INFO]: [Not Secure] <whitehairguy> it was really time consuming to talk to so many people
+[16:57:48] [Server thread/INFO]: [Not Secure] <whitehairguy> have so many contexts of diff conversations
+[16:58:14] [Server thread/INFO]: [Not Secure] <whitehairguy> memory
+[16:58:27] [Server thread/INFO]: [Not Secure] <whitehairguy> you sound experienced
+[16:58:56] [Server thread/INFO]: [Not Secure] <whitehairguy> also girls on hinge have no game
+[16:59:03] [Server thread/INFO]: [Not Secure] <whitehairguy> because men have made it so easy for them
+[16:59:12] [Server thread/INFO]: [Not Secure] <whitehairguy> they dont know how to start
+[16:59:20] [Server thread/INFO]: [Not Secure] <whitehairguy> they hang up
+[16:59:25] [Server thread/INFO]: [Not Secure] <whitehairguy> like my laptop
+[16:59:57] [Server thread/INFO]: [Not Secure] <whitehairguy> ohhh a whole big orgy
+[17:00:03] [Server thread/INFO]: [Not Secure] <whitehairguy> kindo f
+[17:00:17] [Server thread/INFO]: [Not Secure] <whitehairguy> :laughing:
+[17:00:29] [Server thread/INFO]: [Not Secure] <whitehairguy> the make out is real
+[17:00:42] [Server thread/INFO]: [Not Secure] <whitehairguy> what nooooo
+[17:00:51] [Server thread/INFO]: [Not Secure] <whitehairguy> wait what did you acuse me of
+[17:02:00] [Server thread/INFO]: [Not Secure] <whitehairguy> ohhhh got it
+[17:02:05] [Server thread/INFO]: [Not Secure] <whitehairguy> you want exclusivity
+[17:02:10] [Server thread/INFO]: [Not Secure] <whitehairguy> for physical needs
+[17:02:21] [Server thread/INFO]: Villager class_1646['Villager'/44151, l='ServerLevel[New World]', x=709.21, y=63.33, z=639.14] died, message: 'Villager was squished too much'
+[17:02:33] [Server thread/INFO]: [Not Secure] <whitehairguy> as quoted by my friend ~ as long as you are open about what you want
+[17:03:15] [Server thread/INFO]: [Not Secure] <whitehairguy> head over heels
+[17:03:45] [Server thread/INFO]: [Not Secure] <whitehairguy> i know so many things except your name
+[17:03:54] [Server thread/INFO]: [Not Secure] <whitehairguy> what is it? so i can connect dots
+[17:04:19] [Server thread/INFO]: [Not Secure] <whitehairguy> tristhta what?
+[17:04:27] [Server thread/INFO]: [Not Secure] <MiffMoff> shrestha bhowmick
+[17:04:40] [Server thread/INFO]: [Not Secure] <whitehairguy> now we go on insta ndsee mutuals
+[17:05:03] [Server thread/INFO]: [Not Secure] <whitehairguy> your pp is short
+[17:05:04] [Server thread/INFO]: [Not Secure] <whitehairguy> lol
+[17:05:38] [Server thread/INFO]: [Not Secure] <whitehairguy> you are a red hair :thinking
+[17:06:15] [Server thread/INFO]: [Not Secure] <whitehairguy> gursimar
+[17:06:21] [Server thread/INFO]: [Not Secure] <whitehairguy> anushka
+[17:06:54] [Server thread/INFO]: [Not Secure] <whitehairguy> pj unke group ka hai
+[17:07:31] [Server thread/INFO]: [Not Secure] <whitehairguy> yes last time i met pj we both were drunk lol
+[17:07:43] [Server thread/INFO]: [Not Secure] <whitehairguy> we go gym together
+[17:07:58] [Server thread/INFO]: [Not Secure] <whitehairguy> what?
+[17:08:20] [Server thread/INFO]: MiffMoff lost connection: Timed out
+[17:08:20] [Server thread/INFO]: MiffMoff left the game
+[17:08:20] [Server thread/WARN]: handleDisconnection() called twice
+[17:08:33] [Server thread/INFO]: [Not Secure] <whitehairguy> wait
+[17:08:55] [Server thread/INFO]: MiffMoff[/127.151.101.23:40295] logged in with entity id 50702 at (665.7689830894755, 68.0, 542.3170497128691)
+[17:08:55] [Server thread/INFO]: MiffMoff joined the game
+[17:09:26] [Server thread/INFO]: [Not Secure] <whitehairguy> yo im back
+[17:09:33] [Server thread/INFO]: [Not Secure] <whitehairguy> what were you saying
+[17:09:42] [Server thread/INFO]: [Not Secure] <whitehairguy> weird
+[17:09:59] [Server thread/INFO]: [Not Secure] <whitehairguy> yeahh can say that
+[17:10:04] [Server thread/INFO]: [Not Secure] <whitehairguy> its the public profile
+[17:10:21] [Server thread/INFO]: [Not Secure] <whitehairguy> same lol
+[17:11:11] [Server thread/INFO]: [Not Secure] <whitehairguy> nonchalant at not posting
+[17:11:13] [Server thread/INFO]: [Not Secure] <whitehairguy> but okay
+[17:11:35] [Server thread/INFO]: [Not Secure] <whitehairguy> ohhhh
+[17:11:47] [Server thread/INFO]: [Not Secure] <whitehairguy> sign 1 of narcissist
+[17:11:56] [Server thread/INFO]: [Not Secure] <whitehairguy> yes you did
+[17:12:06] [Server thread/INFO]: [Not Secure] <whitehairguy> that you are narcissist
+[17:12:47] [Server thread/INFO]: [Not Secure] <whitehairguy> you have the emo girl look
+[17:13:02] [Server thread/INFO]: [Not Secure] <whitehairguy> just dye black and goth makeup
+[17:13:41] [Server thread/INFO]: [Not Secure] <whitehairguy> dying se baal khrab nhi hote?
+[17:15:01] [Server thread/INFO]: [Not Secure] <whitehairguy> i think i should go back to college
+[17:15:24] [Server thread/INFO]: [Not Secure] <whitehairguy> good boy
+[17:15:45] [Server thread/INFO]: [Not Secure] <whitehairguy> very obedient
+[17:16:24] [Server thread/INFO]: [Not Secure] <whitehairguy> balls?
+[17:16:27] [Server thread/INFO]: [Not Secure] <whitehairguy> calls?
+[17:16:48] [Server thread/INFO]: [Not Secure] <whitehairguy> you give me that vibe of my friend(ex)
+[17:16:59] [Server thread/INFO]: [Not Secure] <whitehairguy> ex turned friend
+[17:17:09] [Server thread/INFO]: [Not Secure] <whitehairguy> your thinking
+[17:17:16] [Server thread/INFO]: [Not Secure] <whitehairguy> view of the world
+[17:17:21] [Server thread/INFO]: [Not Secure] <whitehairguy> of how things go
+[17:17:25] [Server thread/INFO]: [Not Secure] <whitehairguy> and what you think
+[17:17:35] [Server thread/INFO]: [Not Secure] <whitehairguy> yes yes def no
+[17:17:38] [Server thread/INFO]: [Not Secure] <whitehairguy> :D
+[17:18:11] [Server thread/INFO]: [Not Secure] <whitehairguy> ohh thats explains
+[17:18:24] [Server thread/INFO]: [Not Secure] <whitehairguy> we didnt meet in person
+[17:18:29] [Server thread/INFO]: [Not Secure] <whitehairguy> just eye contact
+[17:18:36] [Server thread/INFO]: [Not Secure] <whitehairguy> when i was getting food in mess
+[17:18:44] [Server thread/INFO]: [Not Secure] <whitehairguy> that too in dif hostel
+[17:18:49] [Server thread/INFO]: [Not Secure] <whitehairguy> we did the headnod
+[17:19:43] [Server thread/INFO]: [Not Secure] <whitehairguy> yes i guess
+[17:19:54] [Server thread/INFO]: [Not Secure] <whitehairguy> use zero trust
+[17:20:06] [Server thread/INFO]: [Not Secure] <whitehairguy> zero trust from cloudflare
+[17:20:14] [Server thread/INFO]: [Not Secure] <whitehairguy> ya toh main hostel ata
+[17:20:20] [Server thread/INFO]: [Not Secure] <whitehairguy> raat ko khelte
