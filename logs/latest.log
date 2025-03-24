@@ -1,413 +1,341 @@
-[15:08:41] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.10
-[15:08:42] [main/INFO]: Loading 4 mods:
+[21:56:50] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.10
+[21:56:50] [main/INFO]: Loading 4 mods:
 	- fabricloader 0.16.10
 	   \-- mixinextras 0.4.1
 	- java 21
 	- minecraft 1.21.4
-[15:08:42] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/crestfallen/Minecraft/Vanilla/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[15:08:48] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:08:52] [main/INFO]: Loaded 1370 recipes
-[15:08:52] [main/INFO]: Loaded 1481 advancements
-[15:08:52] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[15:08:52] [Server thread/INFO]: Loading properties
-[15:08:52] [Server thread/INFO]: Default game type: SURVIVAL
-[15:08:52] [Server thread/INFO]: Generating keypair
-[15:08:52] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:08:52] [Server thread/INFO]: Using epoll channel type
-[15:08:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:08:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:08:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:08:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:08:53] [Server thread/INFO]: Preparing level "world"
-[15:08:53] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:08:57] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[15:08:57] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[15:08:57] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[15:08:57] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[15:08:57] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[15:08:57] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[15:08:57] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[15:08:57] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[15:08:57] [Server thread/INFO]: Time elapsed: 3966 ms
-[15:08:57] [Server thread/INFO]: Done (4.841s)! For help, type "help"
-[15:09:21] [Server thread/INFO]: whitehairguy[/127.0.0.1:45688] logged in with entity id 11 at (687.1337427508399, 63.0, 570.5906518079369)
-[15:09:21] [Server thread/INFO]: whitehairguy joined the game
-[15:09:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2041ms or 40 ticks behind
-[15:11:30] [Server thread/INFO]: MiffMoff[/127.151.101.23:36767] logged in with entity id 1358 at (666.3748526512803, 67.0, 546.9670724607453)
-[15:11:30] [Server thread/INFO]: MiffMoff joined the game
-[15:13:40] [Server thread/INFO]: Villager class_1646['Villager'/181, l='ServerLevel[New World]', x=709.70, y=64.43, z=639.16] died, message: 'Villager was squished too much'
-[15:16:26] [Server thread/INFO]: [Not Secure] <MiffMoff> do you have fuel
-[15:16:34] [Server thread/INFO]: [Not Secure] <whitehairguy> wood
-[15:16:40] [Server thread/INFO]: [Not Secure] <whitehairguy> but in my tree base
-[15:16:40] [Server thread/INFO]: [Not Secure] <MiffMoff> plis give
-[15:19:22] [Server thread/INFO]: [Not Secure] <whitehairguy> private parts lol
-[15:19:23] [Server thread/INFO]: [Not Secure] <whitehairguy> wait
-[15:19:34] [Server thread/INFO]: [Not Secure] <whitehairguy> have to fetch something
-[15:19:37] [Server thread/INFO]: [Not Secure] <whitehairguy> gimme 5m
-[15:19:39] [Server thread/INFO]: [Not Secure] <MiffMoff> alrrr
-[15:19:53] [Server thread/INFO]: MiffMoff has made the advancement [Acquire Hardware]
-[15:21:12] [Server thread/INFO]: [Not Secure] <whitehairguy> lets go
-[15:24:18] [Server thread/INFO]: [Not Secure] <whitehairguy> wati let me check map again
-[15:24:23] [Server thread/INFO]: [Not Secure] <whitehairguy> i think we are going in teh wrong direction
-[15:25:05] [Server thread/INFO]: [Not Secure] <whitehairguy> ghasts too
-[15:27:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=516, y=89, z=1770} class_2338{x=518, y=89, z=1772}
-[15:27:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=516, y=89, z=1770} class_2338{x=518, y=89, z=1772}
-[15:27:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=516, y=89, z=1770} class_2338{x=518, y=89, z=1772}
-[15:27:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=516, y=89, z=1770} class_2338{x=518, y=89, z=1772}
-[15:27:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=516, y=89, z=1770} class_2338{x=518, y=89, z=1772}
-[15:27:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=516, y=89, z=1770} class_2338{x=518, y=89, z=1772}
-[15:27:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=516, y=89, z=1770} class_2338{x=518, y=89, z=1772}
-[15:27:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=516, y=89, z=1770} class_2338{x=518, y=89, z=1772}
-[15:27:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=516, y=89, z=1770} class_2338{x=518, y=89, z=1772}
-[15:27:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=516, y=89, z=1770} class_2338{x=518, y=89, z=1772}
-[15:27:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=516, y=89, z=1770} class_2338{x=518, y=89, z=1772}
-[15:27:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=516, y=89, z=1770} class_2338{x=518, y=89, z=1772}
-[15:27:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=516, y=89, z=1770} class_2338{x=518, y=89, z=1772}
-[15:27:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=516, y=89, z=1770} class_2338{x=518, y=89, z=1772}
-[15:27:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=516, y=89, z=1770} class_2338{x=518, y=89, z=1772}
-[15:27:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=516, y=89, z=1770} class_2338{x=518, y=89, z=1772}
-[15:27:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=516, y=89, z=1770} class_2338{x=518, y=89, z=1772}
-[15:36:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2429ms or 48 ticks behind
-[15:36:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3815ms or 76 ticks behind
-[15:40:35] [Server thread/INFO]: [Not Secure] <whitehairguy> fro waht
-[15:40:47] [Server thread/INFO]: [Not Secure] <whitehairguy> ohh he neds the apples
-[15:41:45] [Server thread/INFO]: [Not Secure] <whitehairguy> maybe i found it
-[15:41:54] [Server thread/INFO]: [Not Secure] <whitehairguy> please dont die
-[15:42:16] [Server thread/INFO]: [Not Secure] <whitehairguy> follow me
-[15:43:03] [Server thread/INFO]: [Not Secure] <whitehairguy> corals
-[15:43:28] [Server thread/INFO]: [Not Secure] <whitehairguy> noep
-[15:43:33] [Server thread/INFO]: [Not Secure] <whitehairguy> me forgot
-[15:44:00] [Server thread/INFO]: [Not Secure] <whitehairguy> gimme a bucket
-[15:44:16] [Server thread/INFO]: MiffMoff has made the advancement [Tactical Fishing]
-[15:44:54] [Server thread/INFO]: [Not Secure] <whitehairguy> you need silk touch i guess
-[15:45:04] [Server thread/INFO]: [Not Secure] <whitehairguy> because without it you get dead coral block
-[15:45:15] [Server thread/INFO]: [Not Secure] <whitehairguy> i have silky for you
-[15:45:49] [Server thread/INFO]: [Not Secure] <whitehairguy> get the preserver
-[15:45:59] [Server thread/INFO]: [Not Secure] <whitehairguy> silk touch pickaxe
-[15:46:30] [Server thread/INFO]: [Not Secure] <whitehairguy> nope get everythin
-[15:48:28] [Server thread/INFO]: MiffMoff has made the advancement [Monster Hunter]
-[15:48:32] [Server thread/INFO]: [Not Secure] <whitehairguy> damn
-[15:49:12] [Server thread/INFO]: [Not Secure] <whitehairguy> put coral stuff in this shulker box
-[15:49:30] [Server thread/INFO]: [Not Secure] <whitehairguy> dont need it right now
-[15:51:11] [Server thread/INFO]: [Not Secure] <whitehairguy> like a 3 hr bus time
-[15:51:23] [Server thread/INFO]: [Not Secure] <whitehairguy> its close
-[15:51:27] [Server thread/INFO]: [Not Secure] <whitehairguy> how mcuh is yours
-[15:52:05] [Server thread/INFO]: [Not Secure] <whitehairguy> im searching
-[15:52:08] [Server thread/INFO]: [Not Secure] <whitehairguy> NCL?
-[15:52:45] [Server thread/INFO]: [Not Secure] <whitehairguy> secluded area?
-[15:52:48] [Server thread/INFO]: [Not Secure] <whitehairguy> or confidential?
-[15:54:29] [Server thread/INFO]: [Not Secure] <whitehairguy> explains you 31 return date
-[15:54:54] [Server thread/INFO]: [Not Secure] <whitehairguy> why thapar then?
-[15:55:53] [Server thread/INFO]: [Not Secure] <whitehairguy> ahhh thea avg comp sci
-[15:56:12] [Server thread/INFO]: [Not Secure] <whitehairguy> true that
-[15:56:30] [Server thread/INFO]: [Not Secure] <whitehairguy> you hate north indians?
-[15:56:37] [Server thread/INFO]: [Not Secure] <whitehairguy> you can be honest
-[15:56:43] [Server thread/INFO]: [Not Secure] <whitehairguy> i hate most punjabi people
-[15:56:46] [Server thread/INFO]: [Not Secure] <whitehairguy> they have a big ego
-[15:56:55] [Server thread/INFO]: MiffMoff lost connection: Disconnected
-[15:56:55] [Server thread/INFO]: MiffMoff left the game
-[15:57:28] [Server thread/INFO]: MiffMoff[/127.151.101.23:52783] logged in with entity id 24071 at (-1207.5193121046009, 61.08520160306986, 4003.7340034302715)
-[15:57:28] [Server thread/INFO]: MiffMoff joined the game
-[15:57:57] [Server thread/INFO]: [Not Secure] <whitehairguy> hate>
-[15:57:59] [Server thread/INFO]: [Not Secure] <whitehairguy> ?
-[15:58:29] [Server thread/INFO]: [Not Secure] <whitehairguy> i mean my experience was always with big ego peole
-[15:58:40] [Server thread/INFO]: [Not Secure] <whitehairguy> like huge
-[15:58:53] [Server thread/INFO]: [Not Secure] <whitehairguy> one disagreement and its a physical fight
-[15:58:56] [Server thread/INFO]: [Not Secure] <whitehairguy> yes they show off too
-[15:59:03] [Server thread/INFO]: [Not Secure] <whitehairguy> the avg THAR show off
-[15:59:06] [Server thread/INFO]: [Not Secure] <whitehairguy> im actually from delhi
-[15:59:59] [Server thread/INFO]: [Not Secure] <whitehairguy> what exactly?
-[16:00:18] [Server thread/INFO]: [Not Secure] <whitehairguy> i think it as actually bad
-[16:00:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1211, y=56, z=4011} class_2338{x=-1211, y=57, z=4011}
-[16:00:26] [Server thread/INFO]: [Not Secure] <whitehairguy> was'
-[16:00:46] [Server thread/INFO]: [Not Secure] <whitehairguy> situationship?
-[16:01:09] [Server thread/INFO]: [Not Secure] <whitehairguy> abuse?
-[16:01:19] [Server thread/INFO]: [Not Secure] <whitehairguy> i mean
-[16:01:22] [Server thread/INFO]: [Not Secure] <whitehairguy> yeah :thinking:
-[16:01:53] [Server thread/INFO]: [Not Secure] <whitehairguy> me too
-[16:02:44] [Server thread/INFO]: [Not Secure] <whitehairguy> senior or junior?
-[16:02:50] [Server thread/INFO]: [Not Secure] <whitehairguy> what?
-[16:04:00] [Server thread/INFO]: [Not Secure] <whitehairguy> yes
-[16:04:03] [Server thread/INFO]: [Not Secure] <whitehairguy> was he good guy?
-[16:04:21] [Server thread/INFO]: [Not Secure] <whitehairguy> why do i think i know him
-[16:04:45] [Server thread/INFO]: [Not Secure] <whitehairguy> whats his name?
-[16:05:12] [Server thread/INFO]: [Not Secure] <whitehairguy> XD
-[16:05:20] [Server thread/INFO]: [Not Secure] <whitehairguy> nope they dont
-[16:06:08] [Server thread/INFO]: [Not Secure] <whitehairguy> who?
-[16:06:12] [Server thread/INFO]: [Not Secure] <whitehairguy> arpit agge?
-[16:06:14] [Server thread/INFO]: [Not Secure] <MiffMoff> arpit goel
-[16:06:22] [Server thread/INFO]: [Not Secure] <whitehairguy> let me check insta
-[16:06:37] [Server thread/INFO]: [Not Secure] <whitehairguy> id ont have good experiences with arpit lol
-[16:06:54] [Server thread/INFO]: [Not Secure] <whitehairguy> the brownkidd lol
-[16:06:57] [Server thread/INFO]: [Not Secure] <whitehairguy> hes my friend bf
-[16:07:15] [Server thread/INFO]: [Not Secure] <whitehairguy> nope
-[16:07:24] [Server thread/INFO]: [Not Secure] <whitehairguy> we dont talk much you can say hes a colleague
-[16:07:39] [Server thread/INFO]: [Not Secure] <whitehairguy> is she healthy healthy??
-[16:07:47] [Server thread/INFO]: [Not Secure] <whitehairguy> dont want to say fat
-[16:07:52] [Server thread/INFO]: [Not Secure] <whitehairguy> the new girl
-[16:08:06] [Server thread/INFO]: [Not Secure] <MiffMoff> heaven kharoud
-[16:08:18] [Server thread/INFO]: [Not Secure] <whitehairguy> let me check insta
-[16:08:25] [Server thread/INFO]: [Not Secure] <whitehairguy> when i was getting the photoshoot for mc edit
-[16:08:32] [Server thread/INFO]: [Not Secure] <whitehairguy> me and my buddy had to encounter him
-[16:08:42] [Server thread/INFO]: [Not Secure] <whitehairguy> supposedly we disturbed him and hir girl time
-[16:08:48] [Server thread/INFO]: [Not Secure] <whitehairguy> yes his face says that
-[16:09:17] [Server thread/INFO]: [Not Secure] <whitehairguy> why do people go for juniors
-[16:09:25] [Server thread/INFO]: [Not Secure] <whitehairguy> :crying:
-[16:10:36] [Server thread/INFO]: [Not Secure] <whitehairguy> yes went there
-[16:10:41] [Server thread/INFO]: [Not Secure] <whitehairguy> for therapy one time
-[16:11:15] [Server thread/INFO]: [Not Secure] <whitehairguy> its alright
-[16:11:20] [Server thread/INFO]: [Not Secure] <whitehairguy> world is weird
-[16:11:38] [Server thread/INFO]: [Not Secure] <whitehairguy> nope
-[16:11:40] [Server thread/INFO]: [Not Secure] <whitehairguy> bestfriend
-[16:11:43] [Server thread/INFO]: [Not Secure] <whitehairguy> like they hang around
-[16:11:44] [Server thread/INFO]: [Not Secure] <whitehairguy> he male
-[16:11:52] [Server thread/INFO]: [Not Secure] <whitehairguy> bff
-[16:11:59] [Server thread/INFO]: [Not Secure] <whitehairguy> yes
-[16:12:12] [Server thread/INFO]: [Not Secure] <whitehairguy> college is smol
-[16:13:03] [Server thread/INFO]: [Not Secure] <whitehairguy> she was never your friend then
-[16:13:26] [Server thread/INFO]: [Not Secure] <whitehairguy> girls are never girls friend
-[16:13:35] [Server thread/INFO]: [Not Secure] <whitehairguy> most of the case
-[16:14:02] [Server thread/INFO]: [Not Secure] <whitehairguy> like theres a friend of mine(female)
-[16:14:08] [Server thread/INFO]: [Not Secure] <whitehairguy> she told me how girls actually are
-[16:14:13] [Server thread/INFO]: [Not Secure] <whitehairguy> in terms of friendships
-[16:14:16] [Server thread/INFO]: [Not Secure] <whitehairguy> so yk
-[16:15:02] [Server thread/INFO]: [Not Secure] <whitehairguy> frosh is just for hookups
-[16:15:06] [Server thread/INFO]: [Not Secure] <whitehairguy> same for adventures
-[16:15:08] [Server thread/INFO]: [Not Secure] <whitehairguy> club
-[16:15:20] [Server thread/INFO]: [Not Secure] <whitehairguy> yesssssssss
-[16:15:22] [Server thread/INFO]: [Not Secure] <whitehairguy> exactly that
-[16:15:57] [Server thread/INFO]: [Not Secure] <whitehairguy> pufferfish
-[16:16:02] [Server thread/INFO]: [Not Secure] <whitehairguy> yes with juniors
-[16:16:15] [Server thread/INFO]: [Not Secure] <whitehairguy> had a new whole friend group
-[16:16:17] [Server thread/INFO]: [Not Secure] <whitehairguy> yes
-[16:16:36] [Server thread/INFO]: [Not Secure] <whitehairguy> lets go
-[16:16:57] [Server thread/INFO]: [Not Secure] <whitehairguy> yes true
-[16:16:59] [Server thread/INFO]: [Not Secure] <whitehairguy> college days
-[16:17:30] [Server thread/INFO]: [Not Secure] <whitehairguy> XD
-[16:17:47] [Server thread/INFO]: [Not Secure] <whitehairguy> did you go to this holiparty
-[16:18:03] [Server thread/INFO]: [Not Secure] <whitehairguy> it was great one
-[16:18:13] [Server thread/INFO]: [Not Secure] <whitehairguy> i mean pool party ofc yea
-[16:18:32] [Server thread/INFO]: [Not Secure] <whitehairguy> with other people bodily fluid
-[16:18:34] [Server thread/INFO]: [Not Secure] <whitehairguy> XD
-[16:18:53] [Server thread/INFO]: [Not Secure] <whitehairguy> pee and what not
-[16:19:18] [Server thread/INFO]: [Not Secure] <whitehairguy> not that
-[16:19:19] [Server thread/INFO]: [Not Secure] <whitehairguy> a little
-[16:19:24] [Server thread/INFO]: [Not Secure] <whitehairguy> depends who im going with
-[16:20:42] [Server thread/INFO]: [Not Secure] <whitehairguy> frat lol
-[16:21:19] [Server thread/INFO]: [Not Secure] <whitehairguy> make chest
-[16:21:55] [Server thread/INFO]: [Not Secure] <whitehairguy> i made it
-[16:22:16] [Server thread/INFO]: [Not Secure] <whitehairguy> mine these
-[16:22:24] [Server thread/INFO]: [Not Secure] <whitehairguy> yes
-[16:22:28] [Server thread/INFO]: [Not Secure] <whitehairguy> loads of these blocks
-[16:22:37] [Server thread/INFO]: [Not Secure] <whitehairguy> yes
-[16:22:38] [Server thread/INFO]: [Not Secure] <whitehairguy> bred
-[16:23:46] [Server thread/INFO]: [Not Secure] <whitehairguy> which ones?
-[16:24:09] [Server thread/INFO]: [Not Secure] <whitehairguy> near EST maybe
-[16:24:16] [Server thread/INFO]: [Not Secure] <whitehairguy> after EST For sure
-[16:24:41] [Server thread/INFO]: [Not Secure] <whitehairguy> i thikn i had my fair share of drinking
-[16:24:54] [Server thread/INFO]: [Not Secure] <whitehairguy> in my first ttwo years
-[16:25:06] [Server thread/INFO]: [Not Secure] <whitehairguy> its more like fitness goals se align nhi krte
-[16:25:17] [Server thread/INFO]: [Not Secure] <whitehairguy> gives you pot belly
-[16:25:29] [Server thread/INFO]: [Not Secure] <whitehairguy> yes decreases test too
-[16:25:48] [Server thread/INFO]: [Not Secure] <whitehairguy> wdym gym bro
-[16:25:50] [Server thread/INFO]: [Not Secure] <whitehairguy> hmmmmm
-[16:25:57] [Server thread/INFO]: [Not Secure] <whitehairguy> thinking what to say
-[16:26:12] [Server thread/INFO]: [Not Secure] <whitehairguy> i mean people say im very harcore into it
-[16:26:16] [Server thread/INFO]: [Not Secure] <whitehairguy> but i would like to disagree
-[16:26:26] [Server thread/INFO]: [Not Secure] <whitehairguy> i just do it consistently
-[16:27:00] [Server thread/INFO]: [Not Secure] <whitehairguy> working out is better
-[16:27:12] [Server thread/INFO]: [Not Secure] <whitehairguy> gym and minecraft
-[16:27:18] [Server thread/INFO]: [Not Secure] <whitehairguy> the most productive day o
-[16:27:31] [Server thread/INFO]: [Not Secure] <whitehairguy> add some coding for projects
-[16:27:48] [Server thread/INFO]: [Not Secure] <whitehairguy> i wish
-[16:28:07] [Server thread/INFO]: [Not Secure] <whitehairguy> true that
-[16:28:20] [Server thread/INFO]: [Not Secure] <whitehairguy> yes im sadly the eldest
-[16:28:28] [Server thread/INFO]: [Not Secure] <whitehairguy> nope
-[16:28:30] [Server thread/INFO]: [Not Secure] <whitehairguy> its not fun
-[16:28:36] [Server thread/INFO]: [Not Secure] <whitehairguy> i wish i had an elder sister or brother
-[16:28:42] [Server thread/INFO]: [Not Secure] <whitehairguy> your behaviour explains that
-[16:28:49] [Server thread/INFO]: [Not Secure] <whitehairguy> no judging
-[16:29:07] [Server thread/INFO]: [Not Secure] <whitehairguy> its a feeling
-[16:29:09] [Server thread/INFO]: [Not Secure] <whitehairguy> gut feeling*
-[16:29:24] [Server thread/INFO]: [Not Secure] <whitehairguy> damn
-[16:29:40] [Server thread/INFO]: [Not Secure] <whitehairguy> damnnnnnn
-[16:29:43] [Server thread/INFO]: [Not Secure] <whitehairguy> your sister won
-[16:30:02] [Server thread/INFO]: [Not Secure] <whitehairguy> you cant force
-[16:30:03] [Server thread/INFO]: [Not Secure] <whitehairguy> it
-[16:30:32] [Server thread/INFO]: [Not Secure] <whitehairguy> its alright you have a whole life ahead you
-[16:30:36] [Server thread/INFO]: [Not Secure] <whitehairguy> take the L as lessons
-[16:31:08] [Server thread/INFO]: [Not Secure] <whitehairguy> yes
-[16:31:25] [Server thread/INFO]: [Not Secure] <whitehairguy> what use of terracotta is there
-[16:31:29] [Server thread/INFO]: [Not Secure] <whitehairguy> i cant speak
-[16:31:31] [Server thread/INFO]: [Not Secure] <whitehairguy> mom will listen
-[16:31:49] [Server thread/INFO]: [Not Secure] <whitehairguy> yess
-[16:32:08] [Server thread/INFO]: [Not Secure] <whitehairguy> therea big coral reef of around 15k radius
-[16:32:16] [Server thread/INFO]: [Not Secure] <whitehairguy> yes
-[16:32:24] [Server thread/INFO]: [Not Secure] <whitehairguy> yes its for future
-[16:33:03] [Server thread/INFO]: [Not Secure] <whitehairguy> just 2 more years sadly
-[16:33:46] [Server thread/INFO]: [Not Secure] <whitehairguy> explain the diff
-[16:34:24] [Server thread/INFO]: [Not Secure] <whitehairguy> pretentious hmmm
-[16:34:51] [Server thread/INFO]: [Not Secure] <whitehairguy> ohhh speak something in thta
-[16:34:54] [Server thread/INFO]: [Not Secure] <whitehairguy> racism lol
-[16:35:12] [Server thread/INFO]: [Not Secure] <whitehairguy> hmmm arha hai smjh :crying:
-[16:35:29] [Server thread/INFO]: [Not Secure] <whitehairguy> yes
-[16:36:23] [Server thread/INFO]: [Not Secure] <whitehairguy> like
-[16:36:27] [Server thread/INFO]: [Not Secure] <whitehairguy> give me the extreme
-[16:36:38] [Server thread/INFO]: [Not Secure] <whitehairguy> what
-[16:36:45] [Server thread/INFO]: [Not Secure] <whitehairguy> whowho?
-[16:37:03] [Server thread/INFO]: [Not Secure] <whitehairguy> extereme like?
-[16:37:29] [Server thread/INFO]: [Not Secure] <whitehairguy> hmmm
-[16:37:33] [Server thread/INFO]: [Not Secure] <whitehairguy> iknow a bengali who is that
-[16:37:42] [Server thread/INFO]: [Not Secure] <whitehairguy> overly >.....
-[16:37:44] [Server thread/INFO]: [Not Secure] <whitehairguy> yes
-[16:37:50] [Server thread/INFO]: [Not Secure] <whitehairguy> lol
-[16:37:57] [Server thread/INFO]: [Not Secure] <whitehairguy> wait
-[16:38:02] [Server thread/INFO]: [Not Secure] <whitehairguy> you good friends?
-[16:38:15] [Server thread/INFO]: [Not Secure] <whitehairguy> i mean her bestfriend is my bestfriend
-[16:38:21] [Server thread/INFO]: [Not Secure] <whitehairguy> so i know everythin
-[16:38:32] [Server thread/INFO]: [Not Secure] <whitehairguy> down to the last detail:crying:
-[16:38:42] [Server thread/INFO]: [Not Secure] <whitehairguy> yes
-[16:38:56] [Server thread/INFO]: [Not Secure] <whitehairguy> thats why i said overly promiscious
-[16:39:22] [Server thread/INFO]: [Not Secure] <whitehairguy> im just saying shes bengali
-[16:39:29] [Server thread/INFO]: [Not Secure] <whitehairguy> and shes ....
-[16:40:05] [Server thread/INFO]: [Not Secure] <whitehairguy> nope
-[16:40:13] [Server thread/INFO]: [Not Secure] <whitehairguy> after college more weird shit
-[16:40:35] [Server thread/INFO]: [Not Secure] <whitehairguy> what??
-[16:40:50] [Server thread/INFO]: [Not Secure] <whitehairguy> whatt?? your voice is cracking
-[16:41:09] [Server thread/INFO]: [Not Secure] <whitehairguy> im just a random internet friend
-[16:41:16] [Server thread/INFO]: [Not Secure] <MiffMoff> i hooked up w a 29 y/o when i was 18 lol
-[16:41:25] [Server thread/INFO]: [Not Secure] <whitehairguy> damn
-[16:41:52] [Server thread/INFO]: [Not Secure] <whitehairguy> normal amount :crying:
-[16:42:48] [Server thread/INFO]: [Not Secure] <whitehairguy> thats
-[16:42:56] [Server thread/INFO]: [Not Secure] <whitehairguy> hmmmm
-[16:43:26] [Server thread/INFO]: [Not Secure] <whitehairguy> yes forget that you are 19
-[16:44:10] [Server thread/INFO]: [Not Secure] <whitehairguy> tel me the "know more"
-[16:44:22] [Server thread/INFO]: [Not Secure] <whitehairguy> want to compare
-[16:45:36] [Server thread/INFO]: [Not Secure] <whitehairguy> hmmm understadable having older siblings
-[16:45:49] [Server thread/INFO]: [Not Secure] <whitehairguy> im gonna be that for my siblings
-[16:46:10] [Server thread/INFO]: [Not Secure] <whitehairguy> not exactly want
-[16:46:23] [Server thread/INFO]: [Not Secure] <whitehairguy> i just want to finish college and start earning
-[16:46:39] [Server thread/INFO]: [Not Secure] <whitehairguy> get out of college
-[16:46:45] [Server thread/INFO]: [Not Secure] <whitehairguy> yes
-[16:47:04] [Server thread/INFO]: [Not Secure] <whitehairguy> had my fair share of college
-[16:47:08] [Server thread/INFO]: [Not Secure] <whitehairguy> of people
-[16:47:46] [Server thread/INFO]: Villager class_1646['Villager'/44157, l='ServerLevel[New World]', x=709.14, y=63.52, z=639.18] died, message: 'Villager was squished too much'
-[16:47:47] [Server thread/INFO]: [Not Secure] <whitehairguy> wahts this
-[16:48:25] [Server thread/INFO]: [Not Secure] <whitehairguy> saw a tutoral
-[16:48:40] [Server thread/INFO]: [Not Secure] <whitehairguy> huff that was along journey
-[16:49:09] [Server thread/INFO]: [Not Secure] <whitehairguy> yse
-[16:49:55] [Server thread/INFO]: [Not Secure] <whitehairguy> you want coral reef
-[16:50:00] [Server thread/INFO]: [Not Secure] <whitehairguy> hes in 11
-[16:50:09] [Server thread/INFO]: [Not Secure] <whitehairguy> yeahhh
-[16:50:19] [Server thread/INFO]: [Not Secure] <whitehairguy> exactly that
-[16:50:36] [Server thread/INFO]: [Not Secure] <whitehairguy> jee suckss
-[16:51:17] [Server thread/INFO]: [Not Secure] <whitehairguy> can relate
-[16:51:24] [Server thread/INFO]: [Not Secure] <whitehairguy> yeah
-[16:51:30] [Server thread/INFO]: [Not Secure] <whitehairguy> happy that i saved my boards
-[16:51:53] [Server thread/INFO]: [Not Secure] <whitehairguy> longterm hmmm :thinking: idk if i should say that or not but it was more like 1 yr
-[16:52:15] [Server thread/INFO]: [Not Secure] <whitehairguy> i mean when you have been in 3yr and sort of that
-[16:52:20] [Server thread/INFO]: [Not Secure] <whitehairguy> 1yr doesnt look long
-[16:52:29] [Server thread/INFO]: [Not Secure] <whitehairguy> i have been
-[16:52:39] [Server thread/INFO]: [Not Secure] <whitehairguy> can say
-[16:52:51] [Server thread/INFO]: [Not Secure] <whitehairguy> its like kiske pass time hai ek baar mein different logo se baat krne ka
-[16:52:59] [Server thread/INFO]: [Not Secure] <whitehairguy> i sadly dont have :crying:
-[16:53:36] [Server thread/INFO]: [Not Secure] <whitehairguy> i mean girls have
-[16:53:41] [Server thread/INFO]: [Not Secure] <whitehairguy> they always have
-[16:53:52] [Server thread/INFO]: [Not Secure] <whitehairguy> guys is like exceptional case
-[16:54:14] [Server thread/INFO]: [Not Secure] <whitehairguy> then bro thought it might be better to have roster
-[16:54:40] [Server thread/INFO]: [Not Secure] <whitehairguy> ohhh company = roster
-[16:54:42] [Server thread/INFO]: [Not Secure] <whitehairguy> noice
-[16:55:02] [Server thread/INFO]: Villager class_1646['Villager'/44160, l='ServerLevel[New World]', x=709.13, y=63.39, z=639.17] died, message: 'Villager was squished too much'
-[16:55:47] [Server thread/INFO]: [Not Secure] <whitehairguy> ohhhh
-[16:55:53] [Server thread/INFO]: [Not Secure] <whitehairguy> as long you are not cheating
-[16:55:55] [Server thread/INFO]: [Not Secure] <whitehairguy> got it
-[16:56:08] [Server thread/INFO]: [Not Secure] <whitehairguy> i have one friend
-[16:56:17] [Server thread/INFO]: [Not Secure] <whitehairguy> who exposed me to this thinking
-[16:56:18] [Server thread/INFO]: Villager class_1646['Villager'/44155, l='ServerLevel[New World]', x=709.15, y=63.59, z=639.18] died, message: 'Villager was squished too much'
-[16:56:29] [Server thread/INFO]: [Not Secure] <whitehairguy> as long as you are not cheating
-[16:56:35] [Server thread/INFO]: [Not Secure] <whitehairguy> and are open about what you want
-[16:56:37] [Server thread/INFO]: [Not Secure] <whitehairguy> its not bad
-[16:56:53] [Server thread/INFO]: [Not Secure] <whitehairguy> bro convinced me to make hinge profile
-[16:57:03] [Server thread/INFO]: [Not Secure] <whitehairguy> yes bumble sucks
-[16:57:07] [Server thread/INFO]: [Not Secure] <whitehairguy> yes hinge was fun
-[16:57:20] [Server thread/INFO]: [Not Secure] <whitehairguy> but stpped after 1 week
-[16:57:34] [Server thread/INFO]: [Not Secure] <whitehairguy> it was really time consuming to talk to so many people
-[16:57:48] [Server thread/INFO]: [Not Secure] <whitehairguy> have so many contexts of diff conversations
-[16:58:14] [Server thread/INFO]: [Not Secure] <whitehairguy> memory
-[16:58:27] [Server thread/INFO]: [Not Secure] <whitehairguy> you sound experienced
-[16:58:56] [Server thread/INFO]: [Not Secure] <whitehairguy> also girls on hinge have no game
-[16:59:03] [Server thread/INFO]: [Not Secure] <whitehairguy> because men have made it so easy for them
-[16:59:12] [Server thread/INFO]: [Not Secure] <whitehairguy> they dont know how to start
-[16:59:20] [Server thread/INFO]: [Not Secure] <whitehairguy> they hang up
-[16:59:25] [Server thread/INFO]: [Not Secure] <whitehairguy> like my laptop
-[16:59:57] [Server thread/INFO]: [Not Secure] <whitehairguy> ohhh a whole big orgy
-[17:00:03] [Server thread/INFO]: [Not Secure] <whitehairguy> kindo f
-[17:00:17] [Server thread/INFO]: [Not Secure] <whitehairguy> :laughing:
-[17:00:29] [Server thread/INFO]: [Not Secure] <whitehairguy> the make out is real
-[17:00:42] [Server thread/INFO]: [Not Secure] <whitehairguy> what nooooo
-[17:00:51] [Server thread/INFO]: [Not Secure] <whitehairguy> wait what did you acuse me of
-[17:02:00] [Server thread/INFO]: [Not Secure] <whitehairguy> ohhhh got it
-[17:02:05] [Server thread/INFO]: [Not Secure] <whitehairguy> you want exclusivity
-[17:02:10] [Server thread/INFO]: [Not Secure] <whitehairguy> for physical needs
-[17:02:21] [Server thread/INFO]: Villager class_1646['Villager'/44151, l='ServerLevel[New World]', x=709.21, y=63.33, z=639.14] died, message: 'Villager was squished too much'
-[17:02:33] [Server thread/INFO]: [Not Secure] <whitehairguy> as quoted by my friend ~ as long as you are open about what you want
-[17:03:15] [Server thread/INFO]: [Not Secure] <whitehairguy> head over heels
-[17:03:45] [Server thread/INFO]: [Not Secure] <whitehairguy> i know so many things except your name
-[17:03:54] [Server thread/INFO]: [Not Secure] <whitehairguy> what is it? so i can connect dots
-[17:04:19] [Server thread/INFO]: [Not Secure] <whitehairguy> tristhta what?
-[17:04:27] [Server thread/INFO]: [Not Secure] <MiffMoff> shrestha bhowmick
-[17:04:40] [Server thread/INFO]: [Not Secure] <whitehairguy> now we go on insta ndsee mutuals
-[17:05:03] [Server thread/INFO]: [Not Secure] <whitehairguy> your pp is short
-[17:05:04] [Server thread/INFO]: [Not Secure] <whitehairguy> lol
-[17:05:38] [Server thread/INFO]: [Not Secure] <whitehairguy> you are a red hair :thinking
-[17:06:15] [Server thread/INFO]: [Not Secure] <whitehairguy> gursimar
-[17:06:21] [Server thread/INFO]: [Not Secure] <whitehairguy> anushka
-[17:06:54] [Server thread/INFO]: [Not Secure] <whitehairguy> pj unke group ka hai
-[17:07:31] [Server thread/INFO]: [Not Secure] <whitehairguy> yes last time i met pj we both were drunk lol
-[17:07:43] [Server thread/INFO]: [Not Secure] <whitehairguy> we go gym together
-[17:07:58] [Server thread/INFO]: [Not Secure] <whitehairguy> what?
-[17:08:20] [Server thread/INFO]: MiffMoff lost connection: Timed out
-[17:08:20] [Server thread/INFO]: MiffMoff left the game
-[17:08:20] [Server thread/WARN]: handleDisconnection() called twice
-[17:08:33] [Server thread/INFO]: [Not Secure] <whitehairguy> wait
-[17:08:55] [Server thread/INFO]: MiffMoff[/127.151.101.23:40295] logged in with entity id 50702 at (665.7689830894755, 68.0, 542.3170497128691)
-[17:08:55] [Server thread/INFO]: MiffMoff joined the game
-[17:09:26] [Server thread/INFO]: [Not Secure] <whitehairguy> yo im back
-[17:09:33] [Server thread/INFO]: [Not Secure] <whitehairguy> what were you saying
-[17:09:42] [Server thread/INFO]: [Not Secure] <whitehairguy> weird
-[17:09:59] [Server thread/INFO]: [Not Secure] <whitehairguy> yeahh can say that
-[17:10:04] [Server thread/INFO]: [Not Secure] <whitehairguy> its the public profile
-[17:10:21] [Server thread/INFO]: [Not Secure] <whitehairguy> same lol
-[17:11:11] [Server thread/INFO]: [Not Secure] <whitehairguy> nonchalant at not posting
-[17:11:13] [Server thread/INFO]: [Not Secure] <whitehairguy> but okay
-[17:11:35] [Server thread/INFO]: [Not Secure] <whitehairguy> ohhhh
-[17:11:47] [Server thread/INFO]: [Not Secure] <whitehairguy> sign 1 of narcissist
-[17:11:56] [Server thread/INFO]: [Not Secure] <whitehairguy> yes you did
-[17:12:06] [Server thread/INFO]: [Not Secure] <whitehairguy> that you are narcissist
-[17:12:47] [Server thread/INFO]: [Not Secure] <whitehairguy> you have the emo girl look
-[17:13:02] [Server thread/INFO]: [Not Secure] <whitehairguy> just dye black and goth makeup
-[17:13:41] [Server thread/INFO]: [Not Secure] <whitehairguy> dying se baal khrab nhi hote?
-[17:15:01] [Server thread/INFO]: [Not Secure] <whitehairguy> i think i should go back to college
-[17:15:24] [Server thread/INFO]: [Not Secure] <whitehairguy> good boy
-[17:15:45] [Server thread/INFO]: [Not Secure] <whitehairguy> very obedient
-[17:16:24] [Server thread/INFO]: [Not Secure] <whitehairguy> balls?
-[17:16:27] [Server thread/INFO]: [Not Secure] <whitehairguy> calls?
-[17:16:48] [Server thread/INFO]: [Not Secure] <whitehairguy> you give me that vibe of my friend(ex)
-[17:16:59] [Server thread/INFO]: [Not Secure] <whitehairguy> ex turned friend
-[17:17:09] [Server thread/INFO]: [Not Secure] <whitehairguy> your thinking
-[17:17:16] [Server thread/INFO]: [Not Secure] <whitehairguy> view of the world
-[17:17:21] [Server thread/INFO]: [Not Secure] <whitehairguy> of how things go
-[17:17:25] [Server thread/INFO]: [Not Secure] <whitehairguy> and what you think
-[17:17:35] [Server thread/INFO]: [Not Secure] <whitehairguy> yes yes def no
-[17:17:38] [Server thread/INFO]: [Not Secure] <whitehairguy> :D
-[17:18:11] [Server thread/INFO]: [Not Secure] <whitehairguy> ohh thats explains
-[17:18:24] [Server thread/INFO]: [Not Secure] <whitehairguy> we didnt meet in person
-[17:18:29] [Server thread/INFO]: [Not Secure] <whitehairguy> just eye contact
-[17:18:36] [Server thread/INFO]: [Not Secure] <whitehairguy> when i was getting food in mess
-[17:18:44] [Server thread/INFO]: [Not Secure] <whitehairguy> that too in dif hostel
-[17:18:49] [Server thread/INFO]: [Not Secure] <whitehairguy> we did the headnod
-[17:19:43] [Server thread/INFO]: [Not Secure] <whitehairguy> yes i guess
-[17:19:54] [Server thread/INFO]: [Not Secure] <whitehairguy> use zero trust
-[17:20:06] [Server thread/INFO]: [Not Secure] <whitehairguy> zero trust from cloudflare
-[17:20:14] [Server thread/INFO]: [Not Secure] <whitehairguy> ya toh main hostel ata
-[17:20:20] [Server thread/INFO]: [Not Secure] <whitehairguy> raat ko khelte
+[21:56:50] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/crestfallen/Minecraft/Vanilla/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[21:57:05] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:57:11] [main/INFO]: Loaded 1370 recipes
+[21:57:12] [main/INFO]: Loaded 1481 advancements
+[21:57:12] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[21:57:12] [Server thread/INFO]: Loading properties
+[21:57:12] [Server thread/INFO]: Default game type: SURVIVAL
+[21:57:12] [Server thread/INFO]: Generating keypair
+[21:57:12] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:57:12] [Server thread/INFO]: Using epoll channel type
+[21:57:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:57:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:57:13] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:57:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:57:13] [Server thread/INFO]: Preparing level "world"
+[21:57:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:57:19] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[21:57:19] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[21:57:19] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[21:57:19] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[21:57:19] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[21:57:19] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[21:57:19] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[21:57:19] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[21:57:19] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[21:57:19] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[21:57:19] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[21:57:19] [Server thread/INFO]: Time elapsed: 5572 ms
+[21:57:19] [Server thread/INFO]: Done (6.597s)! For help, type "help"
+[21:57:28] [Server thread/INFO]: whitehairguy[/127.43.231.74:60635] logged in with entity id 11 at (775.1037810286241, 69.0, 549.9690159539035)
+[21:57:28] [Server thread/INFO]: whitehairguy joined the game
+[21:57:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2428ms or 48 ticks behind
+[22:04:27] [Server thread/INFO]: Chubs410[/127.206.192.209:38253] logged in with entity id 3785 at (642.2229163041726, 64.0, -4411.300000011921)
+[22:04:27] [Server thread/INFO]: Chubs410 joined the game
+[22:04:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[22:05:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
+[22:05:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3047ms or 60 ticks behind
+[22:05:43] [Server thread/INFO]: Ojas_Kumar[/127.43.231.74:38435] logged in with entity id 5198 at (277.5, 103.0, 97.5)
+[22:05:43] [Server thread/INFO]: Ojas_Kumar joined the game
+[22:05:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3952ms or 79 ticks behind
+[22:05:50] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[22:05:50] [Server thread/INFO]: whitehairguy left the game
+[22:05:55] [Server thread/INFO]: whitehairguy[/127.0.0.1:60398] logged in with entity id 5453 at (736.6679413236922, 87.5, 577.5965109306871)
+[22:05:55] [Server thread/INFO]: whitehairguy joined the game
+[22:06:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2046ms or 40 ticks behind
+[22:06:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2596ms or 51 ticks behind
+[22:06:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6185ms or 123 ticks behind
+[22:07:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5649ms or 112 ticks behind
+[22:07:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6345ms or 126 ticks behind
+[22:07:38] [Server thread/WARN]: whitehairguy moved too quickly! -12.986677551933724,3.3510343396254996,-12.237004869197506
+[22:07:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2588ms or 51 ticks behind
+[22:08:00] [Server thread/WARN]: Ojas_Kumar moved too quickly! 0.2755313172175988,-3.464159374955443,-9.386163049164814
+[22:08:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10355ms or 207 ticks behind
+[22:08:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4271ms or 85 ticks behind
+[22:09:04] [Server thread/INFO]: Ojas_Kumar has made the advancement [Stone Age]
+[22:09:27] [Server thread/INFO]: Ojas_Kumar has made the advancement [Getting an Upgrade]
+[22:16:12] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[22:16:12] [Server thread/INFO]: whitehairguy left the game
+[22:16:15] [Server thread/INFO]: Ojas_Kumar lost connection: Disconnected
+[22:16:15] [Server thread/INFO]: Ojas_Kumar left the game
+[22:16:19] [Server thread/INFO]: whitehairguy[/127.0.0.1:42918] logged in with entity id 12169 at (320.30000001192093, 76.0, 33.69999998807907)
+[22:16:19] [Server thread/INFO]: whitehairguy joined the game
+[22:16:21] [Server thread/INFO]: Ojas_Kumar[/127.43.231.74:43599] logged in with entity id 12393 at (289.52447978938505, 61.72865354219411, 23.891142816237313)
+[22:16:21] [Server thread/INFO]: Ojas_Kumar joined the game
+[22:19:02] [Server thread/INFO]: [Not Secure] <whitehairguy> farming mats
+[22:20:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[22:21:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3729ms or 74 ticks behind
+[22:21:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=230, y=64, z=-362} class_2338{x=230, y=63, z=-363}
+[22:21:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2043ms or 40 ticks behind
+[22:22:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7762ms or 155 ticks behind
+[22:22:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5837ms or 116 ticks behind
+[22:22:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[22:23:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8791ms or 175 ticks behind
+[22:23:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11581ms or 231 ticks behind
+[22:23:50] [Server thread/INFO]: [Not Secure] <whitehairguy> no rizz
+[22:24:15] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -2.295903053098982,0.0,-10.059553252524438
+[22:24:15] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -2.349906982104585,0.0,-10.454837792500257
+[22:24:15] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 4.108152081170942,0.0,-9.549666909006419
+[22:24:15] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -2.4027974138251693,0.0,-10.850363485032176
+[22:24:15] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 4.268534298540089,0.0,-9.916072343175301
+[22:24:15] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -2.454502635853487,0.0,-11.246125523038472
+[22:24:15] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 4.4289826979570535,0.0,-10.282452086530839
+[22:24:15] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -2.504958019946116,0.0,-11.64211873450472
+[22:24:15] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 4.58949066121545,0.0,-10.648808708155002
+[22:24:15] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -2.55416640417684,0.0,-12.038331844777304
+[22:24:15] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 4.750052231929658,0.0,-11.015144520221384
+[22:24:15] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -2.602069203114752,0.0,-12.434759922074818
+[22:24:15] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -2.648735863096931,0.0,-12.831386968217885
+[22:24:15] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 4.910662049352936,0.0,-11.381461603686375
+[22:24:15] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 5.071315288813139,0.0,-11.747761831410571
+[22:24:15] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -2.694167748223663,0.0,-13.228203803977522
+[22:24:15] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 5.232011117328966,0.0,-12.114045342972986
+[22:24:15] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -2.738366054054268,0.0,-13.625201791793415
+[22:24:15] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 5.392745275993889,0.0,-12.480313809990093
+[22:24:15] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 5.553513931792168,0.0,-12.846568736916879
+[22:24:15] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -2.7813929860449207,0.0,-14.022367845597273
+[22:24:15] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 5.714313635009489,0.0,-13.21281147776267
+[22:24:15] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -2.823304521421278,0.0,-14.419690094796124
+[22:24:15] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 5.875141280903335,0.0,-13.579043251135772
+[22:24:15] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -2.8648234420110157,0.0,-14.817099338996513
+[22:24:15] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 6.035994075205281,0.0,-13.945265153783794
+[22:24:15] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -2.9072695373297393,0.0,-15.214443875977395
+[22:24:15] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 6.196869503074026,0.0,-14.311478172779516
+[22:24:15] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -2.9516435408161215,0.0,-15.611574831856842
+[22:24:15] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -2.9987810587280137,0.0,-16.008339180185885
+[22:24:15] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 6.3577653011523125,0.0,-14.67768319648826
+[22:24:15] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -3.049309105224779,0.0,-16.404597490981132
+[22:24:15] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 6.518679432418708,0.0,-15.04388102443886
+[22:24:15] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 6.67961357464003,0.0,-15.410070830212135
+[22:24:15] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -3.1030087623913687,0.0,-16.800375319156274
+[22:24:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19201ms or 384 ticks behind
+[22:24:17] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 4.188317603047722,0.0,-9.5193194042306
+[22:24:17] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 4.34942733567334,0.0,-9.885438817691238
+[22:24:17] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 4.5105375191133135,0.0,-10.251558050425274
+[22:24:17] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 4.671648108286263,0.0,-10.617677120505277
+[22:24:17] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -0.27129562328764223,0.0,-10.346199475282901
+[22:24:17] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -0.245160423426114,0.0,-10.744555577504798
+[22:24:17] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -0.21759594971149454,0.0,-11.14287123147642
+[22:24:17] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -0.18868408928472036,0.0,-11.541144234711965
+[22:24:17] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -0.15849855034946359,0.0,-11.939372511841839
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 0.3889578434406076,0.0,-10.364767705956638
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 0.3745137165658434,0.0,-10.763824163790787
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 0.3577154629725783,0.0,-11.162794195721517
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 4.188923405893092,0.0,-9.519076544357631
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 4.350037323022775,0.0,-9.885194280295309
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 0.3382491375388099,0.0,-11.561630211084093
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 4.511151272516372,0.0,-10.251312003258818
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 0.3158330180734765,0.0,-11.960281793590411
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 4.672265251137446,0.0,-10.617429714545324
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 0.29033609011946737,0.0,-12.358712524180419
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 4.833379255973227,0.0,-10.983547415322619
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 0.26164105441023366,0.0,-12.756885051044037
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 0.23037150012919483,0.0,-13.154868117355136
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 4.9944932844022105,0.0,-11.349665106641623
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 0.20167779095697824,0.0,-13.51802240247639
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 0.17229931130577825,0.0,-13.884703036454084
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 5.1556073340651665,0.0,-11.715782789448212
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 0.14309970704209718,0.0,-14.254620334274023
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 5.3167214028386525,0.0,-12.081900464593673
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 5.477835488811593,0.0,-12.448018132844027
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 5.638949590264019,0.0,-12.814135794888898
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 0.11479607386775115,0.0,-14.627494654955626
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 5.800063705647972,0.0,-13.180253451348563
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 0.08797315797107785,0.0,-15.003058757360122
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 5.961177833570446,0.0,-13.546371102781677
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 0.06303491711264542,0.0,-15.381058486181246
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 0.04034506574214447,0.0,-15.761257479705364
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 6.122291972777475,0.0,-13.912488749690965
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 0.020169635242154982,0.0,-16.143435811409745
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 6.283406122140605,0.0,-14.2786063925289
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 0.002686667905891227,0.0,-16.527390607694088
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 6.444520280644269,0.0,-14.64472403170248
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 6.605634447374314,0.0,-15.010841667578234
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 6.7667486215082135,0.0,-15.37695930048585
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 6.927862802305526,0.0,-15.743076930722054
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 7.088976989099933,0.0,-16.109194558554236
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 7.250091181291737,0.0,-16.475312184222503
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 7.411205378341151,0.0,-16.84142980794354
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 7.572319579762393,0.0,-17.207547429911756
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 7.733433785118336,0.0,-17.57366505030268
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 7.894547994015511,0.0,-17.93978266927388
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.046973225752595,0.0,18.30934690681738
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -7.885869545063997,0.0,17.94322465486266
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.046973225752595,0.0,18.30934690681738
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.046973225752595,0.0,18.30934690681738
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.046973225752595,0.0,18.30934690681738
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.046973225752595,0.0,18.30934690681738
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.046973225752595,0.0,18.30934690681738
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -7.885879020451512,0.0,17.943220485177562
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.6478998015936668,0.0,20.241047569360717
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.046973225752595,0.0,18.30934690681738
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.046973225752595,0.0,18.30934690681738
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.6275733343950378,0.0,19.855752695034198
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.046973225752595,0.0,18.30934690681738
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.046973225752595,0.0,18.30934690681738
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -7.885887548299934,0.0,17.943216732461224
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.046973225752595,0.0,18.30934690681738
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.046973225752595,0.0,18.30934690681738
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.046973225752595,0.0,18.30934690681738
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.6478998015936668,0.0,20.241047569360717
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.6478998015936668,0.0,20.241047569360717
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.6478998015936668,0.0,20.241047569360717
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.6478998015936668,0.0,20.241047569360717
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.6478998015936668,0.0,20.241047569360717
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.6478998015936668,0.0,20.241047569360717
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.6249532365091,0.0,19.854553714055783
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.046973225752595,0.0,18.30934690681738
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.6478998015936668,0.0,20.241047569360717
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.6478998015936668,0.0,20.241047569360717
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.046973225752595,0.0,18.30934690681738
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -7.885895223363377,0.0,17.943213355016496
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -12.074782750475833,0.0,27.46230570082139
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -12.074782750475833,0.0,27.46230570082139
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.2464343697503182,0.0,30.20672232297875
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -11.91371165564351,0.0,27.0961691093205
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.2211297166307986,0.0,29.819149384821912
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -11.752646777612313,0.0,26.73002978208956
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.2464343697503182,0.0,30.20672232297875
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.2464343697503182,0.0,30.20672232297875
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.2464343697503182,0.0,30.20672232297875
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.2464343697503182,0.0,30.20672232297875
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.2236601825461548,0.0,29.857906687878085
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -11.591587494701912,0.0,26.36388799270162
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.2464343697503182,0.0,30.20672232297875
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.2464343697503182,0.0,30.20672232297875
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.2464343697503182,0.0,30.20672232297875
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.2464343697503182,0.0,30.20672232297875
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.2259376018095054,0.0,29.892788259704503
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.2074905111514909,0.0,29.610247610242368
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -11.430533247400035,0.0,25.99774398737236
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.1908881299990526,0.0,29.3559610324628
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.1759459873577498,0.0,29.12710311852379
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -11.269483532145841,0.0,25.63159798769607
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -11.108437895734369,0.0,25.265450193107426
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.1624980593368264,0.0,28.921131001435242
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -10.947395930281232,0.0,24.899300783097942
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -10.786357268690608,0.0,24.533149919209563
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -10.625321580576042,0.0,24.166997746830248
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -10.46428856858995,0.0,23.800844396808998
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -10.303257965119428,0.0,23.434689986910143
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -10.142229529312772,0.0,23.068534623121423
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -9.981203044403628,0.0,22.702378400832004
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -9.8201783153022,0.0,22.33622140589182
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -9.659155166427581,0.0,21.970063715566084
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -9.498133439757112,0.0,21.60390539939317
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -9.337112993070377,0.0,21.23774651995791
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -9.176093698368959,0.0,20.871587133586672
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -9.015075440454211,0.0,20.505427290972875
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.85405811564749,0.0,20.139267037740865
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.150394924438615,0.0,28.735756100966228
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.69304163063805,0.0,19.773106414952508
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.139502103318705,0.0,28.568918694963713
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.532025901446104,0.0,19.40694545956353
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.1296985645705035,0.0,28.41876503353933
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.371010852489803,0.0,19.0407842048337
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.120875379930908,0.0,28.283626741837224
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.20999641574565,0.0,18.67462268069744
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.1129345139655697,0.0,28.162002282527283
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.048982529992372,0.0,18.30846091409512
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.1057877347860767,0.0,28.05254027204819
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -7.887969140130963,0.0,17.942298929273647
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -7.726956196572132,0.0,17.57613674805475
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.0990490299924431,0.0,27.949033874956058
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -7.565943654685611,0.0,17.209974390078287
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.0929841958388806,0.0,27.85587812004087
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -7.404931474304135,0.0,16.84381187301983
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.0875258452452954,0.0,27.772037942838324
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -7.2439196192772215,0.0,16.47764921278781
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.0826133298411378,0.0,27.696581785354965
+[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -7.082908057069403,0.0,16.11148642369949
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.0781920660945161,0.0,27.6286712454189
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.0742129288280466,0.0,27.5675517610955
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.0706317053831071,0.0,27.512544226661703
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.0674086043679836,0.0,27.463037446982753
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.064507813531236,0.0,27.418481346451927
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.0618971018473076,0.0,27.378380857036518
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.0595474613940041,0.0,27.342290417518825
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.059763115475448,0.0,27.26987696182664
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.0624712742762767,0.0,27.164783938511846
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.067667590410565,0.0,27.03029548405175
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.0752868571670433,0.0,26.869364262734052
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.0852091512539346,0.0,26.684643764518114
+[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.0973265133061432,0.0,26.478522510283256
+[22:24:19] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.11160289444922,0.0,26.253155667292503
+[22:24:19] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.127883529392875,0.0,26.010473010286887
+[22:24:19] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -6.921896758398816,0.0,15.745323518640362
+[22:24:19] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.1468229973570487,0.0,25.75228900878983
+[22:24:19] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -6.760885696911714,0.0,15.379160509207622
+[22:24:19] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.1688258373105782,0.0,25.480231790297694
+[22:24:19] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -6.599874848889726,0.0,15.012997405838632
+[22:24:19] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -6.43886419298633,0.0,14.646834217927108
+[22:24:19] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.1942547224306281,0.0,25.195777972049427
+[22:24:19] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.2233132371439979,0.0,24.900248660337866
+[22:24:19] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -6.277853709989699,0.0,14.280670953927256
+[22:24:19] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.2561834311693474,0.0,24.594840387057275
+[22:24:19] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -6.11684338260909,0.0,13.91450762144791
+[22:24:19] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.2929675208405342,0.0,24.28062645088039
+[22:24:19] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.3336961904935833,0.0,23.958567009133958
+[22:24:19] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.378336062317544,0.0,23.62951843615906
+[22:24:19] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.426856419212072,0.0,23.294254788075477
+[22:24:19] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.4791690109022966,0.0,22.95346272414463
+[22:24:29] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 2.693964480591717,0.0,-10.045023165408338
+[22:24:48] [Server thread/INFO]: [Not Secure] <Chubs410> bro turned his mic on INSTANTLY
+[22:24:53] [Server thread/INFO]: [Not Secure] <whitehairguy> lol
+[22:24:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23745ms or 474 ticks behind
+[22:25:02] [Server thread/INFO]: [Not Secure] <Chubs410> shes a foreigner?
+[22:25:05] [Server thread/INFO]: [Not Secure] <whitehairguy> because you dont know her obv
+[22:25:07] [Server thread/INFO]: [Not Secure] <whitehairguy> i had to speak up
+[22:25:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6973ms or 139 ticks behind
+[22:25:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3828ms or 76 ticks behind
+[22:25:36] [Server thread/INFO]: [Not Secure] <Chubs410> she a foreigner?
+[22:25:38] [Server thread/INFO]: [Not Secure] <whitehairguy> no
+[22:25:44] [Server thread/INFO]: [Not Secure] <Chubs410> crazy accent
+[22:25:45] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> W accent
+[22:25:46] [Server thread/INFO]: [Not Secure] <whitehairguy> yes sir
+[22:25:47] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> spproved
+[22:25:50] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> approved
+[22:25:50] [Server thread/INFO]: [Not Secure] <Chubs410> finally someone
+[22:25:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3282ms or 65 ticks behind
+[22:26:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4686ms or 93 ticks behind
+[22:26:24] [Server thread/INFO]: [Not Secure] <Chubs410> FUCK
+[22:26:25] [Server thread/INFO]: [Not Secure] <Chubs410> THE
+[22:26:28] [Server thread/INFO]: [Not Secure] <Chubs410> SHEEP
+[22:26:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6226ms or 124 ticks behind
+[22:26:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4576ms or 91 ticks behind
+[22:27:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3506ms or 70 ticks behind
+[22:27:45] [Server thread/INFO]: Chubs410 has made the advancement [The Parrots and the Bats]
+[22:28:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2322ms or 46 ticks behind
+[22:29:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2021ms or 40 ticks behind
+[22:29:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3548ms or 70 ticks behind
+[22:29:35] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 7.622744079051245,0.0,-7.988470591605619
+[22:29:35] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 8.401762045736291,0.0,-8.844868716611927
+[22:29:35] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 9.163529669665422,0.0,-9.68885176114054
+[22:29:35] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 9.830630384310552,0.0,-10.001770666223365
+[22:29:35] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 9.815051888157996,0.0,-10.001770666223365
+[22:29:35] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 9.784874081363569,0.0,-10.001770666223365
+[22:29:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6231ms or 124 ticks behind
+[22:29:51] [Server thread/WARN]: whitehairguy moved too quickly! 2.0560088572353834,0.0,-11.400169665804697
+[22:30:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9207ms or 184 ticks behind
+[22:30:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4228ms or 84 ticks behind
+[22:30:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6090ms or 121 ticks behind
+[22:31:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5270ms or 105 ticks behind
+[22:31:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2956ms or 59 ticks behind
+[22:31:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2085ms or 41 ticks behind
+[22:31:43] [Server thread/WARN]: whitehairguy moved too quickly! -0.12398916898121115,-0.02620246289603756,-10.226081469910696
+[22:33:23] [Server thread/INFO]: Ojas_Kumar has made the advancement [Monster Hunter]
+[22:35:42] [Server thread/INFO]: Ojas_Kumar has made the advancement [Sweet Dreams]
+[22:39:02] [Server thread/INFO]: Chubs410 lost connection: Disconnected
+[22:39:02] [Server thread/INFO]: Chubs410 left the game
+[22:42:05] [Server thread/INFO]: Ojas_Kumar has made the advancement [Ice Bucket Challenge]
+[22:42:10] [Server thread/INFO]: Ojas_Kumar has made the advancement [Acquire Hardware]
+[22:45:43] [Server thread/INFO]: Ojas_Kumar lost connection: Disconnected
+[22:45:43] [Server thread/INFO]: Ojas_Kumar left the game
+[22:46:01] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[22:46:01] [Server thread/INFO]: whitehairguy left the game
