@@ -287,6 +287,7 @@
       "minecraft:breeze": "2025-03-14 04:32:10 +0530",
       "minecraft:stray": "2025-03-14 04:26:25 +0530",
       "minecraft:enderman": "2025-03-17 02:44:48 +0530",
+      "minecraft:silverfish": "2025-03-25 02:02:39 +0530",
       "minecraft:magma_cube": "2025-03-19 02:34:27 +0530",
       "minecraft:spider": "2025-03-12 20:03:33 +0530",
       "minecraft:piglin_brute": "2025-03-19 02:34:34 +0530",
@@ -4074,6 +4075,12 @@
   "minecraft:recipes/redstone/cherry_door": {
     "criteria": {
       "has_planks": "2025-03-22 01:15:24 +0530"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/allay_deliver_item_to_player": {
+    "criteria": {
+      "allay_deliver_item_to_player": "2025-03-25 01:35:38 +0530"
     },
     "done": true
   },

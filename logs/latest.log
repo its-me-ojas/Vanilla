@@ -1,341 +1,346 @@
-[21:56:50] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.10
-[21:56:50] [main/INFO]: Loading 4 mods:
-	- fabricloader 0.16.10
-	   \-- mixinextras 0.4.1
-	- java 21
-	- minecraft 1.21.4
-[21:56:50] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/crestfallen/Minecraft/Vanilla/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[21:57:05] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[21:57:11] [main/INFO]: Loaded 1370 recipes
-[21:57:12] [main/INFO]: Loaded 1481 advancements
-[21:57:12] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[21:57:12] [Server thread/INFO]: Loading properties
-[21:57:12] [Server thread/INFO]: Default game type: SURVIVAL
-[21:57:12] [Server thread/INFO]: Generating keypair
-[21:57:12] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:57:12] [Server thread/INFO]: Using epoll channel type
-[21:57:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:57:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:57:13] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:57:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:57:13] [Server thread/INFO]: Preparing level "world"
-[21:57:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:57:19] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[21:57:19] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[21:57:19] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[21:57:19] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[21:57:19] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[21:57:19] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[21:57:19] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[21:57:19] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[21:57:19] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[21:57:19] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[21:57:19] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[21:57:19] [Server thread/INFO]: Time elapsed: 5572 ms
-[21:57:19] [Server thread/INFO]: Done (6.597s)! For help, type "help"
-[21:57:28] [Server thread/INFO]: whitehairguy[/127.43.231.74:60635] logged in with entity id 11 at (775.1037810286241, 69.0, 549.9690159539035)
-[21:57:28] [Server thread/INFO]: whitehairguy joined the game
-[21:57:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2428ms or 48 ticks behind
-[22:04:27] [Server thread/INFO]: Chubs410[/127.206.192.209:38253] logged in with entity id 3785 at (642.2229163041726, 64.0, -4411.300000011921)
-[22:04:27] [Server thread/INFO]: Chubs410 joined the game
-[22:04:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
-[22:05:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
-[22:05:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3047ms or 60 ticks behind
-[22:05:43] [Server thread/INFO]: Ojas_Kumar[/127.43.231.74:38435] logged in with entity id 5198 at (277.5, 103.0, 97.5)
-[22:05:43] [Server thread/INFO]: Ojas_Kumar joined the game
-[22:05:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3952ms or 79 ticks behind
-[22:05:50] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[22:05:50] [Server thread/INFO]: whitehairguy left the game
-[22:05:55] [Server thread/INFO]: whitehairguy[/127.0.0.1:60398] logged in with entity id 5453 at (736.6679413236922, 87.5, 577.5965109306871)
-[22:05:55] [Server thread/INFO]: whitehairguy joined the game
-[22:06:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2046ms or 40 ticks behind
-[22:06:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2596ms or 51 ticks behind
-[22:06:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6185ms or 123 ticks behind
-[22:07:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5649ms or 112 ticks behind
-[22:07:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6345ms or 126 ticks behind
-[22:07:38] [Server thread/WARN]: whitehairguy moved too quickly! -12.986677551933724,3.3510343396254996,-12.237004869197506
-[22:07:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2588ms or 51 ticks behind
-[22:08:00] [Server thread/WARN]: Ojas_Kumar moved too quickly! 0.2755313172175988,-3.464159374955443,-9.386163049164814
-[22:08:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10355ms or 207 ticks behind
-[22:08:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4271ms or 85 ticks behind
-[22:09:04] [Server thread/INFO]: Ojas_Kumar has made the advancement [Stone Age]
-[22:09:27] [Server thread/INFO]: Ojas_Kumar has made the advancement [Getting an Upgrade]
-[22:16:12] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[22:16:12] [Server thread/INFO]: whitehairguy left the game
-[22:16:15] [Server thread/INFO]: Ojas_Kumar lost connection: Disconnected
-[22:16:15] [Server thread/INFO]: Ojas_Kumar left the game
-[22:16:19] [Server thread/INFO]: whitehairguy[/127.0.0.1:42918] logged in with entity id 12169 at (320.30000001192093, 76.0, 33.69999998807907)
-[22:16:19] [Server thread/INFO]: whitehairguy joined the game
-[22:16:21] [Server thread/INFO]: Ojas_Kumar[/127.43.231.74:43599] logged in with entity id 12393 at (289.52447978938505, 61.72865354219411, 23.891142816237313)
-[22:16:21] [Server thread/INFO]: Ojas_Kumar joined the game
-[22:19:02] [Server thread/INFO]: [Not Secure] <whitehairguy> farming mats
-[22:20:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[22:21:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3729ms or 74 ticks behind
-[22:21:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=230, y=64, z=-362} class_2338{x=230, y=63, z=-363}
-[22:21:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2043ms or 40 ticks behind
-[22:22:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7762ms or 155 ticks behind
-[22:22:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5837ms or 116 ticks behind
-[22:22:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
-[22:23:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8791ms or 175 ticks behind
-[22:23:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11581ms or 231 ticks behind
-[22:23:50] [Server thread/INFO]: [Not Secure] <whitehairguy> no rizz
-[22:24:15] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -2.295903053098982,0.0,-10.059553252524438
-[22:24:15] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -2.349906982104585,0.0,-10.454837792500257
-[22:24:15] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 4.108152081170942,0.0,-9.549666909006419
-[22:24:15] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -2.4027974138251693,0.0,-10.850363485032176
-[22:24:15] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 4.268534298540089,0.0,-9.916072343175301
-[22:24:15] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -2.454502635853487,0.0,-11.246125523038472
-[22:24:15] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 4.4289826979570535,0.0,-10.282452086530839
-[22:24:15] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -2.504958019946116,0.0,-11.64211873450472
-[22:24:15] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 4.58949066121545,0.0,-10.648808708155002
-[22:24:15] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -2.55416640417684,0.0,-12.038331844777304
-[22:24:15] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 4.750052231929658,0.0,-11.015144520221384
-[22:24:15] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -2.602069203114752,0.0,-12.434759922074818
-[22:24:15] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -2.648735863096931,0.0,-12.831386968217885
-[22:24:15] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 4.910662049352936,0.0,-11.381461603686375
-[22:24:15] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 5.071315288813139,0.0,-11.747761831410571
-[22:24:15] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -2.694167748223663,0.0,-13.228203803977522
-[22:24:15] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 5.232011117328966,0.0,-12.114045342972986
-[22:24:15] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -2.738366054054268,0.0,-13.625201791793415
-[22:24:15] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 5.392745275993889,0.0,-12.480313809990093
-[22:24:15] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 5.553513931792168,0.0,-12.846568736916879
-[22:24:15] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -2.7813929860449207,0.0,-14.022367845597273
-[22:24:15] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 5.714313635009489,0.0,-13.21281147776267
-[22:24:15] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -2.823304521421278,0.0,-14.419690094796124
-[22:24:15] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 5.875141280903335,0.0,-13.579043251135772
-[22:24:15] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -2.8648234420110157,0.0,-14.817099338996513
-[22:24:15] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 6.035994075205281,0.0,-13.945265153783794
-[22:24:15] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -2.9072695373297393,0.0,-15.214443875977395
-[22:24:15] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 6.196869503074026,0.0,-14.311478172779516
-[22:24:15] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -2.9516435408161215,0.0,-15.611574831856842
-[22:24:15] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -2.9987810587280137,0.0,-16.008339180185885
-[22:24:15] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 6.3577653011523125,0.0,-14.67768319648826
-[22:24:15] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -3.049309105224779,0.0,-16.404597490981132
-[22:24:15] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 6.518679432418708,0.0,-15.04388102443886
-[22:24:15] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 6.67961357464003,0.0,-15.410070830212135
-[22:24:15] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -3.1030087623913687,0.0,-16.800375319156274
-[22:24:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19201ms or 384 ticks behind
-[22:24:17] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 4.188317603047722,0.0,-9.5193194042306
-[22:24:17] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 4.34942733567334,0.0,-9.885438817691238
-[22:24:17] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 4.5105375191133135,0.0,-10.251558050425274
-[22:24:17] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 4.671648108286263,0.0,-10.617677120505277
-[22:24:17] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -0.27129562328764223,0.0,-10.346199475282901
-[22:24:17] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -0.245160423426114,0.0,-10.744555577504798
-[22:24:17] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -0.21759594971149454,0.0,-11.14287123147642
-[22:24:17] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -0.18868408928472036,0.0,-11.541144234711965
-[22:24:17] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! -0.15849855034946359,0.0,-11.939372511841839
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 0.3889578434406076,0.0,-10.364767705956638
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 0.3745137165658434,0.0,-10.763824163790787
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 0.3577154629725783,0.0,-11.162794195721517
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 4.188923405893092,0.0,-9.519076544357631
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 4.350037323022775,0.0,-9.885194280295309
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 0.3382491375388099,0.0,-11.561630211084093
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 4.511151272516372,0.0,-10.251312003258818
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 0.3158330180734765,0.0,-11.960281793590411
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 4.672265251137446,0.0,-10.617429714545324
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 0.29033609011946737,0.0,-12.358712524180419
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 4.833379255973227,0.0,-10.983547415322619
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 0.26164105441023366,0.0,-12.756885051044037
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 0.23037150012919483,0.0,-13.154868117355136
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 4.9944932844022105,0.0,-11.349665106641623
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 0.20167779095697824,0.0,-13.51802240247639
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 0.17229931130577825,0.0,-13.884703036454084
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 5.1556073340651665,0.0,-11.715782789448212
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 0.14309970704209718,0.0,-14.254620334274023
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 5.3167214028386525,0.0,-12.081900464593673
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 5.477835488811593,0.0,-12.448018132844027
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 5.638949590264019,0.0,-12.814135794888898
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 0.11479607386775115,0.0,-14.627494654955626
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 5.800063705647972,0.0,-13.180253451348563
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 0.08797315797107785,0.0,-15.003058757360122
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 5.961177833570446,0.0,-13.546371102781677
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 0.06303491711264542,0.0,-15.381058486181246
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 0.04034506574214447,0.0,-15.761257479705364
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 6.122291972777475,0.0,-13.912488749690965
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 0.020169635242154982,0.0,-16.143435811409745
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 6.283406122140605,0.0,-14.2786063925289
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 0.002686667905891227,0.0,-16.527390607694088
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 6.444520280644269,0.0,-14.64472403170248
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 6.605634447374314,0.0,-15.010841667578234
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 6.7667486215082135,0.0,-15.37695930048585
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 6.927862802305526,0.0,-15.743076930722054
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 7.088976989099933,0.0,-16.109194558554236
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 7.250091181291737,0.0,-16.475312184222503
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 7.411205378341151,0.0,-16.84142980794354
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 7.572319579762393,0.0,-17.207547429911756
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 7.733433785118336,0.0,-17.57366505030268
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 7.894547994015511,0.0,-17.93978266927388
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.046973225752595,0.0,18.30934690681738
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -7.885869545063997,0.0,17.94322465486266
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.046973225752595,0.0,18.30934690681738
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.046973225752595,0.0,18.30934690681738
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.046973225752595,0.0,18.30934690681738
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.046973225752595,0.0,18.30934690681738
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.046973225752595,0.0,18.30934690681738
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -7.885879020451512,0.0,17.943220485177562
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.6478998015936668,0.0,20.241047569360717
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.046973225752595,0.0,18.30934690681738
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.046973225752595,0.0,18.30934690681738
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.6275733343950378,0.0,19.855752695034198
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.046973225752595,0.0,18.30934690681738
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.046973225752595,0.0,18.30934690681738
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -7.885887548299934,0.0,17.943216732461224
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.046973225752595,0.0,18.30934690681738
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.046973225752595,0.0,18.30934690681738
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.046973225752595,0.0,18.30934690681738
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.6478998015936668,0.0,20.241047569360717
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.6478998015936668,0.0,20.241047569360717
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.6478998015936668,0.0,20.241047569360717
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.6478998015936668,0.0,20.241047569360717
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.6478998015936668,0.0,20.241047569360717
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.6478998015936668,0.0,20.241047569360717
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.6249532365091,0.0,19.854553714055783
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.046973225752595,0.0,18.30934690681738
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.6478998015936668,0.0,20.241047569360717
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.6478998015936668,0.0,20.241047569360717
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.046973225752595,0.0,18.30934690681738
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -7.885895223363377,0.0,17.943213355016496
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -12.074782750475833,0.0,27.46230570082139
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -12.074782750475833,0.0,27.46230570082139
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.2464343697503182,0.0,30.20672232297875
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -11.91371165564351,0.0,27.0961691093205
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.2211297166307986,0.0,29.819149384821912
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -11.752646777612313,0.0,26.73002978208956
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.2464343697503182,0.0,30.20672232297875
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.2464343697503182,0.0,30.20672232297875
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.2464343697503182,0.0,30.20672232297875
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.2464343697503182,0.0,30.20672232297875
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.2236601825461548,0.0,29.857906687878085
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -11.591587494701912,0.0,26.36388799270162
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.2464343697503182,0.0,30.20672232297875
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.2464343697503182,0.0,30.20672232297875
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.2464343697503182,0.0,30.20672232297875
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.2464343697503182,0.0,30.20672232297875
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.2259376018095054,0.0,29.892788259704503
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.2074905111514909,0.0,29.610247610242368
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -11.430533247400035,0.0,25.99774398737236
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.1908881299990526,0.0,29.3559610324628
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.1759459873577498,0.0,29.12710311852379
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -11.269483532145841,0.0,25.63159798769607
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -11.108437895734369,0.0,25.265450193107426
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.1624980593368264,0.0,28.921131001435242
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -10.947395930281232,0.0,24.899300783097942
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -10.786357268690608,0.0,24.533149919209563
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -10.625321580576042,0.0,24.166997746830248
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -10.46428856858995,0.0,23.800844396808998
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -10.303257965119428,0.0,23.434689986910143
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -10.142229529312772,0.0,23.068534623121423
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -9.981203044403628,0.0,22.702378400832004
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -9.8201783153022,0.0,22.33622140589182
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -9.659155166427581,0.0,21.970063715566084
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -9.498133439757112,0.0,21.60390539939317
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -9.337112993070377,0.0,21.23774651995791
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -9.176093698368959,0.0,20.871587133586672
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -9.015075440454211,0.0,20.505427290972875
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.85405811564749,0.0,20.139267037740865
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.150394924438615,0.0,28.735756100966228
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.69304163063805,0.0,19.773106414952508
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.139502103318705,0.0,28.568918694963713
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.532025901446104,0.0,19.40694545956353
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.1296985645705035,0.0,28.41876503353933
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.371010852489803,0.0,19.0407842048337
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.120875379930908,0.0,28.283626741837224
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.20999641574565,0.0,18.67462268069744
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.1129345139655697,0.0,28.162002282527283
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -8.048982529992372,0.0,18.30846091409512
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.1057877347860767,0.0,28.05254027204819
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -7.887969140130963,0.0,17.942298929273647
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -7.726956196572132,0.0,17.57613674805475
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.0990490299924431,0.0,27.949033874956058
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -7.565943654685611,0.0,17.209974390078287
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.0929841958388806,0.0,27.85587812004087
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -7.404931474304135,0.0,16.84381187301983
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.0875258452452954,0.0,27.772037942838324
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -7.2439196192772215,0.0,16.47764921278781
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.0826133298411378,0.0,27.696581785354965
-[22:24:18] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -7.082908057069403,0.0,16.11148642369949
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.0781920660945161,0.0,27.6286712454189
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.0742129288280466,0.0,27.5675517610955
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.0706317053831071,0.0,27.512544226661703
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.0674086043679836,0.0,27.463037446982753
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.064507813531236,0.0,27.418481346451927
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.0618971018473076,0.0,27.378380857036518
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.0595474613940041,0.0,27.342290417518825
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.059763115475448,0.0,27.26987696182664
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.0624712742762767,0.0,27.164783938511846
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.067667590410565,0.0,27.03029548405175
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.0752868571670433,0.0,26.869364262734052
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.0852091512539346,0.0,26.684643764518114
-[22:24:18] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.0973265133061432,0.0,26.478522510283256
-[22:24:19] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.11160289444922,0.0,26.253155667292503
-[22:24:19] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.127883529392875,0.0,26.010473010286887
-[22:24:19] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -6.921896758398816,0.0,15.745323518640362
-[22:24:19] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.1468229973570487,0.0,25.75228900878983
-[22:24:19] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -6.760885696911714,0.0,15.379160509207622
-[22:24:19] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.1688258373105782,0.0,25.480231790297694
-[22:24:19] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -6.599874848889726,0.0,15.012997405838632
-[22:24:19] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -6.43886419298633,0.0,14.646834217927108
-[22:24:19] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.1942547224306281,0.0,25.195777972049427
-[22:24:19] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.2233132371439979,0.0,24.900248660337866
-[22:24:19] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -6.277853709989699,0.0,14.280670953927256
-[22:24:19] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.2561834311693474,0.0,24.594840387057275
-[22:24:19] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! -6.11684338260909,0.0,13.91450762144791
-[22:24:19] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.2929675208405342,0.0,24.28062645088039
-[22:24:19] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.3336961904935833,0.0,23.958567009133958
-[22:24:19] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.378336062317544,0.0,23.62951843615906
-[22:24:19] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.426856419212072,0.0,23.294254788075477
-[22:24:19] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 1.4791690109022966,0.0,22.95346272414463
-[22:24:29] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved too quickly! 2.693964480591717,0.0,-10.045023165408338
-[22:24:48] [Server thread/INFO]: [Not Secure] <Chubs410> bro turned his mic on INSTANTLY
-[22:24:53] [Server thread/INFO]: [Not Secure] <whitehairguy> lol
-[22:24:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23745ms or 474 ticks behind
-[22:25:02] [Server thread/INFO]: [Not Secure] <Chubs410> shes a foreigner?
-[22:25:05] [Server thread/INFO]: [Not Secure] <whitehairguy> because you dont know her obv
-[22:25:07] [Server thread/INFO]: [Not Secure] <whitehairguy> i had to speak up
-[22:25:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6973ms or 139 ticks behind
-[22:25:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3828ms or 76 ticks behind
-[22:25:36] [Server thread/INFO]: [Not Secure] <Chubs410> she a foreigner?
-[22:25:38] [Server thread/INFO]: [Not Secure] <whitehairguy> no
-[22:25:44] [Server thread/INFO]: [Not Secure] <Chubs410> crazy accent
-[22:25:45] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> W accent
-[22:25:46] [Server thread/INFO]: [Not Secure] <whitehairguy> yes sir
-[22:25:47] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> spproved
-[22:25:50] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> approved
-[22:25:50] [Server thread/INFO]: [Not Secure] <Chubs410> finally someone
-[22:25:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3282ms or 65 ticks behind
-[22:26:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4686ms or 93 ticks behind
-[22:26:24] [Server thread/INFO]: [Not Secure] <Chubs410> FUCK
-[22:26:25] [Server thread/INFO]: [Not Secure] <Chubs410> THE
-[22:26:28] [Server thread/INFO]: [Not Secure] <Chubs410> SHEEP
-[22:26:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6226ms or 124 ticks behind
-[22:26:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4576ms or 91 ticks behind
-[22:27:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3506ms or 70 ticks behind
-[22:27:45] [Server thread/INFO]: Chubs410 has made the advancement [The Parrots and the Bats]
-[22:28:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2322ms or 46 ticks behind
-[22:29:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2021ms or 40 ticks behind
-[22:29:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3548ms or 70 ticks behind
-[22:29:35] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 7.622744079051245,0.0,-7.988470591605619
-[22:29:35] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 8.401762045736291,0.0,-8.844868716611927
-[22:29:35] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 9.163529669665422,0.0,-9.68885176114054
-[22:29:35] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 9.830630384310552,0.0,-10.001770666223365
-[22:29:35] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 9.815051888157996,0.0,-10.001770666223365
-[22:29:35] [Server thread/WARN]: Oak Boat (vehicle of Ojas_Kumar) moved too quickly! 9.784874081363569,0.0,-10.001770666223365
-[22:29:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6231ms or 124 ticks behind
-[22:29:51] [Server thread/WARN]: whitehairguy moved too quickly! 2.0560088572353834,0.0,-11.400169665804697
-[22:30:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9207ms or 184 ticks behind
-[22:30:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4228ms or 84 ticks behind
-[22:30:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6090ms or 121 ticks behind
-[22:31:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5270ms or 105 ticks behind
-[22:31:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2956ms or 59 ticks behind
-[22:31:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2085ms or 41 ticks behind
-[22:31:43] [Server thread/WARN]: whitehairguy moved too quickly! -0.12398916898121115,-0.02620246289603756,-10.226081469910696
-[22:33:23] [Server thread/INFO]: Ojas_Kumar has made the advancement [Monster Hunter]
-[22:35:42] [Server thread/INFO]: Ojas_Kumar has made the advancement [Sweet Dreams]
-[22:39:02] [Server thread/INFO]: Chubs410 lost connection: Disconnected
-[22:39:02] [Server thread/INFO]: Chubs410 left the game
-[22:42:05] [Server thread/INFO]: Ojas_Kumar has made the advancement [Ice Bucket Challenge]
-[22:42:10] [Server thread/INFO]: Ojas_Kumar has made the advancement [Acquire Hardware]
-[22:45:43] [Server thread/INFO]: Ojas_Kumar lost connection: Disconnected
-[22:45:43] [Server thread/INFO]: Ojas_Kumar left the game
-[22:46:01] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[22:46:01] [Server thread/INFO]: whitehairguy left the game
+[00:00:02] [Server thread/INFO]: [Not Secure] <Chubs410> locking in for build
+[00:00:16] [Server thread/INFO]: Ojas_Kumar has made the advancement [Diamonds!]
+[00:03:45] [Server thread/INFO]: [Not Secure] <Chubs410> zzzzzzzzzzzz
+[00:03:47] [Server thread/INFO]: Ojas_Kumar lost connection: Disconnected
+[00:03:47] [Server thread/INFO]: Ojas_Kumar left the game
+[00:04:09] [Server thread/INFO]: Ojas_Kumar[/127.52.238.219:33197] logged in with entity id 21358 at (499.43191142691063, -36.0, -4446.619674389874)
+[00:04:09] [Server thread/INFO]: Ojas_Kumar joined the game
+[00:04:13] [Server thread/INFO]: Ojas_Kumar lost connection: Disconnected
+[00:04:13] [Server thread/INFO]: Ojas_Kumar left the game
+[00:05:13] [Server thread/INFO]: Ojas_Kumar[/127.52.238.219:41071] logged in with entity id 21900 at (499.43191142691063, -36.0, -4446.619674389874)
+[00:05:13] [Server thread/INFO]: Ojas_Kumar joined the game
+[00:06:23] [Server thread/INFO]: Ojas_Kumar has made the advancement [Suit Up]
+[00:06:30] [Server thread/INFO]: Ojas_Kumar has made the advancement [Not Today, Thank You]
+[00:08:57] [Server thread/INFO]: Villager class_1646['Villager'/705, l='ServerLevel[New World]', x=709.70, y=63.25, z=639.70] died, message: 'Villager was squished too much'
+[00:12:31] [Server thread/INFO]: [Not Secure] <MiffMoff> imma brb
+[00:12:34] [Server thread/INFO]: [Not Secure] <whitehairguy> alr
+[00:12:42] [Server thread/INFO]: [Not Secure] <Chubs410> ojas bring iron need pickaxe
+[00:12:49] [Server thread/INFO]: Villager class_1646['Villager'/730, l='ServerLevel[New World]', x=709.70, y=64.20, z=639.24] died, message: 'Villager was squished too much'
+[00:13:04] [Server thread/INFO]: Chubs410 has made the advancement [Getting an Upgrade]
+[00:13:08] [Server thread/INFO]: [Not Secure] <Chubs410> nvm i made stone
+[00:13:28] [Server thread/INFO]: Ojas_Kumar has made the advancement [Hot Stuff]
+[00:16:15] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[00:16:15] [Server thread/INFO]: whitehairguy left the game
+[00:18:51] [Server thread/INFO]: whitehairguy[/127.0.0.1:49658] logged in with entity id 28342 at (673.4907127425433, 63.0, 544.3000000119209)
+[00:18:51] [Server thread/INFO]: whitehairguy joined the game
+[00:20:54] [Server thread/INFO]: Villager class_1646['Villager'/722, l='ServerLevel[New World]', x=709.15, y=63.60, z=639.14] died, message: 'Villager was squished too much'
+[00:21:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
+[00:22:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7335ms or 146 ticks behind
+[00:22:20] [Server thread/INFO]: [Not Secure] <whitehairguy> damn witchcraft
+[00:22:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3936ms or 78 ticks behind
+[00:22:40] [Server thread/INFO]: [Not Secure] <Chubs410> punjab moment
+[00:24:50] [Server thread/INFO]: [Not Secure] <whitehairguy> uski kya lore hai
+[00:25:58] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> I SEE YOU
+[00:26:03] [Server thread/INFO]: [Not Secure] <whitehairguy> :cry:
+[00:26:05] [Server thread/INFO]: [Not Secure] <Chubs410> I SEE YOU BABY BOI
+[00:26:36] [Server thread/INFO]: [Not Secure] <Chubs410> i might be distracted from building
+[00:26:51] [Server thread/INFO]: [Not Secure] <Chubs410> i need wood
+[00:26:55] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> same
+[00:26:55] [Server thread/INFO]: [Not Secure] <Chubs410> muhahahahaha
+[00:26:59] [Server thread/INFO]: [Not Secure] <whitehairguy> come to ma home habibi
+[00:27:28] [Server thread/INFO]: [Not Secure] <Chubs410> OJAS DIAMONDS
+[00:27:34] [Server thread/INFO]: [Not Secure] <Chubs410> pickaxe
+[00:27:40] [Server thread/INFO]: Chubs410 has made the advancement [Diamonds!]
+[00:27:57] [Server thread/INFO]: [Not Secure] <whitehairguy> bruhhhhhhhhhhhhhhhhhhhh
+[00:27:58] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> give
+[00:28:18] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> DIAMONDS DE
+[00:28:20] [Server thread/INFO]: [Not Secure] <Chubs410> get wood
+[00:28:24] [Server thread/INFO]: [Not Secure] <Chubs410> i need these
+[00:28:27] [Server thread/INFO]: [Not Secure] <Chubs410> :please:
+[00:28:29] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> BHAI
+[00:28:31] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> TERI MKC
+[00:28:32] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> DE
+[00:28:34] [Server thread/INFO]: [Not Secure] <Chubs410> thanks
+[00:28:42] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> no pls
+[00:28:47] [Server thread/INFO]: Rad1108[/127.198.228.70:40813] logged in with entity id 36263 at (816.201721671677, 63.0, 495.1766345376769)
+[00:28:47] [Server thread/INFO]: Rad1108 joined the game
+[00:29:15] [Server thread/INFO]: Villager class_1646['Villager'/737, l='ServerLevel[New World]', x=709.70, y=63.14, z=639.70] died, message: 'Villager was squished too much'
+[00:30:26] [Server thread/INFO]: [Not Secure] <whitehairguy> omg
+[00:30:28] [Server thread/INFO]: [Not Secure] <whitehairguy> the stuff
+[00:30:31] [Server thread/INFO]: [Not Secure] <Rad1108> sad
+[00:31:20] [Server thread/INFO]: [Not Secure] <whitehairguy> punjab thing
+[00:31:33] [Server thread/INFO]: [Not Secure] <Chubs410> story time
+[00:31:39] [Server thread/INFO]: [Not Secure] <whitehairguy> story time with mc
+[00:31:40] [Server thread/INFO]: [Not Secure] <Rad1108> tea part
+[00:31:44] [Server thread/INFO]: [Not Secure] <Rad1108> party
+[00:31:44] [Server thread/INFO]: [Not Secure] <Chubs410> traditional girl?
+[00:32:13] [Server thread/INFO]: [Not Secure] <Rad1108> damm 3 guys listening to a girl like she's a narrator
+[00:32:13] [Server thread/INFO]: [Not Secure] <whitehairguy> damn
+[00:32:20] [Server thread/INFO]: [Not Secure] <Chubs410> peak
+[00:32:21] [Server thread/INFO]: [Not Secure] <whitehairguy> logo mein guts kha se ati hai
+[00:32:26] [Server thread/INFO]: [Not Secure] <whitehairguy> itna confidence hota mere mein
+[00:32:30] [Server thread/INFO]: [Not Secure] <Rad1108> balls*
+[00:32:30] [Server thread/INFO]: [Not Secure] <whitehairguy> kitna bda roster hota
+[00:34:56] [Server thread/INFO]: [Not Secure] <Chubs410> i lost
+[00:35:05] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> ?
+[00:35:10] [Server thread/INFO]: [Not Secure] <Chubs410> nvm i back
+[00:35:25] [Server thread/INFO]: [Not Secure] <whitehairguy> the begging rizz
+[00:35:33] [Server thread/INFO]: [Not Secure] <Chubs410> me when i bring my bike to college
+[00:35:39] [Server thread/INFO]: [Not Secure] <Chubs410> "ride deddu didi"
+[00:35:55] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> diddy mentioned
+[00:36:03] [Server thread/INFO]: [Not Secure] <whitehairguy> nice try diddy
+[00:36:31] [Server thread/INFO]: [Not Secure] <whitehairguy> lvl 60
+[00:37:08] [Server thread/INFO]: [Not Secure] <Chubs410> do girls like royal enfield
+[00:37:35] [Server thread/INFO]: [Not Secure] <whitehairguy> so simple
+[00:37:39] [Server thread/INFO]: [Not Secure] <whitehairguy> so demure
+[00:38:09] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> give diamonds ill store
+[00:38:28] [Server thread/INFO]: [Not Secure] <whitehairguy> nice way to describe
+[00:38:32] [Server thread/INFO]: [Not Secure] <whitehairguy> ugly wale uncle
+[00:38:42] [Server thread/INFO]: [Not Secure] <Chubs410> pagdi bola
+[00:38:58] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> chat am i missing out on smthn?
+[00:38:58] [Server thread/INFO]: Villager class_1646['Villager'/736, l='ServerLevel[New World]', x=709.21, y=63.37, z=639.28] died, message: 'Villager was squished too much'
+[00:39:00] [Server thread/INFO]: [Not Secure] <Chubs410> no
+[00:39:01] [Server thread/INFO]: [Not Secure] <Rad1108> damm bro go sleep
+[00:39:12] [Server thread/INFO]: [Not Secure] <Rad1108> just missing out on mc lore
+[00:39:12] [Server thread/INFO]: [Not Secure] <whitehairguy> XD
+[00:39:34] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> zzzzzzzzz
+[00:39:35] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> zzzzzzzzz
+[00:39:37] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> zzzzzzz
+[00:39:44] [Server thread/INFO]: [Not Secure] <Chubs410> ur sleeping on my bed
+[00:39:47] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> no
+[00:39:58] [Server thread/INFO]: [Not Secure] <whitehairguy> very straight thing to do
+[00:39:59] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> im sleeping next to you <3
+[00:40:06] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> all cuddly
+[00:40:10] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> :3
+[00:40:13] [Server thread/INFO]: Chubs410 lost connection: Timed out
+[00:40:13] [Server thread/INFO]: Chubs410 left the game
+[00:40:13] [Server thread/WARN]: handleDisconnection() called twice
+[00:40:15] [Server thread/INFO]: [Not Secure] <whitehairguy> nope
+[00:40:18] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> bro left
+[00:40:19] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> :sob:
+[00:40:21] [Server thread/INFO]: Rad1108 lost connection: Disconnected
+[00:40:21] [Server thread/INFO]: Rad1108 left the game
+[00:40:32] [Server thread/INFO]: Chubs410[/127.52.238.219:38257] logged in with entity id 55049 at (651.5, 64.0, -4408.5)
+[00:40:32] [Server thread/INFO]: Chubs410 joined the game
+[00:40:34] [Server thread/INFO]: Rad1108[/127.198.228.70:36765] logged in with entity id 55119 at (853.6749186381523, 64.0, 547.2403143151705)
+[00:40:34] [Server thread/INFO]: Rad1108 joined the game
+[00:40:46] [Server thread/INFO]: [Not Secure] <Chubs410> i messed up the fucking measurements
+[00:40:52] [Server thread/INFO]: [Not Secure] <whitehairguy> what is going on
+[00:41:00] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> YIPPIE
+[00:41:02] [Server thread/INFO]: [Not Secure] <whitehairguy> damn
+[00:41:03] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> Sehaj moment
+[00:41:09] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> XD
+[00:41:15] [Server thread/INFO]: [Not Secure] <whitehairguy> sex postive nhi hai :pensive"
+[00:41:22] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> whar
+[00:41:34] [Server thread/INFO]: [Not Secure] <whitehairguy> hehe
+[00:41:39] [Server thread/INFO]: [Not Secure] <whitehairguy> she got the ref
+[00:42:26] [Server thread/INFO]: [Not Secure] <Chubs410> self realization
+[00:42:28] [Server thread/INFO]: Villager class_1646['Villager'/735, l='ServerLevel[New World]', x=709.17, y=63.41, z=639.15] died, message: 'Villager was squished too much'
+[00:42:46] [Server thread/INFO]: [Not Secure] <whitehairguy> allay farm bna do
+[00:42:49] [Server thread/INFO]: [Not Secure] <whitehairguy> rakshit
+[00:43:04] [Server thread/INFO]: [Not Secure] <whitehairguy> baad mein de dena
+[00:43:08] [Server thread/INFO]: [Not Secure] <whitehairguy> overworld exp farm chahiye
+[00:43:19] [Server thread/INFO]: [Not Secure] <whitehairguy> potion of infestation
+[00:47:16] [Server thread/INFO]: Rad1108 lost connection: Disconnected
+[00:47:16] [Server thread/INFO]: Rad1108 left the game
+[00:47:47] [Server thread/INFO]: Rad1108[/127.198.228.70:48357] logged in with entity id 65453 at (847.5467506226157, 8.0, 584.6999999880791)
+[00:47:47] [Server thread/INFO]: Rad1108 joined the game
+[00:48:57] [Server thread/INFO]: [Not Secure] <Chubs410> ojas come here
+[00:49:16] [Server thread/INFO]: [Not Secure] <Chubs410> fucked up AGAIN
+[00:49:19] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> XDD
+[00:52:03] [Server thread/INFO]: Villager class_1646['Villager'/16184, l='ServerLevel[New World]', x=709.28, y=63.68, z=639.18] died, message: 'Villager was squished too much'
+[00:52:46] [Server thread/INFO]: [Not Secure] <Chubs410> you got stone ojas?
+[00:52:50] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> in chest
+[00:52:53] [Server thread/INFO]: [Not Secure] <whitehairguy> i wanna get stoned
+[00:52:56] [Server thread/INFO]: [Not Secure] <whitehairguy> actually
+[00:53:02] [Server thread/INFO]: [Not Secure] <whitehairguy> i have loads of cobble and sand
+[00:53:03] [Server thread/INFO]: [Not Secure] <Chubs410> kashmir
+[00:53:11] [Server thread/INFO]: [Not Secure] <whitehairguy> if you want for future projects
+[00:53:32] [Server thread/INFO]: [Not Secure] <Chubs410> which chest dawg
+[00:53:43] [Server thread/INFO]: [Not Secure] <Chubs410> not cobble, stone
+[00:55:03] [Server thread/INFO]: Chubs410 has made the advancement [Who is Cutting Onions?]
+[00:55:59] [Server thread/INFO]: Villager class_1646['Villager'/734, l='ServerLevel[New World]', x=708.31, y=64.07, z=638.20] died, message: 'Villager was slain by Zombie'
+[00:58:31] [Server thread/INFO]: [Not Secure] <Chubs410> zzzzzzzz
+[00:59:17] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> OH NAHHH
+[00:59:17] [Server thread/INFO]: [Not Secure] <Chubs410> HAHHRHHAHAFHHAHBFHRF
+[00:59:20] [Server thread/INFO]: [Not Secure] <Chubs410> LAMOOOOOO
+[00:59:24] [Server thread/INFO]: [Not Secure] <Chubs410> screen record
+[00:59:32] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> cant
+[00:59:34] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> you do
+[00:59:36] [Server thread/INFO]: [Not Secure] <Chubs410> cowgirl or reverse?
+[00:59:37] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> win alt r
+[00:59:38] [Server thread/INFO]: [Not Secure] <Chubs410> next night then
+[01:00:10] [Server thread/INFO]: [Not Secure] <Chubs410> come get oak w me
+[01:00:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[01:01:03] [Server thread/INFO]: Ojas_Kumar has made the advancement [Who is Cutting Onions?]
+[01:01:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2253ms or 45 ticks behind
+[01:02:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[01:03:01] [Server thread/INFO]: Villager class_1646['Villager'/19867, l='ServerLevel[New World]', x=709.22, y=63.38, z=639.11] died, message: 'Villager was squished too much'
+[01:03:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2019ms or 40 ticks behind
+[01:03:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2318ms or 46 ticks behind
+[01:04:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2020ms or 40 ticks behind
+[01:07:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
+[01:07:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6607ms or 132 ticks behind
+[01:08:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6961ms or 139 ticks behind
+[01:08:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2046ms or 40 ticks behind
+[01:09:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4783ms or 95 ticks behind
+[01:09:16] [Server thread/INFO]: [Not Secure] <Chubs410> so close yet so far
+[01:09:21] [Server thread/WARN]: whitehairguy moved too quickly! -0.7920798633975679,3.599999999999966,-12.023181833682258
+[01:09:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3075ms or 61 ticks behind
+[01:12:44] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> take
+[01:12:46] [Server thread/INFO]: [Not Secure] <Chubs410> chest
+[01:13:18] [Server thread/WARN]: Rad1108 moved too quickly! 4.365196638906468,0.7531999805212024,-9.116001011077401
+[01:13:28] [Server thread/WARN]: Rad1108 moved too quickly! 6.450452565503269,0.41999998688697815,-7.927449352777103
+[01:13:45] [Server thread/INFO]: [Not Secure] <Chubs410> ojas kill creeepr
+[01:13:48] [Server thread/INFO]: [Not Secure] <Chubs410> below me
+[01:14:02] [Server thread/INFO]: [Not Secure] <Chubs410> thank you sunshine
+[01:14:45] [Server thread/INFO]: MiffMoff lost connection: Disconnected
+[01:14:45] [Server thread/INFO]: MiffMoff left the game
+[01:14:52] [Server thread/INFO]: Tranished[/127.106.46.28:40573] logged in with entity id 84984 at (641.2144243178341, 64.0, 578.2200176394673)
+[01:14:52] [Server thread/INFO]: Tranished joined the game
+[01:15:11] [Server thread/INFO]: [Not Secure] <Tranished> ello
+[01:15:18] [Server thread/INFO]: [Not Secure] <whitehairguy> hello mi amor
+[01:15:27] [Server thread/INFO]: [Not Secure] <Rad1108> bro you missed some epic lore
+[01:15:37] [Server thread/INFO]: [Not Secure] <Tranished> what happened?
+[01:15:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2043ms or 40 ticks behind
+[01:15:52] [Server thread/INFO]: [Not Secure] <Rad1108> epic tales by a storyteller
+[01:16:02] [Server thread/INFO]: [Not Secure] <Rad1108> real life based
+[01:16:02] [Server thread/INFO]: [Not Secure] <Tranished> damn
+[01:16:03] [Server thread/INFO]: [Not Secure] <Chubs410> not here, inside square box
+[01:16:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14101ms or 282 ticks behind
+[01:16:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11093ms or 221 ticks behind
+[01:16:45] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> is it zz time?
+[01:16:52] [Server thread/INFO]: [Not Secure] <Chubs410> no
+[01:16:55] [Server thread/INFO]: [Not Secure] <Chubs410> not today
+[01:17:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7504ms or 150 ticks behind
+[01:17:11] [Server thread/INFO]: Ojas_Kumar has made the advancement [We Need to Go Deeper]
+[01:17:12] [Server thread/WARN]: whitehairguy moved too quickly! -1.505935037714977,0.0,11.22932527199589
+[01:17:24] [Server thread/INFO]: [Not Secure] <whitehairguy> you above me
+[01:17:26] [Server thread/INFO]: Villager class_1646['Villager'/732, l='ServerLevel[New World]', x=709.14, y=63.25, z=639.70] died, message: 'Villager was squished too much'
+[01:17:42] [Server thread/INFO]: [Not Secure] <whitehairguy> wait no
+[01:17:51] [Server thread/INFO]: Ojas_Kumar lost connection: Disconnected
+[01:17:51] [Server thread/INFO]: Ojas_Kumar left the game
+[01:17:56] [Server thread/INFO]: Ojas_Kumar[/127.43.231.74:50585] logged in with entity id 86876 at (95.63978560241074, 70.0, -536.6999999880791)
+[01:17:56] [Server thread/INFO]: Ojas_Kumar joined the game
+[01:17:57] [Server thread/INFO]: Ojas_Kumar burned to death
+[01:18:06] [Server thread/INFO]: [Not Secure] <Chubs410> BRUH
+[01:18:39] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> dont enter pls
+[01:18:44] [Server thread/INFO]: [Not Secure] <Chubs410> ?
+[01:18:46] [Server thread/INFO]: [Not Secure] <whitehairguy> why
+[01:18:57] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> let us live in peace
+[01:19:10] [Server thread/INFO]: [Not Secure] <whitehairguy> bribe
+[01:19:26] [Server thread/INFO]: [Not Secure] <whitehairguy> entherite?
+[01:19:29] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> no
+[01:19:33] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> just dont enter
+[01:19:34] [Server thread/INFO]: [Not Secure] <whitehairguy> bro has strong morals
+[01:19:46] [Server thread/INFO]: [Not Secure] <whitehairguy> bruh
+[01:19:54] [Server thread/INFO]: [Not Secure] <whitehairguy> i would have entered before you could have broken it
+[01:20:25] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> how will we go back now
+[01:20:33] [Server thread/INFO]: [Not Secure] <Chubs410> ma chudaye
+[01:20:36] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> ?
+[01:20:39] [Server thread/INFO]: [Not Secure] <Chubs410> idk
+[01:20:48] [Server thread/INFO]: Villager class_1646['Villager'/724, l='ServerLevel[New World]', x=708.40, y=63.65, z=638.84] died, message: 'Villager was slain by Zombie'
+[01:20:49] [Server thread/INFO]: Villager class_1646['Villager'/709, l='ServerLevel[New World]', x=709.70, y=63.02, z=637.34] died, message: 'Villager was slain by Zombie'
+[01:20:51] [Server thread/INFO]: Villager class_1646['Villager'/34257, l='ServerLevel[New World]', x=708.38, y=63.10, z=638.27] died, message: 'Villager was slain by Zombie'
+[01:20:51] [Server thread/INFO]: Villager class_1646['Villager'/25607, l='ServerLevel[New World]', x=708.32, y=63.10, z=638.71] died, message: 'Villager was slain by Zombie Villager'
+[01:20:53] [Server thread/INFO]: Villager class_1646['Villager'/717, l='ServerLevel[New World]', x=709.70, y=63.79, z=637.81] died, message: 'Villager was slain by Zombie'
+[01:20:56] [Server thread/INFO]: Villager class_1646['Villager'/733, l='ServerLevel[New World]', x=708.55, y=63.63, z=638.04] died, message: 'Villager was slain by Zombie Villager'
+[01:20:57] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> oh nah
+[01:20:59] [Server thread/INFO]: Villager class_1646['Villager'/729, l='ServerLevel[New World]', x=708.45, y=63.73, z=638.30] died, message: 'Villager was slain by Zombie'
+[01:21:00] [Server thread/INFO]: Villager class_1646['Villager'/22792, l='ServerLevel[New World]', x=708.77, y=63.26, z=639.70] died, message: 'Villager was slain by Zombie Villager'
+[01:21:04] [Server thread/INFO]: Villager class_1646['Villager'/712, l='ServerLevel[New World]', x=709.70, y=63.17, z=639.70] died, message: 'Villager was slain by Zombie Villager'
+[01:21:05] [Server thread/INFO]: Villager class_1646['Villager'/721, l='ServerLevel[New World]', x=708.68, y=63.41, z=637.42] died, message: 'Villager was slain by Zombie Villager'
+[01:21:06] [Server thread/INFO]: Villager class_1646['Villager'/41996, l='ServerLevel[New World]', x=708.95, y=63.41, z=638.67] died, message: 'Villager was slain by Zombie Villager'
+[01:21:06] [Server thread/INFO]: Villager class_1646['Villager'/703, l='ServerLevel[New World]', x=709.70, y=63.18, z=639.70] died, message: 'Villager was slain by Zombie Villager'
+[01:21:10] [Server thread/INFO]: Villager class_1646['Villager'/715, l='ServerLevel[New World]', x=709.70, y=63.20, z=639.70] died, message: 'Villager was slain by Zombie'
+[01:21:11] [Server thread/INFO]: Villager class_1646['Villager'/725, l='ServerLevel[New World]', x=708.30, y=63.26, z=639.70] died, message: 'Villager was slain by Zombie Villager'
+[01:21:14] [Server thread/INFO]: Villager class_1646['Villager'/73039, l='ServerLevel[New World]', x=708.74, y=60.31, z=634.52] died, message: 'Villager was slain by Zombie Villager'
+[01:21:14] [Server thread/INFO]: Villager class_1646['Villager'/714, l='ServerLevel[New World]', x=708.88, y=63.52, z=638.30] died, message: 'Villager was slain by Zombie Villager'
+[01:21:15] [Server thread/INFO]: Villager class_1646['Villager'/55355, l='ServerLevel[New World]', x=708.30, y=64.10, z=638.30] died, message: 'Villager was slain by Zombie Villager'
+[01:21:16] [Server thread/INFO]: Villager class_1646['Villager'/716, l='ServerLevel[New World]', x=709.70, y=63.20, z=639.70] died, message: 'Villager was slain by Zombie Villager'
+[01:21:16] [Server thread/INFO]: Villager class_1646['Villager'/77202, l='ServerLevel[New World]', x=709.85, y=63.75, z=637.44] died, message: 'Villager was slain by Zombie'
+[01:21:19] [Server thread/INFO]: Villager class_1646['Villager'/723, l='ServerLevel[New World]', x=708.41, y=63.00, z=638.76] died, message: 'Villager was slain by Zombie Villager'
+[01:21:19] [Server thread/INFO]: Villager class_1646['Villager'/699, l='ServerLevel[New World]', x=709.08, y=63.63, z=637.37] died, message: 'Villager was slain by Zombie Villager'
+[01:21:20] [Server thread/INFO]: Villager class_1646['Villager'/710, l='ServerLevel[New World]', x=709.41, y=63.03, z=638.27] died, message: 'Villager was slain by Zombie Villager'
+[01:21:20] [Server thread/INFO]: Villager class_1646['Villager'/698, l='ServerLevel[New World]', x=709.70, y=63.23, z=639.70] died, message: 'Villager was slain by Zombie Villager'
+[01:21:21] [Server thread/INFO]: Villager class_1646['Villager'/63337, l='ServerLevel[New World]', x=708.67, y=60.04, z=633.98] died, message: 'Villager was slain by Zombie Villager'
+[01:21:21] [Server thread/INFO]: Villager class_1646['Villager'/713, l='ServerLevel[New World]', x=708.35, y=63.27, z=639.70] died, message: 'Villager was slain by Zombie Villager'
+[01:21:21] [Server thread/INFO]: Villager class_1646['Villager'/706, l='ServerLevel[New World]', x=709.70, y=63.27, z=639.70] died, message: 'Villager was slain by Zombie Villager'
+[01:21:22] [Server thread/INFO]: Villager class_1646['Villager'/720, l='ServerLevel[New World]', x=708.30, y=63.30, z=639.70] died, message: 'Villager was slain by Zombie Villager'
+[01:21:22] [Server thread/INFO]: Villager class_1646['Villager'/731, l='ServerLevel[New World]', x=709.70, y=63.26, z=639.70] died, message: 'Villager was slain by Zombie Villager'
+[01:21:22] [Server thread/INFO]: Villager class_1646['Villager'/700, l='ServerLevel[New World]', x=709.70, y=63.26, z=639.70] died, message: 'Villager was slain by Zombie Villager'
+[01:21:24] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> tw
+[01:21:24] [Server thread/INFO]: Villager class_1646['Villager'/701, l='ServerLevel[New World]', x=709.28, y=64.47, z=638.34] died, message: 'Villager was slain by Zombie Villager'
+[01:21:24] [Server thread/INFO]: Villager class_1646['Villager'/704, l='ServerLevel[New World]', x=708.87, y=63.60, z=638.00] died, message: 'Villager was slain by Zombie Villager'
+[01:21:25] [Server thread/INFO]: [Not Secure] <Chubs410> try ghast tear oja
+[01:21:25] [Server thread/INFO]: Villager class_1646['Villager'/711, l='ServerLevel[New World]', x=708.70, y=60.05, z=633.30] died, message: 'Villager was slain by Zombie Villager'
+[01:21:25] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> tq
+[01:21:25] [Server thread/INFO]: Villager class_1646['Villager'/719, l='ServerLevel[New World]', x=709.70, y=64.48, z=637.90] died, message: 'Villager was slain by Zombie Villager'
+[01:21:26] [Server thread/INFO]: Villager class_1646['Villager'/718, l='ServerLevel[New World]', x=709.70, y=63.25, z=639.70] died, message: 'Villager was slain by Zombie Villager'
+[01:21:26] [Server thread/INFO]: Villager class_1646['Villager'/707, l='ServerLevel[New World]', x=708.30, y=63.50, z=637.30] died, message: 'Villager was slain by Zombie Villager'
+[01:21:28] [Server thread/INFO]: Villager class_1646['Villager'/702, l='ServerLevel[New World]', x=709.28, y=63.53, z=638.19] died, message: 'Villager was slain by Zombie Villager'
+[01:21:29] [Server thread/INFO]: Villager class_1646['Villager'/708, l='ServerLevel[New World]', x=709.70, y=63.36, z=637.53] died, message: 'Villager was slain by Zombie Villager'
+[01:21:35] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> maybe try peace
+[01:21:48] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> brb
+[01:23:01] [Server thread/INFO]: [Not Secure] <Chubs410> ojas flint and steel
+[01:24:13] [Server thread/INFO]: [Not Secure] <Chubs410> light
+[01:24:13] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> nvm brb
+[01:24:17] [Server thread/INFO]: [Not Secure] <Chubs410> ??
+[01:26:57] [Server thread/INFO]: [Not Secure] <Chubs410> light the portal dawg
+[01:27:03] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> i dond have
+[01:27:08] [Server thread/INFO]: [Not Secure] <Chubs410> how did you enter
+[01:27:19] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> by lighting
+[01:27:25] [Server thread/INFO]: [Not Secure] <Chubs410> no fucking way
+[01:27:48] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> i lit it 2 business days ago
+[01:28:52] [Server thread/INFO]: Chubs410 lost connection: Timed out
+[01:28:52] [Server thread/INFO]: Chubs410 left the game
+[01:28:59] [Server thread/INFO]: Chubs410[/127.43.231.74:49329] logged in with entity id 91060 at (98.05908408928491, 72.0, -536.5359167464891)
+[01:28:59] [Server thread/INFO]: Chubs410 joined the game
+[01:29:14] [Server thread/INFO]: [Not Secure] <Chubs410> we're fucked
+[01:29:19] [Server thread/INFO]: [Not Secure] <whitehairguy> true
+[01:29:27] [Server thread/INFO]: [Not Secure] <Chubs410> how to get out
+[01:30:13] [Server thread/INFO]: [Not Secure] <whitehairguy> idk
+[01:32:45] [Server thread/INFO]: [Not Secure] <whitehairguy> hello
+[01:32:46] [Server thread/INFO]: [Not Secure] <whitehairguy> im back
+[01:34:55] [Server thread/INFO]: [Not Secure] <Tranished> Rad1108 you makin that xp farm ?
+[01:35:10] [Server thread/INFO]: [Not Secure] <Rad1108> need a fking disc
+[01:35:13] [Server thread/INFO]: [Not Secure] <Rad1108> got one?
+[01:35:17] [Server thread/INFO]: [Not Secure] <Tranished> yup
+[01:35:18] [Server thread/INFO]: whitehairguy has made the advancement [Oh Shiny]
+[01:35:20] [Server thread/INFO]: [Not Secure] <Rad1108> gimmeeeee
+[01:35:38] [Server thread/INFO]: Rad1108 has made the advancement [You've Got a Friend in Me]
+[01:35:55] [Server thread/INFO]: Chubs410 has made the advancement [Oh Shiny]
+[01:36:02] [Server thread/INFO]: [Not Secure] <Rad1108> buddy i need a disc
+[01:36:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[01:36:17] [Server thread/INFO]: [Not Secure] <Tranished> 1 sec
+[01:36:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3041ms or 60 ticks behind
+[01:37:09] [Server thread/INFO]: Ojas_Kumar lost connection: Disconnected
+[01:37:09] [Server thread/INFO]: Ojas_Kumar left the game
+[01:37:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7446ms or 148 ticks behind
+[01:37:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2106ms or 42 ticks behind
+[01:37:46] [Server thread/INFO]: Chubs410 lost connection: Disconnected
+[01:37:46] [Server thread/INFO]: Chubs410 left the game
+[01:37:47] [Server thread/WARN]: whitehairguy moved wrongly!
+[01:37:47] [Server thread/WARN]: whitehairguy moved wrongly!
+[01:37:47] [Server thread/WARN]: whitehairguy moved wrongly!
+[01:37:47] [Server thread/WARN]: whitehairguy moved wrongly!
+[01:37:47] [Server thread/WARN]: whitehairguy moved wrongly!
+[01:37:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5347ms or 106 ticks behind
+[01:38:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3470ms or 69 ticks behind
+[01:38:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5946ms or 118 ticks behind
+[01:38:50] [Server thread/INFO]: [Not Secure] <whitehairguy> damn
+[01:39:10] [Server thread/INFO]: Tranished was shot by Skeleton
+[01:45:38] [Server thread/INFO]: [Not Secure] <Tranished> vc pr ho ?
+[01:45:42] [Server thread/INFO]: [Not Secure] <whitehairguy> yues
+[01:45:42] [Server thread/INFO]: [Not Secure] <Rad1108> yes
+[01:56:29] [Server thread/INFO]: Tranished has made the advancement [Surge Protector]
+[01:58:04] [Server thread/INFO]: whitehairguy has made the advancement [Surge Protector]
+[01:59:31] [Server thread/INFO]: [Not Secure] <Tranished> zzzzzzz
+[01:59:35] [Server thread/INFO]: [Not Secure] <whitehairguy> zzzzzzzzzzzzzzzzzzz
+[01:59:36] [Server thread/INFO]: [Not Secure] <whitehairguy> zzzzzzzzzzzzzzz
+[01:59:38] [Server thread/INFO]: [Not Secure] <whitehairguy> zzzzzzzzzzzzzzzzzzzzz
+[01:59:39] [Server thread/INFO]: [Not Secure] <whitehairguy> zzzzzzzzzzzzzz
+[01:59:41] [Server thread/INFO]: [Not Secure] <whitehairguy> zzzzzzzzzzzzzz
+[01:59:42] [Server thread/INFO]: [Not Secure] <whitehairguy> zzzzzzzzzzzzzzzzz
+[01:59:44] [Server thread/INFO]: [Not Secure] <whitehairguy> ZZZZZZZZZZZZZZZZZZ
+[01:59:45] [Server thread/INFO]: Rad1108 lost connection: Disconnected
+[01:59:45] [Server thread/INFO]: Rad1108 left the game
+[01:59:45] [Server thread/INFO]: [Not Secure] <whitehairguy> ZZZZZZZZZZZ
+[01:59:50] [Server thread/INFO]: Rad1108[/127.198.228.70:33917] logged in with entity id 100358 at (735.4224792966808, 61.0, 599.3000000119209)
+[01:59:50] [Server thread/INFO]: Rad1108 joined the game
+[02:12:39] [Server thread/INFO]: Rad1108 lost connection: Disconnected
+[02:12:39] [Server thread/INFO]: Rad1108 left the game
+[02:13:25] [Server thread/INFO]: Tranished lost connection: Disconnected
+[02:13:25] [Server thread/INFO]: Tranished left the game
+[02:13:54] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[02:13:54] [Server thread/INFO]: whitehairguy left the game
