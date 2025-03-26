@@ -5043,5 +5043,11 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/pink_dye_from_cactus_flower": {
+    "criteria": {
+      "has_cactus_flower": "2025-03-26 23:57:30 +0530"
+    },
+    "done": true
+  },
   "DataVersion": 4325
 }
