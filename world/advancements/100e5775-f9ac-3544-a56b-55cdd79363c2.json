@@ -7,17 +7,27 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:deep_cold_ocean": "2025-03-14 03:35:26 +0530",
       "minecraft:cold_ocean": "2025-03-12 20:24:55 +0530",
+      "minecraft:flower_forest": "2025-03-27 03:15:52 +0530",
       "minecraft:beach": "2025-03-12 20:24:41 +0530",
+      "minecraft:old_growth_pine_taiga": "2025-03-27 03:20:16 +0530",
+      "minecraft:dark_forest": "2025-03-27 01:02:30 +0530",
       "minecraft:forest": "2025-03-12 19:38:56 +0530",
       "minecraft:taiga": "2025-03-12 20:00:46 +0530",
       "minecraft:river": "2025-03-12 20:24:34 +0530",
-      "minecraft:grove": "2025-03-12 20:00:50 +0530",
       "minecraft:stony_shore": "2025-03-12 19:39:26 +0530",
       "minecraft:lush_caves": "2025-03-14 03:19:15 +0530",
+      "minecraft:dripstone_caves": "2025-03-27 01:04:18 +0530",
+      "minecraft:deep_cold_ocean": "2025-03-14 03:35:26 +0530",
+      "minecraft:deep_dark": "2025-03-27 01:11:25 +0530",
+      "minecraft:ocean": "2025-03-27 01:00:05 +0530",
+      "minecraft:sunflower_plains": "2025-03-27 03:15:21 +0530",
+      "minecraft:grove": "2025-03-12 20:00:50 +0530",
+      "minecraft:birch_forest": "2025-03-27 01:01:04 +0530",
+      "minecraft:windswept_hills": "2025-03-27 03:21:57 +0530",
       "minecraft:old_growth_spruce_taiga": "2025-03-14 02:10:26 +0530",
-      "minecraft:plains": "2025-03-12 20:07:14 +0530"
+      "minecraft:plains": "2025-03-12 20:07:14 +0530",
+      "minecraft:pale_garden": "2025-03-27 01:04:20 +0530"
     },
     "done": false
   },
@@ -4093,6 +4103,186 @@
   "minecraft:recipes/misc/netherite_ingot": {
     "criteria": {
       "has_netherite_scrap": "2025-03-27 00:34:27 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2025-03-27 01:08:52 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2025-03-27 01:15:35 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_lantern": {
+    "criteria": {
+      "has_soul_torch": "2025-03-27 02:19:00 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2025-03-27 02:22:12 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2025-03-27 02:22:12 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/music_disc_5": {
+    "criteria": {
+      "has_disc_fragment_5": "2025-03-27 02:23:09 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/recovery_compass": {
+    "criteria": {
+      "has_echo_shard": "2025-03-27 02:23:12 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2025-03-27 02:25:25 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2025-03-27 02:25:25 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_slab": {
+    "criteria": {
+      "has_planks": "2025-03-27 02:25:43 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_door": {
+    "criteria": {
+      "has_planks": "2025-03-27 02:25:43 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-03-27 02:25:43 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-03-27 02:25:43 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_button": {
+    "criteria": {
+      "has_planks": "2025-03-27 02:25:43 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_stairs": {
+    "criteria": {
+      "has_planks": "2025-03-27 02:25:43 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_sign": {
+    "criteria": {
+      "has_planks": "2025-03-27 02:25:43 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-03-27 02:25:43 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_fence": {
+    "criteria": {
+      "has_planks": "2025-03-27 02:25:43 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_bed": {
+    "criteria": {
+      "has_light_blue_wool": "2025-03-27 02:49:16 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_carpet": {
+    "criteria": {
+      "has_light_blue_wool": "2025-03-27 02:49:16 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_banner": {
+    "criteria": {
+      "has_light_blue_wool": "2025-03-27 02:49:16 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_banner": {
+    "criteria": {
+      "has_cyan_wool": "2025-03-27 02:49:26 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_carpet": {
+    "criteria": {
+      "has_cyan_wool": "2025-03-27 02:49:26 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_bed": {
+    "criteria": {
+      "has_cyan_wool": "2025-03-27 02:49:26 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2025-03-27 02:51:01 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2025-03-27 02:51:01 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_carpet": {
+    "criteria": {
+      "has_gray_wool": "2025-03-27 02:51:01 +0530"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2025-03-27 03:42:41 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2025-03-27 03:42:41 +0530"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2025-03-27 03:49:44 +0530"
     },
     "done": true
   },
