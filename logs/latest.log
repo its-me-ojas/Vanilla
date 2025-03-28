@@ -1,118 +1,76 @@
-[07:49:12] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.10
-[07:49:12] [main/INFO]: Loading 4 mods:
+[08:48:41] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.10
+[08:48:41] [main/INFO]: Loading 4 mods:
 	- fabricloader 0.16.10
 	   \-- mixinextras 0.4.1
 	- java 23
 	- minecraft 1.21.5
-[07:49:12] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/ragha/Documents/Vanilla/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[07:49:18] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[07:49:19] [Yggdrasil Key Fetcher/ERROR]: Failed to request yggdrasil public key
-com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:111) ~[authlib-6.0.58.jar:?]
-	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:56) ~[authlib-6.0.58.jar:?]
-	at knot/com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:114) ~[authlib-6.0.58.jar:?]
-	at knot/com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo$1.run(YggdrasilServicesKeyInfo.java:89) ~[authlib-6.0.58.jar:?]
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
-Caused by: javax.net.ssl.SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:130) ~[?:?]
-	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:383) ~[?:?]
-	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:326) ~[?:?]
-	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:321) ~[?:?]
-	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1326) ~[?:?]
-	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1203) ~[?:?]
-	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1146) ~[?:?]
-	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393) ~[?:?]
-	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:476) ~[?:?]
-	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:447) ~[?:?]
-	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:206) ~[?:?]
-	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1507) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1422) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:586) ~[?:?]
-	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1691) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1615) ~[?:?]
-	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
-	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:82) ~[authlib-6.0.58.jar:?]
-	... 9 more
-Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:388) ~[?:?]
-	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
-	at java.base/sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
-	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:230) ~[?:?]
-	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?]
-	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1310) ~[?:?]
-	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1203) ~[?:?]
-	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1146) ~[?:?]
-	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393) ~[?:?]
-	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:476) ~[?:?]
-	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:447) ~[?:?]
-	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:206) ~[?:?]
-	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1507) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1422) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:586) ~[?:?]
-	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1691) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1615) ~[?:?]
-	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
-	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:82) ~[authlib-6.0.58.jar:?]
-	... 9 more
-Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-	at java.base/sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:148) ~[?:?]
-	at java.base/sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:129) ~[?:?]
-	at java.base/java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297) ~[?:?]
-	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:383) ~[?:?]
-	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
-	at java.base/sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
-	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:230) ~[?:?]
-	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?]
-	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1310) ~[?:?]
-	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1203) ~[?:?]
-	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1146) ~[?:?]
-	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393) ~[?:?]
-	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:476) ~[?:?]
-	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:447) ~[?:?]
-	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:206) ~[?:?]
-	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1507) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1422) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:586) ~[?:?]
-	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1691) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1615) ~[?:?]
-	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
-	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:82) ~[authlib-6.0.58.jar:?]
-	... 9 more
-[07:49:20] [main/INFO]: Loaded 1373 recipes
-[07:49:20] [main/INFO]: Loaded 1484 advancements
-[07:49:20] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[07:49:20] [Server thread/INFO]: Loading properties
-[07:49:20] [Server thread/INFO]: Default game type: SURVIVAL
-[07:49:20] [Server thread/INFO]: Generating keypair
-[07:49:20] [Server thread/INFO]: Starting Minecraft server on *:25565
-[07:49:20] [Server thread/INFO]: Using default channel type
-[07:49:21] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[07:49:21] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[07:49:21] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[07:49:21] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[07:49:21] [Server thread/INFO]: Preparing level "world"
-[07:49:21] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[07:49:22] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[07:49:22] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[07:49:22] [Server thread/INFO]: Time elapsed: 936 ms
-[07:49:22] [Server thread/INFO]: Done (1.637s)! For help, type "help"
+[08:48:41] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/ragha/Documents/Vanilla/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[08:48:48] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[08:48:50] [main/INFO]: Loaded 1373 recipes
+[08:48:50] [main/INFO]: Loaded 1484 advancements
+[08:48:50] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[08:48:50] [Server thread/INFO]: Loading properties
+[08:48:50] [Server thread/INFO]: Default game type: SURVIVAL
+[08:48:50] [Server thread/INFO]: Generating keypair
+[08:48:51] [Server thread/INFO]: Starting Minecraft server on *:25565
+[08:48:51] [Server thread/INFO]: Using default channel type
+[08:48:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08:48:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[08:48:51] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08:48:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[08:48:51] [Server thread/INFO]: Preparing level "world"
+[08:48:51] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[08:48:52] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[08:48:52] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[08:48:52] [Server thread/INFO]: Time elapsed: 908 ms
+[08:48:52] [Server thread/INFO]: Done (1.505s)! For help, type "help"
+[08:49:52] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[08:52:12] [Server thread/INFO]: BrownNiggar[/127.0.0.1:50249] logged in with entity id 8 at (241.4166986971232, 7.0, -14.699999988079071)
+[08:52:12] [Server thread/INFO]: BrownNiggar joined the game
+[08:52:43] [Server thread/INFO]: BrownNiggar lost connection: Disconnected
+[08:52:43] [Server thread/INFO]: BrownNiggar left the game
+[08:52:52] [Server thread/INFO]: BrownNiggar[/127.0.0.1:50562] logged in with entity id 299 at (241.42622211708397, 7.0, -14.699999988079071)
+[08:52:52] [Server thread/INFO]: BrownNiggar joined the game
+[08:52:59] [Server thread/INFO]: BrownNiggar lost connection: Disconnected
+[08:52:59] [Server thread/INFO]: BrownNiggar left the game
+[08:53:05] [Server thread/INFO]: BrownNiggar[/127.0.0.1:50573] logged in with entity id 544 at (241.42622211708397, 7.0, -14.699999988079071)
+[08:53:05] [Server thread/INFO]: BrownNiggar joined the game
+[09:16:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2226ms or 44 ticks behind
+[09:16:46] [Server thread/INFO]: Villager class_1646['Villager'/17984, l='ServerLevel[New World]', x=709.70, y=63.29, z=639.16] died, message: 'Villager was squished too much'
+[09:17:03] [Server thread/INFO]: Villager class_1646['Villager'/17981, l='ServerLevel[New World]', x=709.18, y=63.49, z=639.12] died, message: 'Villager was squished too much'
+[09:17:18] [Server thread/INFO]: Villager class_1646['Villager'/17980, l='ServerLevel[New World]', x=709.11, y=63.44, z=639.15] died, message: 'Villager was squished too much'
+[09:17:27] [Server thread/INFO]: BrownNiggar lost connection: Disconnected
+[09:17:27] [Server thread/INFO]: BrownNiggar left the game
+[09:18:19] [Server thread/INFO]: BrownNiggar[/127.0.0.1:50813] logged in with entity id 18328 at (736.6886954885442, 87.5, 577.3755636744132)
+[09:18:19] [Server thread/INFO]: BrownNiggar joined the game
+[09:18:25] [Server thread/INFO]: Villager class_1646['Villager'/18440, l='ServerLevel[New World]', x=709.70, y=63.00, z=639.18] died, message: 'Villager was squished too much'
+[09:19:19] [Server thread/INFO]: Villager class_1646['Villager'/18437, l='ServerLevel[New World]', x=709.10, y=63.18, z=639.15] died, message: 'Villager was squished too much'
+[09:23:53] [Server thread/INFO]: Villager class_1646['Villager'/18433, l='ServerLevel[New World]', x=709.70, y=64.42, z=639.13] died, message: 'Villager was squished too much'
+[09:50:24] [Server thread/INFO]: Villager class_1646['Villager'/18436, l='ServerLevel[New World]', x=709.12, y=63.39, z=639.10] died, message: 'Villager was squished too much'
+[10:11:56] [Server thread/INFO]: Villager class_1646['Villager'/31196, l='ServerLevel[New World]', x=709.14, y=63.50, z=639.25] died, message: 'Villager was squished too much'
+[10:15:49] [Server thread/INFO]: Villager class_1646['Villager'/31193, l='ServerLevel[New World]', x=709.30, y=63.29, z=639.70] died, message: 'Villager was squished too much'
+[10:15:54] [Server thread/INFO]: Villager class_1646['Villager'/31197, l='ServerLevel[New World]', x=709.11, y=63.37, z=639.11] died, message: 'Villager was squished too much'
+[10:26:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=407, y=13, z=229} class_2338{x=407, y=12, z=231}
+[10:26:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=407, y=13, z=229} class_2338{x=407, y=12, z=231}
+[10:26:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=407, y=13, z=229} class_2338{x=407, y=12, z=231}
+[10:30:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=456, y=15, z=191} class_2338{x=446, y=15, z=187}
+[10:33:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=502, y=17, z=183} class_2338{x=512, y=18, z=183}
+[10:33:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=502, y=17, z=183} class_2338{x=512, y=18, z=183}
+[10:33:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=502, y=17, z=183} class_2338{x=512, y=18, z=183}
+[10:33:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=502, y=17, z=183} class_2338{x=512, y=18, z=183}
+[10:33:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=516, y=19, z=183} class_2338{x=514, y=19, z=175}
+[10:33:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=516, y=19, z=183} class_2338{x=514, y=19, z=175}
+[10:33:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=516, y=19, z=183} class_2338{x=514, y=19, z=175}
+[10:34:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=547, y=17, z=188} class_2338{x=547, y=16, z=187}
+[10:37:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=515, y=11, z=196} class_2338{x=514, y=12, z=196}
+[10:39:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=495, y=20, z=251} class_2338{x=495, y=21, z=251}
+[10:54:11] [Server thread/INFO]: Villager class_1646['Villager'/41094, l='ServerLevel[New World]', x=709.12, y=63.37, z=639.15] died, message: 'Villager was squished too much'
+[11:04:49] [Server thread/INFO]: Villager class_1646['Villager'/41093, l='ServerLevel[New World]', x=709.16, y=63.57, z=639.11] died, message: 'Villager was squished too much'
+[11:14:36] [Server thread/INFO]: BrownNiggar lost connection: Disconnected
+[11:14:36] [Server thread/INFO]: BrownNiggar left the game
+[11:15:36] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[11:43:00] [Server thread/INFO]: BrownNiggar[/127.0.0.1:51562] logged in with entity id 45197 at (551.9324403084947, 93.0, 153.49049333367017)
+[11:43:00] [Server thread/INFO]: BrownNiggar joined the game
+[11:43:25] [Server thread/INFO]: BrownNiggar lost connection: Disconnected
+[11:43:25] [Server thread/INFO]: BrownNiggar left the game
+[11:43:31] [Server thread/INFO]: Stopping server
