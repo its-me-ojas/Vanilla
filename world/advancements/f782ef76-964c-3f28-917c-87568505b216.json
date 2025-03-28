@@ -22,10 +22,12 @@
       "minecraft:frozen_ocean": "2025-03-24 22:26:42 +0530",
       "minecraft:frozen_river": "2025-03-24 22:25:54 +0530",
       "minecraft:windswept_forest": "2025-03-26 23:23:11 +0530",
+      "minecraft:deep_dark": "2025-03-28 03:29:27 +0530",
       "minecraft:ocean": "2025-03-24 22:20:40 +0530",
       "minecraft:cherry_grove": "2025-03-24 23:43:33 +0530",
       "minecraft:sunflower_plains": "2025-03-24 23:49:46 +0530",
       "minecraft:grove": "2025-03-27 00:04:57 +0530",
+      "minecraft:meadow": "2025-03-28 03:17:57 +0530",
       "minecraft:old_growth_spruce_taiga": "2025-03-26 23:23:59 +0530",
       "minecraft:snowy_beach": "2025-03-24 22:26:00 +0530",
       "minecraft:plains": "2025-03-24 22:33:50 +0530"
@@ -563,6 +565,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2025-03-24 23:54:35 +0530",
+      "apple": "2025-03-27 23:24:37 +0530",
       "bread": "2025-03-27 00:05:38 +0530",
       "rotten_flesh": "2025-03-24 23:52:38 +0530",
       "cooked_mutton": "2025-03-24 23:45:45 +0530",
@@ -609,6 +612,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:blaze": "2025-03-27 00:30:49 +0530",
+      "minecraft:pillager": "2025-03-27 23:18:55 +0530",
       "minecraft:skeleton": "2025-03-24 22:34:05 +0530",
       "minecraft:piglin": "2025-03-27 00:14:07 +0530",
       "minecraft:enderman": "2025-03-26 23:00:38 +0530",
@@ -2279,9 +2283,9 @@
     },
     "done": true
   },
-  "minecraft:nether/obtain_blaze_rod": {
+  "minecraft:nether/find_fortress": {
     "criteria": {
-      "blaze_rod": "2025-03-27 00:30:51 +0530"
+      "fortress": "2025-03-27 00:28:58 +0530"
     },
     "done": true
   },
@@ -2291,27 +2295,165 @@
     },
     "done": true
   },
-  "minecraft:recipes/brewing/blaze_powder": {
-    "criteria": {
-      "has_blaze_rod": "2025-03-27 00:30:51 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/red_nether_bricks": {
     "criteria": {
       "has_nether_wart": "2025-03-27 00:29:30 +0530"
     },
     "done": true
   },
-  "minecraft:nether/find_fortress": {
+  "minecraft:nether/obtain_blaze_rod": {
     "criteria": {
-      "fortress": "2025-03-27 00:28:58 +0530"
+      "blaze_rod": "2025-03-27 00:30:51 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2025-03-27 00:30:51 +0530"
     },
     "done": true
   },
   "minecraft:recipes/brewing/brewing_stand": {
     "criteria": {
       "has_blaze_rod": "2025-03-27 00:30:51 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/distract_piglin": {
+    "criteria": {
+      "distract_piglin": "2025-03-27 22:48:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_bricks": {
+    "criteria": {
+      "has_nether_brick": "2025-03-27 22:48:39 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_nether_bricks": {
+    "criteria": {
+      "has_nether_bricks": "2025-03-27 22:48:42 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-03-27 22:48:42 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs": {
+    "criteria": {
+      "has_nether_bricks": "2025-03-27 22:48:42 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab": {
+    "criteria": {
+      "has_nether_bricks": "2025-03-27 22:48:42 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-03-27 22:48:42 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-03-27 22:48:42 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-03-27 22:48:42 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall": {
+    "criteria": {
+      "has_nether_bricks": "2025-03-27 22:48:42 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_fence": {
+    "criteria": {
+      "has_nether_bricks": "2025-03-27 22:48:42 +0530"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2025-03-27 23:00:48 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2025-03-27 23:03:44 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2025-03-27 23:03:44 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2025-03-27 23:03:44 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2025-03-27 23:18:55 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-03-27 23:19:11 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2025-03-27 23:19:11 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2025-03-27 23:23:29 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2025-03-28 03:27:00 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2025-03-28 03:27:00 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2025-03-28 03:29:12 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2025-03-28 03:27:00 +0530"
     },
     "done": true
   },
