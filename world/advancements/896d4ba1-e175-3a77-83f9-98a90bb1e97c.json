@@ -18,6 +18,7 @@
       "minecraft:deep_frozen_ocean": "2025-03-24 13:22:14 +0530",
       "minecraft:windswept_forest": "2025-03-28 04:00:16 +0530",
       "minecraft:ocean": "2025-03-24 13:08:42 +0530",
+      "minecraft:jungle": "2025-03-29 03:06:51 +0530",
       "minecraft:sunflower_plains": "2025-03-24 13:38:32 +0530",
       "minecraft:cherry_grove": "2025-03-24 13:58:52 +0530",
       "minecraft:birch_forest": "2025-03-28 04:00:29 +0530",
@@ -26,9 +27,12 @@
       "minecraft:snowy_beach": "2025-03-24 13:16:29 +0530",
       "minecraft:wooded_badlands": "2025-03-28 01:06:02 +0530",
       "minecraft:flower_forest": "2025-03-28 03:39:39 +0530",
+      "minecraft:savanna_plateau": "2025-03-29 02:30:22 +0530",
       "minecraft:beach": "2025-03-24 11:35:49 +0530",
       "minecraft:dark_forest": "2025-03-28 04:01:25 +0530",
+      "minecraft:stony_peaks": "2025-03-29 01:14:36 +0530",
       "minecraft:river": "2025-03-24 11:35:54 +0530",
+      "minecraft:lukewarm_ocean": "2025-03-29 03:03:46 +0530",
       "minecraft:stony_shore": "2025-03-24 11:25:22 +0530",
       "minecraft:snowy_plains": "2025-03-26 23:53:13 +0530",
       "minecraft:snowy_taiga": "2025-03-24 13:16:25 +0530",
@@ -40,7 +44,8 @@
       "minecraft:swamp": "2025-03-28 04:00:32 +0530",
       "minecraft:meadow": "2025-03-24 13:31:17 +0530",
       "minecraft:savanna": "2025-03-28 01:00:15 +0530",
-      "minecraft:plains": "2025-03-24 11:56:47 +0530"
+      "minecraft:plains": "2025-03-24 11:56:47 +0530",
+      "minecraft:pale_garden": "2025-03-29 01:10:49 +0530"
     },
     "done": false
   },
@@ -331,8 +336,10 @@
       "cooked_porkchop": "2025-03-24 14:16:19 +0530",
       "apple": "2025-03-26 00:29:47 +0530",
       "bread": "2025-03-24 11:34:13 +0530",
+      "enchanted_golden_apple": "2025-03-29 03:49:50 +0530",
       "cooked_mutton": "2025-03-24 13:15:57 +0530",
-      "cooked_beef": "2025-03-24 13:07:39 +0530"
+      "cooked_beef": "2025-03-24 13:07:39 +0530",
+      "baked_potato": "2025-03-29 03:22:38 +0530"
     },
     "done": false
   },
@@ -2703,6 +2710,66 @@
   "minecraft:recipes/decorations/pale_oak_sign": {
     "criteria": {
       "has_planks": "2025-03-28 05:15:50 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2025-03-29 00:29:28 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2025-03-29 00:29:28 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2025-03-29 00:36:27 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
+    "criteria": {
+      "has_rose_bush": "2025-03-29 01:05:54 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_open_eyeblossom": {
+    "criteria": {
+      "has_open_eyeblossom": "2025-03-29 01:10:58 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_open_eyeblossom": {
+    "criteria": {
+      "has_open_eyeblossom": "2025-03-29 01:10:58 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-03-29 02:16:36 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2025-03-29 03:20:43 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2025-03-29 03:20:43 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2025-03-29 03:45:34 +0530"
     },
     "done": true
   },

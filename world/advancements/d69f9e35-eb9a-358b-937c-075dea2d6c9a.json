@@ -8,19 +8,27 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2025-03-26 00:04:08 +0530",
+      "minecraft:savanna_plateau": "2025-03-29 02:58:01 +0530",
       "minecraft:beach": "2025-03-26 00:04:37 +0530",
       "minecraft:dark_forest": "2025-03-27 01:02:29 +0530",
+      "minecraft:stony_peaks": "2025-03-29 01:14:31 +0530",
       "minecraft:forest": "2025-03-26 00:02:11 +0530",
       "minecraft:taiga": "2025-03-26 00:02:36 +0530",
       "minecraft:river": "2025-03-26 01:14:18 +0530",
+      "minecraft:lukewarm_ocean": "2025-03-29 03:03:46 +0530",
       "minecraft:stony_shore": "2025-03-25 23:52:18 +0530",
       "minecraft:dripstone_caves": "2025-03-27 01:04:35 +0530",
+      "minecraft:frozen_peaks": "2025-03-29 01:13:19 +0530",
       "minecraft:deep_cold_ocean": "2025-03-27 00:59:32 +0530",
+      "minecraft:old_growth_birch_forest": "2025-03-29 01:06:34 +0530",
       "minecraft:deep_dark": "2025-03-27 01:10:28 +0530",
       "minecraft:ocean": "2025-03-27 01:00:05 +0530",
+      "minecraft:jungle": "2025-03-29 03:06:52 +0530",
       "minecraft:grove": "2025-03-26 00:03:13 +0530",
+      "minecraft:meadow": "2025-03-29 01:58:03 +0530",
       "minecraft:birch_forest": "2025-03-27 01:01:05 +0530",
       "minecraft:old_growth_spruce_taiga": "2025-03-26 00:03:16 +0530",
+      "minecraft:savanna": "2025-03-29 02:38:12 +0530",
       "minecraft:plains": "2025-03-27 01:00:48 +0530",
       "minecraft:pale_garden": "2025-03-27 01:04:24 +0530"
     },
@@ -127,14 +135,15 @@
       "cooked_porkchop": "2025-03-27 22:35:59 +0530",
       "chicken": "2025-03-26 23:43:22 +0530",
       "bread": "2025-03-27 01:47:46 +0530",
-      "cooked_chicken": "2025-03-26 01:30:19 +0530",
       "rotten_flesh": "2025-03-26 23:41:30 +0530",
-      "potato": "2025-03-28 02:48:27 +0530",
-      "cooked_cod": "2025-03-26 00:12:37 +0530",
       "cooked_beef": "2025-03-26 23:50:15 +0530",
       "chorus_fruit": "2025-03-28 01:44:22 +0530",
+      "baked_potato": "2025-03-29 00:28:56 +0530",
       "porkchop": "2025-03-27 05:21:59 +0530",
       "golden_carrot": "2025-03-28 03:58:53 +0530",
+      "cooked_chicken": "2025-03-26 01:30:19 +0530",
+      "potato": "2025-03-28 02:48:27 +0530",
+      "cooked_cod": "2025-03-26 00:12:37 +0530",
       "carrot": "2025-03-26 23:14:44 +0530"
     },
     "done": false
@@ -3184,6 +3193,270 @@
   "minecraft:recipes/redstone/daylight_detector": {
     "criteria": {
       "has_quartz": "2025-03-28 11:11:27 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2025-03-29 00:17:11 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2025-03-29 00:18:05 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_planks": {
+    "criteria": {
+      "has_logs": "2025-03-29 00:29:00 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_hyphae": {
+    "criteria": {
+      "has_log": "2025-03-29 00:29:00 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_ice": {
+    "criteria": {
+      "has_ice": "2025-03-29 01:13:18 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_blasting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2025-03-29 01:16:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_smelting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2025-03-29 01:16:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2025-03-29 01:20:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2025-03-29 01:20:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2025-03-29 01:21:06 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2025-03-29 01:46:53 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2025-03-29 01:51:13 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2025-03-29 01:51:13 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2025-03-29 01:51:13 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2025-03-29 01:51:14 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2025-03-29 01:51:14 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2025-03-29 01:51:14 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_open_eyeblossom": {
+    "criteria": {
+      "has_open_eyeblossom": "2025-03-29 01:54:12 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_open_eyeblossom": {
+    "criteria": {
+      "has_open_eyeblossom": "2025-03-29 01:54:12 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2025-03-29 02:01:04 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_copper_block": {
+    "criteria": {
+      "has_raw_copper": "2025-03-29 02:01:04 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2025-03-29 02:01:04 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2025-03-29 02:17:17 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_brick_wall_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-03-29 02:45:51 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-03-29 02:45:51 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_brick_wall": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-03-29 02:45:51 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-03-29 02:45:51 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tiles_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-03-29 02:45:51 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-03-29 02:45:51 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-03-29 02:45:51 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_deepslate_bricks": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-03-29 02:45:51 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-03-29 02:45:51 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tiles": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-03-29 02:45:51 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-03-29 02:45:51 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-03-29 02:45:51 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_copper_ore": {
+    "criteria": {
+      "has_copper_ore": "2025-03-29 02:55:10 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_copper_ore": {
+    "criteria": {
+      "has_copper_ore": "2025-03-29 02:55:10 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_blasting_lapis_ore": {
+    "criteria": {
+      "has_lapis_ore": "2025-03-29 02:56:11 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_smelting_lapis_ore": {
+    "criteria": {
+      "has_lapis_ore": "2025-03-29 02:56:11 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/copper_block": {
+    "criteria": {
+      "has_copper_ingot": "2025-03-29 03:45:48 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/brush": {
+    "criteria": {
+      "has_copper_ingot": "2025-03-29 03:45:48 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/copper_door": {
+    "criteria": {
+      "has_copper_ingot": "2025-03-29 03:45:48 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lightning_rod": {
+    "criteria": {
+      "has_copper_ingot": "2025-03-29 03:45:48 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/copper_trapdoor": {
+    "criteria": {
+      "has_copper_ingot": "2025-03-29 03:45:48 +0530"
     },
     "done": true
   },
