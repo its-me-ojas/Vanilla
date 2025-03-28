@@ -1,625 +1,118 @@
-[02:50:40] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.10
-[02:50:40] [main/INFO]: Loading 4 mods:
+[07:49:12] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.10
+[07:49:12] [main/INFO]: Loading 4 mods:
 	- fabricloader 0.16.10
 	   \-- mixinextras 0.4.1
-	- java 21
+	- java 23
 	- minecraft 1.21.5
-[02:50:41] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/crestfallen/Minecraft/Vanilla/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[02:50:55] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[02:51:00] [main/INFO]: Loaded 1373 recipes
-[02:51:00] [main/INFO]: Loaded 1484 advancements
-[02:51:00] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[02:51:00] [Server thread/INFO]: Loading properties
-[02:51:00] [Server thread/INFO]: Default game type: SURVIVAL
-[02:51:00] [Server thread/INFO]: Generating keypair
-[02:51:00] [Server thread/INFO]: Starting Minecraft server on *:25565
-[02:51:01] [Server thread/INFO]: Using epoll channel type
-[02:51:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[02:51:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[02:51:01] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[02:51:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[02:51:01] [Server thread/INFO]: Preparing level "world"
-[02:51:04] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[02:51:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[02:51:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[02:51:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[02:51:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[02:51:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[02:51:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[02:51:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[02:51:07] [Server thread/INFO]: Time elapsed: 3466 ms
-[02:51:07] [Server thread/INFO]: Done (6.368s)! For help, type "help"
-[02:51:09] [Server thread/INFO]: whitehairguy[/127.0.0.1:45334] logged in with entity id 16 at (737.1251006579995, 87.5, 578.1073593830174)
-[02:51:09] [Server thread/INFO]: whitehairguy joined the game
-[02:51:09] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/21, l='ServerLevel[New World]', x=995.36, y=63.17, z=228.38]
-[02:51:09] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:51:09] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/22, l='ServerLevel[New World]', x=1015.40, y=62.99, z=228.49]
-[02:51:09] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:51:09] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/24, l='ServerLevel[New World]', x=995.23, y=63.09, z=250.60]
-[02:51:09] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:51:09] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/25, l='ServerLevel[New World]', x=1015.69, y=62.96, z=250.50]
-[02:51:09] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:51:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2027ms or 40 ticks behind
-[02:51:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6833ms or 136 ticks behind
-[02:52:17] [Server thread/INFO]: Chubs410[/127.43.231.74:55949] logged in with entity id 516 at (588.9814797001101, 64.24918707874468, -4540.739298188526)
-[02:52:17] [Server thread/INFO]: Chubs410 joined the game
-[02:52:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
-[02:52:36] [Server thread/INFO]: BrownNiggar[/127.139.218.78:48029] logged in with entity id 1028 at (722.6696873333098, 65.0, 576.5631199501889)
-[02:52:36] [Server thread/INFO]: BrownNiggar joined the game
-[02:52:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7219ms or 144 ticks behind
-[02:53:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4284ms or 85 ticks behind
-[02:53:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3347ms or 66 ticks behind
-[02:53:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2700ms or 54 ticks behind
-[02:54:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2715ms or 54 ticks behind
-[02:55:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
-[02:55:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5934ms or 118 ticks behind
-[02:55:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2305ms or 46 ticks behind
-[02:56:36] [Server thread/INFO]: Rad1108[/127.206.16.230:38095] logged in with entity id 3417 at (-4755.0174476400325, 60.0, 815.2225212629891)
-[02:56:36] [Server thread/INFO]: Rad1108 joined the game
-[02:56:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[02:56:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6984ms or 139 ticks behind
-[02:57:10] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[02:57:10] [Server thread/INFO]: whitehairguy left the game
-[02:57:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6067ms or 121 ticks behind
-[02:57:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[02:58:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[02:58:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
-[02:59:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4039ms or 80 ticks behind
-[02:59:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4063ms or 81 ticks behind
-[02:59:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3550ms or 71 ticks behind
-[03:10:06] [Server thread/INFO]: whitehairguy[/127.0.0.1:37936] logged in with entity id 11929 at (692.7347876530484, 64.0, 578.4835783327752)
-[03:10:06] [Server thread/INFO]: whitehairguy joined the game
-[03:10:06] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/11934, l='ServerLevel[New World]', x=995.36, y=63.17, z=228.38]
-[03:10:06] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:10:06] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/11935, l='ServerLevel[New World]', x=1015.40, y=62.99, z=228.49]
-[03:10:06] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:10:06] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/11937, l='ServerLevel[New World]', x=995.23, y=63.09, z=250.60]
-[03:10:06] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:10:06] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/11938, l='ServerLevel[New World]', x=1015.69, y=62.96, z=250.50]
-[03:10:06] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:10:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
-[03:10:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5319ms or 106 ticks behind
-[03:10:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
-[03:11:18] [Server thread/INFO]: BrownNiggar was shot by whitehairguy
-[03:11:35] [Server thread/INFO]: Chubs410 has made the advancement [Sneak 100]
-[03:12:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
-[03:12:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2124ms or 42 ticks behind
-[03:12:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3360ms or 67 ticks behind
-[03:13:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[03:13:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2151ms or 43 ticks behind
-[03:14:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
-[03:14:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
-[03:15:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2593ms or 51 ticks behind
-[03:15:28] [Server thread/INFO]: Ojas_Kumar[/127.43.231.74:46075] logged in with entity id 14236 at (655.630983790225, 68.0, -4439.970804777562)
-[03:15:28] [Server thread/INFO]: Ojas_Kumar joined the game
-[03:15:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
-[03:16:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14165ms or 283 ticks behind
-[03:16:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11471ms or 229 ticks behind
-[03:16:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5613ms or 112 ticks behind
-[03:17:08] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[03:17:08] [Server thread/INFO]: whitehairguy left the game
-[03:17:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9700ms or 194 ticks behind
-[03:17:14] [Server thread/INFO]: whitehairguy[/127.0.0.1:39846] logged in with entity id 15690 at (715.6789068503936, 64.0, 569.526626569601)
-[03:17:14] [Server thread/INFO]: whitehairguy joined the game
-[03:17:14] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/15693, l='ServerLevel[New World]', x=1015.69, y=62.96, z=250.50]
-[03:17:14] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:17:14] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/15694, l='ServerLevel[New World]', x=995.23, y=62.96, z=250.60]
-[03:17:14] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:17:14] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/15698, l='ServerLevel[New World]', x=995.36, y=63.17, z=228.38]
-[03:17:14] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:17:14] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/15699, l='ServerLevel[New World]', x=1015.40, y=62.99, z=228.49]
-[03:17:14] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:17:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10917ms or 218 ticks behind
-[03:17:52] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[03:17:52] [Server thread/INFO]: whitehairguy left the game
-[03:17:57] [Server thread/INFO]: whitehairguy[/127.0.0.1:43422] logged in with entity id 16297 at (745.0125138606377, 64.0, 564.2599775717418)
-[03:17:57] [Server thread/INFO]: whitehairguy joined the game
-[03:17:57] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/16300, l='ServerLevel[New World]', x=995.36, y=63.17, z=228.38]
-[03:17:57] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:17:57] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/16304, l='ServerLevel[New World]', x=1015.69, y=62.96, z=250.50]
-[03:17:57] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:17:57] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/16305, l='ServerLevel[New World]', x=995.23, y=62.96, z=250.60]
-[03:17:57] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:17:57] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/16306, l='ServerLevel[New World]', x=1015.40, y=63.29, z=228.49]
-[03:17:57] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:18:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8518ms or 170 ticks behind
-[03:18:04] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[03:18:04] [Server thread/INFO]: whitehairguy left the game
-[03:18:15] [Server thread/INFO]: whitehairguy[/127.0.0.1:38830] logged in with entity id 16528 at (745.0125138606377, 64.0, 564.2599775717418)
-[03:18:15] [Server thread/INFO]: whitehairguy joined the game
-[03:18:15] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/16534, l='ServerLevel[New World]', x=995.36, y=63.17, z=228.38]
-[03:18:15] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:18:15] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/16535, l='ServerLevel[New World]', x=1015.40, y=63.22, z=228.49]
-[03:18:15] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:18:15] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/16536, l='ServerLevel[New World]', x=1015.69, y=63.02, z=250.50]
-[03:18:15] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:18:15] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/16537, l='ServerLevel[New World]', x=995.23, y=63.23, z=250.60]
-[03:18:15] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:18:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3961ms or 79 ticks behind
-[03:18:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2516ms or 50 ticks behind
-[03:19:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8143ms or 162 ticks behind
-[03:19:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9562ms or 191 ticks behind
-[03:19:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5442ms or 108 ticks behind
-[03:20:00] [Server thread/INFO]: [Not Secure] <Chubs410> please
-[03:20:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2350ms or 47 ticks behind
-[03:20:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5288ms or 105 ticks behind
-[03:20:28] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[03:20:28] [Server thread/INFO]: whitehairguy left the game
-[03:20:34] [Server thread/INFO]: whitehairguy[/127.0.0.1:38302] logged in with entity id 18072 at (730.7643977148919, 65.0, 573.0397309349396)
-[03:20:34] [Server thread/INFO]: whitehairguy joined the game
-[03:20:34] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/18078, l='ServerLevel[New World]', x=995.36, y=63.17, z=228.38]
-[03:20:34] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:20:34] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/18079, l='ServerLevel[New World]', x=1015.40, y=63.22, z=228.49]
-[03:20:34] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:20:34] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/18080, l='ServerLevel[New World]', x=1015.69, y=63.02, z=250.50]
-[03:20:34] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:20:34] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/18081, l='ServerLevel[New World]', x=995.23, y=63.23, z=250.60]
-[03:20:34] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:20:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[03:20:48] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[03:20:48] [Server thread/INFO]: whitehairguy left the game
-[03:20:52] [Server thread/INFO]: whitehairguy[/127.0.0.1:51338] logged in with entity id 18229 at (730.3000000119209, 65.0, 573.6999999880791)
-[03:20:52] [Server thread/INFO]: whitehairguy joined the game
-[03:20:52] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/18232, l='ServerLevel[New World]', x=1015.69, y=63.14, z=250.50]
-[03:20:52] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:20:52] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/18233, l='ServerLevel[New World]', x=995.23, y=63.00, z=250.60]
-[03:20:52] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:20:52] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/18237, l='ServerLevel[New World]', x=995.36, y=63.17, z=228.38]
-[03:20:52] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:20:52] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/18238, l='ServerLevel[New World]', x=1015.40, y=63.22, z=228.49]
-[03:20:52] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:21:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
-[03:21:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2688ms or 53 ticks behind
-[03:21:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
-[03:22:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3096ms or 61 ticks behind
-[03:22:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2718ms or 54 ticks behind
-[03:22:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2692ms or 53 ticks behind
-[03:23:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
-[03:23:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3040ms or 60 ticks behind
-[03:23:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4394ms or 87 ticks behind
-[03:23:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2546ms or 50 ticks behind
-[03:24:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2734ms or 54 ticks behind
-[03:24:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4752ms or 95 ticks behind
-[03:24:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4480ms or 89 ticks behind
-[03:25:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4417ms or 88 ticks behind
-[03:25:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7733ms or 154 ticks behind
-[03:25:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7831ms or 156 ticks behind
-[03:26:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6380ms or 127 ticks behind
-[03:26:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3592ms or 71 ticks behind
-[03:27:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
-[03:27:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3436ms or 68 ticks behind
-[03:27:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3189ms or 63 ticks behind
-[03:27:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3620ms or 72 ticks behind
-[03:28:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3898ms or 77 ticks behind
-[03:28:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3868ms or 77 ticks behind
-[03:28:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2643ms or 52 ticks behind
-[03:29:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2762ms or 55 ticks behind
-[03:29:15] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[03:29:15] [Server thread/INFO]: whitehairguy left the game
-[03:29:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
-[03:32:50] [Server thread/INFO]: whitehairguy[/127.0.0.1:37226] logged in with entity id 24970 at (733.9940320307005, 87.0, 578.8784372815788)
-[03:32:50] [Server thread/INFO]: whitehairguy joined the game
-[03:32:50] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/24973, l='ServerLevel[New World]', x=1015.69, y=63.14, z=250.50]
-[03:32:50] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:32:50] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/24974, l='ServerLevel[New World]', x=995.23, y=63.00, z=250.60]
-[03:32:50] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:32:50] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/24978, l='ServerLevel[New World]', x=995.36, y=63.17, z=228.38]
-[03:32:50] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:32:50] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/24979, l='ServerLevel[New World]', x=1015.40, y=63.22, z=228.49]
-[03:32:50] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:33:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
-[03:33:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
-[03:33:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2851ms or 57 ticks behind
-[03:34:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3243ms or 64 ticks behind
-[03:34:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2990ms or 59 ticks behind
-[03:34:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2761ms or 55 ticks behind
-[03:35:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2329ms or 46 ticks behind
-[03:35:14] [Server thread/INFO]: Rad1108 has made the advancement [The City at the End of the Game]
-[03:35:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2145ms or 42 ticks behind
-[03:35:46] [Server thread/WARN]: whitehairguy moved too quickly! 8.06392438707043,-7.286123375186136,-2.2205578727716784
-[03:35:46] [Server thread/WARN]: whitehairguy moved too quickly! 7.607084924995277,-6.323359536637497,-2.02551259327214
-[03:35:46] [Server thread/WARN]: whitehairguy moved too quickly! 7.607084924995277,-6.323359536637497,-2.02551259327214
-[03:35:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2019ms or 40 ticks behind
-[03:36:23] [Server thread/INFO]: Ojas_Kumar lost connection: Disconnected
-[03:36:23] [Server thread/INFO]: Ojas_Kumar left the game
-[03:36:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
-[03:36:43] [Server thread/WARN]: Rad1108 moved too quickly! -7.926800214211653,-57.1573162813727,6.841962406722814
-[03:36:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5548ms or 110 ticks behind
-[03:37:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
-[03:38:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2575ms or 51 ticks behind
-[03:38:48] [Server thread/WARN]: whitehairguy moved too quickly! -13.612294257788449,-2.666297865760015,10.579228682854591
-[03:39:09] [Server thread/WARN]: whitehairguy moved too quickly! -17.33149943290846,-2.8590599658027003,-3.4820695090029403
-[03:39:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2841ms or 56 ticks behind
-[03:39:27] [Server thread/WARN]: whitehairguy moved too quickly! -15.999142662171238,-1.5727428770169354,-7.756342134911392
-[03:39:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2028ms or 40 ticks behind
-[03:39:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3742ms or 74 ticks behind
-[03:40:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3491ms or 69 ticks behind
-[03:40:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2601ms or 52 ticks behind
-[03:40:40] [Server thread/WARN]: whitehairguy moved too quickly! -12.028785878553379,2.11774269614574,-13.475784465134893
-[03:40:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7308ms or 146 ticks behind
-[03:41:14] [Server thread/WARN]: whitehairguy moved too quickly! -15.66333820226501,8.964035660407845,-2.512164174235295
-[03:41:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8618ms or 172 ticks behind
-[03:41:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7178ms or 143 ticks behind
-[03:42:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6944ms or 138 ticks behind
-[03:42:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9275ms or 185 ticks behind
-[03:42:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5841ms or 116 ticks behind
-[03:43:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3397ms or 67 ticks behind
-[03:43:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7939ms or 158 ticks behind
-[03:43:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5205ms or 104 ticks behind
-[03:43:56] [Server thread/WARN]: whitehairguy moved too quickly! -2.4359152066453333,11.836221920859316,13.783566402546057
-[03:44:04] [Server thread/WARN]: whitehairguy moved too quickly! 12.390418614102517,-3.153396327292242,13.327941763410308
-[03:44:05] [Server thread/WARN]: Horse (vehicle of Chubs410) moved too quickly! -9.688897631415557,0.0,2.7447658887094804
-[03:44:05] [Server thread/WARN]: Horse (vehicle of Chubs410) moved too quickly! -10.160435181699768,0.0,2.833036747526421
-[03:44:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5402ms or 108 ticks behind
-[03:44:14] [Server thread/WARN]: whitehairguy moved too quickly! 16.563853505396935,0.033877877249409494,6.6479788785372875
-[03:44:21] [Server thread/WARN]: whitehairguy moved too quickly! 15.384244543871318,-0.42257524308301697,9.348662159335618
-[03:44:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2988ms or 59 ticks behind
-[03:44:36] [Server thread/WARN]: whitehairguy moved too quickly! 12.76601196061199,-2.6963898047496713,-12.663968028221461
-[03:44:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6502ms or 130 ticks behind
-[03:44:56] [Server thread/INFO]: Chubs410 lost connection: Disconnected
-[03:44:56] [Server thread/INFO]: Chubs410 left the game
-[03:45:00] [Server thread/INFO]: Chubs410[/127.43.231.74:50751] logged in with entity id 39442 at (-1306.6274776219025, 64.0, -4435.013452849407)
-[03:45:00] [Server thread/INFO]: Chubs410 joined the game
-[03:45:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2212ms or 44 ticks behind
-[03:45:39] [Server thread/WARN]: Birch Boat (vehicle of BrownNiggar) moved too quickly! -4.55156459808677,0.0,9.344917766845128
-[03:45:39] [Server thread/WARN]: Birch Boat (vehicle of BrownNiggar) moved too quickly! -4.697726724083736,0.0,9.714715736837263
-[03:45:39] [Server thread/WARN]: Birch Boat (vehicle of BrownNiggar) moved too quickly! -4.8312123586613325,0.0,10.087486842252389
-[03:49:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=92, y=71, z=-294} class_2338{x=91, y=71, z=-294}
-[03:49:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=92, y=71, z=-276} class_2338{x=91, y=71, z=-276}
-[03:50:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=92, y=71, z=-230} class_2338{x=91, y=71, z=-230}
-[03:50:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=92, y=71, z=-225} class_2338{x=91, y=71, z=-225}
-[03:51:55] [Server thread/INFO]: Rad1108 has made the advancement [Local Brewery]
-[03:53:16] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[03:53:16] [Server thread/INFO]: whitehairguy left the game
-[03:54:04] [Server thread/INFO]: whitehairguy[/127.0.0.1:59520] logged in with entity id 48831 at (91.50013375448253, 70.0, -70.91641634405481)
-[03:54:04] [Server thread/INFO]: whitehairguy joined the game
-[03:54:04] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/48834, l='ServerLevel[New World]', x=995.36, y=63.17, z=228.38]
-[03:54:04] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:54:04] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/48838, l='ServerLevel[New World]', x=1015.69, y=63.14, z=250.50]
-[03:54:04] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:54:04] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/48839, l='ServerLevel[New World]', x=995.23, y=63.00, z=250.60]
-[03:54:04] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:54:04] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/48840, l='ServerLevel[New World]', x=1015.40, y=63.10, z=228.49]
-[03:54:04] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:54:09] [Server thread/INFO]: [Not Secure] <Chubs410> ojas where
-[03:54:22] [Server thread/INFO]: [Not Secure] <whitehairguy> in nether building tunnet
-[03:54:38] [Server thread/INFO]: [Not Secure] <Chubs410> could you come to me quickly i need an eye of ender
-[03:54:50] [Server thread/INFO]: [Not Secure] <whitehairguy> i dont have blaze rods
-[03:54:54] [Server thread/INFO]: [Not Secure] <whitehairguy> on me right now
-[03:55:37] [Server thread/INFO]: [Not Secure] <Rad1108> -6000 1400
-[03:55:41] [Server thread/INFO]: [Not Secure] <BrownNiggar> -6000 1400
-[03:58:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2034ms or 40 ticks behind
-[03:59:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2487ms or 49 ticks behind
-[03:59:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2826ms or 56 ticks behind
-[03:59:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3017ms or 60 ticks behind
-[04:00:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
-[04:01:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2057ms or 41 ticks behind
-[04:01:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2734ms or 54 ticks behind
-[04:02:38] [Server thread/INFO]: Rad1108 has completed the challenge [Hot Tourist Destinations]
-[04:03:01] [Server thread/INFO]: Chubs410 has made the advancement [Best Friends Forever]
-[04:03:10] [Server thread/INFO]: Rad1108 has made the advancement [A Terrible Fortress]
-[04:04:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2056ms or 41 ticks behind
-[04:04:25] [Server thread/WARN]: Horse (vehicle of Chubs410) moved too quickly! 0.9907865658082073,-1.0,10.316543899385579
-[04:04:25] [Server thread/WARN]: Horse (vehicle of Chubs410) moved too quickly! -0.4999462865302462,1.766367993957516,9.946397650779545
-[04:04:25] [Server thread/WARN]: Horse (vehicle of Chubs410) moved too quickly! -0.548387228453521,1.5358406250445569,10.222058662932795
-[04:04:25] [Server thread/WARN]: Horse (vehicle of Chubs410) moved too quickly! -0.5962525078661542,1.2315237975870161,10.494363758481086
-[04:04:26] [Server thread/WARN]: Horse (vehicle of Chubs410) moved too quickly! 0.053896156507335036,3.464159374955443,9.574778382546356
-[04:04:26] [Server thread/WARN]: Horse (vehicle of Chubs410) moved too quickly! 0.16397695743205531,3.464159374955443,9.945937659775154
-[04:04:26] [Server thread/WARN]: Horse (vehicle of Chubs410) moved too quickly! 2.7935722200336954,-1.0,9.552604705377234
-[04:04:26] [Server thread/WARN]: Horse (vehicle of Chubs410) moved too quickly! 2.8255834368700334,-1.0,9.578581079975265
-[04:04:26] [Server thread/WARN]: Horse (vehicle of Chubs410) moved too quickly! 2.8430615632927925,-1.0,9.592764182152678
-[04:04:26] [Server thread/WARN]: Horse (vehicle of Chubs410) moved too quickly! 2.8526046214280427,-1.0,9.600508156840988
-[04:04:26] [Server thread/WARN]: Horse (vehicle of Chubs410) moved too quickly! 2.857815131775112,-1.0,9.604736367512487
-[04:04:26] [Server thread/WARN]: Horse (vehicle of Chubs410) moved too quickly! 2.857815131775112,-1.0,9.604736367512487
-[04:04:26] [Server thread/WARN]: Horse (vehicle of Chubs410) moved too quickly! -0.7505682838872758,-2.0,-37.211466222381205
-[04:04:26] [Server thread/WARN]: Horse (vehicle of Chubs410) moved too quickly! -0.4826984516829498,-2.0,-37.274326433100214
-[04:04:26] [Server thread/WARN]: Horse (vehicle of Chubs410) moved too quickly! -0.030109731661241312,-2.0,-37.39356672219128
-[04:04:26] [Server thread/WARN]: Horse (vehicle of Chubs410) moved too quickly! -1.2014410323469065,-0.07840000152587834,-27.54441740409493
-[04:04:26] [Server thread/WARN]: Horse (vehicle of Chubs410) moved too quickly! -0.7455003968215124,-5.960458793197176E-10,-27.6715601051892
-[04:04:26] [Server thread/WARN]: Horse (vehicle of Chubs410) moved too quickly! -1.2014410323469065,-0.07840000152587834,-27.54441740409493
-[04:04:26] [Server thread/WARN]: Horse (vehicle of Chubs410) moved too quickly! -1.2014410323469065,-0.07840000152587834,-27.54441740409493
-[04:04:26] [Server thread/WARN]: Horse (vehicle of Chubs410) moved too quickly! -0.7436702507439463,-5.960458793197176E-10,-27.67587482264389
-[04:04:26] [Server thread/WARN]: Horse (vehicle of Chubs410) moved too quickly! -0.2849002092665387,0.0,-27.80968807719728
-[04:04:27] [Server thread/WARN]: Horse (vehicle of Chubs410) moved too quickly! -4.551264724325733,0.4641593749554431,-28.196279858506387
-[04:04:27] [Server thread/WARN]: Horse (vehicle of Chubs410) moved too quickly! -4.0916511914676335,0.4641593749554431,-28.332081712236686
-[04:04:27] [Server thread/WARN]: Horse (vehicle of Chubs410) moved too quickly! -3.631875007688052,0.4641593749554431,-28.468267028673836
-[04:04:27] [Server thread/WARN]: Horse (vehicle of Chubs410) moved too quickly! -3.172010016495051,0.4641593749554431,-28.604661715773545
-[04:04:27] [Server thread/WARN]: Horse (vehicle of Chubs410) moved too quickly! -2.712096536448712,0.4641593749554431,-28.741170719268666
-[04:04:27] [Server thread/WARN]: Horse (vehicle of Chubs410) moved too quickly! -2.2521565814853375,0.4641593749554431,-28.877742139522525
-[04:04:27] [Server thread/WARN]: Horse (vehicle of Chubs410) moved too quickly! -1.7922021712155924,0.4641593749554431,-29.01434763933048
-[04:04:27] [Server thread/WARN]: Horse (vehicle of Chubs410) moved too quickly! -1.5410670340382921,0.4641593749554431,-29.088934250888997
-[04:04:27] [Server thread/WARN]: Horse (vehicle of Chubs410) moved too quickly! -1.403947233212648,0.4641593749554431,-29.12965854553022
-[04:04:27] [Server thread/WARN]: Horse (vehicle of Chubs410) moved too quickly! -1.329079813265821,0.4641593749554431,-29.151894012987214
-[04:04:27] [Server thread/WARN]: Horse (vehicle of Chubs410) moved too quickly! -1.2882021972267808,0.3857593734295648,-29.164034579628606
-[04:04:27] [Server thread/WARN]: Horse (vehicle of Chubs410) moved too quickly! -1.2441912639952761,0.23052736891295922,-29.17267386016647
-[04:04:27] [Server thread/WARN]: Horse (vehicle of Chubs410) moved too quickly! -1.182404373230213,0.0,-29.18197776220859
-[04:04:27] [Server thread/WARN]: Horse (vehicle of Chubs410) moved too quickly! -7.46062377707068,1.4641593749554431,-9.75652117339996
-[04:04:27] [Server thread/WARN]: Horse (vehicle of Chubs410) moved too quickly! -7.46062377707068,1.4641593749554431,-9.75652117339996
-[04:04:27] [Server thread/WARN]: Horse (vehicle of Chubs410) moved too quickly! -7.3826534631816685,1.4641593749554431,-9.766315241378834
-[04:04:44] [Server thread/INFO]: BrownNiggar lost connection: Timed out
-[04:04:44] [Server thread/INFO]: BrownNiggar left the game
-[04:04:44] [Server thread/WARN]: handleDisconnection() called twice
-[04:04:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6837ms or 136 ticks behind
-[04:04:48] [Server thread/INFO]: Chubs410 lost connection: Timed out
-[04:04:48] [Server thread/INFO]: Chubs410 left the game
-[04:05:14] [Server thread/INFO]: BrownNiggar[/127.43.231.74:57365] logged in with entity id 63574 at (399.1719802606528, 61.66878072953594, 409.4046705010916)
-[04:05:14] [Server thread/INFO]: BrownNiggar joined the game
-[04:05:15] [Server thread/INFO]: Chubs410[/127.43.231.74:54423] logged in with entity id 63617 at (393.14485536609476, 67.84375002384186, -4668.353608229275)
-[04:05:15] [Server thread/INFO]: Chubs410 joined the game
-[04:05:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2182ms or 43 ticks behind
-[04:05:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4746ms or 94 ticks behind
-[04:06:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3646ms or 72 ticks behind
-[04:06:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=397, y=49, z=383} class_2338{x=396, y=48, z=384}
-[04:06:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2490ms or 49 ticks behind
-[04:08:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[04:08:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7189ms or 143 ticks behind
-[04:08:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14414ms or 288 ticks behind
-[04:09:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20031ms or 400 ticks behind
-[04:09:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11043ms or 220 ticks behind
-[04:10:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13853ms or 277 ticks behind
-[04:10:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3413ms or 68 ticks behind
-[04:11:26] [Server thread/INFO]: Chubs410 has made the advancement [A Terrible Fortress]
-[04:12:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
-[04:12:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3339ms or 66 ticks behind
-[04:12:29] [Server thread/INFO]: Chubs410 lost connection: Disconnected
-[04:12:29] [Server thread/INFO]: Chubs410 left the game
-[04:17:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2022ms or 40 ticks behind
-[04:18:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6416ms or 128 ticks behind
-[04:20:40] [Server thread/INFO]: Chubs410[/127.43.231.74:48125] logged in with entity id 74005 at (91.06142965725869, 27.02339270821879, 81.7854332326374)
-[04:20:40] [Server thread/INFO]: Chubs410 joined the game
-[04:20:44] [Server thread/INFO]: Chubs410 lost connection: Disconnected
-[04:20:44] [Server thread/INFO]: Chubs410 left the game
-[04:20:57] [Server thread/INFO]: Chubs410[/127.43.231.74:53317] logged in with entity id 74109 at (91.06142965725869, 24.14264051095318, 81.7854332326374)
-[04:20:57] [Server thread/INFO]: Chubs410 joined the game
-[04:21:01] [Server thread/INFO]: Chubs410 lost connection: Disconnected
-[04:21:01] [Server thread/INFO]: Chubs410 left the game
-[04:22:08] [Server thread/INFO]: Chubs410[/127.43.231.74:45791] logged in with entity id 74937 at (91.06142965725869, 23.0, 81.7854332326374)
-[04:22:08] [Server thread/INFO]: Chubs410 joined the game
-[04:23:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2030ms or 40 ticks behind
-[04:24:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8437ms or 168 ticks behind
-[04:24:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8391ms or 167 ticks behind
-[04:24:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7812ms or 156 ticks behind
-[04:25:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7131ms or 142 ticks behind
-[04:25:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5444ms or 108 ticks behind
-[04:26:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5959ms or 119 ticks behind
-[04:26:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
-[04:27:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2041ms or 40 ticks behind
-[04:28:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
-[04:28:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2121ms or 42 ticks behind
-[04:29:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
-[04:29:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2056ms or 41 ticks behind
-[04:30:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2019ms or 40 ticks behind
-[04:31:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
-[04:31:16] [Server thread/INFO]: [Not Secure] <Chubs410> brown nigger do you have 1 diamond
-[04:31:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[04:31:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2387ms or 47 ticks behind
-[04:32:03] [Server thread/INFO]: [Not Secure] <whitehairguy> good work
-[04:32:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
-[04:33:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[04:34:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
-[04:34:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
-[04:34:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[04:35:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
-[04:35:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2145ms or 42 ticks behind
-[04:35:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2197ms or 43 ticks behind
-[04:36:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3170ms or 63 ticks behind
-[04:36:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3060ms or 61 ticks behind
-[04:36:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3972ms or 79 ticks behind
-[04:37:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2048ms or 40 ticks behind
-[04:38:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
-[04:38:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4404ms or 88 ticks behind
-[04:38:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
-[04:40:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[04:42:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
-[04:42:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
-[04:42:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2448ms or 48 ticks behind
-[04:43:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[04:43:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2608ms or 52 ticks behind
-[04:44:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3659ms or 73 ticks behind
-[04:44:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
-[04:44:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3749ms or 74 ticks behind
-[04:45:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[04:46:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
-[04:46:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7002ms or 140 ticks behind
-[04:46:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5895ms or 117 ticks behind
-[04:47:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4884ms or 97 ticks behind
-[04:47:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5330ms or 106 ticks behind
-[04:47:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4629ms or 92 ticks behind
-[04:48:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8534ms or 170 ticks behind
-[04:48:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6267ms or 125 ticks behind
-[04:48:45] [Server thread/INFO]: Rad1108 lost connection: Disconnected
-[04:48:45] [Server thread/INFO]: Rad1108 left the game
-[04:48:51] [Server thread/INFO]: Rad1108[/127.206.16.230:55323] logged in with entity id 95028 at (734.8082940440311, 64.0, 565.8561067033571)
-[04:48:51] [Server thread/INFO]: Rad1108 joined the game
-[04:48:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6452ms or 129 ticks behind
-[04:48:56] [Server thread/INFO]: Rad1108 lost connection: Disconnected
-[04:48:56] [Server thread/INFO]: Rad1108 left the game
-[04:49:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7565ms or 151 ticks behind
-[04:49:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5678ms or 113 ticks behind
-[04:49:35] [Server thread/INFO]: Rad1108[/127.206.16.230:43511] logged in with entity id 95322 at (732.8438918644791, 64.0, 558.3000000119209)
-[04:49:35] [Server thread/INFO]: Rad1108 joined the game
-[04:49:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8989ms or 179 ticks behind
-[04:50:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4708ms or 94 ticks behind
-[04:50:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2167ms or 43 ticks behind
-[04:50:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3748ms or 74 ticks behind
-[04:51:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3332ms or 66 ticks behind
-[04:51:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4448ms or 88 ticks behind
-[04:51:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4416ms or 88 ticks behind
-[04:52:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4499ms or 89 ticks behind
-[04:52:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4698ms or 93 ticks behind
-[04:52:41] [Server thread/INFO]: Villager class_1646['Librarian'/75888, l='ServerLevel[New World]', x=684.50, y=63.00, z=604.70] died, message: 'Librarian was slain by Zombie'
-[04:52:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4716ms or 94 ticks behind
-[04:53:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4370ms or 87 ticks behind
-[04:53:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6088ms or 121 ticks behind
-[04:53:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5902ms or 118 ticks behind
-[04:54:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6055ms or 121 ticks behind
-[04:54:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6351ms or 127 ticks behind
-[04:54:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7274ms or 145 ticks behind
-[04:55:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10527ms or 210 ticks behind
-[04:55:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8249ms or 164 ticks behind
-[04:55:50] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[04:55:50] [Server thread/INFO]: whitehairguy left the game
-[04:56:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3927ms or 78 ticks behind
-[04:56:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3717ms or 74 ticks behind
-[04:56:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2805ms or 56 ticks behind
-[04:56:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2022ms or 40 ticks behind
-[04:57:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
-[04:57:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
-[04:58:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[04:58:04] [Server thread/INFO]: BrownNiggar has made the advancement [Ice Bucket Challenge]
-[04:58:13] [Server thread/INFO]: whitehairguy[/127.0.0.1:33266] logged in with entity id 98691 at (740.6999999880791, 87.0, 572.3000000119209)
-[04:58:13] [Server thread/INFO]: whitehairguy joined the game
-[04:58:13] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/98694, l='ServerLevel[New World]', x=995.36, y=63.17, z=228.38]
-[04:58:13] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[04:58:13] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/98698, l='ServerLevel[New World]', x=1015.69, y=63.14, z=250.50]
-[04:58:13] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[04:58:13] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/98699, l='ServerLevel[New World]', x=995.23, y=63.00, z=250.60]
-[04:58:13] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[04:58:13] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/98700, l='ServerLevel[New World]', x=1015.40, y=63.10, z=228.49]
-[04:58:13] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[04:58:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3920ms or 78 ticks behind
-[04:58:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7436ms or 148 ticks behind
-[04:59:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7098ms or 141 ticks behind
-[04:59:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8122ms or 162 ticks behind
-[04:59:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11267ms or 225 ticks behind
-[05:00:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7217ms or 144 ticks behind
-[05:00:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5811ms or 116 ticks behind
-[05:00:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4281ms or 85 ticks behind
-[05:01:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3197ms or 63 ticks behind
-[05:01:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4326ms or 86 ticks behind
-[05:01:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2906ms or 58 ticks behind
-[05:02:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2999ms or 59 ticks behind
-[05:02:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2145ms or 42 ticks behind
-[05:02:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2020ms or 40 ticks behind
-[05:03:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2531ms or 50 ticks behind
-[05:03:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3238ms or 64 ticks behind
-[05:03:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6015ms or 120 ticks behind
-[05:04:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5426ms or 108 ticks behind
-[05:04:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6730ms or 134 ticks behind
-[05:04:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2552ms or 51 ticks behind
-[05:04:57] [Server thread/WARN]: whitehairguy moved too quickly! 15.245384097437181,-0.2620458984836205,9.943646078987513
-[05:05:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8809ms or 176 ticks behind
-[05:05:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10235ms or 204 ticks behind
-[05:06:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13900ms or 278 ticks behind
-[05:06:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18746ms or 374 ticks behind
-[05:07:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11400ms or 228 ticks behind
-[05:07:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10796ms or 215 ticks behind
-[05:07:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11417ms or 228 ticks behind
-[05:08:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5641ms or 112 ticks behind
-[05:08:24] [Server thread/INFO]: BrownNiggar has made the advancement [A Terrible Fortress]
-[05:08:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4725ms or 94 ticks behind
-[05:09:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10344ms or 206 ticks behind
-[05:09:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6371ms or 127 ticks behind
-[05:09:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3231ms or 64 ticks behind
-[05:09:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2992ms or 59 ticks behind
-[05:10:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5587ms or 111 ticks behind
-[05:10:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8625ms or 172 ticks behind
-[05:11:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7138ms or 142 ticks behind
-[05:11:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6607ms or 132 ticks behind
-[05:11:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5732ms or 114 ticks behind
-[05:12:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5502ms or 110 ticks behind
-[05:12:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6471ms or 129 ticks behind
-[05:12:54] [Server thread/INFO]: BrownNiggar has made the advancement [Into Fire]
-[05:12:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9934ms or 198 ticks behind
-[05:13:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9096ms or 181 ticks behind
-[05:13:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3435ms or 68 ticks behind
-[05:13:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2472ms or 49 ticks behind
-[05:14:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3574ms or 71 ticks behind
-[05:14:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5697ms or 113 ticks behind
-[05:14:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4239ms or 84 ticks behind
-[05:15:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3772ms or 75 ticks behind
-[05:15:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2557ms or 51 ticks behind
-[05:15:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4954ms or 99 ticks behind
-[05:16:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3073ms or 61 ticks behind
-[05:16:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4023ms or 80 ticks behind
-[05:16:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2666ms or 53 ticks behind
-[05:17:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3760ms or 75 ticks behind
-[05:17:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3745ms or 74 ticks behind
-[05:17:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3913ms or 78 ticks behind
-[05:17:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3610ms or 72 ticks behind
-[05:18:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4259ms or 85 ticks behind
-[05:18:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4623ms or 92 ticks behind
-[05:18:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4999ms or 99 ticks behind
-[05:19:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5010ms or 100 ticks behind
-[05:19:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4306ms or 86 ticks behind
-[05:19:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3978ms or 79 ticks behind
-[05:20:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5708ms or 114 ticks behind
-[05:20:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5824ms or 116 ticks behind
-[05:20:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5110ms or 102 ticks behind
-[05:21:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5183ms or 103 ticks behind
-[05:21:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5219ms or 104 ticks behind
-[05:21:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5357ms or 107 ticks behind
-[05:22:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6449ms or 128 ticks behind
-[05:22:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5969ms or 119 ticks behind
-[05:23:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4971ms or 99 ticks behind
-[05:23:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6756ms or 135 ticks behind
-[05:23:35] [Server thread/INFO]: Villager class_1646['Villager'/75852, l='ServerLevel[New World]', x=709.11, y=63.45, z=639.12] died, message: 'Villager was squished too much'
-[05:23:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6701ms or 134 ticks behind
-[05:24:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6595ms or 131 ticks behind
-[05:24:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3895ms or 77 ticks behind
-[05:24:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4054ms or 81 ticks behind
-[05:25:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3528ms or 70 ticks behind
-[05:25:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2720ms or 54 ticks behind
-[05:25:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2726ms or 54 ticks behind
-[05:25:39] [Server thread/INFO]: [Not Secure] <whitehairguy> damn sunset
-[05:25:45] [Server thread/INFO]: [Not Secure] <whitehairguy> waot sinrise
-[05:25:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2178ms or 43 ticks behind
-[05:26:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3304ms or 66 ticks behind
-[05:26:22] [Server thread/INFO]: Villager class_1646['Villager'/75841, l='ServerLevel[New World]', x=709.19, y=63.39, z=639.16] died, message: 'Villager was squished too much'
-[05:26:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3026ms or 60 ticks behind
-[05:26:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3429ms or 68 ticks behind
-[05:27:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3178ms or 63 ticks behind
-[05:27:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2596ms or 51 ticks behind
-[05:27:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2717ms or 54 ticks behind
-[05:27:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2706ms or 54 ticks behind
-[05:28:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3194ms or 63 ticks behind
-[05:28:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4208ms or 84 ticks behind
-[05:28:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2930ms or 58 ticks behind
-[05:29:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2473ms or 49 ticks behind
-[05:29:20] [Server thread/INFO]: Villager class_1646['Villager'/75843, l='ServerLevel[New World]', x=709.13, y=63.41, z=639.24] died, message: 'Villager was squished too much'
-[05:29:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3317ms or 66 ticks behind
-[05:29:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[05:30:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
-[05:30:13] [Server thread/INFO]: Villager class_1646['Villager'/99153, l='ServerLevel[New World]', x=709.25, y=63.10, z=639.33] died, message: 'Villager was squished too much'
-[05:30:22] [Server thread/INFO]: BrownNiggar lost connection: Disconnected
-[05:30:22] [Server thread/INFO]: BrownNiggar left the game
-[05:30:22] [Server thread/INFO]: Chubs410 lost connection: Disconnected
-[05:30:22] [Server thread/INFO]: Chubs410 left the game
-[05:30:22] [Server thread/INFO]: Rad1108 lost connection: Disconnected
-[05:30:22] [Server thread/INFO]: Rad1108 left the game
-[05:30:29] [Server thread/INFO]: BrownNiggar[/127.43.231.74:33085] logged in with entity id 117862 at (783.0839981314552, 62.9375, 554.5656823391176)
-[05:30:29] [Server thread/INFO]: BrownNiggar joined the game
-[05:30:38] [Server thread/INFO]: Chubs410[/127.43.231.74:50309] logged in with entity id 117880 at (666.8175875214771, 84.0, -4421.945926278905)
-[05:30:38] [Server thread/INFO]: Chubs410 joined the game
-[05:30:58] [Server thread/INFO]: Rad1108[/127.206.16.230:42627] logged in with entity id 118352 at (817.3074969381247, 63.0, 493.83453267247523)
-[05:30:58] [Server thread/INFO]: Rad1108 joined the game
-[05:31:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
-[05:31:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2141ms or 42 ticks behind
-[05:31:34] [Server thread/WARN]: whitehairguy moved wrongly!
-[05:31:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2682ms or 53 ticks behind
-[05:31:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2835ms or 56 ticks behind
-[05:32:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5291ms or 105 ticks behind
-[05:32:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7097ms or 141 ticks behind
-[05:32:47] [Server thread/INFO]: Villager class_1646['Villager'/75820, l='ServerLevel[New World]', x=709.12, y=63.54, z=639.10] died, message: 'Villager was squished too much'
-[05:32:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8032ms or 160 ticks behind
-[05:33:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9948ms or 198 ticks behind
-[05:33:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10196ms or 203 ticks behind
-[05:34:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8965ms or 179 ticks behind
-[05:34:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8992ms or 179 ticks behind
-[05:35:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9866ms or 197 ticks behind
-[05:35:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10165ms or 203 ticks behind
-[05:35:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8513ms or 170 ticks behind
-[05:36:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9386ms or 187 ticks behind
-[05:36:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8565ms or 171 ticks behind
-[05:37:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7621ms or 152 ticks behind
-[05:37:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9631ms or 192 ticks behind
-[05:37:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8848ms or 176 ticks behind
-[05:38:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9170ms or 183 ticks behind
-[05:38:17] [Server thread/INFO]: Rad1108 lost connection: Disconnected
-[05:38:17] [Server thread/INFO]: Rad1108 left the game
-[05:39:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2053ms or 41 ticks behind
-[05:39:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
-[05:39:54] [Server thread/INFO]: Chubs410 lost connection: Disconnected
-[05:39:54] [Server thread/INFO]: Chubs410 left the game
-[05:41:02] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[05:41:02] [Server thread/INFO]: whitehairguy left the game
+[07:49:12] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/ragha/Documents/Vanilla/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[07:49:18] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[07:49:19] [Yggdrasil Key Fetcher/ERROR]: Failed to request yggdrasil public key
+com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:111) ~[authlib-6.0.58.jar:?]
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:56) ~[authlib-6.0.58.jar:?]
+	at knot/com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:114) ~[authlib-6.0.58.jar:?]
+	at knot/com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo$1.run(YggdrasilServicesKeyInfo.java:89) ~[authlib-6.0.58.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
+Caused by: javax.net.ssl.SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:130) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:383) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:326) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:321) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1326) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1203) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1146) ~[?:?]
+	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393) ~[?:?]
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:476) ~[?:?]
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:447) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:206) ~[?:?]
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1507) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1422) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:586) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1691) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1615) ~[?:?]
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:82) ~[authlib-6.0.58.jar:?]
+	... 9 more
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:388) ~[?:?]
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
+	at java.base/sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:230) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1310) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1203) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1146) ~[?:?]
+	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393) ~[?:?]
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:476) ~[?:?]
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:447) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:206) ~[?:?]
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1507) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1422) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:586) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1691) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1615) ~[?:?]
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:82) ~[authlib-6.0.58.jar:?]
+	... 9 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:148) ~[?:?]
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:129) ~[?:?]
+	at java.base/java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297) ~[?:?]
+	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:383) ~[?:?]
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
+	at java.base/sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:230) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1310) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1203) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1146) ~[?:?]
+	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393) ~[?:?]
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:476) ~[?:?]
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:447) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:206) ~[?:?]
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1507) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1422) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:586) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1691) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1615) ~[?:?]
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:82) ~[authlib-6.0.58.jar:?]
+	... 9 more
+[07:49:20] [main/INFO]: Loaded 1373 recipes
+[07:49:20] [main/INFO]: Loaded 1484 advancements
+[07:49:20] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[07:49:20] [Server thread/INFO]: Loading properties
+[07:49:20] [Server thread/INFO]: Default game type: SURVIVAL
+[07:49:20] [Server thread/INFO]: Generating keypair
+[07:49:20] [Server thread/INFO]: Starting Minecraft server on *:25565
+[07:49:20] [Server thread/INFO]: Using default channel type
+[07:49:21] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07:49:21] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[07:49:21] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07:49:21] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[07:49:21] [Server thread/INFO]: Preparing level "world"
+[07:49:21] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[07:49:22] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[07:49:22] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[07:49:22] [Server thread/INFO]: Time elapsed: 936 ms
+[07:49:22] [Server thread/INFO]: Done (1.637s)! For help, type "help"
