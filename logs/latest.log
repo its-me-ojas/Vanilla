@@ -1,950 +1,260 @@
-[00:07:19] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.10
-[00:07:19] [main/INFO]: Loading 4 mods:
+[08:45:44] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.10
+[08:45:44] [main/INFO]: Loading 4 mods:
 	- fabricloader 0.16.10
 	   \-- mixinextras 0.4.1
-	- java 21
+	- java 23
 	- minecraft 1.21.5
-[00:07:19] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/crestfallen/Minecraft/Vanilla/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[00:07:35] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[00:07:41] [main/INFO]: Loaded 1373 recipes
-[00:07:41] [main/INFO]: Loaded 1484 advancements
-[00:07:41] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[00:07:41] [Server thread/INFO]: Loading properties
-[00:07:41] [Server thread/INFO]: Default game type: SURVIVAL
-[00:07:41] [Server thread/INFO]: Generating keypair
-[00:07:41] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:07:41] [Server thread/INFO]: Using epoll channel type
-[00:07:41] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:07:41] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[00:07:41] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:07:41] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:07:42] [Server thread/INFO]: Preparing level "world"
-[00:07:44] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:07:47] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[00:07:47] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[00:07:47] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[00:07:47] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[00:07:47] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[00:07:47] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[00:07:47] [Server thread/INFO]: Time elapsed: 2960 ms
-[00:07:47] [Server thread/INFO]: Done (5.858s)! For help, type "help"
-[00:07:49] [Server thread/INFO]: whitehairguy[/127.0.0.1:52028] logged in with entity id 6 at (743.529808618132, 63.0, 548.9654292773964)
-[00:07:49] [Server thread/INFO]: whitehairguy joined the game
-[00:07:49] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/11, l='ServerLevel[New World]', x=1015.40, y=63.09, z=228.49]
-[00:07:49] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:07:49] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/12, l='ServerLevel[New World]', x=995.36, y=63.17, z=228.38]
-[00:07:49] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:07:49] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/14, l='ServerLevel[New World]', x=1015.69, y=63.06, z=250.50]
-[00:07:49] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:07:49] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/15, l='ServerLevel[New World]', x=995.23, y=63.26, z=250.60]
-[00:07:49] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:07:51] [Server thread/INFO]: MiffMoff[/127.151.163.75:32959] logged in with entity id 16 at (743.9554579307579, 64.0, 550.6922903756796)
-[00:07:51] [Server thread/INFO]: MiffMoff joined the game
-[00:07:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2041ms or 40 ticks behind
-[00:07:51] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/36, l='ServerLevel[New World]', x=995.36, y=62.95, z=228.38]
-[00:07:52] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/54, l='ServerLevel[New World]', x=1015.40, y=63.06, z=228.49]
-[00:07:52] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55, l='ServerLevel[New World]', x=995.23, y=63.26, z=250.60]
-[00:07:52] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/56, l='ServerLevel[New World]', x=1015.69, y=63.10, z=250.50]
-[00:07:52] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/57, l='ServerLevel[New World]', x=721.57, y=63.04, z=551.39]
-[00:07:53] [Server thread/INFO]: BrownNiggar[/127.139.218.78:41411] logged in with entity id 158 at (363.22115992291106, 93.20000004768372, 153.19810264367288)
-[00:07:53] [Server thread/INFO]: BrownNiggar joined the game
-[00:08:02] [Server thread/WARN]: BrownNiggar moved too quickly! -11.170688494539718,-0.20000004768371582,-0.30993925644071396
-[00:08:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12114ms or 242 ticks behind
-[00:08:19] [Server thread/INFO]: Chubs410[/127.139.218.78:56421] logged in with entity id 534 at (654.173646256834, 77.0, -4424.691322978454)
-[00:08:19] [Server thread/INFO]: Chubs410 joined the game
-[00:08:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7504ms or 150 ticks behind
-[00:09:08] [Server thread/INFO]: [Not Secure] <Chubs410> no
-[00:09:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[00:09:22] [Server thread/INFO]: [Not Secure] <Chubs410> youre still ghar par?
-[00:09:26] [Server thread/INFO]: [Not Secure] <Chubs410> attendance
-[00:09:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2064ms or 41 ticks behind
-[00:13:58] [Server thread/INFO]: [Not Secure] <Chubs410> zzzz
-[00:14:01] [Server thread/INFO]: MiffMoff lost connection: Disconnected
-[00:14:01] [Server thread/INFO]: MiffMoff left the game
-[00:14:09] [Server thread/INFO]: com.mojang.authlib.GameProfile@abd6f01[id=14d3f87c-5d65-399e-a6b1-2a6d857d9fec,name=MiffMoff,properties={}] lost connection: Disconnected
-[00:14:13] [Server thread/INFO]: [Not Secure] <Chubs410> sojao bhenchod
-[00:14:15] [Server thread/INFO]: MiffMoff[/127.151.163.75:59089] logged in with entity id 5034 at (724.3941361684059, 22.0, 552.7261754644716)
-[00:14:15] [Server thread/INFO]: MiffMoff joined the game
-[00:14:18] [Server thread/INFO]: MiffMoff lost connection: Disconnected
-[00:14:18] [Server thread/INFO]: MiffMoff left the game
-[00:14:20] [Server thread/INFO]: BrownNiggar lost connection: Disconnected
-[00:14:20] [Server thread/INFO]: BrownNiggar left the game
-[00:14:20] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[00:14:20] [Server thread/INFO]: whitehairguy left the game
-[00:14:31] [Server thread/INFO]: BrownNiggar[/127.43.231.74:52933] logged in with entity id 5104 at (704.4353862566168, 64.0, 574.3836120072308)
-[00:14:31] [Server thread/INFO]: BrownNiggar joined the game
-[00:14:33] [Server thread/INFO]: whitehairguy[/127.0.0.1:34970] logged in with entity id 5393 at (675.3289150207654, 63.0, 557.7430328131701)
-[00:14:33] [Server thread/INFO]: whitehairguy joined the game
-[00:14:33] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/5397, l='ServerLevel[New World]', x=995.36, y=62.90, z=228.38]
-[00:14:33] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:14:33] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/5399, l='ServerLevel[New World]', x=1015.40, y=63.09, z=228.49]
-[00:14:33] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:14:33] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/5400, l='ServerLevel[New World]', x=995.36, y=63.17, z=228.38]
-[00:14:33] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:14:33] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/5402, l='ServerLevel[New World]', x=1015.69, y=63.06, z=250.50]
-[00:14:33] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:14:33] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/5403, l='ServerLevel[New World]', x=995.23, y=63.26, z=250.60]
-[00:14:33] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:14:33] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/5404, l='ServerLevel[New World]', x=1015.40, y=63.06, z=228.49]
-[00:14:33] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:14:33] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/5405, l='ServerLevel[New World]', x=995.23, y=63.26, z=250.60]
-[00:14:33] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:14:33] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/5406, l='ServerLevel[New World]', x=1015.69, y=63.10, z=250.50]
-[00:14:33] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:14:33] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/5407, l='ServerLevel[New World]', x=721.57, y=63.04, z=551.39]
-[00:14:33] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:14:35] [Server thread/INFO]: MiffMoff[/127.151.163.75:36741] logged in with entity id 5503 at (724.3941361684059, 22.0, 552.7261754644716)
-[00:14:35] [Server thread/INFO]: MiffMoff joined the game
-[00:16:09] [Server thread/INFO]: [Not Secure] <Chubs410> yes
-[00:17:37] [Server thread/INFO]: MiffMoff lost connection: Disconnected
-[00:17:37] [Server thread/INFO]: MiffMoff left the game
-[00:22:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
-[00:23:04] [Server thread/INFO]: MiffMoff[/127.151.163.75:38885] logged in with entity id 10138 at (731.7797155716172, 87.0625, 580.4900969334618)
-[00:23:04] [Server thread/INFO]: MiffMoff joined the game
-[00:24:28] [Server thread/INFO]: Villager class_1646['Villager'/5254, l='ServerLevel[New World]', x=709.21, y=63.35, z=639.13] died, message: 'Villager was squished too much'
-[00:24:28] [Server thread/INFO]: [Not Secure] <Chubs410> yes
-[00:24:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[00:24:32] [Server thread/INFO]: [Not Secure] <whitehairguy> bruh
-[00:24:41] [Server thread/INFO]: [Not Secure] <whitehairguy> whats this issue i cant hear the narrator
-[00:24:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
-[00:25:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[00:25:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2664ms or 53 ticks behind
-[00:25:45] [Server thread/INFO]: [Not Secure] <Chubs410> mai kya karunga
-[00:25:49] [Server thread/INFO]: [Not Secure] <Chubs410> sayhaj
-[00:25:52] [Server thread/INFO]: [Not Secure] <Chubs410> omw
-[00:26:10] [Server thread/INFO]: [Not Secure] <Chubs410> SHUTU[PG
-[00:27:09] [Server thread/WARN]: Player MiffMoff just tried to change non-editable sign
-[00:27:10] [Server thread/WARN]: Player MiffMoff just tried to change non-editable sign
-[00:27:15] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[00:27:15] [Server thread/INFO]: whitehairguy left the game
-[00:27:17] [Server thread/INFO]: BrownNiggar lost connection: Disconnected
-[00:27:17] [Server thread/INFO]: BrownNiggar left the game
-[00:27:22] [Server thread/INFO]: BrownNiggar[/127.43.231.74:56977] logged in with entity id 12651 at (769.6932435851171, 63.0, 558.5651652557251)
-[00:27:22] [Server thread/INFO]: BrownNiggar joined the game
-[00:27:28] [Server thread/INFO]: whitehairguy[/127.0.0.1:48710] logged in with entity id 12741 at (746.6999999880791, 65.0, 575.246335712447)
-[00:27:28] [Server thread/INFO]: whitehairguy joined the game
-[00:27:28] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/12745, l='ServerLevel[New World]', x=995.36, y=62.90, z=228.38]
-[00:27:28] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:27:28] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/12747, l='ServerLevel[New World]', x=1015.40, y=63.09, z=228.49]
-[00:27:28] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:27:28] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/12748, l='ServerLevel[New World]', x=995.36, y=63.17, z=228.38]
-[00:27:28] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:27:28] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/12750, l='ServerLevel[New World]', x=1015.69, y=63.06, z=250.50]
-[00:27:28] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:27:28] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/12751, l='ServerLevel[New World]', x=995.23, y=63.26, z=250.60]
-[00:27:28] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:27:28] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/12752, l='ServerLevel[New World]', x=1015.40, y=63.06, z=228.49]
-[00:27:28] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:27:28] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/12753, l='ServerLevel[New World]', x=995.23, y=63.26, z=250.60]
-[00:27:28] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:27:28] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/12754, l='ServerLevel[New World]', x=1015.69, y=63.10, z=250.50]
-[00:27:28] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:27:28] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/12755, l='ServerLevel[New World]', x=721.57, y=63.04, z=551.39]
-[00:27:28] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:28:11] [Server thread/INFO]: [Not Secure] <Chubs410> YES
-[00:29:13] [Server thread/INFO]: Chubs410 lost connection: Disconnected
-[00:29:13] [Server thread/INFO]: Chubs410 left the game
-[00:29:25] [Server thread/INFO]: Chubs410[/127.139.218.78:46725] logged in with entity id 13833 at (76.70525288555449, 60.0, 134.1457194629674)
-[00:29:25] [Server thread/INFO]: Chubs410 joined the game
-[00:30:04] [Server thread/INFO]: [Not Secure] <Chubs410> ill unmute and clai=rify in a bit
-[00:30:16] [Server thread/INFO]: [Not Secure] <Chubs410> home portal where? please guidwe
-[00:32:32] [Server thread/INFO]: [Not Secure] <whitehairguy> sir please more indian scammer accent
-[00:32:42] [Server thread/INFO]: [Not Secure] <whitehairguy> yes sir
-[00:34:47] [Server thread/INFO]: BrownNiggar was shot by whitehairguy
-[00:36:27] [Server thread/INFO]: Chubs410 has made the advancement [What a Deal!]
-[00:39:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[00:40:14] [Server thread/INFO]: [Not Secure] <whitehairguy> sad
-[00:42:50] [Server thread/INFO]: [Not Secure] <whitehairguy> zzzzzzzzzzzzz
-[00:42:53] [Server thread/INFO]: [Not Secure] <Chubs410> zzzz
-[00:42:57] [Server thread/INFO]: [Not Secure] <MiffMoff> gay
-[00:43:07] [Server thread/INFO]: [Not Secure] <whitehairguy> lebanese
-[00:43:16] [Server thread/INFO]: [Not Secure] <MiffMoff> i am howd you know!!
-[00:44:42] [Server thread/INFO]: [Not Secure] <whitehairguy> ahm ahm
-[00:44:57] [Server thread/INFO]: [Not Secure] <whitehairguy> i think i forgo thee washing amchine
-[00:47:53] [Server thread/INFO]: [Not Secure] <Chubs410> yummy
-[00:48:00] [Server thread/INFO]: [Not Secure] <whitehairguy> what
-[00:48:10] [Server thread/INFO]: [Not Secure] <whitehairguy> the fuck
-[00:48:26] [Server thread/INFO]: Ojas_Kumar[/127.206.192.209:45329] logged in with entity id 18729 at (848.5262813925968, 77.0, -4542.76351984851)
-[00:48:26] [Server thread/INFO]: Ojas_Kumar joined the game
-[00:49:12] [Server thread/INFO]: BrownNiggar was doomed to fall by whitehairguy
-[00:50:52] [Server thread/INFO]: [Not Secure] <Chubs410> yummy
-[00:51:13] [Server thread/INFO]: [Not Secure] <Chubs410> 'experimented'?
-[00:51:17] [Server thread/INFO]: [Not Secure] <whitehairguy> my dream
-[00:51:26] [Server thread/INFO]: [Not Secure] <whitehairguy> gonna experiment with my roomie
-[00:51:37] [Server thread/INFO]: [Not Secure] <whitehairguy> gonna give him a better orgasm
-[00:53:19] [Server thread/INFO]: BrownNiggar was burned to a crisp while fighting whitehairguy
-[00:53:39] [Server thread/INFO]: [Not Secure] <Chubs410> beat him irl
-[00:54:43] [Server thread/INFO]: [Not Secure] <Chubs410> good thing we're buff
-[00:56:14] [Server thread/INFO]: [Not Secure] <Chubs410> fabulous
-[00:56:28] [Server thread/INFO]: [Not Secure] <Chubs410> i have a new fav flavor
-[00:56:46] [Server thread/INFO]: Ojas_Kumar lost connection: Disconnected
-[00:56:46] [Server thread/INFO]: Ojas_Kumar left the game
-[00:56:48] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[00:56:48] [Server thread/INFO]: whitehairguy left the game
-[00:56:54] [Server thread/INFO]: whitehairguy[/127.0.0.1:40904] logged in with entity id 22612 at (744.6966730660172, 65.0, 587.5856949222572)
-[00:56:54] [Server thread/INFO]: whitehairguy joined the game
-[00:56:54] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/22616, l='ServerLevel[New World]', x=995.36, y=62.90, z=228.38]
-[00:56:54] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:56:54] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/22618, l='ServerLevel[New World]', x=1015.40, y=63.09, z=228.49]
-[00:56:54] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:56:54] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/22619, l='ServerLevel[New World]', x=995.36, y=63.17, z=228.38]
-[00:56:54] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:56:54] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/22621, l='ServerLevel[New World]', x=1015.69, y=63.06, z=250.50]
-[00:56:54] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:56:54] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/22622, l='ServerLevel[New World]', x=995.23, y=63.26, z=250.60]
-[00:56:54] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:56:54] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/22623, l='ServerLevel[New World]', x=1015.40, y=63.06, z=228.49]
-[00:56:54] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:56:54] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/22624, l='ServerLevel[New World]', x=995.23, y=63.26, z=250.60]
-[00:56:54] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:56:54] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/22625, l='ServerLevel[New World]', x=1015.69, y=63.10, z=250.50]
-[00:56:54] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:56:54] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/22626, l='ServerLevel[New World]', x=721.57, y=63.04, z=551.39]
-[00:56:54] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:56:55] [Server thread/INFO]: Ojas_Kumar[/127.43.231.74:34309] logged in with entity id 22639 at (760.4586796849427, 63.0, 547.2185170635735)
-[00:56:55] [Server thread/INFO]: Ojas_Kumar joined the game
-[00:58:32] [Server thread/INFO]: [Not Secure] <whitehairguy> server gonna be crazy after one dies
-[00:58:48] [Server thread/INFO]: [Not Secure] <whitehairguy> his dogs
-[00:59:10] [Server thread/WARN]: Pale Oak Boat (vehicle of Chubs410) moved wrongly! 0.4755786192497453
-[00:59:10] [Server thread/WARN]: Pale Oak Boat (vehicle of Chubs410) moved wrongly! 0.7490074632014512
-[00:59:10] [Server thread/WARN]: Pale Oak Boat (vehicle of Chubs410) moved wrongly! 1.024877816254957
-[00:59:10] [Server thread/WARN]: Pale Oak Boat (vehicle of Chubs410) moved wrongly! 1.298655248440923
-[00:59:10] [Server thread/WARN]: Pale Oak Boat (vehicle of Chubs410) moved wrongly! 1.5656058822426075
-[00:59:10] [Server thread/WARN]: Pale Oak Boat (vehicle of Chubs410) moved wrongly! 1.8209133224943344
-[00:59:10] [Server thread/WARN]: Pale Oak Boat (vehicle of Chubs410) moved wrongly! 2.059809161931298
-[00:59:10] [Server thread/WARN]: Pale Oak Boat (vehicle of Chubs410) moved wrongly! 2.277704447697033
-[00:59:10] [Server thread/WARN]: Pale Oak Boat (vehicle of Chubs410) moved wrongly! 2.470328639304398
-[00:59:32] [Server thread/WARN]: Spruce Boat (vehicle of whitehairguy) moved wrongly! 0.3165334347798989
-[01:03:01] [Server thread/INFO]: [Not Secure] <Chubs410> me
-[01:06:33] [Server thread/WARN]: Spruce Boat (vehicle of Ojas_Kumar) moved wrongly! 0.30286086600312956
-[01:06:33] [Server thread/WARN]: Spruce Boat (vehicle of Ojas_Kumar) moved wrongly! 0.5820310765790282
-[01:06:33] [Server thread/WARN]: Spruce Boat (vehicle of Ojas_Kumar) moved wrongly! 0.9731478300230947
-[01:07:46] [Server thread/WARN]: Spruce Boat (vehicle of Ojas_Kumar) moved wrongly! 0.8267774966337669
-[01:07:46] [Server thread/WARN]: Spruce Boat (vehicle of Ojas_Kumar) moved wrongly! 0.8267774966337669
-[01:07:46] [Server thread/WARN]: Spruce Boat (vehicle of Ojas_Kumar) moved wrongly! 0.583217393155536
-[01:07:46] [Server thread/WARN]: Spruce Boat (vehicle of Ojas_Kumar) moved wrongly! 0.33616897553612546
-[01:07:46] [Server thread/WARN]: Spruce Boat (vehicle of Ojas_Kumar) moved wrongly! 0.8401538346579116
-[01:07:46] [Server thread/WARN]: Spruce Boat (vehicle of Ojas_Kumar) moved wrongly! 0.5880368019734021
-[01:07:46] [Server thread/WARN]: Spruce Boat (vehicle of Ojas_Kumar) moved wrongly! 0.38908808751624235
-[01:12:56] [Server thread/INFO]: [Not Secure] <Chubs410> afk chat
-[01:13:04] [Server thread/INFO]: [Not Secure] <Chubs410> no voice but still playing
-[01:15:57] [Server thread/INFO]: [Not Secure] <Chubs410> fire prot 4 bhul gaya
-[01:16:05] [Server thread/INFO]: [Not Secure] <Chubs410> lode
-[01:18:01] [Server thread/INFO]: [Not Secure] <Chubs410> jump pussy
-[01:18:46] [Server thread/INFO]: [Not Secure] <Chubs410> lost?
-[01:19:49] [Server thread/INFO]: Ojas_Kumar lost connection: Disconnected
-[01:19:49] [Server thread/INFO]: Ojas_Kumar left the game
-[01:19:51] [Server thread/INFO]: [Not Secure] <Chubs410> lost + ass armor
-[01:20:00] [Server thread/INFO]: Ojas_Kumar[/127.52.238.219:42579] logged in with entity id 30838 at (-535.2434149638627, 70.0, -1263.832014705571)
-[01:20:00] [Server thread/INFO]: Ojas_Kumar joined the game
-[01:20:22] [Server thread/INFO]: [Not Secure] <Chubs410> miffy guide
-[01:23:10] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> SHHH
-[01:23:18] [Server thread/INFO]: Ojas_Kumar has made the advancement [Sneak 100]
-[01:23:37] [Server thread/INFO]: [Not Secure] <Chubs410> itni jaldi kaise agya bhenchod
-[01:24:38] [Server thread/INFO]: Chubs410 lost connection: Disconnected
-[01:24:38] [Server thread/INFO]: Chubs410 left the game
-[01:24:47] [Server thread/INFO]: BrownNiggar lost connection: Disconnected
-[01:24:47] [Server thread/INFO]: BrownNiggar left the game
-[01:24:53] [Server thread/INFO]: BrownNiggar[/127.139.218.78:38569] logged in with entity id 31675 at (-575.3000000119209, 15.0, -1257.300000011921)
-[01:24:53] [Server thread/INFO]: BrownNiggar joined the game
-[01:25:05] [Server thread/INFO]: Chubs410[/127.139.218.78:55391] logged in with entity id 31716 at (-557.2726097734526, 2.0, -1253.622522963751)
-[01:25:05] [Server thread/INFO]: Chubs410 joined the game
-[01:25:26] [Server thread/INFO]: BrownNiggar lost connection: Disconnected
-[01:25:26] [Server thread/INFO]: BrownNiggar left the game
-[01:26:30] [Server thread/INFO]: BrownNiggar[/127.52.238.219:43985] logged in with entity id 31897 at (-575.7571498225153, 15.0, -1257.7504356211987)
-[01:26:30] [Server thread/INFO]: BrownNiggar joined the game
-[01:26:56] [Server thread/INFO]: Ojas_Kumar was obliterated by a sonically-charged shriek
-[01:26:57] [Server thread/INFO]: BrownNiggar lost connection: Disconnected
-[01:26:57] [Server thread/INFO]: BrownNiggar left the game
-[01:27:26] [Server thread/INFO]: BrownNiggar[/127.43.231.74:37051] logged in with entity id 32400 at (-575.7571498225153, 15.0, -1257.7504356211987)
-[01:27:26] [Server thread/INFO]: BrownNiggar joined the game
-[01:27:45] [Server thread/INFO]: BrownNiggar lost connection: Disconnected
-[01:27:45] [Server thread/INFO]: BrownNiggar left the game
-[01:28:51] [Server thread/INFO]: [Not Secure] <whitehairguy> wait
-[01:28:54] [Server thread/INFO]: [Not Secure] <whitehairguy> miffy
-[01:29:09] [Server thread/INFO]: [Not Secure] <whitehairguy> follow
-[01:31:07] [Server thread/INFO]: [Not Secure] <whitehairguy> -647
-[01:32:06] [Server thread/INFO]: Ojas_Kumar has made the advancement [Surge Protector]
-[01:32:37] [Server thread/INFO]: BrownNiggar[/127.43.231.74:55913] logged in with entity id 34503 at (-575.3000000119209, 15.0, -1260.1355483301854)
-[01:32:37] [Server thread/INFO]: BrownNiggar joined the game
-[01:32:40] [Server thread/INFO]: BrownNiggar lost connection: Disconnected
-[01:32:40] [Server thread/INFO]: BrownNiggar left the game
-[01:33:39] [Server thread/INFO]: BrownNiggar[/127.139.218.78:59315] logged in with entity id 35034 at (-575.3000000119209, 15.0, -1260.1355483301854)
-[01:33:39] [Server thread/INFO]: BrownNiggar joined the game
-[01:33:43] [Server thread/INFO]: BrownNiggar lost connection: Disconnected
-[01:33:43] [Server thread/INFO]: BrownNiggar left the game
-[01:34:14] [Server thread/INFO]: [Not Secure] <whitehairguy> go take them
-[01:34:33] [Server thread/INFO]: BrownNiggar[/127.43.231.74:39553] logged in with entity id 35453 at (-575.3000000119209, 15.0, -1260.1355483301854)
-[01:34:33] [Server thread/INFO]: BrownNiggar joined the game
-[01:36:50] [Server thread/INFO]: BrownNiggar lost connection: Disconnected
-[01:36:50] [Server thread/INFO]: BrownNiggar left the game
-[01:36:51] [Server thread/INFO]: Chubs410 lost connection: Disconnected
-[01:36:51] [Server thread/INFO]: Chubs410 left the game
-[01:36:58] [Server thread/INFO]: Chubs410[/127.139.218.78:57791] logged in with entity id 36417 at (-564.2850900483485, -26.0, -1304.6269014854604)
-[01:36:58] [Server thread/INFO]: Chubs410 joined the game
-[01:37:58] [Server thread/INFO]: [Not Secure] <Chubs410> k
-[01:38:17] [Server thread/INFO]: BrownNiggar[/127.43.231.74:54351] logged in with entity id 36922 at (-573.5495054402107, 16.0, -1256.5092494906592)
-[01:38:17] [Server thread/INFO]: BrownNiggar joined the game
-[01:38:43] [Server thread/INFO]: Tranished[/127.65.83.6:59603] logged in with entity id 37180 at (697.8782316245524, 64.49520087700593, 590.4175246773956)
-[01:38:43] [Server thread/INFO]: Tranished joined the game
-[01:38:59] [Server thread/INFO]: Tranished lost connection: Disconnected
-[01:38:59] [Server thread/INFO]: Tranished left the game
-[01:39:24] [Server thread/INFO]: [Not Secure] <Chubs410> -690 -1383
-[01:39:28] [Server thread/INFO]: BrownNiggar was shot by Skeleton
-[01:40:22] [Server thread/INFO]: MiffMoff lost connection: Disconnected
-[01:40:22] [Server thread/INFO]: MiffMoff left the game
-[01:40:26] [Server thread/INFO]: Chubs410 lost connection: Disconnected
-[01:40:26] [Server thread/INFO]: Chubs410 left the game
-[01:40:47] [Server thread/INFO]: Chubs410[/127.139.218.78:50919] logged in with entity id 38376 at (-599.2995857402319, -28.0, -1250.6564918710899)
-[01:40:47] [Server thread/INFO]: Chubs410 joined the game
-[01:40:55] [Server thread/INFO]: Chubs410 lost connection: Disconnected
-[01:40:55] [Server thread/INFO]: Chubs410 left the game
-[01:41:04] [Server thread/INFO]: [Not Secure] <whitehairguy> -633 -1421
-[01:43:22] [Server thread/INFO]: MiffMoff[/127.151.163.75:42957] logged in with entity id 40147 at (-692.1961387641952, -52.0, -1381.6791054892014)
-[01:43:22] [Server thread/INFO]: MiffMoff joined the game
-[01:45:07] [Server thread/INFO]: Chubs410[/127.139.218.78:56305] logged in with entity id 41591 at (-599.2995857402319, -28.0, -1250.6564918710899)
-[01:45:07] [Server thread/INFO]: Chubs410 joined the game
-[01:45:36] [Server thread/INFO]: Chubs410 lost connection: Disconnected
-[01:45:36] [Server thread/INFO]: Chubs410 left the game
-[01:47:11] [Server thread/INFO]: Chubs410[/127.139.218.78:56119] logged in with entity id 43092 at (-602.6932276467554, -32.0, -1244.1826790850491)
-[01:47:11] [Server thread/INFO]: Chubs410 joined the game
-[01:50:36] [Server thread/WARN]: whitehairguy moved wrongly!
-[01:52:07] [Server thread/INFO]: [Not Secure] <whitehairguy> good sniffer
-[01:53:06] [Server thread/INFO]: MiffMoff was obliterated by a sonically-charged shriek
-[01:54:23] [Server thread/INFO]: [Not Secure] <Chubs410> miffy where did you spawn
-[01:55:53] [Server thread/WARN]: whitehairguy moved wrongly!
-[01:56:51] [Server thread/WARN]: whitehairguy moved wrongly!
-[01:58:51] [Server thread/INFO]: Chubs410 lost connection: Disconnected
-[01:58:51] [Server thread/INFO]: Chubs410 left the game
-[02:00:22] [Server thread/INFO]: Chubs410[/127.139.218.78:54751] logged in with entity id 50476 at (-653.871807468788, -49.0, -1385.8877315638738)
-[02:00:22] [Server thread/INFO]: Chubs410 joined the game
-[02:03:16] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[02:03:16] [Server thread/INFO]: whitehairguy left the game
-[02:03:20] [Server thread/INFO]: Chubs410 lost connection: Disconnected
-[02:03:20] [Server thread/INFO]: Chubs410 left the game
-[02:03:34] [Server thread/INFO]: Chubs410[/127.139.218.78:42061] logged in with entity id 51170 at (-689.6999999880791, -52.0, -1387.5631614406586)
-[02:03:34] [Server thread/INFO]: Chubs410 joined the game
-[02:03:55] [Server thread/INFO]: Chubs410 lost connection: Disconnected
-[02:03:55] [Server thread/INFO]: Chubs410 left the game
-[02:04:20] [Server thread/INFO]: Chubs410[/127.139.218.78:45375] logged in with entity id 51303 at (-690.2897819645982, -52.0, -1381.9106074016029)
-[02:04:20] [Server thread/INFO]: Chubs410 joined the game
-[02:04:56] [Server thread/INFO]: whitehairguy[/127.0.0.1:57374] logged in with entity id 51510 at (-688.1499312143819, -50.0, -1394.3551927073052)
-[02:04:56] [Server thread/INFO]: whitehairguy joined the game
-[02:04:56] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/51515, l='ServerLevel[New World]', x=1015.69, y=63.11, z=250.50]
-[02:04:56] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:04:56] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/51517, l='ServerLevel[New World]', x=995.36, y=62.90, z=228.38]
-[02:04:56] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:04:56] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/51518, l='ServerLevel[New World]', x=721.57, y=62.99, z=551.39]
-[02:04:56] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:04:56] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/51519, l='ServerLevel[New World]', x=1015.40, y=63.09, z=228.49]
-[02:04:56] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:04:56] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/51520, l='ServerLevel[New World]', x=995.36, y=63.17, z=228.38]
-[02:04:56] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:04:56] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/51521, l='ServerLevel[New World]', x=995.23, y=62.96, z=250.60]
-[02:04:56] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:04:56] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/51522, l='ServerLevel[New World]', x=1015.69, y=63.06, z=250.50]
-[02:04:56] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:04:56] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/51523, l='ServerLevel[New World]', x=995.23, y=63.26, z=250.60]
-[02:04:56] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:04:56] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/51524, l='ServerLevel[New World]', x=1015.40, y=63.06, z=228.49]
-[02:04:56] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:05:17] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[02:05:17] [Server thread/INFO]: whitehairguy left the game
-[02:05:35] [Server thread/INFO]: Chubs410 was obliterated by a sonically-charged shriek
-[02:06:22] [Server thread/INFO]: whitehairguy[/127.0.0.1:34858] logged in with entity id 51976 at (-695.7624999880791, -52.0, -1381.300000011921)
-[02:06:22] [Server thread/INFO]: whitehairguy joined the game
-[02:06:22] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/51980, l='ServerLevel[New World]', x=995.23, y=63.26, z=250.60]
-[02:06:22] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:06:22] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/51982, l='ServerLevel[New World]', x=995.23, y=63.04, z=250.60]
-[02:06:22] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:06:22] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/51983, l='ServerLevel[New World]', x=1015.69, y=63.11, z=250.50]
-[02:06:22] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:06:22] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/51985, l='ServerLevel[New World]', x=995.36, y=63.65, z=228.38]
-[02:06:22] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:06:22] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/51986, l='ServerLevel[New World]', x=1015.69, y=63.11, z=250.50]
-[02:06:22] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:06:22] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/51987, l='ServerLevel[New World]', x=1015.40, y=63.06, z=228.49]
-[02:06:22] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:06:22] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/51988, l='ServerLevel[New World]', x=995.36, y=62.90, z=228.38]
-[02:06:22] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:06:22] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/51989, l='ServerLevel[New World]', x=721.57, y=62.99, z=551.39]
-[02:06:22] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:06:22] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/51990, l='ServerLevel[New World]', x=1015.40, y=63.09, z=228.49]
-[02:06:22] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:07:02] [Server thread/INFO]: Chubs410 lost connection: Disconnected
-[02:07:02] [Server thread/INFO]: Chubs410 left the game
-[02:07:06] [Server thread/INFO]: Chubs410[/127.139.218.78:51549] logged in with entity id 52174 at (-689.5330058263341, -52.0, -1378.5191694424675)
-[02:07:06] [Server thread/INFO]: Chubs410 joined the game
-[02:07:12] [Server thread/INFO]: Chubs410 was slain by whitehairguy using [aSS sractHER]
-[02:08:35] [Server thread/INFO]: [Not Secure] <Chubs410> torches
-[02:09:45] [Server thread/INFO]: Ojas_Kumar was slain by Warden
-[02:10:27] [Server thread/INFO]: whitehairguy has completed the challenge [It Spreads]
-[02:14:57] [Server thread/INFO]: Ojas_Kumar was slain by Warden
-[02:15:30] [Server thread/INFO]: Ojas_Kumar was slain by Warden
-[02:15:39] [Server thread/INFO]: BrownNiggar was slain by Warden
-[02:15:41] [Server thread/INFO]: Ojas_Kumar was slain by Warden
-[02:16:04] [Server thread/INFO]: MiffMoff was slain by Warden
-[02:16:05] [Server thread/INFO]: BrownNiggar was slain by Warden
-[02:16:13] [Server thread/INFO]: MiffMoff was slain by Warden
-[02:16:19] [Server thread/INFO]: BrownNiggar was slain by Warden
-[02:16:20] [Server thread/INFO]: MiffMoff was slain by Warden
-[02:16:36] [Server thread/INFO]: Chubs410 has made the advancement [Take Aim]
-[02:16:43] [Server thread/INFO]: BrownNiggar was obliterated by a sonically-charged shriek
-[02:16:54] [Server thread/INFO]: Ojas_Kumar was obliterated by a sonically-charged shriek
-[02:16:55] [Server thread/INFO]: BrownNiggar was slain by Warden
-[02:16:56] [Server thread/INFO]: Chubs410 was slain by Warden
-[02:17:00] [Server thread/INFO]: MiffMoff was slain by Warden
-[02:17:04] [Server thread/INFO]: BrownNiggar was slain by Warden
-[02:17:07] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[02:17:07] [Server thread/INFO]: whitehairguy left the game
-[02:17:12] [Server thread/INFO]: MiffMoff was slain by Warden
-[02:17:19] [Server thread/INFO]: BrownNiggar was slain by Warden
-[02:17:25] [Server thread/INFO]: MiffMoff was slain by Warden
-[02:17:31] [Server thread/INFO]: BrownNiggar was slain by Warden
-[02:17:35] [Server thread/INFO]: whitehairguy[/127.0.0.1:59156] logged in with entity id 54836 at (-692.986600591499, -51.0, -1398.9109215602882)
-[02:17:35] [Server thread/INFO]: whitehairguy joined the game
-[02:17:35] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/54840, l='ServerLevel[New World]', x=995.23, y=63.26, z=250.60]
-[02:17:35] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:17:35] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/54842, l='ServerLevel[New World]', x=995.23, y=63.04, z=250.60]
-[02:17:35] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:17:35] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/54843, l='ServerLevel[New World]', x=1015.69, y=63.11, z=250.50]
-[02:17:35] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:17:35] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/54845, l='ServerLevel[New World]', x=995.36, y=63.65, z=228.38]
-[02:17:35] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:17:35] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/54846, l='ServerLevel[New World]', x=1015.69, y=63.11, z=250.50]
-[02:17:35] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:17:35] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/54847, l='ServerLevel[New World]', x=1015.40, y=63.06, z=228.49]
-[02:17:35] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:17:35] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/54848, l='ServerLevel[New World]', x=995.36, y=62.90, z=228.38]
-[02:17:35] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:17:35] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/54849, l='ServerLevel[New World]', x=721.57, y=62.99, z=551.39]
-[02:17:35] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:17:35] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/54850, l='ServerLevel[New World]', x=1015.40, y=63.09, z=228.49]
-[02:17:35] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:17:43] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[02:17:43] [Server thread/INFO]: whitehairguy left the game
-[02:17:45] [Server thread/INFO]: BrownNiggar was slain by Warden
-[02:17:49] [Server thread/INFO]: MiffMoff was slain by Warden
-[02:17:51] [Server thread/INFO]: BrownNiggar was slain by Warden
-[02:18:14] [Server thread/INFO]: BrownNiggar was obliterated by a sonically-charged shriek
-[02:18:15] [Server thread/INFO]: whitehairguy[/127.0.0.1:50088] logged in with entity id 55109 at (-690.630386778067, -51.0, -1401.2624924022223)
-[02:18:15] [Server thread/INFO]: whitehairguy joined the game
-[02:18:15] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55113, l='ServerLevel[New World]', x=995.36, y=62.89, z=228.38]
-[02:18:15] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:18:15] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55116, l='ServerLevel[New World]', x=995.23, y=63.26, z=250.60]
-[02:18:15] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:18:15] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55117, l='ServerLevel[New World]', x=1015.40, y=63.03, z=228.49]
-[02:18:15] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:18:15] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55118, l='ServerLevel[New World]', x=995.23, y=63.04, z=250.60]
-[02:18:15] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:18:15] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55119, l='ServerLevel[New World]', x=1015.69, y=63.11, z=250.50]
-[02:18:15] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:18:15] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55120, l='ServerLevel[New World]', x=721.57, y=63.01, z=551.39]
-[02:18:15] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:18:15] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55121, l='ServerLevel[New World]', x=995.36, y=63.65, z=228.38]
-[02:18:15] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:18:15] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55122, l='ServerLevel[New World]', x=1015.69, y=63.11, z=250.50]
-[02:18:15] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:18:15] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55123, l='ServerLevel[New World]', x=1015.40, y=63.06, z=228.49]
-[02:18:15] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:18:20] [Server thread/INFO]: Ojas_Kumar lost connection: Disconnected
-[02:18:20] [Server thread/INFO]: Ojas_Kumar left the game
-[02:18:23] [Server thread/INFO]: Ojas_Kumar[/127.43.231.74:53881] logged in with entity id 55243 at (-659.3000000119209, -51.0, -1405.699999988079)
-[02:18:23] [Server thread/INFO]: Ojas_Kumar joined the game
-[02:18:27] [Server thread/INFO]: MiffMoff was slain by Warden
-[02:18:34] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[02:18:34] [Server thread/INFO]: whitehairguy left the game
-[02:18:43] [Server thread/INFO]: BrownNiggar was slain by Warden
-[02:18:45] [Server thread/INFO]: MiffMoff was slain by Warden
-[02:18:45] [Server thread/INFO]: whitehairguy[/127.0.0.1:45764] logged in with entity id 55316 at (-693.2114244135059, -51.0, -1401.4251370503878)
-[02:18:45] [Server thread/INFO]: whitehairguy joined the game
-[02:18:45] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55320, l='ServerLevel[New World]', x=995.36, y=62.89, z=228.38]
-[02:18:45] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:18:45] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55323, l='ServerLevel[New World]', x=995.23, y=63.26, z=250.60]
-[02:18:45] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:18:45] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55324, l='ServerLevel[New World]', x=1015.40, y=63.03, z=228.49]
-[02:18:45] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:18:45] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55325, l='ServerLevel[New World]', x=995.23, y=63.04, z=250.60]
-[02:18:45] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:18:45] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55326, l='ServerLevel[New World]', x=1015.69, y=63.11, z=250.50]
-[02:18:45] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:18:45] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55327, l='ServerLevel[New World]', x=721.57, y=63.01, z=551.39]
-[02:18:45] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:18:45] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55328, l='ServerLevel[New World]', x=995.36, y=63.65, z=228.38]
-[02:18:45] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:18:45] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55329, l='ServerLevel[New World]', x=1015.69, y=63.11, z=250.50]
-[02:18:45] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:18:45] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55330, l='ServerLevel[New World]', x=1015.40, y=63.06, z=228.49]
-[02:18:45] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:18:48] [Server thread/INFO]: Ojas_Kumar was slain by Warden
-[02:18:57] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[02:18:57] [Server thread/INFO]: whitehairguy left the game
-[02:18:57] [Server thread/INFO]: Ojas_Kumar was slain by Warden
-[02:18:59] [Server thread/INFO]: MiffMoff was slain by Warden
-[02:19:03] [Server thread/INFO]: BrownNiggar was slain by Warden
-[02:19:03] [Server thread/INFO]: whitehairguy[/127.0.0.1:53862] logged in with entity id 55476 at (-691.9469901481216, -51.0, -1403.237093758542)
-[02:19:04] [Server thread/INFO]: whitehairguy joined the game
-[02:19:04] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55480, l='ServerLevel[New World]', x=995.36, y=62.95, z=228.38]
-[02:19:04] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:19:04] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55482, l='ServerLevel[New World]', x=1015.40, y=63.06, z=228.49]
-[02:19:04] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:19:04] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55483, l='ServerLevel[New World]', x=995.36, y=62.89, z=228.38]
-[02:19:04] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:19:04] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55485, l='ServerLevel[New World]', x=1015.69, y=62.99, z=250.50]
-[02:19:04] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:19:04] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55486, l='ServerLevel[New World]', x=995.23, y=63.26, z=250.60]
-[02:19:04] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:19:04] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55487, l='ServerLevel[New World]', x=1015.40, y=63.03, z=228.49]
-[02:19:04] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:19:04] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55488, l='ServerLevel[New World]', x=995.23, y=63.04, z=250.60]
-[02:19:04] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:19:04] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55489, l='ServerLevel[New World]', x=1015.69, y=63.11, z=250.50]
-[02:19:04] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:19:04] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55490, l='ServerLevel[New World]', x=721.57, y=63.01, z=551.39]
-[02:19:04] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:19:05] [Server thread/INFO]: Ojas_Kumar was slain by Warden
-[02:19:10] [Server thread/INFO]: BrownNiggar was slain by Warden
-[02:19:11] [Server thread/INFO]: MiffMoff was slain by Warden
-[02:19:14] [Server thread/INFO]: Ojas_Kumar was shot by whitehairguy
-[02:19:16] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[02:19:16] [Server thread/INFO]: whitehairguy left the game
-[02:19:18] [Server thread/INFO]: MiffMoff was slain by Warden
-[02:19:20] [Server thread/INFO]: BrownNiggar was slain by Warden
-[02:19:26] [Server thread/INFO]: MiffMoff was slain by Warden
-[02:19:27] [Server thread/INFO]: whitehairguy[/127.0.0.1:37970] logged in with entity id 55644 at (-691.8897502352722, -51.0, -1403.4646912535602)
-[02:19:27] [Server thread/INFO]: whitehairguy joined the game
-[02:19:27] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55649, l='ServerLevel[New World]', x=1015.69, y=63.04, z=250.50]
-[02:19:27] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:19:27] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55651, l='ServerLevel[New World]', x=995.36, y=62.95, z=228.38]
-[02:19:27] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:19:27] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55652, l='ServerLevel[New World]', x=721.57, y=63.43, z=551.39]
-[02:19:27] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:19:27] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55653, l='ServerLevel[New World]', x=1015.40, y=63.06, z=228.49]
-[02:19:27] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:19:27] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55654, l='ServerLevel[New World]', x=995.36, y=62.89, z=228.38]
-[02:19:27] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:19:27] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55655, l='ServerLevel[New World]', x=995.23, y=63.04, z=250.60]
-[02:19:27] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:19:27] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55656, l='ServerLevel[New World]', x=1015.69, y=62.99, z=250.50]
-[02:19:27] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:19:27] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55657, l='ServerLevel[New World]', x=995.23, y=63.26, z=250.60]
-[02:19:27] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:19:27] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55658, l='ServerLevel[New World]', x=1015.40, y=63.03, z=228.49]
-[02:19:27] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:19:29] [Server thread/INFO]: BrownNiggar was slain by Warden
-[02:19:31] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[02:19:31] [Server thread/INFO]: whitehairguy left the game
-[02:19:51] [Server thread/INFO]: whitehairguy[/127.0.0.1:39102] logged in with entity id 55836 at (-694.9012899509485, -51.0, -1403.8305060132463)
-[02:19:51] [Server thread/INFO]: whitehairguy joined the game
-[02:19:51] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55840, l='ServerLevel[New World]', x=995.36, y=62.95, z=228.38]
-[02:19:51] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:19:51] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55842, l='ServerLevel[New World]', x=1015.40, y=63.06, z=228.49]
-[02:19:51] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:19:51] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55843, l='ServerLevel[New World]', x=995.36, y=62.89, z=228.38]
-[02:19:51] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:19:51] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55845, l='ServerLevel[New World]', x=1015.69, y=62.99, z=250.50]
-[02:19:51] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:19:51] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55846, l='ServerLevel[New World]', x=995.23, y=63.26, z=250.60]
-[02:19:51] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:19:51] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55847, l='ServerLevel[New World]', x=1015.40, y=63.03, z=228.49]
-[02:19:51] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:19:51] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55848, l='ServerLevel[New World]', x=995.23, y=62.98, z=250.60]
-[02:19:51] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:19:51] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55849, l='ServerLevel[New World]', x=1015.69, y=63.10, z=250.50]
-[02:19:51] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:19:51] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/55850, l='ServerLevel[New World]', x=721.57, y=63.04, z=551.39]
-[02:19:51] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:19:52] [Server thread/INFO]: BrownNiggar was obliterated by a sonically-charged shriek
-[02:19:57] [Server thread/INFO]: MiffMoff was slain by Warden
-[02:20:10] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[02:20:10] [Server thread/INFO]: whitehairguy left the game
-[02:20:19] [Server thread/INFO]: whitehairguy[/127.0.0.1:58638] logged in with entity id 56075 at (-701.4918309057417, -51.0, -1399.4180366050466)
-[02:20:19] [Server thread/INFO]: whitehairguy joined the game
-[02:20:19] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/56079, l='ServerLevel[New World]', x=995.36, y=62.89, z=228.38]
-[02:20:19] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:20:19] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/56082, l='ServerLevel[New World]', x=995.23, y=63.26, z=250.60]
-[02:20:19] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:20:19] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/56083, l='ServerLevel[New World]', x=1015.40, y=63.03, z=228.49]
-[02:20:19] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:20:19] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/56084, l='ServerLevel[New World]', x=995.23, y=62.98, z=250.60]
-[02:20:19] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:20:19] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/56085, l='ServerLevel[New World]', x=1015.69, y=63.10, z=250.50]
-[02:20:19] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:20:19] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/56086, l='ServerLevel[New World]', x=721.57, y=63.04, z=551.39]
-[02:20:19] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:20:19] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/56087, l='ServerLevel[New World]', x=995.36, y=63.01, z=228.38]
-[02:20:19] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:20:19] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/56088, l='ServerLevel[New World]', x=1015.69, y=63.04, z=250.50]
-[02:20:19] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:20:19] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/56089, l='ServerLevel[New World]', x=1015.40, y=63.35, z=228.49]
-[02:20:19] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:20:29] [Server thread/INFO]: BrownNiggar was obliterated by a sonically-charged shriek
-[02:20:31] [Server thread/INFO]: MiffMoff was slain by Warden
-[02:20:36] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[02:20:36] [Server thread/INFO]: whitehairguy left the game
-[02:20:38] [Server thread/INFO]: MiffMoff was slain by Warden
-[02:20:44] [Server thread/INFO]: whitehairguy[/127.0.0.1:42106] logged in with entity id 56241 at (-692.8577242403784, -51.0, -1398.9042719726247)
-[02:20:44] [Server thread/INFO]: whitehairguy joined the game
-[02:20:44] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/56245, l='ServerLevel[New World]', x=995.36, y=62.89, z=228.38]
-[02:20:44] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:20:44] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/56248, l='ServerLevel[New World]', x=995.23, y=63.26, z=250.60]
-[02:20:44] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:20:44] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/56249, l='ServerLevel[New World]', x=1015.40, y=63.03, z=228.49]
-[02:20:44] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:20:44] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/56250, l='ServerLevel[New World]', x=995.23, y=62.98, z=250.60]
-[02:20:44] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:20:44] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/56251, l='ServerLevel[New World]', x=1015.69, y=63.10, z=250.50]
-[02:20:44] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:20:44] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/56252, l='ServerLevel[New World]', x=721.57, y=63.04, z=551.39]
-[02:20:44] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:20:44] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/56253, l='ServerLevel[New World]', x=995.36, y=63.01, z=228.38]
-[02:20:44] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:20:44] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/56254, l='ServerLevel[New World]', x=1015.69, y=63.04, z=250.50]
-[02:20:44] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:20:44] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/56255, l='ServerLevel[New World]', x=1015.40, y=63.35, z=228.49]
-[02:20:44] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:21:14] [Server thread/INFO]: Ojas_Kumar was burned to a crisp while fighting whitehairguy
-[02:21:25] [Server thread/INFO]: MiffMoff was slain by whitehairguy
-[02:21:35] [Server thread/INFO]: Ojas_Kumar was burned to a crisp while fighting whitehairguy
-[02:21:37] [Server thread/INFO]: BrownNiggar was slain by whitehairguy
-[02:27:39] [Server thread/INFO]: [Not Secure] <Chubs410> -735 -1401
-[02:27:49] [Server thread/INFO]: Ojas_Kumar was slain by Warden
-[02:30:59] [Server thread/INFO]: Ojas_Kumar was slain by whitehairguy
-[02:31:15] [Server thread/INFO]: MiffMoff has made the advancement [Isn't It Iron Pick]
-[02:32:19] [Server thread/INFO]: BrownNiggar tried to swim in lava
-[02:34:29] [Server thread/INFO]: BrownNiggar was shot by Skeleton
-[02:36:17] [Server thread/INFO]: BrownNiggar was obliterated by a sonically-charged shriek
-[02:37:06] [Server thread/INFO]: Chubs410 lost connection: Disconnected
-[02:37:06] [Server thread/INFO]: Chubs410 left the game
-[02:37:52] [Server thread/INFO]: Chubs410[/127.139.218.78:45611] logged in with entity id 65363 at (-898.174837549208, -42.0, -1462.0632063072258)
-[02:37:52] [Server thread/INFO]: Chubs410 joined the game
-[02:38:25] [Server thread/INFO]: Chubs410 lost connection: Disconnected
-[02:38:25] [Server thread/INFO]: Chubs410 left the game
-[02:38:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
-[02:39:10] [Server thread/INFO]: Chubs410[/127.139.218.78:37203] logged in with entity id 66424 at (-899.3090149292374, -42.0, -1461.0624122634154)
-[02:39:10] [Server thread/INFO]: Chubs410 joined the game
-[02:39:27] [Server thread/INFO]: BrownNiggar tried to swim in lava
-[02:40:50] [Server thread/INFO]: Ojas_Kumar lost connection: Disconnected
-[02:40:50] [Server thread/INFO]: Ojas_Kumar left the game
-[02:40:54] [Server thread/INFO]: Ojas_Kumar[/127.43.231.74:44667] logged in with entity id 67725 at (-1224.804994399748, -43.0, -1369.4345087363877)
-[02:40:54] [Server thread/INFO]: Ojas_Kumar joined the game
-[02:40:58] [Server thread/INFO]: Chubs410 lost connection: Disconnected
-[02:40:58] [Server thread/INFO]: Chubs410 left the game
-[02:41:00] [Server thread/INFO]: BrownNiggar lost connection: Disconnected
-[02:41:00] [Server thread/INFO]: BrownNiggar left the game
-[02:41:19] [Server thread/INFO]: Chubs410[/127.139.218.78:56739] logged in with entity id 67856 at (-900.3000000119209, -44.0, -1455.9139912827463)
-[02:41:19] [Server thread/INFO]: Chubs410 joined the game
-[02:41:25] [Server thread/INFO]: Ojas_Kumar lost connection: Disconnected
-[02:41:25] [Server thread/INFO]: Ojas_Kumar left the game
-[02:41:28] [Server thread/INFO]: Ojas_Kumar[/127.43.231.74:60749] logged in with entity id 68272 at (-1226.07105845594, -43.0, -1369.300000011921)
-[02:41:28] [Server thread/INFO]: Ojas_Kumar joined the game
-[02:41:35] [Server thread/INFO]: Chubs410 lost connection: Disconnected
-[02:41:35] [Server thread/INFO]: Chubs410 left the game
-[02:42:41] [Server thread/INFO]: Chubs410[/127.139.218.78:39119] logged in with entity id 68570 at (-900.3000000119209, -44.0, -1454.700722383168)
-[02:42:41] [Server thread/INFO]: Chubs410 joined the game
-[02:43:02] [Server thread/INFO]: BrownNiggar[/127.139.218.78:45865] logged in with entity id 69065 at (-900.7734743059808, -42.0, -1460.1858409956053)
-[02:43:02] [Server thread/INFO]: BrownNiggar joined the game
-[02:43:05] [Server thread/INFO]: Chubs410 lost connection: Disconnected
-[02:43:05] [Server thread/INFO]: Chubs410 left the game
-[02:43:13] [Server thread/INFO]: BrownNiggar lost connection: Disconnected
-[02:43:13] [Server thread/INFO]: BrownNiggar left the game
-[02:44:04] [Server thread/INFO]: Chubs410[/127.139.218.78:41685] logged in with entity id 69495 at (-912.1916751746081, -41.0, -1465.2454183840716)
-[02:44:04] [Server thread/INFO]: Chubs410 joined the game
-[02:44:12] [Server thread/INFO]: BrownNiggar[/127.139.218.78:46285] logged in with entity id 69828 at (-900.7734743059808, -42.0, -1460.1858409956053)
-[02:44:12] [Server thread/INFO]: BrownNiggar joined the game
-[02:44:13] [Server thread/INFO]: Chubs410 was slain by Warden
-[02:44:13] [Server thread/INFO]: Chubs410 lost connection: Disconnected
-[02:44:13] [Server thread/INFO]: Chubs410 left the game
-[02:44:26] [Server thread/INFO]: BrownNiggar lost connection: Disconnected
-[02:44:26] [Server thread/INFO]: BrownNiggar left the game
-[02:44:32] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[02:44:32] [Server thread/INFO]: whitehairguy left the game
-[02:45:00] [Server thread/INFO]: Chubs410[/127.139.218.78:42007] logged in with entity id 70118 at (-912.6999999880791, -41.0, -1468.6611568882777)
-[02:45:00] [Server thread/INFO]: Chubs410 joined the game
-[02:45:08] [Server thread/INFO]: BrownNiggar[/127.139.218.78:38863] logged in with entity id 70331 at (-899.3000000119209, -43.0, -1465.1324444517904)
-[02:45:08] [Server thread/INFO]: BrownNiggar joined the game
-[02:45:10] [Server thread/INFO]: BrownNiggar lost connection: Disconnected
-[02:45:10] [Server thread/INFO]: BrownNiggar left the game
-[02:45:17] [Server thread/INFO]: BrownNiggar[/127.139.218.78:40161] logged in with entity id 70788 at (-899.3000000119209, -43.0, -1465.5572359365885)
-[02:45:17] [Server thread/INFO]: BrownNiggar joined the game
-[02:45:21] [Server thread/INFO]: BrownNiggar lost connection: Disconnected
-[02:45:21] [Server thread/INFO]: BrownNiggar left the game
-[02:45:26] [Server thread/INFO]: BrownNiggar[/127.139.218.78:47941] logged in with entity id 71015 at (-899.3000000119209, -43.0, -1465.5572359365885)
-[02:45:26] [Server thread/INFO]: BrownNiggar joined the game
-[02:45:30] [Server thread/INFO]: BrownNiggar lost connection: Disconnected
-[02:45:30] [Server thread/INFO]: BrownNiggar left the game
-[02:45:45] [Server thread/INFO]: BrownNiggar[/127.139.218.78:60091] logged in with entity id 71390 at (-899.3000000119209, -43.0, -1465.5572359365885)
-[02:45:45] [Server thread/INFO]: BrownNiggar joined the game
-[02:46:09] [Server thread/INFO]: whitehairguy[/127.0.0.1:50912] logged in with entity id 71679 at (-1276.31197529633, -45.0, -1354.7407632652287)
-[02:46:09] [Server thread/INFO]: whitehairguy joined the game
-[02:46:09] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/71683, l='ServerLevel[New World]', x=995.36, y=62.89, z=228.38]
-[02:46:09] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:46:09] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/71686, l='ServerLevel[New World]', x=995.23, y=63.26, z=250.60]
-[02:46:09] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:46:09] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/71687, l='ServerLevel[New World]', x=1015.40, y=63.03, z=228.49]
-[02:46:09] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:46:09] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/71688, l='ServerLevel[New World]', x=995.23, y=62.98, z=250.60]
-[02:46:09] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:46:09] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/71689, l='ServerLevel[New World]', x=1015.69, y=63.10, z=250.50]
-[02:46:09] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:46:09] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/71690, l='ServerLevel[New World]', x=721.57, y=63.04, z=551.39]
-[02:46:09] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:46:09] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/71691, l='ServerLevel[New World]', x=995.36, y=63.01, z=228.38]
-[02:46:09] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:46:09] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/71692, l='ServerLevel[New World]', x=1015.69, y=63.04, z=250.50]
-[02:46:09] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:46:09] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/71693, l='ServerLevel[New World]', x=1015.40, y=63.35, z=228.49]
-[02:46:09] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:46:29] [Server thread/INFO]: BrownNiggar was obliterated by a sonically-charged shriek
-[02:47:25] [Server thread/INFO]: Ojas_Kumar was doomed to fall by Warden
-[02:47:45] [Server thread/INFO]: BrownNiggar burned to death
-[02:48:38] [Server thread/INFO]: Ojas_Kumar was slain by Warden
-[02:49:40] [Server thread/INFO]: [Not Secure] <MiffMoff> movie suggestions
-[02:49:46] [Server thread/INFO]: [Not Secure] <MiffMoff> for tomorrow
-[02:49:52] [Server thread/INFO]: [Not Secure] <whitehairguy> let mt think
-[02:49:59] [Server thread/INFO]: [Not Secure] <Chubs410> oceans 11
-[02:50:03] [Server thread/INFO]: [Not Secure] <whitehairguy> horror
-[02:50:05] [Server thread/INFO]: [Not Secure] <BrownNiggar> human centipied
-[02:50:31] [Server thread/INFO]: Ojas_Kumar was slain by Warden
-[02:52:41] [Server thread/INFO]: Ojas_Kumar was slain by Warden
-[02:54:10] [Server thread/INFO]: [Not Secure] <whitehairguy> miffy asmr
-[02:55:46] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[02:55:46] [Server thread/INFO]: whitehairguy left the game
-[02:55:57] [Server thread/INFO]: MiffMoff was obliterated by a sonically-charged shriek
-[02:57:07] [Server thread/INFO]: MiffMoff tried to swim in lava
-[02:57:17] [Server thread/INFO]: Villager class_1646['Villager'/71399, l='ServerLevel[New World]', x=-918.73, y=115.00, z=-1381.76] died, message: 'Villager burned to death'
-[02:58:48] [Server thread/INFO]: Ojas_Kumar was slain by Warden
-[02:58:54] [Server thread/INFO]: whitehairguy[/127.0.0.1:52840] logged in with entity id 78817 at (-1434.3960245276535, -51.0, -1396.7444592896068)
-[02:58:54] [Server thread/INFO]: whitehairguy joined the game
-[02:58:54] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/78820, l='ServerLevel[New World]', x=995.36, y=62.89, z=228.38]
-[02:58:54] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:58:54] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/78824, l='ServerLevel[New World]', x=1015.40, y=63.03, z=228.49]
-[02:58:54] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:58:54] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/78825, l='ServerLevel[New World]', x=995.23, y=63.26, z=250.60]
-[02:58:54] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:58:54] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/78826, l='ServerLevel[New World]', x=1015.69, y=63.10, z=250.50]
-[02:58:54] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:58:54] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/78827, l='ServerLevel[New World]', x=995.23, y=62.98, z=250.60]
-[02:58:54] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:58:54] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/78828, l='ServerLevel[New World]', x=995.36, y=63.01, z=228.38]
-[02:58:54] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:58:54] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/78829, l='ServerLevel[New World]', x=721.57, y=63.04, z=551.39]
-[02:58:54] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:58:54] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/78830, l='ServerLevel[New World]', x=1015.40, y=63.35, z=228.49]
-[02:58:54] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:58:54] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/78831, l='ServerLevel[New World]', x=1015.69, y=63.04, z=250.50]
-[02:58:54] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[02:59:14] [Server thread/INFO]: MiffMoff tried to swim in lava to escape Warden
-[02:59:39] [Server thread/INFO]: Ojas_Kumar was shot by Skeleton
-[03:00:06] [Server thread/INFO]: Ojas_Kumar was shot by Skeleton
-[03:01:12] [Server thread/INFO]: Ojas_Kumar was shot by Skeleton
-[03:02:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1144, y=-20, z=-1333} class_2338{x=-1144, y=-20, z=-1331}
-[03:02:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1144, y=-20, z=-1333} class_2338{x=-1144, y=-20, z=-1331}
-[03:03:52] [Server thread/INFO]: Ojas_Kumar was slain by Zombie
-[03:04:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3049ms or 60 ticks behind
-[03:05:30] [Server thread/INFO]: [Not Secure] <Chubs410> mic of
-[03:05:58] [Server thread/INFO]: [Not Secure] <Chubs410> boat
-[03:06:16] [Server thread/INFO]: MiffMoff has made the advancement [Best Friends Forever]
-[03:06:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
-[03:07:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2033ms or 40 ticks behind
-[03:07:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
-[03:08:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2581ms or 51 ticks behind
-[03:08:36] [Server thread/INFO]: Ojas_Kumar was shot by Skeleton
-[03:09:38] [Server thread/INFO]: Ojas_Kumar fell from a high place
-[03:10:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
-[03:12:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-857, y=70, z=-877} class_2338{x=-859, y=71, z=-876}
-[03:12:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-857, y=70, z=-877} class_2338{x=-859, y=71, z=-876}
-[03:14:48] [Server thread/INFO]: [Not Secure] <MiffMoff> is it a lomgn way
-[03:15:20] [Server thread/INFO]: Chubs410 was blown up by Creeper
-[03:15:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2169ms or 43 ticks behind
-[03:16:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2490ms or 49 ticks behind
-[03:16:21] [Server thread/INFO]: [Not Secure] <MiffMoff> owojas
-[03:16:29] [Server thread/INFO]: Chubs410 tried to swim in lava
-[03:16:43] [Server thread/INFO]: Ojas_Kumar was blown up by Creeper
-[03:17:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[03:17:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5261ms or 105 ticks behind
-[03:18:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6504ms or 130 ticks behind
-[03:19:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[03:19:15] [Server thread/INFO]: Chubs410 drowned
-[03:19:28] [Server thread/INFO]: Ojas_Kumar has made the advancement [Light as a Rabbit]
-[03:20:59] [Server thread/INFO]: Ojas_Kumar froze to death
-[03:22:10] [Server thread/INFO]: Ojas_Kumar fell from a high place
-[03:22:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2033ms or 40 ticks behind
-[03:22:45] [Server thread/INFO]: Ojas_Kumar fell from a high place
-[03:24:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
-[03:24:26] [Server thread/INFO]: Chubs410 was impaled by Drowned
-[03:27:00] [Server thread/INFO]: Ojas_Kumar was doomed to fall by whitehairguy
-[03:27:11] [Server thread/INFO]: Ojas_Kumar was doomed to fall
-[03:27:21] [Server thread/INFO]: Ojas_Kumar was shot by whitehairguy
-[03:27:32] [Server thread/INFO]: Chubs410 was impaled by Drowned
-[03:27:49] [Server thread/INFO]: Ojas_Kumar was doomed to fall
-[03:28:24] [Server thread/INFO]: [Not Secure] <Chubs410> ghar ke cords?
-[03:29:19] [Server thread/INFO]: Ojas_Kumar was shot by whitehairguy
-[03:33:20] [Server thread/INFO]: Ojas_Kumar has made the advancement [Cover Me with Diamonds]
-[03:36:16] [Server thread/INFO]: Villager class_1646['Villager'/105103, l='ServerLevel[New World]', x=709.13, y=63.39, z=639.14] died, message: 'Villager was squished too much'
-[03:36:28] [Server thread/INFO]: Ojas_Kumar was slain by MiffMoff
-[03:36:38] [Server thread/INFO]: Villager class_1646['Villager'/105104, l='ServerLevel[New World]', x=709.26, y=63.61, z=639.30] died, message: 'Villager was squished too much'
-[03:37:30] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> no
-[03:37:38] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> kya bola?
-[03:37:52] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> yummy
-[03:37:56] [Server thread/INFO]: Villager class_1646['Villager'/105101, l='ServerLevel[New World]', x=709.13, y=63.47, z=639.19] died, message: 'Villager was squished too much'
-[03:38:04] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> fortune dedo saar
-[03:38:26] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> CHOR
-[03:38:38] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> tq twin ly gng
-[03:38:40] [Server thread/INFO]: [Not Secure] <Chubs410> mine fell in lava
-[03:38:52] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> aagyi merepe
-[03:39:27] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> mera sarr ghum rha hai
-[03:39:30] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> ill hop off in 5
-[03:39:38] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> nah
-[03:39:44] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> YES
-[03:40:02] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> gg fr
-[03:40:14] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> 15 to be precise
-[03:40:40] [Server thread/INFO]: MiffMoff lost connection: Disconnected
-[03:40:40] [Server thread/INFO]: MiffMoff left the game
-[03:41:06] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> :sob:
-[03:41:12] [Server thread/INFO]: BrownNiggar lost connection: Disconnected
-[03:41:12] [Server thread/INFO]: BrownNiggar left the game
-[03:41:21] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> captures
-[03:41:31] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> drive link
-[03:42:15] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> yes
-[03:42:32] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> thats 800 mb
-[03:44:13] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> PVP krle bhai
-[03:44:17] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> sone jaana hai
-[03:44:23] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> RUK
-[03:44:27] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> shield nahi hai
-[03:44:27] [Server thread/INFO]: BrownNiggar[/127.139.218.78:57101] logged in with entity id 115946 at (779.2678905556743, 63.0, 556.9588512015714)
-[03:44:27] [Server thread/INFO]: BrownNiggar joined the game
-[03:44:37] [Server thread/INFO]: MiffMoff[/127.151.163.75:32815] logged in with entity id 115980 at (677.2507034025239, 64.0, 608.3941211065394)
-[03:44:37] [Server thread/INFO]: MiffMoff joined the game
-[03:44:54] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> food
-[03:45:02] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> DAWG
-[03:45:23] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> shield dedo
-[03:46:02] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> sehaj shield hata de ya fir mujhe bhi dila de
-[03:46:28] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> utar de shield
-[03:46:35] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> de diya
-[03:46:44] [Server thread/INFO]: [Not Secure] <Chubs410> investing
-[03:47:08] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> hogyi
-[03:47:47] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> what if i dont let him eat
-[03:48:00] [Server thread/INFO]: [Not Secure] <whitehairguy> thats the neat part
-[03:49:25] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> wuhu
-[03:52:39] [Server thread/INFO]: Chubs410 was slain by Ojas_Kumar
-[03:52:43] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> WWWWWWWWWWW
-[03:53:06] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> YIPPEEEEE
-[03:53:19] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> GIMME THE BLOCKS
-[03:53:33] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> tq for the support gng
-[03:53:42] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> i ate 1
-[03:54:05] [Server thread/INFO]: [Not Secure] <Chubs410> i stack diamonds and some tools
-[03:54:06] [Server thread/INFO]: [Not Secure] <Chubs410> yes
-[03:54:10] [Server thread/INFO]: [Not Secure] <Chubs410> 1*
-[03:54:28] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> w content
-[03:54:52] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> sehaj
-[03:54:55] [Server thread/INFO]: [Not Secure] <Chubs410> mine
-[03:55:04] [Server thread/INFO]: [Not Secure] <Chubs410> someone pick me up
-[03:55:07] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> miffy
-[03:55:08] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> take this
-[03:55:25] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> for the support
-[03:55:33] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> wya sehaj?
-[03:55:40] [Server thread/INFO]: [Not Secure] <Chubs410> tower
-[03:55:42] [Server thread/INFO]: [Not Secure] <Chubs410> spawn
-[03:55:45] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> o
-[03:55:54] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> waha se left aate reh
-[03:55:59] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> into the spruce area
-[03:56:08] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> and then right mudd jaa
-[03:56:11] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> in the ocean
-[03:56:21] [Server thread/INFO]: [Not Secure] <whitehairguy> then swim till you see hot air ballon
-[03:56:42] [Server thread/INFO]: [Not Secure] <Chubs410> pick me up
-[03:56:42] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> say the silk touch's name
-[03:56:52] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> SAY IT
-[03:56:57] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> SNIG-
-[03:57:06] [Server thread/INFO]: MiffMoff lost connection: Disconnected
-[03:57:06] [Server thread/INFO]: MiffMoff left the game
-[03:57:12] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> ill also go
-[03:57:21] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> bruh
-[03:57:28] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> aaya
-[03:57:42] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> s3 looting2
-[03:57:50] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> and s4
-[03:57:59] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> terepe s4 tha
-[03:58:05] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> HAA
-[03:58:07] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> JUST CHECKED
-[03:58:19] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> coords?
-[03:58:27] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[03:58:27] [Server thread/INFO]: whitehairguy left the game
-[03:58:27] [Server thread/INFO]: [Not Secure] <Chubs410> 267, 95
-[03:59:43] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> maine kari hai
-[04:00:06] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> raghav bhaiya
-[04:00:12] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> tell him ill show him on stream
-[04:01:28] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> Xd
-[04:01:31] [Server thread/INFO]: whitehairguy[/127.0.0.1:50164] logged in with entity id 121545 at (738.851546622801, 67.0, 556.319711299073)
-[04:01:31] [Server thread/INFO]: whitehairguy joined the game
-[04:01:31] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/121549, l='ServerLevel[New World]', x=995.36, y=62.89, z=228.38]
-[04:01:31] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[04:01:31] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/121552, l='ServerLevel[New World]', x=995.23, y=63.26, z=250.60]
-[04:01:31] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[04:01:31] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/121553, l='ServerLevel[New World]', x=1015.40, y=63.03, z=228.49]
-[04:01:31] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[04:01:31] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/121554, l='ServerLevel[New World]', x=995.23, y=62.98, z=250.60]
-[04:01:31] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[04:01:31] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/121555, l='ServerLevel[New World]', x=1015.69, y=63.10, z=250.50]
-[04:01:31] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[04:01:31] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/121556, l='ServerLevel[New World]', x=721.57, y=63.04, z=551.39]
-[04:01:31] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[04:01:31] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/121557, l='ServerLevel[New World]', x=995.36, y=63.01, z=228.38]
-[04:01:31] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[04:01:31] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/121558, l='ServerLevel[New World]', x=1015.69, y=63.04, z=250.50]
-[04:01:31] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[04:01:31] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/121559, l='ServerLevel[New World]', x=1015.40, y=63.35, z=228.49]
-[04:01:31] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[04:02:54] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> here
-[04:03:11] [Server thread/INFO]: Villager class_1646['Villager'/121115, l='ServerLevel[New World]', x=708.30, y=64.57, z=638.60] died, message: 'Villager was slain by Zombie'
-[04:03:12] [Server thread/INFO]: Villager class_1646['Villager'/121125, l='ServerLevel[New World]', x=709.70, y=64.31, z=637.36] died, message: 'Villager was slain by Zombie'
-[04:03:19] [Server thread/INFO]: Villager class_1646['Villager'/121129, l='ServerLevel[New World]', x=708.98, y=63.46, z=637.37] died, message: 'Villager was slain by Zombie Villager'
-[04:03:21] [Server thread/INFO]: Villager class_1646['Villager'/121126, l='ServerLevel[New World]', x=708.68, y=63.17, z=639.09] died, message: 'Villager was slain by Zombie Villager'
-[04:03:21] [Server thread/INFO]: Villager class_1646['Villager'/121123, l='ServerLevel[New World]', x=709.09, y=63.73, z=638.39] died, message: 'Villager was slain by Zombie'
-[04:03:23] [Server thread/INFO]: Villager class_1646['Villager'/121122, l='ServerLevel[New World]', x=708.30, y=64.72, z=637.32] died, message: 'Villager was slain by Zombie Villager'
-[04:03:24] [Server thread/INFO]: Villager class_1646['Villager'/121118, l='ServerLevel[New World]', x=708.30, y=63.47, z=637.30] died, message: 'Villager was slain by Zombie Villager'
-[04:03:24] [Server thread/INFO]: Villager class_1646['Villager'/121128, l='ServerLevel[New World]', x=709.22, y=64.52, z=637.42] died, message: 'Villager was slain by Zombie'
-[04:03:25] [Server thread/INFO]: Villager class_1646['Villager'/121124, l='ServerLevel[New World]', x=708.70, y=62.82, z=637.41] died, message: 'Villager was slain by Zombie'
-[04:03:26] [Server thread/INFO]: Villager class_1646['Villager'/121103, l='ServerLevel[New World]', x=709.70, y=63.20, z=639.70] died, message: 'Villager was slain by Zombie'
-[04:03:27] [Server thread/INFO]: Villager class_1646['Villager'/121119, l='ServerLevel[New World]', x=708.30, y=63.29, z=639.70] died, message: 'Villager was slain by Zombie Villager'
-[04:03:29] [Server thread/INFO]: Villager class_1646['Villager'/121089, l='ServerLevel[New World]', x=709.70, y=63.76, z=637.34] died, message: 'Villager was slain by Zombie'
-[04:03:30] [Server thread/INFO]: Villager class_1646['Villager'/121106, l='ServerLevel[New World]', x=709.70, y=63.13, z=639.70] died, message: 'Villager was slain by Zombie Villager'
-[04:03:30] [Server thread/INFO]: Villager class_1646['Villager'/121121, l='ServerLevel[New World]', x=708.30, y=63.27, z=639.70] died, message: 'Villager was slain by Zombie Villager'
-[04:03:32] [Server thread/INFO]: Villager class_1646['Villager'/121107, l='ServerLevel[New World]', x=709.70, y=63.29, z=639.70] died, message: 'Villager was slain by Zombie Villager'
-[04:03:35] [Server thread/INFO]: Villager class_1646['Villager'/121095, l='ServerLevel[New World]', x=709.70, y=63.19, z=639.70] died, message: 'Villager was slain by Zombie Villager'
-[04:03:35] [Server thread/INFO]: Villager class_1646['Villager'/121090, l='ServerLevel[New World]', x=708.66, y=63.69, z=638.42] died, message: 'Villager was slain by Zombie Villager'
-[04:03:36] [Server thread/INFO]: Villager class_1646['Villager'/121110, l='ServerLevel[New World]', x=708.70, y=60.05, z=634.00] died, message: 'Villager was slain by Zombie Villager'
-[04:03:37] [Server thread/INFO]: Villager class_1646['Villager'/121104, l='ServerLevel[New World]', x=709.70, y=63.18, z=639.70] died, message: 'Villager was slain by Zombie Villager'
-[04:03:38] [Server thread/INFO]: Villager class_1646['Villager'/121096, l='ServerLevel[New World]', x=709.41, y=63.60, z=639.01] died, message: 'Villager was slain by Zombie Villager'
-[04:03:38] [Server thread/INFO]: Villager class_1646['Villager'/121099, l='ServerLevel[New World]', x=709.70, y=63.18, z=639.70] died, message: 'Villager was slain by Zombie Villager'
-[04:03:38] [Server thread/INFO]: Villager class_1646['Villager'/121102, l='ServerLevel[New World]', x=708.47, y=63.56, z=638.78] died, message: 'Villager was slain by Zombie Villager'
-[04:03:39] [Server thread/INFO]: Villager class_1646['Villager'/121116, l='ServerLevel[New World]', x=708.84, y=60.79, z=633.23] died, message: 'Villager was slain by Zombie Villager'
-[04:03:40] [Server thread/INFO]: Villager class_1646['Villager'/121093, l='ServerLevel[New World]', x=709.21, y=63.63, z=637.46] died, message: 'Villager was slain by Zombie Villager'
-[04:03:40] [Server thread/INFO]: Villager class_1646['Villager'/121108, l='ServerLevel[New World]', x=708.30, y=64.46, z=639.70] died, message: 'Villager was slain by Zombie Villager'
-[04:03:42] [Server thread/INFO]: Villager class_1646['Villager'/121092, l='ServerLevel[New World]', x=709.70, y=63.19, z=639.70] died, message: 'Villager was slain by Zombie Villager'
-[04:03:42] [Server thread/INFO]: Villager class_1646['Villager'/121109, l='ServerLevel[New World]', x=708.91, y=63.06, z=638.21] died, message: 'Villager was slain by Zombie Villager'
-[04:03:44] [Server thread/INFO]: Villager class_1646['Villager'/121100, l='ServerLevel[New World]', x=708.30, y=63.11, z=637.84] died, message: 'Villager was slain by Zombie Villager'
-[04:03:44] [Server thread/INFO]: Villager class_1646['Villager'/121094, l='ServerLevel[New World]', x=708.30, y=64.24, z=638.93] died, message: 'Villager was slain by Zombie Villager'
-[04:03:45] [Server thread/INFO]: Villager class_1646['Villager'/121117, l='ServerLevel[New World]', x=708.15, y=63.36, z=639.85] died, message: 'Villager was slain by Zombie Villager'
-[04:03:45] [Server thread/INFO]: Villager class_1646['Villager'/121091, l='ServerLevel[New World]', x=707.70, y=60.44, z=633.70] died, message: 'Villager was slain by Zombie Villager'
-[04:03:46] [Server thread/INFO]: Villager class_1646['Villager'/121114, l='ServerLevel[New World]', x=709.30, y=64.73, z=637.60] died, message: 'Villager was slain by Zombie Villager'
-[04:03:46] [Server thread/INFO]: Villager class_1646['Villager'/121098, l='ServerLevel[New World]', x=708.30, y=62.01, z=637.30] died, message: 'Villager was slain by Zombie Villager'
-[04:03:47] [Server thread/INFO]: Villager class_1646['Villager'/121097, l='ServerLevel[New World]', x=709.13, y=63.41, z=639.09] died, message: 'Villager was slain by Zombie Villager'
-[04:03:47] [Server thread/INFO]: Villager class_1646['Villager'/121113, l='ServerLevel[New World]', x=708.30, y=64.25, z=637.30] died, message: 'Villager was slain by Zombie Villager'
-[04:03:48] [Server thread/INFO]: Villager class_1646['Villager'/121105, l='ServerLevel[New World]', x=708.30, y=63.42, z=637.39] died, message: 'Villager was slain by Zombie Villager'
-[04:03:50] [Server thread/INFO]: Villager class_1646['Villager'/121101, l='ServerLevel[New World]', x=709.41, y=63.06, z=637.33] died, message: 'Villager was slain by Zombie Villager'
-[04:03:50] [Server thread/INFO]: Villager class_1646['Villager'/121111, l='ServerLevel[New World]', x=708.29, y=60.05, z=633.42] died, message: 'Villager was slain by Zombie Villager'
-[04:03:50] [Server thread/INFO]: Villager class_1646['Villager'/121112, l='ServerLevel[New World]', x=707.70, y=60.96, z=633.70] died, message: 'Villager was slain by Zombie Villager'
-[04:04:18] [Server thread/INFO]: Villager class_1646['Villager'/123144, l='ServerLevel[New World]', x=708.15, y=60.51, z=633.23] died, message: 'Villager was slain by Zombie Villager'
-[04:05:07] [Server thread/INFO]: [Not Secure] <Ojas_Kumar> ok bye
-[04:05:12] [Server thread/INFO]: [Not Secure] <whitehairguy> byeww
-[04:05:15] [Server thread/INFO]: Ojas_Kumar lost connection: Disconnected
-[04:05:15] [Server thread/INFO]: Ojas_Kumar left the game
-[04:06:31] [Server thread/INFO]: Chubs410 lost connection: Disconnected
-[04:06:31] [Server thread/INFO]: Chubs410 left the game
-[05:19:36] [Server thread/INFO]: BrownNiggar lost connection: Disconnected
-[05:19:36] [Server thread/INFO]: BrownNiggar left the game
-[05:19:41] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[05:19:41] [Server thread/INFO]: whitehairguy left the game
-[05:19:43] [Server thread/INFO]: Stopping server
-[05:19:43] [Server thread/INFO]: Saving players
-[05:19:43] [Server thread/INFO]: Saving worlds
+[08:45:45] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/ragha/Documents/Vanilla/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[08:45:50] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[08:45:51] [Yggdrasil Key Fetcher/ERROR]: Failed to request yggdrasil public key
+com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:111) ~[authlib-6.0.58.jar:?]
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:56) ~[authlib-6.0.58.jar:?]
+	at knot/com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:114) ~[authlib-6.0.58.jar:?]
+	at knot/com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo$1.run(YggdrasilServicesKeyInfo.java:89) ~[authlib-6.0.58.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
+Caused by: javax.net.ssl.SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:130) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:383) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:326) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:321) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1326) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1203) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1146) ~[?:?]
+	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393) ~[?:?]
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:476) ~[?:?]
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:447) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:206) ~[?:?]
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1507) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1422) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:586) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1691) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1615) ~[?:?]
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:82) ~[authlib-6.0.58.jar:?]
+	... 9 more
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:388) ~[?:?]
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
+	at java.base/sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:230) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1310) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1203) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1146) ~[?:?]
+	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393) ~[?:?]
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:476) ~[?:?]
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:447) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:206) ~[?:?]
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1507) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1422) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:586) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1691) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1615) ~[?:?]
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:82) ~[authlib-6.0.58.jar:?]
+	... 9 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:148) ~[?:?]
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:129) ~[?:?]
+	at java.base/java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297) ~[?:?]
+	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:383) ~[?:?]
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
+	at java.base/sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:230) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1310) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1203) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1146) ~[?:?]
+	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393) ~[?:?]
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:476) ~[?:?]
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:447) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:206) ~[?:?]
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1507) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1422) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:586) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1691) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1615) ~[?:?]
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:82) ~[authlib-6.0.58.jar:?]
+	... 9 more
+[08:45:52] [main/INFO]: Loaded 1373 recipes
+[08:45:52] [main/INFO]: Loaded 1484 advancements
+[08:45:52] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[08:45:52] [Server thread/INFO]: Loading properties
+[08:45:52] [Server thread/INFO]: Default game type: SURVIVAL
+[08:45:52] [Server thread/INFO]: Generating keypair
+[08:45:52] [Server thread/INFO]: Starting Minecraft server on *:25565
+[08:45:52] [Server thread/INFO]: Using default channel type
+[08:45:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08:45:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[08:45:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08:45:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[08:45:53] [Server thread/INFO]: Preparing level "world"
+[08:45:53] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[08:45:54] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[08:45:54] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[08:45:54] [Server thread/INFO]: Time elapsed: 789 ms
+[08:45:54] [Server thread/INFO]: Done (1.477s)! For help, type "help"
+[08:45:57] [Server thread/INFO]: BrownNiggar[/127.0.0.1:50493] logged in with entity id 8 at (64.51203753120434, 147.0, 141.13401665026035)
+[08:45:57] [Server thread/INFO]: BrownNiggar joined the game
+[08:50:51] [Yggdrasil Key Fetcher/ERROR]: Failed to request yggdrasil public key
+com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:111) ~[authlib-6.0.58.jar:?]
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:56) ~[authlib-6.0.58.jar:?]
+	at knot/com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:114) ~[authlib-6.0.58.jar:?]
+	at knot/com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo$1.run(YggdrasilServicesKeyInfo.java:89) ~[authlib-6.0.58.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
+Caused by: javax.net.ssl.SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:130) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:383) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:326) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:321) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1326) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1203) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1146) ~[?:?]
+	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393) ~[?:?]
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:476) ~[?:?]
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:447) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:206) ~[?:?]
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1507) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1422) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:586) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1691) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1615) ~[?:?]
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:82) ~[authlib-6.0.58.jar:?]
+	... 9 more
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:388) ~[?:?]
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
+	at java.base/sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:230) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1310) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1203) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1146) ~[?:?]
+	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393) ~[?:?]
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:476) ~[?:?]
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:447) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:206) ~[?:?]
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1507) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1422) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:586) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1691) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1615) ~[?:?]
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:82) ~[authlib-6.0.58.jar:?]
+	... 9 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:148) ~[?:?]
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:129) ~[?:?]
+	at java.base/java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297) ~[?:?]
+	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:383) ~[?:?]
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
+	at java.base/sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:230) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1310) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1203) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1146) ~[?:?]
+	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393) ~[?:?]
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:476) ~[?:?]
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:447) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:206) ~[?:?]
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1507) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1422) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:586) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1691) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1615) ~[?:?]
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:82) ~[authlib-6.0.58.jar:?]
+	... 9 more
+[10:34:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=603, y=66, z=166} class_2338{x=602, y=69, z=168}
+[10:34:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=603, y=66, z=166} class_2338{x=602, y=69, z=168}
+[10:34:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=603, y=66, z=166} class_2338{x=602, y=69, z=168}
+[10:34:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=603, y=66, z=166} class_2338{x=602, y=69, z=168}
+[10:45:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=751, y=32, z=117} class_2338{x=781, y=32, z=117}
+[10:45:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=751, y=32, z=117} class_2338{x=781, y=32, z=117}
+[10:45:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=751, y=32, z=117} class_2338{x=781, y=32, z=117}
+[10:47:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=858, y=32, z=102} class_2338{x=873, y=33, z=96}
+[10:47:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=858, y=32, z=102} class_2338{x=873, y=33, z=96}
+[10:47:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=858, y=32, z=102} class_2338{x=873, y=33, z=96}
+[10:47:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=858, y=32, z=102} class_2338{x=873, y=33, z=96}
+[10:47:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=858, y=32, z=102} class_2338{x=873, y=33, z=96}
+[10:47:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=858, y=32, z=102} class_2338{x=873, y=33, z=96}
+[10:47:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=858, y=32, z=102} class_2338{x=873, y=33, z=96}
+[10:50:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1126, y=41, z=9} class_2338{x=1126, y=44, z=7}
+[10:50:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1126, y=41, z=9} class_2338{x=1126, y=44, z=7}
+[10:50:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1126, y=41, z=9} class_2338{x=1126, y=44, z=7}
+[10:50:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1126, y=41, z=9} class_2338{x=1126, y=44, z=7}
+[10:50:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1126, y=41, z=9} class_2338{x=1126, y=44, z=7}
+[10:50:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1126, y=41, z=9} class_2338{x=1126, y=44, z=7}
+[10:50:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1126, y=41, z=9} class_2338{x=1126, y=44, z=7}
+[10:50:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1126, y=41, z=9} class_2338{x=1126, y=44, z=7}
+[10:50:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1126, y=41, z=9} class_2338{x=1126, y=44, z=7}
+[10:52:09] [Server thread/INFO]: BrownNiggar has made the advancement [Those Were the Days]
+[10:54:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1138, y=41, z=-116} class_2338{x=1142, y=42, z=-114}
+[11:01:27] [Server thread/INFO]: BrownNiggar has made the advancement [War Pigs]
+[11:02:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2059ms or 41 ticks behind
+[11:03:02] [Server thread/INFO]: BrownNiggar lost connection: Disconnected
+[11:03:02] [Server thread/INFO]: BrownNiggar left the game
+[11:04:02] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[11:05:04] [Server thread/INFO]: BrownNiggar[/127.0.0.1:55835] logged in with entity id 49124 at (1177.365457377484, 61.0, -144.5453461568581)
+[11:05:04] [Server thread/INFO]: BrownNiggar joined the game
+[11:05:12] [Server thread/INFO]: BrownNiggar lost connection: Disconnected
+[11:05:12] [Server thread/INFO]: BrownNiggar left the game
+[11:06:12] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[11:07:31] [Server thread/INFO]: BrownNiggar[/127.0.0.1:57071] logged in with entity id 49288 at (1176.300000011921, 63.0, -146.69999998807907)
+[11:07:31] [Server thread/INFO]: BrownNiggar joined the game
+[11:09:27] [Server thread/INFO]: BrownNiggar has made the advancement [Who is Cutting Onions?]
+[11:31:58] [Server thread/INFO]: BrownNiggar lost connection: Disconnected
+[11:31:58] [Server thread/INFO]: BrownNiggar left the game
+[11:32:06] [Server thread/INFO]: BrownNiggar[/127.0.0.1:57240] logged in with entity id 52619 at (977.9515958770077, 47.0, 73.4441691799047)
+[11:32:06] [Server thread/INFO]: BrownNiggar joined the game
+[11:43:50] [Server thread/INFO]: BrownNiggar lost connection: Disconnected
+[11:43:50] [Server thread/INFO]: BrownNiggar left the game
+[11:43:58] [Server thread/INFO]: BrownNiggar[/127.0.0.1:57311] logged in with entity id 55194 at (741.0022712162787, 87.0, 577.4522277265922)
+[11:43:58] [Server thread/INFO]: BrownNiggar joined the game
+[11:44:00] [Server thread/INFO]: BrownNiggar lost connection: Disconnected
+[11:44:00] [Server thread/INFO]: BrownNiggar left the game

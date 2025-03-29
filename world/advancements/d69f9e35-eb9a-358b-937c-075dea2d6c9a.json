@@ -8,26 +8,27 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2025-03-26 00:04:08 +0530",
+      "minecraft:forest": "2025-03-26 00:02:11 +0530",
+      "minecraft:taiga": "2025-03-26 00:02:36 +0530",
+      "minecraft:deep_ocean": "2025-03-29 09:54:02 +0530",
+      "minecraft:deep_cold_ocean": "2025-03-27 00:59:32 +0530",
+      "minecraft:ocean": "2025-03-27 01:00:05 +0530",
+      "minecraft:jungle": "2025-03-29 03:06:52 +0530",
+      "minecraft:birch_forest": "2025-03-27 01:01:05 +0530",
+      "minecraft:old_growth_spruce_taiga": "2025-03-26 00:03:16 +0530",
       "minecraft:savanna_plateau": "2025-03-29 02:58:01 +0530",
       "minecraft:beach": "2025-03-26 00:04:37 +0530",
       "minecraft:dark_forest": "2025-03-27 01:02:29 +0530",
       "minecraft:stony_peaks": "2025-03-29 01:14:31 +0530",
-      "minecraft:forest": "2025-03-26 00:02:11 +0530",
-      "minecraft:taiga": "2025-03-26 00:02:36 +0530",
       "minecraft:river": "2025-03-26 01:14:18 +0530",
       "minecraft:lukewarm_ocean": "2025-03-29 03:03:46 +0530",
       "minecraft:stony_shore": "2025-03-25 23:52:18 +0530",
       "minecraft:dripstone_caves": "2025-03-27 01:04:35 +0530",
       "minecraft:frozen_peaks": "2025-03-29 01:13:19 +0530",
-      "minecraft:deep_cold_ocean": "2025-03-27 00:59:32 +0530",
       "minecraft:old_growth_birch_forest": "2025-03-29 01:06:34 +0530",
       "minecraft:deep_dark": "2025-03-27 01:10:28 +0530",
-      "minecraft:ocean": "2025-03-27 01:00:05 +0530",
-      "minecraft:jungle": "2025-03-29 03:06:52 +0530",
       "minecraft:grove": "2025-03-26 00:03:13 +0530",
       "minecraft:meadow": "2025-03-29 01:58:03 +0530",
-      "minecraft:birch_forest": "2025-03-27 01:01:05 +0530",
-      "minecraft:old_growth_spruce_taiga": "2025-03-26 00:03:16 +0530",
       "minecraft:savanna": "2025-03-29 02:38:12 +0530",
       "minecraft:plains": "2025-03-27 01:00:48 +0530",
       "minecraft:pale_garden": "2025-03-27 01:04:24 +0530"
@@ -579,6 +580,7 @@
       "minecraft:phantom": "2025-03-28 02:39:07 +0530",
       "minecraft:zombified_piglin": "2025-03-26 23:03:51 +0530",
       "minecraft:wither_skeleton": "2025-03-28 05:12:37 +0530",
+      "minecraft:ghast": "2025-03-29 10:43:20 +0530",
       "minecraft:hoglin": "2025-03-27 05:01:33 +0530",
       "minecraft:shulker": "2025-03-28 02:04:59 +0530",
       "minecraft:piglin": "2025-03-26 01:58:41 +0530",
@@ -586,6 +588,7 @@
       "minecraft:enderman": "2025-03-27 23:06:31 +0530",
       "minecraft:magma_cube": "2025-03-28 05:08:36 +0530",
       "minecraft:spider": "2025-03-28 00:20:51 +0530",
+      "minecraft:piglin_brute": "2025-03-29 10:57:13 +0530",
       "minecraft:zombie": "2025-03-27 22:11:11 +0530",
       "minecraft:creeper": "2025-03-26 23:30:56 +0530",
       "minecraft:drowned": "2025-03-28 00:56:16 +0530"
@@ -3457,6 +3460,126 @@
   "minecraft:recipes/redstone/copper_trapdoor": {
     "criteria": {
       "has_copper_ingot": "2025-03-29 03:45:48 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2025-03-29 10:07:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2025-03-29 10:07:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fletching_table": {
+    "criteria": {
+      "has_flint": "2025-03-29 10:29:12 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/rib_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-03-29 10:38:57 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/rib_armor_trim_smithing_template": {
+    "criteria": {
+      "has_rib_armor_trim_smithing_template": "2025-03-29 10:38:57 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2025-03-29 10:52:09 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-03-29 10:52:22 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-03-29 10:52:22 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-03-29 10:52:22 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-03-29 10:52:22 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-03-29 10:52:22 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-03-29 10:52:22 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-03-29 10:52:22 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_other": "2025-03-29 11:01:27 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2025-03-29 11:09:27 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2025-03-29 11:09:27 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2025-03-29 11:10:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2025-03-29 11:10:25 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2025-03-29 11:10:25 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2025-03-29 11:10:50 +0530"
     },
     "done": true
   },
