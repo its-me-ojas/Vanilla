@@ -14,7 +14,7 @@ git pull origin main
 ```
 - **Start the server** ( it will open a console panel )
 ```
-./start.exe # for windows, just click the start.exe file
+./start.bat # for windows, just click the start.exe file
 ```
 
 ```
@@ -37,7 +37,7 @@ git pull origin main
 ```
 - **Start the server** ( it will open a console panel )
 ```
-./start.exe # for windows, just click the start.exe file
+./start.bat # for windows, just click the start.exe file
 ```
 
 ```
