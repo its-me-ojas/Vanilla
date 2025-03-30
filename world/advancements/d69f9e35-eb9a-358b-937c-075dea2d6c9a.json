@@ -4078,9 +4078,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/bricks": {
+  "minecraft:recipes/food/suspicious_stew_from_azure_bluet": {
     "criteria": {
-      "has_brick": "2025-03-30 12:12:47 +0530"
+      "has_azure_bluet": "2025-03-30 11:27:21 +0530"
     },
     "done": true
   },
@@ -4096,21 +4096,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/bricks": {
+    "criteria": {
+      "has_brick": "2025-03-30 12:12:47 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/flower_pot": {
     "criteria": {
       "has_brick": "2025-03-30 12:12:47 +0530"
     },
     "done": true
   },
-  "minecraft:recipes/food/suspicious_stew_from_azure_bluet": {
-    "criteria": {
-      "has_azure_bluet": "2025-03-30 11:27:21 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/decorated_pot_simple": {
     "criteria": {
       "has_brick": "2025-03-30 12:12:47 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_smelting_deepslate_lapis_ore": {
+    "criteria": {
+      "has_deepslate_lapis_ore": "2025-03-30 14:02:06 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_blasting_deepslate_lapis_ore": {
+    "criteria": {
+      "has_deepslate_lapis_ore": "2025-03-30 14:02:06 +0530"
     },
     "done": true
   },
