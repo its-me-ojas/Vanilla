@@ -28,6 +28,7 @@
       "minecraft:old_growth_spruce_taiga": "2025-03-14 02:42:50 +0530",
       "minecraft:snowy_beach": "2025-03-24 13:07:30 +0530",
       "minecraft:wooded_badlands": "2025-03-28 01:06:01 +0530",
+      "minecraft:bamboo_jungle": "2025-03-30 04:20:58 +0530",
       "minecraft:warm_ocean": "2025-03-24 15:43:18 +0530",
       "minecraft:badlands": "2025-03-24 16:19:21 +0530",
       "minecraft:savanna_plateau": "2025-03-29 02:39:19 +0530",
@@ -210,7 +211,9 @@
       "minecraft:spider": "2025-03-12 21:24:50 +0530",
       "minecraft:piglin_brute": "2025-03-15 02:58:38 +0530",
       "minecraft:creeper": "2025-03-14 02:16:56 +0530",
+      "minecraft:wither": "2025-03-30 08:05:43 +0530",
       "minecraft:slime": "2025-03-27 23:54:05 +0530",
+      "minecraft:evoker": "2025-03-30 04:25:18 +0530",
       "minecraft:phantom": "2025-03-17 02:48:46 +0530",
       "minecraft:zombified_piglin": "2025-03-15 23:54:15 +0530",
       "minecraft:witch": "2025-03-24 15:42:04 +0530",
@@ -223,6 +226,7 @@
       "minecraft:stray": "2025-03-14 04:21:07 +0530",
       "minecraft:enderman": "2025-03-17 01:33:44 +0530",
       "minecraft:silverfish": "2025-03-18 01:13:23 +0530",
+      "minecraft:vex": "2025-03-30 04:25:07 +0530",
       "minecraft:zombie": "2025-03-12 19:53:42 +0530",
       "minecraft:drowned": "2025-03-14 02:33:23 +0530",
       "minecraft:zombie_villager": "2025-03-17 05:00:04 +0530"
@@ -272,6 +276,7 @@
       "salmon": "2025-03-14 01:55:58 +0530",
       "dried_kelp": "2025-03-21 01:46:35 +0530",
       "cooked_beef": "2025-03-12 21:34:46 +0530",
+      "chorus_fruit": "2025-03-30 00:06:34 +0530",
       "baked_potato": "2025-03-14 02:20:16 +0530",
       "porkchop": "2025-03-12 20:18:00 +0530",
       "golden_carrot": "2025-03-27 05:16:23 +0530",
@@ -280,7 +285,9 @@
       "enchanted_golden_apple": "2025-03-22 01:41:29 +0530",
       "potato": "2025-03-14 03:43:09 +0530",
       "cooked_cod": "2025-03-25 22:52:14 +0530",
-      "cooked_salmon": "2025-03-12 22:06:35 +0530"
+      "cod": "2025-03-30 00:58:33 +0530",
+      "cooked_salmon": "2025-03-12 22:06:35 +0530",
+      "carrot": "2025-03-30 01:50:14 +0530"
     },
     "done": false
   },
@@ -2094,6 +2101,7 @@
     "criteria": {
       "minecraft:cat": "2025-03-20 06:34:28 +0530",
       "minecraft:cow": "2025-03-14 02:47:18 +0530",
+      "minecraft:wolf": "2025-03-30 05:19:40 +0530",
       "minecraft:turtle": "2025-03-19 00:17:51 +0530"
     },
     "done": false
@@ -4145,9 +4153,10 @@
   },
   "minecraft:adventure/salvage_sherd": {
     "criteria": {
-      "has_sherd": "2025-03-20 02:50:54 +0530"
+      "has_sherd": "2025-03-20 02:50:54 +0530",
+      "trail_ruins_common": "2025-03-30 04:45:45 +0530"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/decorations/decorated_pot_simple": {
     "criteria": {
@@ -4547,6 +4556,7 @@
   },
   "minecraft:husbandry/whole_pack": {
     "criteria": {
+      "minecraft:rusty": "2025-03-30 04:39:47 +0530",
       "minecraft:pale": "2025-03-21 08:54:36 +0530"
     },
     "done": false
@@ -5311,6 +5321,336 @@
   "minecraft:recipes/misc/silence_armor_trim_smithing_template": {
     "criteria": {
       "has_silence_armor_trim_smithing_template": "2025-03-29 02:39:26 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2025-03-29 22:58:15 +0530"
+    },
+    "done": true
+  },
+  "minecraft:end/levitate": {
+    "criteria": {
+      "levitated": "2025-03-29 23:28:14 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2025-03-30 00:49:26 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_stairs": {
+    "criteria": {
+      "has_prismarine": "2025-03-30 00:49:26 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall": {
+    "criteria": {
+      "has_prismarine": "2025-03-30 00:49:26 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2025-03-30 00:49:26 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_slab": {
+    "criteria": {
+      "has_prismarine": "2025-03-30 00:49:26 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2025-03-30 00:49:26 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sponge": {
+    "criteria": {
+      "has_wet_sponge": "2025-03-30 00:53:52 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/tide_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-03-30 01:09:05 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/tide_armor_trim_smithing_template": {
+    "criteria": {
+      "has_tide_armor_trim_smithing_template": "2025-03-30 01:09:05 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2025-03-30 02:06:50 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs": {
+    "criteria": {
+      "has_prismarine_bricks": "2025-03-30 02:06:50 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2025-03-30 02:06:50 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab": {
+    "criteria": {
+      "has_prismarine_bricks": "2025-03-30 02:06:50 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_blasting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2025-03-30 02:36:40 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_smelting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2025-03-30 02:36:40 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/vex_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-03-30 04:22:54 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/vex_armor_trim_smithing_template": {
+    "criteria": {
+      "has_vex_armor_trim_smithing_template": "2025-03-30 04:22:54 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_copper_ore": {
+    "criteria": {
+      "has_copper_ore": "2025-03-30 04:38:55 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_copper_ore": {
+    "criteria": {
+      "has_copper_ore": "2025-03-30 04:38:55 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mud_brick_slab": {
+    "criteria": {
+      "has_mud_bricks": "2025-03-30 04:48:16 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mud_brick_stairs": {
+    "criteria": {
+      "has_mud_bricks": "2025-03-30 04:48:16 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mud_brick_slab_from_mud_bricks_stonecutting": {
+    "criteria": {
+      "has_mud_bricks": "2025-03-30 04:48:16 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mud_brick_wall": {
+    "criteria": {
+      "has_mud_bricks": "2025-03-30 04:48:16 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mud_brick_stairs_from_mud_bricks_stonecutting": {
+    "criteria": {
+      "has_mud_bricks": "2025-03-30 04:48:16 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mud_brick_wall_from_mud_bricks_stonecutting": {
+    "criteria": {
+      "has_mud_bricks": "2025-03-30 04:48:16 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wayfinder_armor_trim_smithing_template": {
+    "criteria": {
+      "has_wayfinder_armor_trim_smithing_template": "2025-03-30 04:48:18 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wayfinder_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-03-30 04:48:18 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_glazed_terracotta": {
+    "criteria": {
+      "has_white_terracotta": "2025-03-30 04:59:00 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_glazed_terracotta": {
+    "criteria": {
+      "has_blue_terracotta": "2025-03-30 04:59:02 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/host_armor_trim_smithing_template": {
+    "criteria": {
+      "has_host_armor_trim_smithing_template": "2025-03-30 05:02:05 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/host_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-03-30 05:02:05 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raiser_armor_trim_smithing_template": {
+    "criteria": {
+      "has_raiser_armor_trim_smithing_template": "2025-03-30 05:04:42 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raiser_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-03-30 05:04:42 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/orange_bundle": {
+    "criteria": {
+      "has_orange_dye": "2025-03-30 05:08:34 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_candle": {
+    "criteria": {
+      "has_orange_dye": "2025-03-30 05:08:34 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_orange_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-03-30 05:08:34 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_orange_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-03-30 05:08:34 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_orange_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-03-30 05:08:34 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_orange_dye": "2025-03-30 05:08:34 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/rib_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-03-30 05:27:14 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/rib_armor_trim_smithing_template": {
+    "criteria": {
+      "has_rib_armor_trim_smithing_template": "2025-03-30 05:27:14 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/spire_armor_trim_smithing_template": {
+    "criteria": {
+      "has_spire_armor_trim_smithing_template": "2025-03-30 05:27:49 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/spire_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-03-30 05:27:49 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/summon_iron_golem": {
+    "criteria": {
+      "summoned_golem": "2025-03-30 06:33:49 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2025-03-30 06:45:10 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/fast_travel": {
+    "criteria": {
+      "travelled": "2025-03-30 06:53:48 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2025-03-30 07:19:26 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2025-03-30 07:19:26 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2025-03-30 08:03:02 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/beacon": {
+    "criteria": {
+      "has_nether_star": "2025-03-30 08:07:00 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_ice": {
+    "criteria": {
+      "has_ice": "2025-03-30 08:19:44 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/create_beacon": {
+    "criteria": {
+      "beacon": "2025-03-30 08:51:50 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/create_full_beacon": {
+    "criteria": {
+      "beacon": "2025-03-30 11:59:19 +0530"
     },
     "done": true
   },
