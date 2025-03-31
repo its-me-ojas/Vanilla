@@ -1,30 +1,64 @@
-[15:55:20] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.10
-[15:55:20] [main/INFO]: Loading 4 mods:
-	- fabricloader 0.16.10
-	   \-- mixinextras 0.4.1
-	- java 23
-	- minecraft 1.21.5
-[15:55:21] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/ragha/Documents/Vanilla/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[15:55:27] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:55:30] [main/INFO]: Loaded 1373 recipes
-[15:55:30] [main/INFO]: Loaded 1484 advancements
-[15:55:30] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[15:55:30] [Server thread/INFO]: Loading properties
-[15:55:30] [Server thread/INFO]: Default game type: SURVIVAL
-[15:55:30] [Server thread/INFO]: Generating keypair
-[15:55:30] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:55:30] [Server thread/INFO]: Using default channel type
-[15:55:30] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:55:30] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:55:30] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:55:30] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:55:30] [Server thread/INFO]: Preparing level "world"
-[15:55:31] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:55:32] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[15:55:32] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[15:55:32] [Server thread/INFO]: Time elapsed: 1008 ms
-[15:55:32] [Server thread/INFO]: Done (1.874s)! For help, type "help"
-[15:55:38] [Server thread/INFO]: BrownNiggar[/127.0.0.1:51309] logged in with entity id 8 at (-38.3930622384816, 69.0, -4919.52222917907)
-[15:55:38] [Server thread/INFO]: BrownNiggar joined the game
-[16:22:20] [Server thread/INFO]: BrownNiggar lost connection: Disconnected
-[16:22:20] [Server thread/INFO]: BrownNiggar left the game
+[00:03:32] [Server thread/INFO]: BrownNiggar was slain by whitehairguy
+[00:05:07] [Server thread/INFO]: BrownNiggar has reached the goal [Postmortal]
+[00:05:12] [Server thread/INFO]: BrownNiggar was slain by whitehairguy
+[00:07:58] [Server thread/INFO]: [Not Secure] <whitehairguy> :thumbsup:
+[00:10:25] [Server thread/INFO]: BrownNiggar was slain by whitehairguy using [aSS sractHER]
+[00:15:36] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[00:15:36] [Server thread/INFO]: whitehairguy left the game
+[00:21:49] [Server thread/INFO]: Chubs410 has made the advancement [Bring Home the Beacon]
+[00:23:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=662, y=62, z=-4445} class_2338{x=662, y=60, z=-4445}
+[00:25:48] [Server thread/INFO]: whitehairguy[/127.0.0.1:46040] logged in with entity id 45445 at (660.5088445296367, 64.0, -4440.646058269601)
+[00:25:48] [Server thread/INFO]: whitehairguy joined the game
+[00:25:48] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/45449, l='ServerLevel[New World]', x=995.23, y=63.09, z=250.60]
+[00:25:48] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[00:25:48] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/45450, l='ServerLevel[New World]', x=1015.40, y=62.94, z=228.49]
+[00:25:48] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[00:25:48] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/45451, l='ServerLevel[New World]', x=995.23, y=63.04, z=250.60]
+[00:25:48] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[00:25:48] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/45453, l='ServerLevel[New World]', x=1015.40, y=63.29, z=228.49]
+[00:25:48] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[00:25:48] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/45456, l='ServerLevel[New World]', x=995.23, y=63.10, z=250.60]
+[00:25:48] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[00:25:48] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/45457, l='ServerLevel[New World]', x=740.57, y=62.95, z=550.56]
+[00:25:48] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[00:25:48] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/45458, l='ServerLevel[New World]', x=721.44, y=63.09, z=551.51]
+[00:25:48] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[00:25:48] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/45459, l='ServerLevel[New World]', x=721.57, y=63.04, z=551.39]
+[00:25:48] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[00:28:08] [Server thread/INFO]: [Not Secure] <whitehairguy> also cocky
+[00:28:22] [Server thread/INFO]: [Not Secure] <whitehairguy> bss hinge pr pdha hai
+[00:28:51] [Server thread/INFO]: [Not Secure] <whitehairguy> is this communism and capitalism?
+[00:29:05] [Server thread/INFO]: [Not Secure] <whitehairguy> ohhh then its our slave now
+[00:29:50] [Server thread/INFO]: [Not Secure] <whitehairguy> you have iron farm
+[00:30:11] [Server thread/INFO]: [Not Secure] <whitehairguy> im 9
+[00:30:27] [Server thread/INFO]: [Not Secure] <whitehairguy> mam i have a gf you pedo
+[00:33:43] [Server thread/INFO]: BrownNiggar lost connection: Disconnected
+[00:33:43] [Server thread/INFO]: BrownNiggar left the game
+[00:35:06] [Server thread/INFO]: BrownNiggar[/127.43.231.74:36321] logged in with entity id 48581 at (713.5769647701725, 64.0, -4419.096828589105)
+[00:35:06] [Server thread/INFO]: BrownNiggar joined the game
+[00:37:49] [Server thread/INFO]: BrownNiggar lost connection: Disconnected
+[00:37:49] [Server thread/INFO]: BrownNiggar left the game
+[00:38:02] [Server thread/INFO]: BrownNiggar[/127.139.218.78:38675] logged in with entity id 49669 at (736.1953628026637, 68.0, -4424.920542279576)
+[00:38:02] [Server thread/INFO]: BrownNiggar joined the game
+[00:41:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[00:41:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4757ms or 95 ticks behind
+[00:41:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5082ms or 101 ticks behind
+[00:42:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5627ms or 112 ticks behind
+[00:42:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2728ms or 54 ticks behind
+[00:45:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[00:46:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2749ms or 54 ticks behind
+[00:46:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
+[00:46:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
+[00:47:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2382ms or 47 ticks behind
+[00:47:22] [Server thread/INFO]: MiffMoff lost connection: Disconnected
+[00:47:22] [Server thread/INFO]: MiffMoff left the game
+[00:49:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[00:50:14] [Server thread/INFO]: BrownNiggar lost connection: Disconnected
+[00:50:14] [Server thread/INFO]: BrownNiggar left the game
+[00:52:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[00:52:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2877ms or 57 ticks behind
+[00:56:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[00:56:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2092ms or 41 ticks behind
+[01:05:11] [Server thread/INFO]: [Not Secure] <whitehairguy> you playing chubs?
+[01:05:19] [Server thread/INFO]: [Not Secure] <Chubs410> not anymore
+[01:05:21] [Server thread/INFO]: [Not Secure] <whitehairguy> okay

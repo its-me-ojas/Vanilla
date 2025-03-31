@@ -502,7 +502,9 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
-      "minecraft:soul_sand_valley": "2025-03-20 13:22:09 +0530"
+      "minecraft:soul_sand_valley": "2025-03-20 13:22:09 +0530",
+      "minecraft:nether_wastes": "2025-03-31 23:41:27 +0530",
+      "minecraft:basalt_deltas": "2025-03-31 23:41:21 +0530"
     },
     "done": false
   },
@@ -1975,7 +1977,8 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
-      "minecraft:cow": "2025-03-26 23:42:21 +0530"
+      "minecraft:cow": "2025-03-26 23:42:21 +0530",
+      "minecraft:camel": "2025-03-31 22:38:00 +0530"
     },
     "done": false
   },
@@ -2660,6 +2663,12 @@
   "minecraft:recipes/food/cooked_salmon": {
     "criteria": {
       "has_salmon": "2025-03-30 03:00:14 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2025-03-31 23:41:27 +0530"
     },
     "done": true
   },
