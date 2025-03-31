@@ -1,31 +1,46 @@
-[07:55:19] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.10
-[07:55:19] [main/INFO]: Loading 4 mods:
+[11:00:33] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.10
+[11:00:33] [main/INFO]: Loading 4 mods:
 	- fabricloader 0.16.10
 	   \-- mixinextras 0.4.1
-	- java 21
+	- java 23
 	- minecraft 1.21.5
-[07:55:19] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/crestfallen/Minecraft/Vanilla/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[07:55:28] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[07:55:32] [main/INFO]: Loaded 1373 recipes
-[07:55:32] [main/INFO]: Loaded 1484 advancements
-[07:55:33] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[07:55:33] [Server thread/INFO]: Loading properties
-[07:55:33] [Server thread/INFO]: Default game type: SURVIVAL
-[07:55:33] [Server thread/INFO]: Generating keypair
-[07:55:33] [Server thread/INFO]: Starting Minecraft server on *:25565
-[07:55:33] [Server thread/INFO]: Using epoll channel type
-[07:55:33] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[07:55:33] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[07:55:33] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[07:55:33] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[07:55:33] [Server thread/INFO]: Preparing level "world"
-[07:55:36] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[07:55:38] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[07:55:38] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[07:55:38] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[07:55:38] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[07:55:38] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[07:55:38] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[07:55:39] [Server thread/INFO]: Time elapsed: 3058 ms
-[07:55:39] [Server thread/INFO]: Done (5.445s)! For help, type "help"
-[07:56:39] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[11:00:33] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/ragha/Documents/Vanilla/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[11:00:41] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[11:00:44] [main/INFO]: Loaded 1373 recipes
+[11:00:44] [main/INFO]: Loaded 1484 advancements
+[11:00:44] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[11:00:44] [Server thread/INFO]: Loading properties
+[11:00:44] [Server thread/INFO]: Default game type: SURVIVAL
+[11:00:44] [Server thread/INFO]: Generating keypair
+[11:00:44] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:00:44] [Server thread/INFO]: Using default channel type
+[11:00:44] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:00:44] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:00:44] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:00:44] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:00:44] [Server thread/INFO]: Preparing level "world"
+[11:00:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:00:46] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[11:00:46] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[11:00:46] [Server thread/INFO]: Time elapsed: 1075 ms
+[11:00:46] [Server thread/INFO]: Done (2.150s)! For help, type "help"
+[11:00:59] [Server thread/INFO]: BrownNiggar[/127.0.0.1:51029] logged in with entity id 8 at (745.5944677249295, 69.5, -4419.5459716142705)
+[11:01:00] [Server thread/INFO]: BrownNiggar joined the game
+[11:15:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=484, y=95, z=610} class_2338{x=485, y=88, z=610}
+[11:15:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=484, y=95, z=610} class_2338{x=485, y=88, z=610}
+[13:12:30] [Server thread/INFO]: BrownNiggar lost connection: Disconnected
+[13:12:30] [Server thread/INFO]: BrownNiggar left the game
+[13:13:13] [Server thread/INFO]: BrownNiggar[/127.0.0.1:52046] logged in with entity id 41044 at (649.5, 64.0, -4411.5)
+[13:13:13] [Server thread/INFO]: BrownNiggar joined the game
+[13:13:50] [Server thread/INFO]: BrownNiggar lost connection: Disconnected
+[13:13:50] [Server thread/INFO]: BrownNiggar left the game
+[13:14:50] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[13:15:18] [Server thread/INFO]: BrownNiggar[/127.0.0.1:52081] logged in with entity id 41675 at (718.4597504040017, 64.0, -4429.487803875778)
+[13:15:18] [Server thread/INFO]: BrownNiggar joined the game
+[13:15:48] [Server thread/INFO]: BrownNiggar lost connection: Disconnected
+[13:15:48] [Server thread/INFO]: BrownNiggar left the game
+[13:16:48] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[13:19:01] [Server thread/INFO]: BrownNiggar[/127.0.0.1:52166] logged in with entity id 42076 at (714.800975970022, 64.0, -4428.72969491486)
+[13:19:01] [Server thread/INFO]: BrownNiggar joined the game
+[13:32:03] [Server thread/INFO]: BrownNiggar lost connection: Disconnected
+[13:32:03] [Server thread/INFO]: BrownNiggar left the game
