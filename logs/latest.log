@@ -1,165 +1,32 @@
-[00:02:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=683, y=59, z=548} class_2338{x=683, y=60, z=548}
-[00:02:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=683, y=59, z=548} class_2338{x=683, y=60, z=548}
-[00:02:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=683, y=59, z=548} class_2338{x=683, y=60, z=548}
-[00:06:10] [Server thread/INFO]: Chubs410 was slain by Enderman
-[00:23:05] [Server thread/INFO]: Villager class_1646['Villager'/7607, l='ServerLevel[New World]', x=709.14, y=63.66, z=639.14] died, message: 'Villager was squished too much'
-[00:23:45] [Server thread/INFO]: Villager class_1646['Villager'/7580, l='ServerLevel[New World]', x=709.70, y=63.16, z=639.70] died, message: 'Villager was squished too much'
-[00:23:51] [Server thread/INFO]: Villager class_1646['Villager'/8917, l='ServerLevel[New World]', x=709.24, y=63.27, z=639.70] died, message: 'Villager was squished too much'
-[00:23:55] [Server thread/INFO]: Villager class_1646['Villager'/7588, l='ServerLevel[New World]', x=709.13, y=63.45, z=639.10] died, message: 'Villager was squished too much'
-[00:31:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
-[00:33:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
-[00:33:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
-[00:34:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3573ms or 71 ticks behind
-[00:34:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3859ms or 77 ticks behind
-[00:34:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2055ms or 41 ticks behind
-[00:41:02] [Server thread/INFO]: [Not Secure] <Chubs410> ill play later, goodnight
-[00:41:15] [Server thread/INFO]: Chubs410 lost connection: Disconnected
-[00:41:15] [Server thread/INFO]: Chubs410 left the game
-[00:48:13] [Server thread/INFO]: Villager class_1646['Villager'/11237, l='ServerLevel[New World]', x=709.27, y=63.75, z=639.19] died, message: 'Villager was squished too much'
-[00:48:44] [Server thread/INFO]: Villager class_1646['Villager'/7595, l='ServerLevel[New World]', x=709.70, y=63.31, z=639.34] died, message: 'Villager was squished too much'
-[00:52:21] [Server thread/INFO]: whitehairguy[/127.0.0.1:39420] logged in with entity id 46547 at (755.7497566193298, 75.62502180169474, 453.96613349497875)
-[00:52:21] [Server thread/INFO]: whitehairguy joined the game
-[00:52:21] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/46551, l='ServerLevel[New World]', x=740.57, y=63.10, z=550.56]
-[00:52:21] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:52:21] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/46554, l='ServerLevel[New World]', x=721.44, y=63.04, z=551.51]
-[00:52:21] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:52:21] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/46555, l='ServerLevel[New World]', x=721.57, y=62.96, z=551.39]
-[00:52:21] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:52:21] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/46557, l='ServerLevel[New World]', x=995.23, y=63.11, z=250.60]
-[00:52:21] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:52:21] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/46558, l='ServerLevel[New World]', x=1015.40, y=63.10, z=228.49]
-[00:52:21] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:52:21] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/46559, l='ServerLevel[New World]', x=740.57, y=63.04, z=550.56]
-[00:52:21] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:52:21] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/46560, l='ServerLevel[New World]', x=995.23, y=63.09, z=250.60]
-[00:52:21] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:52:21] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/46561, l='ServerLevel[New World]', x=1015.40, y=62.94, z=228.49]
-[00:52:21] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:52:21] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/46562, l='ServerLevel[New World]', x=995.23, y=63.01, z=250.60]
-[00:52:21] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:52:21] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/46563, l='ServerLevel[New World]', x=721.44, y=62.91, z=551.51]
-[00:52:21] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:52:21] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/46564, l='ServerLevel[New World]', x=1015.40, y=63.03, z=228.49]
-[00:52:21] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:52:21] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/46565, l='ServerLevel[New World]', x=995.36, y=62.95, z=228.38]
-[00:52:21] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:52:21] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/46566, l='ServerLevel[New World]', x=721.57, y=62.96, z=551.39]
-[00:52:21] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:52:21] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/46567, l='ServerLevel[New World]', x=995.23, y=63.10, z=250.60]
-[00:52:21] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[00:52:55] [Server thread/INFO]: Villager class_1646['Villager'/7591, l='ServerLevel[New World]', x=709.15, y=63.42, z=639.17] died, message: 'Villager was squished too much'
-[00:54:01] [Server thread/INFO]: Villager class_1646['Villager'/7603, l='ServerLevel[New World]', x=709.25, y=63.37, z=639.16] died, message: 'Villager was squished too much'
-[00:54:32] [Server thread/INFO]: [Not Secure] <whitehairguy> am i still audible
-[00:58:04] [Server thread/INFO]: Villager class_1646['Villager'/7602, l='ServerLevel[New World]', x=709.11, y=63.38, z=639.14] died, message: 'Villager was squished too much'
-[01:05:35] [Server thread/INFO]: [Not Secure] <whitehairguy> against slaves
-[01:05:37] [Server thread/INFO]: [Not Secure] <whitehairguy> know your place
-[01:05:59] [Server thread/INFO]: [Not Secure] <whitehairguy> people will judge ofc
-[01:15:10] [Server thread/INFO]: Villager class_1646['Villager'/7606, l='ServerLevel[New World]', x=709.14, y=63.45, z=639.23] died, message: 'Villager was squished too much'
-[01:33:53] [Server thread/INFO]: [Not Secure] <whitehairguy> sunday
-[01:33:58] [Server thread/INFO]: [Not Secure] <whitehairguy> 1030
-[01:34:00] [Server thread/INFO]: [Not Secure] <whitehairguy> am
-[01:41:33] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=699, y=56, z=516} class_2338{x=699, y=57, z=516}
-[01:44:49] [Server thread/INFO]: Villager class_1646['Villager'/19174, l='ServerLevel[New World]', x=709.20, y=63.58, z=639.45] died, message: 'Villager was squished too much'
-[01:45:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
-[01:45:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[01:46:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4039ms or 80 ticks behind
-[01:46:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3937ms or 78 ticks behind
-[01:46:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3521ms or 70 ticks behind
-[01:47:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5808ms or 116 ticks behind
-[01:47:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4400ms or 88 ticks behind
-[01:47:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8508ms or 170 ticks behind
-[01:48:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9783ms or 195 ticks behind
-[01:48:36] [Server thread/WARN]: whitehairguy moved too quickly! 6.891253209281331,0.0,10.188257106045512
-[01:48:36] [Server thread/WARN]: whitehairguy moved too quickly! 5.742711007734442,0.0,8.490214255037927
-[01:48:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10145ms or 202 ticks behind
-[01:49:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10774ms or 215 ticks behind
-[01:50:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4334ms or 86 ticks behind
-[01:50:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8192ms or 163 ticks behind
-[01:51:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6329ms or 126 ticks behind
-[01:51:04] [Server thread/INFO]: [Not Secure] <whitehairguy> do you use voice changer
-[01:51:10] [Server thread/INFO]: [Not Secure] <whitehairguy> tujhe awaz lag krke arhi hai
-[01:51:14] [Server thread/INFO]: [Not Secure] <whitehairguy> you sound mature
-[01:51:19] [Server thread/INFO]: [Not Secure] <whitehairguy> thats idk
-[01:51:21] [Server thread/INFO]: [Not Secure] <whitehairguy> hmmmm
-[01:51:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5294ms or 105 ticks behind
-[01:51:41] [Server thread/INFO]: [Not Secure] <whitehairguy> good in some way i would
-[01:51:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4491ms or 89 ticks behind
-[01:51:55] [Server thread/INFO]: [Not Secure] <whitehairguy> its like equivalent of deep voice in makes
-[01:52:00] [Server thread/INFO]: [Not Secure] <whitehairguy> males
-[01:52:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4041ms or 80 ticks behind
-[01:52:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2679ms or 53 ticks behind
-[01:52:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2478ms or 49 ticks behind
-[01:52:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2515ms or 50 ticks behind
-[01:53:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3050ms or 61 ticks behind
-[01:53:13] [Server thread/INFO]: [Not Secure] <whitehairguy> when in doubt always blame a man
-[01:53:27] [Server thread/INFO]: [Not Secure] <whitehairguy> very girly of you
-[01:53:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
-[01:54:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7455ms or 149 ticks behind
-[01:54:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4301ms or 86 ticks behind
-[01:54:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2311ms or 46 ticks behind
-[01:55:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7677ms or 153 ticks behind
-[01:55:23] [Server thread/WARN]: whitehairguy moved wrongly!
-[01:55:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3354ms or 67 ticks behind
-[01:55:25] [Server thread/WARN]: whitehairguy moved wrongly!
-[01:55:27] [Server thread/WARN]: whitehairguy moved wrongly!
-[01:55:30] [Server thread/WARN]: whitehairguy moved wrongly!
-[01:55:32] [Server thread/WARN]: whitehairguy moved wrongly!
-[01:55:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
-[01:57:35] [Server thread/INFO]: [Not Secure] <whitehairguy> yes
-[01:57:47] [Server thread/INFO]: [Not Secure] <whitehairguy> you got other things?
-[02:02:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=698, y=57, z=511} class_2338{x=700, y=57, z=511}
-[02:02:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=698, y=57, z=511} class_2338{x=700, y=57, z=511}
-[02:02:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=697, y=57, z=511} class_2338{x=700, y=57, z=511}
-[02:03:20] [Server thread/INFO]: MiffMoff has reached the goal [Sky's the Limit]
-[02:03:48] [Server thread/INFO]: [Not Secure] <whitehairguy> bros a slave
-[02:04:00] [Server thread/INFO]: [Not Secure] <whitehairguy> common peasant bhot upr hogya tha
-[02:04:03] [Server thread/INFO]: [Not Secure] <whitehairguy> had to remind
-[02:04:17] [Server thread/INFO]: [Not Secure] <whitehairguy> happy to help
-[02:04:32] [Server thread/INFO]: [Not Secure] <whitehairguy> tell me some small farm that i can build on this island
-[02:04:59] [Server thread/INFO]: [Not Secure] <whitehairguy> we have an iron farm on the other side
-[02:10:11] [Server thread/INFO]: [Not Secure] <whitehairguy> basically august
-[02:10:23] [Server thread/INFO]: Villager class_1646['Villager'/7572, l='ServerLevel[New World]', x=709.70, y=63.19, z=639.70] died, message: 'Villager was squished too much'
-[02:11:47] [Server thread/INFO]: [Not Secure] <whitehairguy> rude person
-[02:11:56] [Server thread/INFO]: [Not Secure] <whitehairguy> bro code
-[02:13:02] [Server thread/INFO]: Villager class_1646['Villager'/7584, l='ServerLevel[New World]', x=709.70, y=63.72, z=639.12] died, message: 'Villager was squished too much'
-[02:15:01] [Server thread/INFO]: [Not Secure] <whitehairguy> yes i like older women
-[02:15:05] [Server thread/INFO]: [Not Secure] <whitehairguy> but mommy issues hmmm
-[02:15:08] [Server thread/INFO]: [Not Secure] <whitehairguy> need to check
-[02:16:02] [Server thread/INFO]: [Not Secure] <whitehairguy> i mean i have no probvlem with that
-[02:16:13] [Server thread/INFO]: [Not Secure] <whitehairguy> just exposed 80% ofmen
-[02:16:22] [Server thread/INFO]: [Not Secure] <whitehairguy> actually bump that up to 95%
-[02:16:30] [Server thread/INFO]: [Not Secure] <whitehairguy> pranav would def agree
-[02:17:21] [Server thread/INFO]: [Not Secure] <whitehairguy> submissive btich
-[02:18:11] [Server thread/INFO]: [Not Secure] <whitehairguy> banger
-[02:18:15] [Server thread/INFO]: [Not Secure] <whitehairguy> question
-[02:18:24] [Server thread/INFO]: [Not Secure] <whitehairguy> got it
-[02:19:08] [Server thread/INFO]: Villager class_1646['Villager'/7601, l='ServerLevel[New World]', x=709.21, y=63.39, z=639.24] died, message: 'Villager was squished too much'
-[02:19:45] [Server thread/INFO]: Tranished[/127.18.51.104:39067] logged in with entity id 70051 at (697.8782316245524, 64.0, 590.4175246773956)
-[02:19:45] [Server thread/INFO]: Tranished joined the game
-[02:21:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=696, y=55, z=517} class_2338{x=696, y=56, z=517}
-[02:21:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=693, y=55, z=518} class_2338{x=693, y=56, z=518}
-[02:21:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=694, y=55, z=518} class_2338{x=694, y=56, z=518}
-[02:21:27] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=689, y=56, z=518} class_2338{x=689, y=57, z=518}
-[02:21:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2044ms or 40 ticks behind
-[02:24:41] [Server thread/INFO]: [Not Secure] <whitehairguy> miffy tera aya tha??
-[02:24:47] [Server thread/INFO]: [Not Secure] <whitehairguy> issue localhost wala??
-[02:24:55] [Server thread/INFO]: [Not Secure] <MiffMoff> i had no problem w that
-[02:25:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2028ms or 40 ticks behind
-[02:25:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3147ms or 62 ticks behind
-[02:26:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3062ms or 61 ticks behind
-[02:26:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
-[02:26:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
-[02:27:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
-[02:27:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
-[02:28:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
-[02:32:55] [Server thread/INFO]: Villager class_1646['Villager'/32345, l='ServerLevel[New World]', x=709.22, y=63.30, z=639.70] died, message: 'Villager was squished too much'
-[02:33:05] [Server thread/INFO]: Villager class_1646['Villager'/45484, l='ServerLevel[New World]', x=709.16, y=63.37, z=639.11] died, message: 'Villager was squished too much'
-[02:33:40] [Server thread/INFO]: Villager class_1646['Villager'/7576, l='ServerLevel[New World]', x=709.44, y=63.46, z=639.14] died, message: 'Villager was squished too much'
-[02:34:35] [Server thread/INFO]: Tranished lost connection: Disconnected
-[02:34:35] [Server thread/INFO]: Tranished left the game
-[02:36:41] [Server thread/INFO]: Villager class_1646['Villager'/37816, l='ServerLevel[New World]', x=709.12, y=63.33, z=639.16] died, message: 'Villager was squished too much'
-[02:42:41] [Server thread/INFO]: MiffMoff lost connection: Disconnected
-[02:42:41] [Server thread/INFO]: MiffMoff left the game
-[02:42:44] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[02:42:44] [Server thread/INFO]: whitehairguy left the game
-[02:43:07] [Server thread/INFO]: Stopping server
+[12:03:21] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.10
+[12:03:21] [main/INFO]: Loading 4 mods:
+	- fabricloader 0.16.10
+	   \-- mixinextras 0.4.1
+	- java 23
+	- minecraft 1.21.5
+[12:03:21] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/ragha/Documents/Vanilla/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[12:03:28] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[12:03:30] [main/INFO]: Loaded 1373 recipes
+[12:03:30] [main/INFO]: Loaded 1484 advancements
+[12:03:30] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[12:03:30] [Server thread/INFO]: Loading properties
+[12:03:30] [Server thread/INFO]: Default game type: SURVIVAL
+[12:03:30] [Server thread/INFO]: Generating keypair
+[12:03:30] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:03:30] [Server thread/INFO]: Using default channel type
+[12:03:30] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:03:30] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:03:30] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:03:30] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:03:30] [Server thread/INFO]: Preparing level "world"
+[12:03:31] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:03:32] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[12:03:32] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[12:03:32] [Server thread/INFO]: Time elapsed: 922 ms
+[12:03:32] [Server thread/INFO]: Done (1.692s)! For help, type "help"
+[12:03:44] [Server thread/INFO]: BrownNiggar[/127.0.0.1:55572] logged in with entity id 8 at (753.5033863371564, 68.0, -4413.541445295249)
+[12:03:44] [Server thread/INFO]: BrownNiggar joined the game
+[12:07:59] [Server thread/INFO]: Villager class_1646['Villager'/2578, l='ServerLevel[New World]', x=709.70, y=63.13, z=639.12] died, message: 'Villager was squished too much'
+[12:08:22] [Server thread/INFO]: Villager class_1646['Villager'/2575, l='ServerLevel[New World]', x=709.12, y=63.42, z=639.11] died, message: 'Villager was squished too much'
+[12:09:58] [Server thread/INFO]: BrownNiggar lost connection: Disconnected
+[12:09:58] [Server thread/INFO]: BrownNiggar left the game
