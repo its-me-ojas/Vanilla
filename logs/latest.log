@@ -1,62 +1,64 @@
-[03:45:12] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.10
-[03:45:12] [main/INFO]: Loading 4 mods:
+[04:26:24] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.10
+[04:26:24] [main/INFO]: Loading 4 mods:
 	- fabricloader 0.16.10
 	   \-- mixinextras 0.4.1
 	- java 21
 	- minecraft 1.21.5
-[03:45:12] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/crestfallen/Minecraft/Vanilla/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[03:45:28] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[03:45:33] [main/INFO]: Loaded 1373 recipes
-[03:45:33] [main/INFO]: Loaded 1484 advancements
-[03:45:33] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[03:45:33] [Server thread/INFO]: Loading properties
-[03:45:33] [Server thread/INFO]: Default game type: SURVIVAL
-[03:45:33] [Server thread/INFO]: Generating keypair
-[03:45:33] [Server thread/INFO]: Starting Minecraft server on *:25565
-[03:45:34] [Server thread/INFO]: Using epoll channel type
-[03:45:34] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[03:45:34] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[03:45:34] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[03:45:34] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[03:45:34] [Server thread/INFO]: Preparing level "world"
-[03:45:37] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[03:45:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:45:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:45:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:45:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:45:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:45:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:45:40] [Server thread/INFO]: Time elapsed: 3029 ms
-[03:45:40] [Server thread/INFO]: Done (5.899s)! For help, type "help"
-[03:45:44] [Server thread/INFO]: whitehairguy[/127.0.0.1:58258] logged in with entity id 8 at (790.4282656290096, 137.5, 596.7703039385126)
-[03:45:44] [Server thread/INFO]: whitehairguy joined the game
-[03:45:44] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/11, l='ServerLevel[New World]', x=995.23, y=63.01, z=250.60]
-[03:45:44] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:45:44] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/13, l='ServerLevel[New World]', x=1015.40, y=63.03, z=228.49]
-[03:45:44] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:45:44] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/16, l='ServerLevel[New World]', x=995.23, y=63.10, z=250.60]
-[03:45:44] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:45:44] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/18, l='ServerLevel[New World]', x=721.44, y=63.01, z=551.51]
-[03:45:44] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:45:44] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/19, l='ServerLevel[New World]', x=721.57, y=62.95, z=551.39]
-[03:45:44] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:45:44] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/20, l='ServerLevel[New World]', x=740.57, y=63.10, z=550.56]
-[03:45:44] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:45:44] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/21, l='ServerLevel[New World]', x=995.36, y=62.96, z=228.38]
-[03:45:44] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:45:44] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/22, l='ServerLevel[New World]', x=995.23, y=63.04, z=250.60]
-[03:45:44] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:45:44] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/23, l='ServerLevel[New World]', x=721.44, y=63.04, z=551.51]
-[03:45:44] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:45:44] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/24, l='ServerLevel[New World]', x=721.57, y=62.96, z=551.39]
-[03:45:44] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:45:44] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/25, l='ServerLevel[New World]', x=1015.40, y=63.09, z=228.49]
-[03:45:44] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:45:44] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/26, l='ServerLevel[New World]', x=995.23, y=63.11, z=250.60]
-[03:45:44] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:45:44] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/27, l='ServerLevel[New World]', x=1015.40, y=63.10, z=228.49]
-[03:45:44] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:45:44] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/28, l='ServerLevel[New World]', x=740.57, y=63.04, z=550.56]
-[03:45:44] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[03:45:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2255ms or 45 ticks behind
-[03:46:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6394ms or 127 ticks behind
+[04:26:24] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/crestfallen/Minecraft/Vanilla/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[04:26:32] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[04:26:35] [main/INFO]: Loaded 1373 recipes
+[04:26:35] [main/INFO]: Loaded 1484 advancements
+[04:26:35] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[04:26:35] [Server thread/INFO]: Loading properties
+[04:26:35] [Server thread/INFO]: Default game type: SURVIVAL
+[04:26:35] [Server thread/INFO]: Generating keypair
+[04:26:35] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:26:35] [Server thread/INFO]: Using epoll channel type
+[04:26:35] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04:26:35] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[04:26:35] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04:26:35] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[04:26:35] [Server thread/INFO]: Preparing level "world"
+[04:26:36] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[04:26:37] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[04:26:37] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[04:26:37] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[04:26:38] [Server thread/INFO]: Time elapsed: 1260 ms
+[04:26:38] [Server thread/INFO]: Done (2.472s)! For help, type "help"
+[04:27:24] [Server thread/INFO]: whitehairguy[/127.0.0.1:49828] logged in with entity id 8 at (794.9662647435607, 139.0, 594.9443351490091)
+[04:27:24] [Server thread/INFO]: whitehairguy joined the game
+[04:27:24] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/11, l='ServerLevel[New World]', x=995.23, y=63.01, z=250.60]
+[04:27:24] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[04:27:24] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/13, l='ServerLevel[New World]', x=1015.40, y=63.03, z=228.49]
+[04:27:24] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[04:27:24] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/16, l='ServerLevel[New World]', x=995.23, y=63.10, z=250.60]
+[04:27:24] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[04:27:24] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/18, l='ServerLevel[New World]', x=721.44, y=63.01, z=551.51]
+[04:27:24] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[04:27:24] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/19, l='ServerLevel[New World]', x=721.57, y=62.95, z=551.39]
+[04:27:24] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[04:27:24] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/20, l='ServerLevel[New World]', x=740.57, y=63.10, z=550.56]
+[04:27:24] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[04:27:24] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/21, l='ServerLevel[New World]', x=995.36, y=62.96, z=228.38]
+[04:27:24] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[04:27:24] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/22, l='ServerLevel[New World]', x=995.23, y=63.04, z=250.60]
+[04:27:24] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[04:27:24] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/23, l='ServerLevel[New World]', x=721.44, y=63.04, z=551.51]
+[04:27:24] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[04:27:24] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/24, l='ServerLevel[New World]', x=721.57, y=62.96, z=551.39]
+[04:27:24] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[04:27:24] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/25, l='ServerLevel[New World]', x=1015.40, y=63.09, z=228.49]
+[04:27:24] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[04:27:24] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/26, l='ServerLevel[New World]', x=995.23, y=63.11, z=250.60]
+[04:27:24] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[04:27:24] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/27, l='ServerLevel[New World]', x=1015.40, y=63.10, z=228.49]
+[04:27:24] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[04:27:24] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/28, l='ServerLevel[New World]', x=740.57, y=63.04, z=550.56]
+[04:27:24] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[04:27:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2050ms or 41 ticks behind
+[04:27:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6629ms or 132 ticks behind
+[04:32:07] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[04:32:07] [Server thread/INFO]: whitehairguy left the game
+[04:32:12] [Server thread/INFO]: Stopping server
+[04:32:12] [Server thread/INFO]: Saving players
+[04:32:12] [Server thread/INFO]: Saving worlds
